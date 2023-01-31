@@ -5,8 +5,10 @@ cmake
 # Util Lib From Main Branch
 # git+https://github.com/impratikjaiswal/pythonHelpers
 # Util Lib From Specific Tag
-git+https://github.com/impratikjaiswal/pythonHelpers@v1.4.0
+git+https://github.com/impratikjaiswal/pythonHelpers@v1.5.0
 # Pandas
 pandas
 # Click CLI
 click
+# Excel
+openpyxl
