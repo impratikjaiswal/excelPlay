@@ -8,6 +8,8 @@ cmake
 git+https://github.com/impratikjaiswal/pythonHelpers@v1.5.0
 # Pandas
 pandas
+# Needed for Pandas
+fsspec
 # Click CLI
 click
 # Excel
