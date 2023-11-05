@@ -13,7 +13,7 @@ Export one or more Excel file(s) with single or multiple sheets to several files
 
 # Sample Usage
 1. Run form command prompt or via IDE or via executable (Executable needs to generate separately) 
-<BR> 
+
 `python -m src.main.excelPlay file_path` OR `excelPlay.exe file_path`
 
 ```
