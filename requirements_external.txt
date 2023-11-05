@@ -1,6 +1,3 @@
-# Pandas
-pandas
-
 # Needed for Pandas
 fsspec
 
