@@ -14,6 +14,7 @@ Export one or more Excel file(s) with single or multiple sheets to several files
 # Sample Usage
 1. Run form command prompt or via IDE or via executable (Executable needs to generate separately) 
 `python -m src.main.excelPlay file_path` OR `excelPlay.exe file_path`
+
 ```
 Examples:
 
@@ -25,6 +26,7 @@ python -m src.main.excelPlay "D:\\Other\\Github_Self\\excelPlay\\test\\Excel Wor
 python -m src.main.excelPlay "D:/Other/Github_Self/excelPlay/test/Excel Worksheet1.xlsx"
 ```
 1. Mandatory Parameter: source file or folder path
+
 ```
 Examples:
 
@@ -32,6 +34,7 @@ python -m src.main.excelPlay file_path
 python -m src.main.excelPlay dir_path
 ```
 1. Optional Parameter: target format (csv or xlsx)
+
 ```
 Examples:
 
@@ -39,6 +42,7 @@ python -m src.main.excelPlay file_path -f csv
 python -m src.main.excelPlay file_path -f xlsx
 ```
 1. Optional Parameter: Output Parent Folder path
+
 ```
 Examples:
 
