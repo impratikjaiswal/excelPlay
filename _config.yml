@@ -6,7 +6,7 @@ remote_theme: pages-themes/architect@v0.2.0
 
 # theme: jekyll-theme-minimal
 
-title: [The title of your site]
+# title: [The title of your site]
 description: Bookmark this to keep an eye on my project updates!
 
 # to preview your site on your computer, add the following to your site's Gemfile:
