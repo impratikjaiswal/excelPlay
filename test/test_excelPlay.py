@@ -1,6 +1,6 @@
 import os
 
-from util_helpers.util import path_default_log_folder
+from python_helpers.ph_util import PhUtil
 
 from src.main.excelPlay import process_input
 
@@ -20,7 +20,7 @@ def main():
     :return:
     """
     for index, input_item in enumerate(input_items_list):
-        out_folder_path = os.sep.join([path_default_log_folder, f'TC_{index}'])
+        out_folder_path = os.sep.join([PhUtil.path_default_log_folder, f'TC_{index}'])
         process_input(input_file_or_folder=input_item, output_parent_folder=out_folder_path)
 
 
