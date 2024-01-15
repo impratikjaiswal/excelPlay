@@ -29,6 +29,13 @@ There are various ways to Get Started:
     - Code can be directly run from ```excelPlay/excel_play/main/excelplay.py``` using any IDE (Parameter can be passed via IDE)
     - Local Web Server App [amenitypj](https://github.com/impratikjaiswal/amenitypj) can be used
 
+# Help
+Issue tracker can be found [here](CONTRIBUTING.md#issue-tracker).
+
+# Contributing
+ - Code of Conduct can be found [here](CODE_OF_CONDUCT.md).
+ - Contributing Guidelines can be found [here](CONTRIBUTING.md).
+
 # Sample Usage
 1. Run form command prompt or via IDE or via executable (Executable needs to generate separately) 
 `python -m src.main.excelPlay file_path` OR `excelPlay.exe file_path`
