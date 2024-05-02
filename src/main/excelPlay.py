@@ -23,12 +23,14 @@ def get_sheets(input_file_or_folder, target_file_format, output_parent_folder=No
         output_parent_folder = ''
     for file_path in files_list:
         folder_path = PhUtil.get_file_name_and_extn(file_path=file_path, path_with_out_extn=True)
+        folder_path = PhUtil.append_in_file_name(str_file_path=folder_path, str_append=ConfigConst.TOOL_NAME, file_path_is_dir=True)
         file_name = PhUtil.get_file_name_and_extn(file_path=file_path, name_with_out_extn=True)
         if output_parent_folder:
             folder_path = os.sep.join([output_parent_folder, file_name])
         PhUtil.makedirs(folder_path)
         df1 = pd.ExcelFile(file_path)
         PhUtil.print_separator(main_text=file_path)
+        print(f'out_put_path: {folder_path}')
         for x in df1.sheet_names:
             print(f'{x}.{target_file_format} Done.')
             df2 = pd.read_excel(file_path, sheet_name=x, dtype='str', na_filter=False)
