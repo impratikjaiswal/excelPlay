@@ -1,0 +1,280 @@
+--------------------------------------------------------------------------------
+Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
+--------------------------------------------------------------------------------
+Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
+--------------------------------------------------------------------------------
+User Name is Pratik Jaiswal
+--------------------------------------------------------------------------------
+User Account is impra
+--------------------------------------------------------------------------------
+Time Stamp is Sunday, May 05 2024, 15:42:41:228048, IST (GMT+0530)
+--------------------------------------------------------------------------------
+Git Summary is a43c714;  (HEAD -> main, tag: v2.2.0, origin/main, origin/HEAD); 2024-05-02 10:13:10 +0530; imPratik <impratikjaiswal@gmail.com>; v2.2.0
+--------------------------------------------------------------------------------
+pythonHelpers version is v3.0.7
+--------------------------------------------------------------------------------
+excelPlay version is v2.3.0
+--------------------------------------------------------------------------------
+---------------------- ..\sample_data\Excel Worksheet1.xlsx ----------------------
+out_put_path: D:\Other\Github_Self\excelPlay\test\logs\TC_0\Excel Worksheet1
+OrderData.csv Done.
+Finance.csv Done.
+House.csv Done.
+--------------------------------------------------------------------------------
+              All Done.              
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
+--------------------------------------------------------------------------------
+Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
+--------------------------------------------------------------------------------
+User Name is Pratik Jaiswal
+--------------------------------------------------------------------------------
+User Account is impra
+--------------------------------------------------------------------------------
+Time Stamp is Sunday, May 05 2024, 15:42:42:420168, IST (GMT+0530)
+--------------------------------------------------------------------------------
+Git Summary is a43c714;  (HEAD -> main, tag: v2.2.0, origin/main, origin/HEAD); 2024-05-02 10:13:10 +0530; imPratik <impratikjaiswal@gmail.com>; v2.2.0
+--------------------------------------------------------------------------------
+pythonHelpers version is v3.0.7
+--------------------------------------------------------------------------------
+excelPlay version is v2.3.0
+--------------------------------------------------------------------------------
+traverseMode:  Regex
+top:  ..\sample_data
+include_files:  (?s:.*\.xlsx)\Z
+include_dirs:  
+excludes:  $.
+---------------------- ..\sample_data\Excel Worksheet1.xlsx ----------------------
+out_put_path: D:\Other\Github_Self\excelPlay\test\logs\TC_1\Excel Worksheet1
+OrderData.csv Done.
+Finance.csv Done.
+House.csv Done.
+---------------------- ..\sample_data\Excel Worksheet2.xlsx ----------------------
+out_put_path: D:\Other\Github_Self\excelPlay\test\logs\TC_1\Excel Worksheet2
+Sales.csv Done.
+Employee.csv Done.
+------------------------- ..\sample_data\SampleData.xlsx -------------------------
+out_put_path: D:\Other\Github_Self\excelPlay\test\logs\TC_1\SampleData
+Sheet1.csv Done.
+Sheet2.csv Done.
+Sheet3.csv Done.
+Sheet4.csv Done.
+Sheet5.csv Done.
+--------------------------------------------------------------------------------
+              All Done.              
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
+--------------------------------------------------------------------------------
+Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
+--------------------------------------------------------------------------------
+User Name is Pratik Jaiswal
+--------------------------------------------------------------------------------
+User Account is impra
+--------------------------------------------------------------------------------
+Time Stamp is Sunday, May 05 2024, 15:42:45:979455, IST (GMT+0530)
+--------------------------------------------------------------------------------
+Git Summary is a43c714;  (HEAD -> main, tag: v2.2.0, origin/main, origin/HEAD); 2024-05-02 10:13:10 +0530; imPratik <impratikjaiswal@gmail.com>; v2.2.0
+--------------------------------------------------------------------------------
+pythonHelpers version is v3.0.7
+--------------------------------------------------------------------------------
+excelPlay version is v2.3.0
+--------------------------------------------------------------------------------
+-------- D:\Other\Github_Self\excelPlay\sample_data\Excel Worksheet1.xlsx --------
+out_put_path: D:\Other\Github_Self\excelPlay\test\logs\TC_2\Excel Worksheet1
+OrderData.csv Done.
+Finance.csv Done.
+House.csv Done.
+--------------------------------------------------------------------------------
+              All Done.              
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
+--------------------------------------------------------------------------------
+Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
+--------------------------------------------------------------------------------
+User Name is Pratik Jaiswal
+--------------------------------------------------------------------------------
+User Account is impra
+--------------------------------------------------------------------------------
+Time Stamp is Sunday, May 05 2024, 15:42:46:397513, IST (GMT+0530)
+--------------------------------------------------------------------------------
+Git Summary is a43c714;  (HEAD -> main, tag: v2.2.0, origin/main, origin/HEAD); 2024-05-02 10:13:10 +0530; imPratik <impratikjaiswal@gmail.com>; v2.2.0
+--------------------------------------------------------------------------------
+pythonHelpers version is v3.0.7
+--------------------------------------------------------------------------------
+excelPlay version is v2.3.0
+--------------------------------------------------------------------------------
+traverseMode:  Regex
+top:  D:\Other\Github_Self\excelPlay\sample_data
+include_files:  (?s:.*\.xlsx)\Z
+include_dirs:  
+excludes:  $.
+-------- D:\Other\Github_Self\excelPlay\sample_data\Excel Worksheet1.xlsx --------
+out_put_path: D:\Other\Github_Self\excelPlay\test\logs\TC_3\Excel Worksheet1
+OrderData.csv Done.
+Finance.csv Done.
+House.csv Done.
+-------- D:\Other\Github_Self\excelPlay\sample_data\Excel Worksheet2.xlsx --------
+out_put_path: D:\Other\Github_Self\excelPlay\test\logs\TC_3\Excel Worksheet2
+Sales.csv Done.
+Employee.csv Done.
+----------- D:\Other\Github_Self\excelPlay\sample_data\SampleData.xlsx -----------
+out_put_path: D:\Other\Github_Self\excelPlay\test\logs\TC_3\SampleData
+Sheet1.csv Done.
+Sheet2.csv Done.
+Sheet3.csv Done.
+Sheet4.csv Done.
+Sheet5.csv Done.
+--------------------------------------------------------------------------------
+              All Done.              
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
+--------------------------------------------------------------------------------
+Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
+--------------------------------------------------------------------------------
+User Name is Pratik Jaiswal
+--------------------------------------------------------------------------------
+User Account is impra
+--------------------------------------------------------------------------------
+Time Stamp is Sunday, May 05 2024, 15:42:50:727758, IST (GMT+0530)
+--------------------------------------------------------------------------------
+Git Summary is a43c714;  (HEAD -> main, tag: v2.2.0, origin/main, origin/HEAD); 2024-05-02 10:13:10 +0530; imPratik <impratikjaiswal@gmail.com>; v2.2.0
+--------------------------------------------------------------------------------
+pythonHelpers version is v3.0.7
+--------------------------------------------------------------------------------
+excelPlay version is v2.3.0
+--------------------------------------------------------------------------------
+----- D:\\Other\\Github_Self\\excelPlay\\sample_data\\Excel Worksheet1.xlsx -----
+out_put_path: D:\Other\Github_Self\excelPlay\test\logs\TC_4\Excel Worksheet1
+OrderData.csv Done.
+Finance.csv Done.
+House.csv Done.
+--------------------------------------------------------------------------------
+              All Done.              
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
+--------------------------------------------------------------------------------
+Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
+--------------------------------------------------------------------------------
+User Name is Pratik Jaiswal
+--------------------------------------------------------------------------------
+User Account is impra
+--------------------------------------------------------------------------------
+Time Stamp is Sunday, May 05 2024, 15:42:51:127856, IST (GMT+0530)
+--------------------------------------------------------------------------------
+Git Summary is a43c714;  (HEAD -> main, tag: v2.2.0, origin/main, origin/HEAD); 2024-05-02 10:13:10 +0530; imPratik <impratikjaiswal@gmail.com>; v2.2.0
+--------------------------------------------------------------------------------
+pythonHelpers version is v3.0.7
+--------------------------------------------------------------------------------
+excelPlay version is v2.3.0
+--------------------------------------------------------------------------------
+-------- D:/Other/Github_Self/excelPlay/sample_data/Excel Worksheet1.xlsx --------
+out_put_path: D:\Other\Github_Self\excelPlay\test\logs\TC_5\Excel Worksheet1
+OrderData.csv Done.
+Finance.csv Done.
+House.csv Done.
+--------------------------------------------------------------------------------
+              All Done.              
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
+--------------------------------------------------------------------------------
+Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
+--------------------------------------------------------------------------------
+User Name is Pratik Jaiswal
+--------------------------------------------------------------------------------
+User Account is impra
+--------------------------------------------------------------------------------
+Time Stamp is Sunday, May 05 2024, 15:42:51:494855, IST (GMT+0530)
+--------------------------------------------------------------------------------
+Git Summary is a43c714;  (HEAD -> main, tag: v2.2.0, origin/main, origin/HEAD); 2024-05-02 10:13:10 +0530; imPratik <impratikjaiswal@gmail.com>; v2.2.0
+--------------------------------------------------------------------------------
+pythonHelpers version is v3.0.7
+--------------------------------------------------------------------------------
+excelPlay version is v2.3.0
+--------------------------------------------------------------------------------
+traverseMode:  Regex
+top:  D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_0
+include_files:  (?s:.*\.xlsx)\Z
+include_dirs:  
+excludes:  $.
+- D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_0\Excel Worksheet1.xlsx -
+out_put_path: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay
+OrderData.csv Done.
+Finance.csv Done.
+House.csv Done.
+- D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_0\Excel Worksheet2.xlsx -
+out_put_path: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay
+Sales.csv Done.
+Employee.csv Done.
+-- D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_0\SampleData.xlsx --
+out_put_path: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay
+Sheet1.csv Done.
+Sheet2.csv Done.
+Sheet3.csv Done.
+Sheet4.csv Done.
+Sheet5.csv Done.
+--------------------------------------------------------------------------------
+              All Done.              
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
+--------------------------------------------------------------------------------
+Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
+--------------------------------------------------------------------------------
+User Name is Pratik Jaiswal
+--------------------------------------------------------------------------------
+User Account is impra
+--------------------------------------------------------------------------------
+Time Stamp is Sunday, May 05 2024, 15:42:55:050120, IST (GMT+0530)
+--------------------------------------------------------------------------------
+Git Summary is a43c714;  (HEAD -> main, tag: v2.2.0, origin/main, origin/HEAD); 2024-05-02 10:13:10 +0530; imPratik <impratikjaiswal@gmail.com>; v2.2.0
+--------------------------------------------------------------------------------
+pythonHelpers version is v3.0.7
+--------------------------------------------------------------------------------
+excelPlay version is v2.3.0
+--------------------------------------------------------------------------------
+traverseMode:  Regex
+top:  D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_1
+include_files:  (?s:.*\.xlsx)\Z
+include_dirs:  
+excludes:  $.
+- D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_1\Excel Worksheet1 v1.0.xlsx -
+out_put_path: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay
+OrderData.csv Done.
+Finance.csv Done.
+House.csv Done.
+- D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_1\Excel Worksheet1.xlsx -
+out_put_path: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay
+OrderData.csv Done.
+Finance.csv Done.
+House.csv Done.
+- D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_1\Excel Worksheet2 v2..xlsx -
+out_put_path: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay
+Sales.csv Done.
+Employee.csv Done.
+- D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_1\Excel Worksheet2.xlsx -
+out_put_path: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay
+Sales.csv Done.
+Employee.csv Done.
+- D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_1\SampleData 3.0.6.56.xlsx -
+out_put_path: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay
+Sheet1.csv Done.
+Sheet2.csv Done.
+Sheet3.csv Done.
+Sheet4.csv Done.
+Sheet5.csv Done.
+-- D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_1\SampleData.xlsx --
+out_put_path: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay
+Sheet1.csv Done.
+Sheet2.csv Done.
+Sheet3.csv Done.
+Sheet4.csv Done.
+Sheet5.csv Done.
+--------------------------------------------------------------------------------
+              All Done.              
+--------------------------------------------------------------------------------

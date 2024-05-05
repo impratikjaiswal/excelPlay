@@ -38,34 +38,34 @@ Issue tracker can be found [here](CONTRIBUTING.md#issue-tracker).
 
 # Sample Usage
 1. Run form command prompt or via IDE or via executable (Executable needs to generate separately) 
-`python -m src.main.excelPlay file_path` OR `excelPlay.exe file_path`
+`python -m excel_play.main.excelPlay file_path` OR `excelPlay.exe file_path`
     ```
     Examples:
     
-    python -m src.main.excelPlay "test\Excel Worksheet1.xlsx"
-    python -m src.main.excelPlay "test"
-    python -m src.main.excelPlay "D:\Other\Github_Self\excelPlay\test\Excel Worksheet1.xlsx"
-    python -m src.main.excelPlay "D:\Other\Github_Self\excelPlay\test"
-    python -m src.main.excelPlay "D:\\Other\\Github_Self\\excelPlay\\test\\Excel Worksheet1.xlsx"
-    python -m src.main.excelPlay "D:/Other/Github_Self/excelPlay/test/Excel Worksheet1.xlsx"
+    python -m excel_play.main.excelPlay "test\Excel Worksheet1.xlsx"
+    python -m excel_play.main.excelPlay "test"
+    python -m excel_play.main.excelPlay "D:\Other\Github_Self\excelPlay\test\Excel Worksheet1.xlsx"
+    python -m excel_play.main.excelPlay "D:\Other\Github_Self\excelPlay\test"
+    python -m excel_play.main.excelPlay "D:\\Other\\Github_Self\\excelPlay\\test\\Excel Worksheet1.xlsx"
+    python -m excel_play.main.excelPlay "D:/Other/Github_Self/excelPlay/test/Excel Worksheet1.xlsx"
     ```
 2. Mandatory Parameter: source file or folder path
     ```
     Examples:
     
-    python -m src.main.excelPlay file_path
-    python -m src.main.excelPlay dir_path
+    python -m excel_play.main.excelPlay file_path
+    python -m excel_play.main.excelPlay dir_path
     ```
 3. Optional Parameter: target format (csv or xlsx)
     ```
     Examples:
     
-    python -m src.main.excelPlay file_path -f csv
-    python -m src.main.excelPlay file_path -f xlsx
+    python -m excel_play.main.excelPlay file_path -f csv
+    python -m excel_play.main.excelPlay file_path -f xlsx
     ```
 4. Optional Parameter: Output Parent Folder path
     ```
     Examples:
     
-    python -m src.main.excelPlay file_path -o Test
+    python -m excel_play.main.excelPlay file_path -o Test
     ```

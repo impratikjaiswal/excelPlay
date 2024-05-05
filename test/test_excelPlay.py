@@ -2,7 +2,7 @@ import os
 
 from python_helpers.ph_util import PhUtil
 
-from src.main.excelPlay import process_input
+from excel_play.main.excelPlay import process_input
 
 input_items_list_w_output_folder = [
     r"..\sample_data\Excel Worksheet1.xlsx",

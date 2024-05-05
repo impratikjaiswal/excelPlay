@@ -4,9 +4,9 @@ import click
 import pandas as pd
 from python_helpers.ph_util import PhUtil
 
-from src.main.helper.constants_config import ConfigConst
-from src.main.helper.defaults import Defaults
-from src.main.helper.formats import Formats
+from excel_play.main.helper.constants_config import ConfigConst
+from excel_play.main.helper.defaults import Defaults
+from excel_play.main.helper.formats import Formats
 
 CONTEXT_SETTINGS = dict(help_option_names=['-h', '--help'])
 
@@ -23,7 +23,8 @@ def get_sheets(input_file_or_folder, target_file_format, output_parent_folder=No
         output_parent_folder = ''
     for file_path in files_list:
         folder_path = PhUtil.get_file_name_and_extn(file_path=file_path, path_with_out_extn=True)
-        folder_path = PhUtil.append_in_file_name(str_file_path=folder_path, str_append=ConfigConst.TOOL_NAME, file_path_is_dir=True)
+        folder_path = PhUtil.append_in_file_name(str_file_path=folder_path, str_append=ConfigConst.TOOL_NAME,
+                                                 file_path_is_dir=True)
         file_name = PhUtil.get_file_name_and_extn(file_path=file_path, name_with_out_extn=True)
         if output_parent_folder:
             folder_path = os.sep.join([output_parent_folder, file_name])
@@ -42,7 +43,11 @@ def get_sheets(input_file_or_folder, target_file_format, output_parent_folder=No
     PhUtil.print_done()
 
 
-def process_input(input_file_or_folder, target_file_format=Defaults.DEFAULT_FORMAT, output_parent_folder=None):
+def process_input(input_file_or_folder, target_file_format=Defaults.DEFAULT_FORMAT, output_parent_folder=None,
+                  print_version=True):
+    if print_version is True:
+        # Print Versions
+        PhUtil.print_version(ConfigConst.TOOL_NAME, ConfigConst.TOOL_VERSION)
     if not os.path.exists(input_file_or_folder):
         raise FileNotFoundError(f'Invalid Path: {input_file_or_folder}')
     get_sheets(input_file_or_folder, target_file_format, output_parent_folder)
@@ -60,7 +65,7 @@ def cli(input_file_or_folder, target_file_format, output_parent_folder):
     :param target_file_format:
     :return:
     """
-    process_input(input_file_or_folder, target_file_format, output_parent_folder)
+    process_input(input_file_or_folder, target_file_format, output_parent_folder, print_version=False)
 
 
 def main():

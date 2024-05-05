@@ -5,8 +5,5 @@
 # Needed for Pandas
 fsspec
 
-# Click CLI
-click
-
 # Excel
 openpyxl
