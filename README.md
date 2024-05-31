@@ -45,12 +45,13 @@ Issue tracker can be found [here](CONTRIBUTING.md#issue-tracker).
     ```
     Examples:
     
-    python -m excel_play.main.excelPlay "test\Excel Worksheet1.xlsx"
-    python -m excel_play.main.excelPlay "test"
-    python -m excel_play.main.excelPlay "D:\Other\Github_Self\excelPlay\test\Excel Worksheet1.xlsx"
-    python -m excel_play.main.excelPlay "D:\Other\Github_Self\excelPlay\test"
-    python -m excel_play.main.excelPlay "D:\\Other\\Github_Self\\excelPlay\\test\\Excel Worksheet1.xlsx"
-    python -m excel_play.main.excelPlay "D:/Other/Github_Self/excelPlay/test/Excel Worksheet1.xlsx"
+    python -m excel_play.main.excelPlay "sample_data\Excel Worksheet1.xlsx"
+    python -m excel_play.main.excelPlay "sample_data\Excel Worksheet1.xlsx" "sample_data\Excel Worksheet2.xlsx"
+    python -m excel_play.main.excelPlay "sample_data"
+    python -m excel_play.main.excelPlay "D:\Other\Github_Self\excelPlay\sample_data\Excel Worksheet1.xlsx"
+    python -m excel_play.main.excelPlay "D:\Other\Github_Self\excelPlay\sample_data"
+    python -m excel_play.main.excelPlay "D:\\Other\\Github_Self\\excelPlay\\sample_data\\Excel Worksheet1.xlsx"
+    python -m excel_play.main.excelPlay "D:/Other/Github_Self/excelPlay/sample_data/Excel Worksheet1.xlsx"
     ```
 2. Mandatory Parameter: source file or folder path
     ```
@@ -71,4 +72,9 @@ Issue tracker can be found [here](CONTRIBUTING.md#issue-tracker).
     Examples:
     
     python -m excel_play.main.excelPlay file_path -o Test
+    ```
+
+5. Help
+    ```
+    python -m excel_play.main.excelPlay -h
     ```
