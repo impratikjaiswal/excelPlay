@@ -81,13 +81,13 @@ def process_input(input_file_or_folder, target_file_format=Defaults.DEFAULT_FORM
                       output_parent_folder=output_parent_folder, output_archive_format=output_archive_format)
 
 
-@click.command(context_settings=CONTEXT_SETTINGS)
+@click.command(context_settings=CONTEXT_SETTINGS, no_args_is_help=True)
 @click.argument('input_file_or_folder', nargs=-1)
 @click.option('-f', '--target_file_format', type=click.Choice(Formats.SUPPORTED_FORMATS),
               default=Defaults.DEFAULT_FORMAT, help=f'{Defaults.DEFAULT_FORMAT} is Default')
 @click.option('-o', '--output_parent_folder', help='Output Parent Folder path')
 @click.option('-a', '--output_archive_format', type=click.Choice(Formats.SUPPORTED_ARCHIVE_FORMATS),
-              help=f'Archive is Disabled by Default')
+              help=f'Archive Format (if Archive/Single File is needed); Disabled by Default')
 def cli(input_file_or_folder, target_file_format, output_parent_folder, output_archive_format):
     """
 
