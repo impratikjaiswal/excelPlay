@@ -1,3 +1,4 @@
+------------------------------------------- input_items_list_w_output_folder -------------------------------------------
 --------------------------------------------------------------------------------
 Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
 --------------------------------------------------------------------------------
@@ -7,13 +8,13 @@ User Name is Pratik Jaiswal
 --------------------------------------------------------------------------------
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Sunday, May 05 2024, 15:42:41:228048, IST (GMT+0530)
+Time Stamp is Friday, Aug 16 2024, 10:23:40:532161, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is a43c714;  (HEAD -> main, tag: v2.2.0, origin/main, origin/HEAD); 2024-05-02 10:13:10 +0530; imPratik <impratikjaiswal@gmail.com>; v2.2.0
+Git Summary is 1e25e34;  (HEAD -> main, tag: v2.3.1, origin/main, origin/HEAD); 2024-05-31 10:15:15 +0530; imPratik <impratikjaiswal@gmail.com>; support of multiple arguments
 --------------------------------------------------------------------------------
-pythonHelpers version is v3.0.7
+pythonHelpers version is v4.1.0
 --------------------------------------------------------------------------------
-excelPlay version is v2.3.0
+excelPlay version is v2.4.0
 --------------------------------------------------------------------------------
 ---------------------- ..\sample_data\Excel Worksheet1.xlsx ----------------------
 out_put_path: D:\Other\Github_Self\excelPlay\test\logs\TC_0\Excel Worksheet1
@@ -23,6 +24,11 @@ House.csv Done.
 --------------------------------------------------------------------------------
               All Done.              
 --------------------------------------------------------------------------------
+output_files_list:
+D:\Other\Github_Self\excelPlay\test\logs\TC_0\Excel Worksheet1\OrderData.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_0\Excel Worksheet1\Finance.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_0\Excel Worksheet1\House.csv
+
 --------------------------------------------------------------------------------
 Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
 --------------------------------------------------------------------------------
@@ -32,13 +38,13 @@ User Name is Pratik Jaiswal
 --------------------------------------------------------------------------------
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Sunday, May 05 2024, 15:42:42:420168, IST (GMT+0530)
+Time Stamp is Friday, Aug 16 2024, 10:23:41:091001, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is a43c714;  (HEAD -> main, tag: v2.2.0, origin/main, origin/HEAD); 2024-05-02 10:13:10 +0530; imPratik <impratikjaiswal@gmail.com>; v2.2.0
+Git Summary is 1e25e34;  (HEAD -> main, tag: v2.3.1, origin/main, origin/HEAD); 2024-05-31 10:15:15 +0530; imPratik <impratikjaiswal@gmail.com>; support of multiple arguments
 --------------------------------------------------------------------------------
-pythonHelpers version is v3.0.7
+pythonHelpers version is v4.1.0
 --------------------------------------------------------------------------------
-excelPlay version is v2.3.0
+excelPlay version is v2.4.0
 --------------------------------------------------------------------------------
 traverseMode:  Regex
 top:  ..\sample_data
@@ -64,6 +70,18 @@ Sheet5.csv Done.
 --------------------------------------------------------------------------------
               All Done.              
 --------------------------------------------------------------------------------
+output_files_list:
+D:\Other\Github_Self\excelPlay\test\logs\TC_1\Excel Worksheet1\OrderData.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_1\Excel Worksheet1\Finance.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_1\Excel Worksheet1\House.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_1\Excel Worksheet2\Sales.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_1\Excel Worksheet2\Employee.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_1\SampleData\Sheet1.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_1\SampleData\Sheet2.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_1\SampleData\Sheet3.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_1\SampleData\Sheet4.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_1\SampleData\Sheet5.csv
+
 --------------------------------------------------------------------------------
 Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
 --------------------------------------------------------------------------------
@@ -73,13 +91,13 @@ User Name is Pratik Jaiswal
 --------------------------------------------------------------------------------
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Sunday, May 05 2024, 15:42:45:979455, IST (GMT+0530)
+Time Stamp is Friday, Aug 16 2024, 10:23:42:293295, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is a43c714;  (HEAD -> main, tag: v2.2.0, origin/main, origin/HEAD); 2024-05-02 10:13:10 +0530; imPratik <impratikjaiswal@gmail.com>; v2.2.0
+Git Summary is 1e25e34;  (HEAD -> main, tag: v2.3.1, origin/main, origin/HEAD); 2024-05-31 10:15:15 +0530; imPratik <impratikjaiswal@gmail.com>; support of multiple arguments
 --------------------------------------------------------------------------------
-pythonHelpers version is v3.0.7
+pythonHelpers version is v4.1.0
 --------------------------------------------------------------------------------
-excelPlay version is v2.3.0
+excelPlay version is v2.4.0
 --------------------------------------------------------------------------------
 -------- D:\Other\Github_Self\excelPlay\sample_data\Excel Worksheet1.xlsx --------
 out_put_path: D:\Other\Github_Self\excelPlay\test\logs\TC_2\Excel Worksheet1
@@ -89,6 +107,11 @@ House.csv Done.
 --------------------------------------------------------------------------------
               All Done.              
 --------------------------------------------------------------------------------
+output_files_list:
+D:\Other\Github_Self\excelPlay\test\logs\TC_2\Excel Worksheet1\OrderData.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_2\Excel Worksheet1\Finance.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_2\Excel Worksheet1\House.csv
+
 --------------------------------------------------------------------------------
 Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
 --------------------------------------------------------------------------------
@@ -98,13 +121,13 @@ User Name is Pratik Jaiswal
 --------------------------------------------------------------------------------
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Sunday, May 05 2024, 15:42:46:397513, IST (GMT+0530)
+Time Stamp is Friday, Aug 16 2024, 10:23:42:417298, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is a43c714;  (HEAD -> main, tag: v2.2.0, origin/main, origin/HEAD); 2024-05-02 10:13:10 +0530; imPratik <impratikjaiswal@gmail.com>; v2.2.0
+Git Summary is 1e25e34;  (HEAD -> main, tag: v2.3.1, origin/main, origin/HEAD); 2024-05-31 10:15:15 +0530; imPratik <impratikjaiswal@gmail.com>; support of multiple arguments
 --------------------------------------------------------------------------------
-pythonHelpers version is v3.0.7
+pythonHelpers version is v4.1.0
 --------------------------------------------------------------------------------
-excelPlay version is v2.3.0
+excelPlay version is v2.4.0
 --------------------------------------------------------------------------------
 traverseMode:  Regex
 top:  D:\Other\Github_Self\excelPlay\sample_data
@@ -130,6 +153,18 @@ Sheet5.csv Done.
 --------------------------------------------------------------------------------
               All Done.              
 --------------------------------------------------------------------------------
+output_files_list:
+D:\Other\Github_Self\excelPlay\test\logs\TC_3\Excel Worksheet1\OrderData.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_3\Excel Worksheet1\Finance.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_3\Excel Worksheet1\House.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_3\Excel Worksheet2\Sales.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_3\Excel Worksheet2\Employee.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_3\SampleData\Sheet1.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_3\SampleData\Sheet2.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_3\SampleData\Sheet3.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_3\SampleData\Sheet4.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_3\SampleData\Sheet5.csv
+
 --------------------------------------------------------------------------------
 Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
 --------------------------------------------------------------------------------
@@ -139,13 +174,13 @@ User Name is Pratik Jaiswal
 --------------------------------------------------------------------------------
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Sunday, May 05 2024, 15:42:50:727758, IST (GMT+0530)
+Time Stamp is Friday, Aug 16 2024, 10:23:43:651856, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is a43c714;  (HEAD -> main, tag: v2.2.0, origin/main, origin/HEAD); 2024-05-02 10:13:10 +0530; imPratik <impratikjaiswal@gmail.com>; v2.2.0
+Git Summary is 1e25e34;  (HEAD -> main, tag: v2.3.1, origin/main, origin/HEAD); 2024-05-31 10:15:15 +0530; imPratik <impratikjaiswal@gmail.com>; support of multiple arguments
 --------------------------------------------------------------------------------
-pythonHelpers version is v3.0.7
+pythonHelpers version is v4.1.0
 --------------------------------------------------------------------------------
-excelPlay version is v2.3.0
+excelPlay version is v2.4.0
 --------------------------------------------------------------------------------
 ----- D:\\Other\\Github_Self\\excelPlay\\sample_data\\Excel Worksheet1.xlsx -----
 out_put_path: D:\Other\Github_Self\excelPlay\test\logs\TC_4\Excel Worksheet1
@@ -155,6 +190,11 @@ House.csv Done.
 --------------------------------------------------------------------------------
               All Done.              
 --------------------------------------------------------------------------------
+output_files_list:
+D:\Other\Github_Self\excelPlay\test\logs\TC_4\Excel Worksheet1\OrderData.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_4\Excel Worksheet1\Finance.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_4\Excel Worksheet1\House.csv
+
 --------------------------------------------------------------------------------
 Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
 --------------------------------------------------------------------------------
@@ -164,13 +204,13 @@ User Name is Pratik Jaiswal
 --------------------------------------------------------------------------------
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Sunday, May 05 2024, 15:42:51:127856, IST (GMT+0530)
+Time Stamp is Friday, Aug 16 2024, 10:23:43:772896, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is a43c714;  (HEAD -> main, tag: v2.2.0, origin/main, origin/HEAD); 2024-05-02 10:13:10 +0530; imPratik <impratikjaiswal@gmail.com>; v2.2.0
+Git Summary is 1e25e34;  (HEAD -> main, tag: v2.3.1, origin/main, origin/HEAD); 2024-05-31 10:15:15 +0530; imPratik <impratikjaiswal@gmail.com>; support of multiple arguments
 --------------------------------------------------------------------------------
-pythonHelpers version is v3.0.7
+pythonHelpers version is v4.1.0
 --------------------------------------------------------------------------------
-excelPlay version is v2.3.0
+excelPlay version is v2.4.0
 --------------------------------------------------------------------------------
 -------- D:/Other/Github_Self/excelPlay/sample_data/Excel Worksheet1.xlsx --------
 out_put_path: D:\Other\Github_Self\excelPlay\test\logs\TC_5\Excel Worksheet1
@@ -180,6 +220,12 @@ House.csv Done.
 --------------------------------------------------------------------------------
               All Done.              
 --------------------------------------------------------------------------------
+output_files_list:
+D:\Other\Github_Self\excelPlay\test\logs\TC_5\Excel Worksheet1\OrderData.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_5\Excel Worksheet1\Finance.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_5\Excel Worksheet1\House.csv
+
+------------------------------------------- input_items_list_wo_output_folder ------------------------------------------
 --------------------------------------------------------------------------------
 Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
 --------------------------------------------------------------------------------
@@ -189,13 +235,13 @@ User Name is Pratik Jaiswal
 --------------------------------------------------------------------------------
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Sunday, May 05 2024, 15:42:51:494855, IST (GMT+0530)
+Time Stamp is Friday, Aug 16 2024, 10:23:43:902897, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is a43c714;  (HEAD -> main, tag: v2.2.0, origin/main, origin/HEAD); 2024-05-02 10:13:10 +0530; imPratik <impratikjaiswal@gmail.com>; v2.2.0
+Git Summary is 1e25e34;  (HEAD -> main, tag: v2.3.1, origin/main, origin/HEAD); 2024-05-31 10:15:15 +0530; imPratik <impratikjaiswal@gmail.com>; support of multiple arguments
 --------------------------------------------------------------------------------
-pythonHelpers version is v3.0.7
+pythonHelpers version is v4.1.0
 --------------------------------------------------------------------------------
-excelPlay version is v2.3.0
+excelPlay version is v2.4.0
 --------------------------------------------------------------------------------
 traverseMode:  Regex
 top:  D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_0
@@ -221,6 +267,18 @@ Sheet5.csv Done.
 --------------------------------------------------------------------------------
               All Done.              
 --------------------------------------------------------------------------------
+output_files_list:
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay\OrderData.csv
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay\Finance.csv
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay\House.csv
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay\Sales.csv
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay\Employee.csv
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay\Sheet1.csv
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay\Sheet2.csv
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay\Sheet3.csv
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay\Sheet4.csv
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay\Sheet5.csv
+
 --------------------------------------------------------------------------------
 Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
 --------------------------------------------------------------------------------
@@ -230,13 +288,13 @@ User Name is Pratik Jaiswal
 --------------------------------------------------------------------------------
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Sunday, May 05 2024, 15:42:55:050120, IST (GMT+0530)
+Time Stamp is Friday, Aug 16 2024, 10:23:45:206249, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is a43c714;  (HEAD -> main, tag: v2.2.0, origin/main, origin/HEAD); 2024-05-02 10:13:10 +0530; imPratik <impratikjaiswal@gmail.com>; v2.2.0
+Git Summary is 1e25e34;  (HEAD -> main, tag: v2.3.1, origin/main, origin/HEAD); 2024-05-31 10:15:15 +0530; imPratik <impratikjaiswal@gmail.com>; support of multiple arguments
 --------------------------------------------------------------------------------
-pythonHelpers version is v3.0.7
+pythonHelpers version is v4.1.0
 --------------------------------------------------------------------------------
-excelPlay version is v2.3.0
+excelPlay version is v2.4.0
 --------------------------------------------------------------------------------
 traverseMode:  Regex
 top:  D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_1
@@ -278,3 +336,146 @@ Sheet5.csv Done.
 --------------------------------------------------------------------------------
               All Done.              
 --------------------------------------------------------------------------------
+output_files_list:
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay\OrderData.csv
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay\Finance.csv
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay\House.csv
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay\OrderData.csv
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay\Finance.csv
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay\House.csv
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay\Sales.csv
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay\Employee.csv
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay\Sales.csv
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay\Employee.csv
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay\Sheet1.csv
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay\Sheet2.csv
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay\Sheet3.csv
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay\Sheet4.csv
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay\Sheet5.csv
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay\Sheet1.csv
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay\Sheet2.csv
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay\Sheet3.csv
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay\Sheet4.csv
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay\Sheet5.csv
+
+--------------------------------------- input_items_list_wo_output_folder; zipped --------------------------------------
+--------------------------------------------------------------------------------
+Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
+--------------------------------------------------------------------------------
+Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
+--------------------------------------------------------------------------------
+User Name is Pratik Jaiswal
+--------------------------------------------------------------------------------
+User Account is impra
+--------------------------------------------------------------------------------
+Time Stamp is Friday, Aug 16 2024, 10:23:47:662763, IST (GMT+0530)
+--------------------------------------------------------------------------------
+Git Summary is 1e25e34;  (HEAD -> main, tag: v2.3.1, origin/main, origin/HEAD); 2024-05-31 10:15:15 +0530; imPratik <impratikjaiswal@gmail.com>; support of multiple arguments
+--------------------------------------------------------------------------------
+pythonHelpers version is v4.1.0
+--------------------------------------------------------------------------------
+excelPlay version is v2.4.0
+--------------------------------------------------------------------------------
+traverseMode:  Regex
+top:  D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_0
+include_files:  (?s:.*\.xlsx)\Z
+include_dirs:  
+excludes:  $.
+- D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_0\Excel Worksheet1.xlsx -
+out_put_path: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay
+OrderData.csv Done.
+Finance.csv Done.
+House.csv Done.
+Exporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zip
+- D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_0\Excel Worksheet2.xlsx -
+out_put_path: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay
+Sales.csv Done.
+Employee.csv Done.
+Exporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zip
+-- D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_0\SampleData.xlsx --
+out_put_path: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay
+Sheet1.csv Done.
+Sheet2.csv Done.
+Sheet3.csv Done.
+Sheet4.csv Done.
+Sheet5.csv Done.
+Exporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zip
+--------------------------------------------------------------------------------
+              All Done.              
+--------------------------------------------------------------------------------
+output_files_list zipped:
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay.zip
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay.zip
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay.zip
+
+--------------------------------------------------------------------------------
+Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
+--------------------------------------------------------------------------------
+Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
+--------------------------------------------------------------------------------
+User Name is Pratik Jaiswal
+--------------------------------------------------------------------------------
+User Account is impra
+--------------------------------------------------------------------------------
+Time Stamp is Friday, Aug 16 2024, 10:23:48:922293, IST (GMT+0530)
+--------------------------------------------------------------------------------
+Git Summary is 1e25e34;  (HEAD -> main, tag: v2.3.1, origin/main, origin/HEAD); 2024-05-31 10:15:15 +0530; imPratik <impratikjaiswal@gmail.com>; support of multiple arguments
+--------------------------------------------------------------------------------
+pythonHelpers version is v4.1.0
+--------------------------------------------------------------------------------
+excelPlay version is v2.4.0
+--------------------------------------------------------------------------------
+traverseMode:  Regex
+top:  D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_1
+include_files:  (?s:.*\.xlsx)\Z
+include_dirs:  
+excludes:  $.
+- D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_1\Excel Worksheet1 v1.0.xlsx -
+out_put_path: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay
+OrderData.csv Done.
+Finance.csv Done.
+House.csv Done.
+Exporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zip
+- D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_1\Excel Worksheet1.xlsx -
+out_put_path: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay
+OrderData.csv Done.
+Finance.csv Done.
+House.csv Done.
+Exporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zip
+- D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_1\Excel Worksheet2 v2..xlsx -
+out_put_path: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay
+Sales.csv Done.
+Employee.csv Done.
+Exporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zip
+- D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_1\Excel Worksheet2.xlsx -
+out_put_path: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay
+Sales.csv Done.
+Employee.csv Done.
+Exporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zip
+- D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_1\SampleData 3.0.6.56.xlsx -
+out_put_path: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay
+Sheet1.csv Done.
+Sheet2.csv Done.
+Sheet3.csv Done.
+Sheet4.csv Done.
+Sheet5.csv Done.
+Exporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zip
+-- D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_1\SampleData.xlsx --
+out_put_path: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay
+Sheet1.csv Done.
+Sheet2.csv Done.
+Sheet3.csv Done.
+Sheet4.csv Done.
+Sheet5.csv Done.
+Exporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zipExporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zip
+--------------------------------------------------------------------------------
+              All Done.              
+--------------------------------------------------------------------------------
+output_files_list zipped:
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay.zip
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay.zip
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay.zip
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay.zip
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay.zip
+D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay.zip
+
