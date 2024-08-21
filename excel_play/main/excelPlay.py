@@ -16,7 +16,7 @@ def process_files(files_list, target_file_format, output_parent_folder, output_a
     for file_path in files_list:
         folder_path = PhUtil.get_file_name_and_extn(file_path=file_path, path_with_out_extn=True)
         folder_path = PhUtil.append_in_file_name(str_file_path=folder_path, str_append=ConfigConst.TOOL_NAME,
-                                                 file_path_is_dir=True)
+                                                 file_path_is_dir=True, treat_folder_as_file=True)
         file_name = PhUtil.get_file_name_and_extn(file_path=file_path, name_with_out_extn=True)
         if output_parent_folder:
             folder_path = os.sep.join([output_parent_folder, file_name])
@@ -36,8 +36,7 @@ def process_files(files_list, target_file_format, output_parent_folder, output_a
             print(f'{x}.{target_file_format} Done.')
         if output_archive_format:
             if output_archive_format == Formats.ZIP:
-                zip_file_path = PhUtil.zip_and_clean_dir(target_dir=None, file_name=folder_path,
-                                                         source_files_dir=folder_path,
+                zip_file_path = PhUtil.zip_and_clean_dir(source_files_dir=folder_path,
                                                          delete_dir_after_zip=False,
                                                          export_hash=False)
             output_files_list_single_file = [zip_file_path]

@@ -19,6 +19,11 @@ input_items_list_wo_output_folder = [
     f"{os.sep.join([PhUtil.path_default_log_folder, 'TC_wo_out_folder_1'])}",
 ]
 
+input_items_list_zip = [
+    f"{os.sep.join([PhUtil.path_default_log_folder, 'TC_zip_0'])}",
+    f"{os.sep.join([PhUtil.path_default_log_folder, 'TC_zip_1'])}",
+]
+
 
 def main():
     """
@@ -36,10 +41,10 @@ def main():
         output_files_list = process_input(input_file_or_folder=input_item)
         PhUtil.print_iter(output_files_list, header='output_files_list')
 
-    PhUtil.print_heading(str_heading='input_items_list_wo_output_folder; zipped')
-    for index, input_item in enumerate(input_items_list_wo_output_folder):
+    PhUtil.print_heading(str_heading='input_items_list_zip')
+    for index, input_item in enumerate(input_items_list_zip):
         output_files_list = process_input(input_file_or_folder=input_item, output_archive_format=Formats.ZIP)
-        PhUtil.print_iter(output_files_list, header='output_files_list zipped')
+        PhUtil.print_iter(output_files_list, header='output_files_list')
 
 
 if __name__ == '__main__':
