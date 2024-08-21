@@ -48,7 +48,13 @@ def process_files(files_list, target_file_format, output_parent_folder, output_a
 
 def get_sheets(input_files_or_folders, target_file_format, output_parent_folder=None, output_archive_format=None):
     output_files_or_folders = []
-    multiple_files = True if isinstance(input_files_or_folders, tuple) else False
+    multiple_files = True if (
+        # CUI Multi
+            isinstance(input_files_or_folders, tuple)
+            or
+            # Web App Multi
+            isinstance(input_files_or_folders, list)
+    ) else False
     if not multiple_files:
         input_files_or_folders = [input_files_or_folders]
     for input_file_or_folder in input_files_or_folders:

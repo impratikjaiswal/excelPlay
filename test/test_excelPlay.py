@@ -46,6 +46,9 @@ def main():
         output_files_list = process_input(input_file_or_folder=input_item, output_archive_format=Formats.ZIP)
         PhUtil.print_iter(output_files_list, header='output_files_list')
 
+    PhUtil.print_heading(str_heading='input_items_list_multi')
+    output_files_list = process_input(input_file_or_folder=input_items_list_w_output_folder, output_archive_format=Formats.ZIP)
+    PhUtil.print_iter(output_files_list, header='output_files_list')
 
 if __name__ == '__main__':
     main()
