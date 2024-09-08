@@ -1,6 +1,6 @@
 # excelPlay
-Split Microsoft Excel file to multiple CSV file(s). One CSV File will contain one sheet. 
-<BR>Multiple input files can be provided in one shot.
+Split Microsoft Excel file to multiple CSV file(s) containing one sheet per file. 
+<BR>Multiple input files can be fed in one shot.
 
 [![GitHub License](https://img.shields.io/github/license/impratikjaiswal/excelPlay)](LICENSE)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
