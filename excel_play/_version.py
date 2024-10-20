@@ -7,5 +7,5 @@ Provides excel_play version information.
 
 from incremental import Version
 
-__version__ = Version("excel_play", 2, 4, 3)
+__version__ = Version("excel_play", 2, 4, 4)
 __all__ = ["__version__"]

@@ -1,21 +1,20 @@
 ------------------------------------------- input_items_list_w_output_folder -------------------------------------------
 --------------------------------------------------------------------------------
 Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
---------------------------------------------------------------------------------
 Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
 --------------------------------------------------------------------------------
 User Name is Pratik Jaiswal
---------------------------------------------------------------------------------
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Wednesday, Aug 21 2024, 22:32:50:395087, IST (GMT+0530)
+Time Stamp is Sunday, Oct 20 2024, 22:32:54:179538, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is 54cc275;  (HEAD -> main, tag: v2.4.1, origin/main, origin/HEAD); 2024-08-21 09:46:17 +0530; imPratik <impratikjaiswal@gmail.com>; lib updated
+Git Summary is e1f2382;  (HEAD -> main, origin/main, origin/HEAD); 2024-09-08 15:26:12 +0530; GitHub <noreply@github.com>; Update README.md
 --------------------------------------------------------------------------------
-pythonHelpers version is v4.2.1
+pythonHelpers version is v4.4.2
 --------------------------------------------------------------------------------
-excelPlay version is v2.4.3
+excelPlay version is v2.4.4
 --------------------------------------------------------------------------------
+- Target Folder: D:\Other\Github_Self\excelPlay\test\logs\TC_0\Excel Worksheet1; Already Existed -
 ---------------------- ..\sample_data\Excel Worksheet1.xlsx ----------------------
 out_put_path: D:\Other\Github_Self\excelPlay\test\logs\TC_0\Excel Worksheet1
 OrderData.csv Done.
@@ -31,35 +30,36 @@ D:\Other\Github_Self\excelPlay\test\logs\TC_0\Excel Worksheet1\House.csv
 
 --------------------------------------------------------------------------------
 Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
---------------------------------------------------------------------------------
 Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
 --------------------------------------------------------------------------------
 User Name is Pratik Jaiswal
---------------------------------------------------------------------------------
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Wednesday, Aug 21 2024, 22:32:51:118089, IST (GMT+0530)
+Time Stamp is Sunday, Oct 20 2024, 22:32:54:715104, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is 54cc275;  (HEAD -> main, tag: v2.4.1, origin/main, origin/HEAD); 2024-08-21 09:46:17 +0530; imPratik <impratikjaiswal@gmail.com>; lib updated
+Git Summary is e1f2382;  (HEAD -> main, origin/main, origin/HEAD); 2024-09-08 15:26:12 +0530; GitHub <noreply@github.com>; Update README.md
 --------------------------------------------------------------------------------
-pythonHelpers version is v4.2.1
+pythonHelpers version is v4.4.2
 --------------------------------------------------------------------------------
-excelPlay version is v2.4.3
+excelPlay version is v2.4.4
 --------------------------------------------------------------------------------
 traverseMode:  Regex
 top:  ..\sample_data
 include_files:  (?s:.*\.xlsx)\Z
 include_dirs:  
 excludes:  $.
+- Target Folder: D:\Other\Github_Self\excelPlay\test\logs\TC_1\Excel Worksheet1; Already Existed -
 ---------------------- ..\sample_data\Excel Worksheet1.xlsx ----------------------
 out_put_path: D:\Other\Github_Self\excelPlay\test\logs\TC_1\Excel Worksheet1
 OrderData.csv Done.
 Finance.csv Done.
 House.csv Done.
+- Target Folder: D:\Other\Github_Self\excelPlay\test\logs\TC_1\Excel Worksheet2; Already Existed -
 ---------------------- ..\sample_data\Excel Worksheet2.xlsx ----------------------
 out_put_path: D:\Other\Github_Self\excelPlay\test\logs\TC_1\Excel Worksheet2
 Sales.csv Done.
 Employee.csv Done.
+- Target Folder: D:\Other\Github_Self\excelPlay\test\logs\TC_1\SampleData; Already Existed -
 ------------------------- ..\sample_data\SampleData.xlsx -------------------------
 out_put_path: D:\Other\Github_Self\excelPlay\test\logs\TC_1\SampleData
 Sheet1.csv Done.
@@ -84,21 +84,20 @@ D:\Other\Github_Self\excelPlay\test\logs\TC_1\SampleData\Sheet5.csv
 
 --------------------------------------------------------------------------------
 Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
---------------------------------------------------------------------------------
 Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
 --------------------------------------------------------------------------------
 User Name is Pratik Jaiswal
---------------------------------------------------------------------------------
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Wednesday, Aug 21 2024, 22:32:53:680699, IST (GMT+0530)
+Time Stamp is Sunday, Oct 20 2024, 22:32:55:926453, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is 54cc275;  (HEAD -> main, tag: v2.4.1, origin/main, origin/HEAD); 2024-08-21 09:46:17 +0530; imPratik <impratikjaiswal@gmail.com>; lib updated
+Git Summary is e1f2382;  (HEAD -> main, origin/main, origin/HEAD); 2024-09-08 15:26:12 +0530; GitHub <noreply@github.com>; Update README.md
 --------------------------------------------------------------------------------
-pythonHelpers version is v4.2.1
+pythonHelpers version is v4.4.2
 --------------------------------------------------------------------------------
-excelPlay version is v2.4.3
+excelPlay version is v2.4.4
 --------------------------------------------------------------------------------
+- Target Folder: D:\Other\Github_Self\excelPlay\test\logs\TC_2\Excel Worksheet1; Already Existed -
 -------- D:\Other\Github_Self\excelPlay\sample_data\Excel Worksheet1.xlsx --------
 out_put_path: D:\Other\Github_Self\excelPlay\test\logs\TC_2\Excel Worksheet1
 OrderData.csv Done.
@@ -114,35 +113,36 @@ D:\Other\Github_Self\excelPlay\test\logs\TC_2\Excel Worksheet1\House.csv
 
 --------------------------------------------------------------------------------
 Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
---------------------------------------------------------------------------------
 Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
 --------------------------------------------------------------------------------
 User Name is Pratik Jaiswal
---------------------------------------------------------------------------------
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Wednesday, Aug 21 2024, 22:32:54:187698, IST (GMT+0530)
+Time Stamp is Sunday, Oct 20 2024, 22:32:56:054409, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is 54cc275;  (HEAD -> main, tag: v2.4.1, origin/main, origin/HEAD); 2024-08-21 09:46:17 +0530; imPratik <impratikjaiswal@gmail.com>; lib updated
+Git Summary is e1f2382;  (HEAD -> main, origin/main, origin/HEAD); 2024-09-08 15:26:12 +0530; GitHub <noreply@github.com>; Update README.md
 --------------------------------------------------------------------------------
-pythonHelpers version is v4.2.1
+pythonHelpers version is v4.4.2
 --------------------------------------------------------------------------------
-excelPlay version is v2.4.3
+excelPlay version is v2.4.4
 --------------------------------------------------------------------------------
 traverseMode:  Regex
 top:  D:\Other\Github_Self\excelPlay\sample_data
 include_files:  (?s:.*\.xlsx)\Z
 include_dirs:  
 excludes:  $.
+- Target Folder: D:\Other\Github_Self\excelPlay\test\logs\TC_3\Excel Worksheet1; Already Existed -
 -------- D:\Other\Github_Self\excelPlay\sample_data\Excel Worksheet1.xlsx --------
 out_put_path: D:\Other\Github_Self\excelPlay\test\logs\TC_3\Excel Worksheet1
 OrderData.csv Done.
 Finance.csv Done.
 House.csv Done.
+- Target Folder: D:\Other\Github_Self\excelPlay\test\logs\TC_3\Excel Worksheet2; Already Existed -
 -------- D:\Other\Github_Self\excelPlay\sample_data\Excel Worksheet2.xlsx --------
 out_put_path: D:\Other\Github_Self\excelPlay\test\logs\TC_3\Excel Worksheet2
 Sales.csv Done.
 Employee.csv Done.
+- Target Folder: D:\Other\Github_Self\excelPlay\test\logs\TC_3\SampleData; Already Existed -
 ----------- D:\Other\Github_Self\excelPlay\sample_data\SampleData.xlsx -----------
 out_put_path: D:\Other\Github_Self\excelPlay\test\logs\TC_3\SampleData
 Sheet1.csv Done.
@@ -167,21 +167,20 @@ D:\Other\Github_Self\excelPlay\test\logs\TC_3\SampleData\Sheet5.csv
 
 --------------------------------------------------------------------------------
 Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
---------------------------------------------------------------------------------
 Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
 --------------------------------------------------------------------------------
 User Name is Pratik Jaiswal
---------------------------------------------------------------------------------
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Wednesday, Aug 21 2024, 22:32:59:040544, IST (GMT+0530)
+Time Stamp is Sunday, Oct 20 2024, 22:32:57:490014, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is 54cc275;  (HEAD -> main, tag: v2.4.1, origin/main, origin/HEAD); 2024-08-21 09:46:17 +0530; imPratik <impratikjaiswal@gmail.com>; lib updated
+Git Summary is e1f2382;  (HEAD -> main, origin/main, origin/HEAD); 2024-09-08 15:26:12 +0530; GitHub <noreply@github.com>; Update README.md
 --------------------------------------------------------------------------------
-pythonHelpers version is v4.2.1
+pythonHelpers version is v4.4.2
 --------------------------------------------------------------------------------
-excelPlay version is v2.4.3
+excelPlay version is v2.4.4
 --------------------------------------------------------------------------------
+- Target Folder: D:\Other\Github_Self\excelPlay\test\logs\TC_4\Excel Worksheet1; Already Existed -
 ----- D:\\Other\\Github_Self\\excelPlay\\sample_data\\Excel Worksheet1.xlsx -----
 out_put_path: D:\Other\Github_Self\excelPlay\test\logs\TC_4\Excel Worksheet1
 OrderData.csv Done.
@@ -197,21 +196,20 @@ D:\Other\Github_Self\excelPlay\test\logs\TC_4\Excel Worksheet1\House.csv
 
 --------------------------------------------------------------------------------
 Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
---------------------------------------------------------------------------------
 Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
 --------------------------------------------------------------------------------
 User Name is Pratik Jaiswal
---------------------------------------------------------------------------------
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Wednesday, Aug 21 2024, 22:32:59:460151, IST (GMT+0530)
+Time Stamp is Sunday, Oct 20 2024, 22:32:57:682556, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is 54cc275;  (HEAD -> main, tag: v2.4.1, origin/main, origin/HEAD); 2024-08-21 09:46:17 +0530; imPratik <impratikjaiswal@gmail.com>; lib updated
+Git Summary is e1f2382;  (HEAD -> main, origin/main, origin/HEAD); 2024-09-08 15:26:12 +0530; GitHub <noreply@github.com>; Update README.md
 --------------------------------------------------------------------------------
-pythonHelpers version is v4.2.1
+pythonHelpers version is v4.4.2
 --------------------------------------------------------------------------------
-excelPlay version is v2.4.3
+excelPlay version is v2.4.4
 --------------------------------------------------------------------------------
+- Target Folder: D:\Other\Github_Self\excelPlay\test\logs\TC_5\Excel Worksheet1; Already Existed -
 -------- D:/Other/Github_Self/excelPlay/sample_data/Excel Worksheet1.xlsx --------
 out_put_path: D:\Other\Github_Self\excelPlay\test\logs\TC_5\Excel Worksheet1
 OrderData.csv Done.
@@ -228,35 +226,36 @@ D:\Other\Github_Self\excelPlay\test\logs\TC_5\Excel Worksheet1\House.csv
 ------------------------------------------- input_items_list_wo_output_folder ------------------------------------------
 --------------------------------------------------------------------------------
 Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
---------------------------------------------------------------------------------
 Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
 --------------------------------------------------------------------------------
 User Name is Pratik Jaiswal
---------------------------------------------------------------------------------
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Wednesday, Aug 21 2024, 22:32:59:867152, IST (GMT+0530)
+Time Stamp is Sunday, Oct 20 2024, 22:32:57:860556, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is 54cc275;  (HEAD -> main, tag: v2.4.1, origin/main, origin/HEAD); 2024-08-21 09:46:17 +0530; imPratik <impratikjaiswal@gmail.com>; lib updated
+Git Summary is e1f2382;  (HEAD -> main, origin/main, origin/HEAD); 2024-09-08 15:26:12 +0530; GitHub <noreply@github.com>; Update README.md
 --------------------------------------------------------------------------------
-pythonHelpers version is v4.2.1
+pythonHelpers version is v4.4.2
 --------------------------------------------------------------------------------
-excelPlay version is v2.4.3
+excelPlay version is v2.4.4
 --------------------------------------------------------------------------------
 traverseMode:  Regex
 top:  D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_0
 include_files:  (?s:.*\.xlsx)\Z
 include_dirs:  
 excludes:  $.
+- Target Folder: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay; Already Existed -
 - D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_0\Excel Worksheet1.xlsx -
 out_put_path: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay
 OrderData.csv Done.
 Finance.csv Done.
 House.csv Done.
+- Target Folder: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay; Already Existed -
 - D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_0\Excel Worksheet2.xlsx -
 out_put_path: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay
 Sales.csv Done.
 Employee.csv Done.
+- Target Folder: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay; Already Existed -
 -- D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_0\SampleData.xlsx --
 out_put_path: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPlay
 Sheet1.csv Done.
@@ -281,44 +280,47 @@ D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_0//SampleData_excelPla
 
 --------------------------------------------------------------------------------
 Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
---------------------------------------------------------------------------------
 Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
 --------------------------------------------------------------------------------
 User Name is Pratik Jaiswal
---------------------------------------------------------------------------------
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Wednesday, Aug 21 2024, 22:33:02:132233, IST (GMT+0530)
+Time Stamp is Sunday, Oct 20 2024, 22:32:59:241676, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is 54cc275;  (HEAD -> main, tag: v2.4.1, origin/main, origin/HEAD); 2024-08-21 09:46:17 +0530; imPratik <impratikjaiswal@gmail.com>; lib updated
+Git Summary is e1f2382;  (HEAD -> main, origin/main, origin/HEAD); 2024-09-08 15:26:12 +0530; GitHub <noreply@github.com>; Update README.md
 --------------------------------------------------------------------------------
-pythonHelpers version is v4.2.1
+pythonHelpers version is v4.4.2
 --------------------------------------------------------------------------------
-excelPlay version is v2.4.3
+excelPlay version is v2.4.4
 --------------------------------------------------------------------------------
 traverseMode:  Regex
 top:  D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_1
 include_files:  (?s:.*\.xlsx)\Z
 include_dirs:  
 excludes:  $.
+- Target Folder: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay; Already Existed -
 - D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_1\Excel Worksheet1 v1.0.xlsx -
 out_put_path: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay
 OrderData.csv Done.
 Finance.csv Done.
 House.csv Done.
+- Target Folder: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay; Already Existed -
 - D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_1\Excel Worksheet1.xlsx -
 out_put_path: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay
 OrderData.csv Done.
 Finance.csv Done.
 House.csv Done.
+- Target Folder: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay; Already Existed -
 - D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_1\Excel Worksheet2 v2..xlsx -
 out_put_path: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay
 Sales.csv Done.
 Employee.csv Done.
+- Target Folder: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay; Already Existed -
 - D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_1\Excel Worksheet2.xlsx -
 out_put_path: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay
 Sales.csv Done.
 Employee.csv Done.
+- Target Folder: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay; Already Existed -
 - D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_1\SampleData 3.0.6.56.xlsx -
 out_put_path: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay
 Sheet1.csv Done.
@@ -326,6 +328,7 @@ Sheet2.csv Done.
 Sheet3.csv Done.
 Sheet4.csv Done.
 Sheet5.csv Done.
+- Target Folder: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay; Already Existed -
 -- D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_1\SampleData.xlsx --
 out_put_path: D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPlay
 Sheet1.csv Done.
@@ -361,47 +364,50 @@ D:/Other/Github_Self/excelPlay/test/logs/TC_wo_out_folder_1//SampleData_excelPla
 ------------------------------------------------- input_items_list_zip -------------------------------------------------
 --------------------------------------------------------------------------------
 Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
---------------------------------------------------------------------------------
 Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
 --------------------------------------------------------------------------------
 User Name is Pratik Jaiswal
---------------------------------------------------------------------------------
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Wednesday, Aug 21 2024, 22:33:05:707967, IST (GMT+0530)
+Time Stamp is Sunday, Oct 20 2024, 22:33:01:840514, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is 54cc275;  (HEAD -> main, tag: v2.4.1, origin/main, origin/HEAD); 2024-08-21 09:46:17 +0530; imPratik <impratikjaiswal@gmail.com>; lib updated
+Git Summary is e1f2382;  (HEAD -> main, origin/main, origin/HEAD); 2024-09-08 15:26:12 +0530; GitHub <noreply@github.com>; Update README.md
 --------------------------------------------------------------------------------
-pythonHelpers version is v4.2.1
+pythonHelpers version is v4.4.2
 --------------------------------------------------------------------------------
-excelPlay version is v2.4.3
+excelPlay version is v2.4.4
 --------------------------------------------------------------------------------
 traverseMode:  Regex
 top:  D:\Other\Github_Self\excelPlay\test\logs\TC_zip_0
 include_files:  (?s:.*\.xlsx)\Z
 include_dirs:  
 excludes:  $.
+- Target Folder: D:/Other/Github_Self/excelPlay/test/logs/TC_zip_0//Excel Worksheet1_excelPlay; Already Existed -
 ---- D:\Other\Github_Self\excelPlay\test\logs\TC_zip_0\Excel Worksheet1.xlsx ----
 out_put_path: D:/Other/Github_Self/excelPlay/test/logs/TC_zip_0//Excel Worksheet1_excelPlay
 OrderData.csv Done.
 Finance.csv Done.
 House.csv Done.
+- Target Folder: D:/Other/Github_Self/excelPlay/test/logs/TC_zip_0//Excel Worksheet1_excelPlay\..; Already Existed -
 - Exporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_zip_0//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip -
 traverseMode:  Regex
 top:  D:/Other/Github_Self/excelPlay/test/logs/TC_zip_0//Excel Worksheet1_excelPlay
 include_files:  
 include_dirs:  
 excludes:  $.
+- Target Folder: D:/Other/Github_Self/excelPlay/test/logs/TC_zip_0//Excel Worksheet2_excelPlay; Already Existed -
 ---- D:\Other\Github_Self\excelPlay\test\logs\TC_zip_0\Excel Worksheet2.xlsx ----
 out_put_path: D:/Other/Github_Self/excelPlay/test/logs/TC_zip_0//Excel Worksheet2_excelPlay
 Sales.csv Done.
 Employee.csv Done.
+- Target Folder: D:/Other/Github_Self/excelPlay/test/logs/TC_zip_0//Excel Worksheet2_excelPlay\..; Already Existed -
 - Exporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_zip_0//Excel Worksheet2_excelPlay\..\Excel Worksheet2_excelPlay.zip -
 traverseMode:  Regex
 top:  D:/Other/Github_Self/excelPlay/test/logs/TC_zip_0//Excel Worksheet2_excelPlay
 include_files:  
 include_dirs:  
 excludes:  $.
+- Target Folder: D:/Other/Github_Self/excelPlay/test/logs/TC_zip_0//SampleData_excelPlay; Already Existed -
 ------- D:\Other\Github_Self\excelPlay\test\logs\TC_zip_0\SampleData.xlsx -------
 out_put_path: D:/Other/Github_Self/excelPlay/test/logs/TC_zip_0//SampleData_excelPlay
 Sheet1.csv Done.
@@ -409,6 +415,7 @@ Sheet2.csv Done.
 Sheet3.csv Done.
 Sheet4.csv Done.
 Sheet5.csv Done.
+- Target Folder: D:/Other/Github_Self/excelPlay/test/logs/TC_zip_0//SampleData_excelPlay\..; Already Existed -
 - Exporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_zip_0//SampleData_excelPlay\..\SampleData_excelPlay.zip -
 traverseMode:  Regex
 top:  D:/Other/Github_Self/excelPlay/test/logs/TC_zip_0//SampleData_excelPlay
@@ -425,68 +432,75 @@ D:/Other/Github_Self/excelPlay/test/logs/TC_zip_0//SampleData_excelPlay\..\Sampl
 
 --------------------------------------------------------------------------------
 Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
---------------------------------------------------------------------------------
 Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
 --------------------------------------------------------------------------------
 User Name is Pratik Jaiswal
---------------------------------------------------------------------------------
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Wednesday, Aug 21 2024, 22:33:07:372102, IST (GMT+0530)
+Time Stamp is Sunday, Oct 20 2024, 22:33:03:099678, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is 54cc275;  (HEAD -> main, tag: v2.4.1, origin/main, origin/HEAD); 2024-08-21 09:46:17 +0530; imPratik <impratikjaiswal@gmail.com>; lib updated
+Git Summary is e1f2382;  (HEAD -> main, origin/main, origin/HEAD); 2024-09-08 15:26:12 +0530; GitHub <noreply@github.com>; Update README.md
 --------------------------------------------------------------------------------
-pythonHelpers version is v4.2.1
+pythonHelpers version is v4.4.2
 --------------------------------------------------------------------------------
-excelPlay version is v2.4.3
+excelPlay version is v2.4.4
 --------------------------------------------------------------------------------
 traverseMode:  Regex
 top:  D:\Other\Github_Self\excelPlay\test\logs\TC_zip_1
 include_files:  (?s:.*\.xlsx)\Z
 include_dirs:  
 excludes:  $.
+- Target Folder: D:/Other/Github_Self/excelPlay/test/logs/TC_zip_1//Excel Worksheet1 v1.0_excelPlay; Already Existed -
 - D:\Other\Github_Self\excelPlay\test\logs\TC_zip_1\Excel Worksheet1 v1.0.xlsx -
 out_put_path: D:/Other/Github_Self/excelPlay/test/logs/TC_zip_1//Excel Worksheet1 v1.0_excelPlay
 OrderData.csv Done.
 Finance.csv Done.
 House.csv Done.
+- Target Folder: D:/Other/Github_Self/excelPlay/test/logs/TC_zip_1//Excel Worksheet1 v1.0_excelPlay\..; Already Existed -
 - Exporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_zip_1//Excel Worksheet1 v1.0_excelPlay\..\Excel Worksheet1 v1.0_excelPlay.zip -
 traverseMode:  Regex
 top:  D:/Other/Github_Self/excelPlay/test/logs/TC_zip_1//Excel Worksheet1 v1.0_excelPlay
 include_files:  
 include_dirs:  
 excludes:  $.
+- Target Folder: D:/Other/Github_Self/excelPlay/test/logs/TC_zip_1//Excel Worksheet1_excelPlay; Already Existed -
 ---- D:\Other\Github_Self\excelPlay\test\logs\TC_zip_1\Excel Worksheet1.xlsx ----
 out_put_path: D:/Other/Github_Self/excelPlay/test/logs/TC_zip_1//Excel Worksheet1_excelPlay
 OrderData.csv Done.
 Finance.csv Done.
 House.csv Done.
+- Target Folder: D:/Other/Github_Self/excelPlay/test/logs/TC_zip_1//Excel Worksheet1_excelPlay\..; Already Existed -
 - Exporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_zip_1//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip -
 traverseMode:  Regex
 top:  D:/Other/Github_Self/excelPlay/test/logs/TC_zip_1//Excel Worksheet1_excelPlay
 include_files:  
 include_dirs:  
 excludes:  $.
+- Target Folder: D:/Other/Github_Self/excelPlay/test/logs/TC_zip_1//Excel Worksheet2 v2._excelPlay; Already Existed -
 -- D:\Other\Github_Self\excelPlay\test\logs\TC_zip_1\Excel Worksheet2 v2..xlsx --
 out_put_path: D:/Other/Github_Self/excelPlay/test/logs/TC_zip_1//Excel Worksheet2 v2._excelPlay
 Sales.csv Done.
 Employee.csv Done.
+- Target Folder: D:/Other/Github_Self/excelPlay/test/logs/TC_zip_1//Excel Worksheet2 v2._excelPlay\..; Already Existed -
 - Exporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_zip_1//Excel Worksheet2 v2._excelPlay\..\Excel Worksheet2 v2._excelPlay.zip -
 traverseMode:  Regex
 top:  D:/Other/Github_Self/excelPlay/test/logs/TC_zip_1//Excel Worksheet2 v2._excelPlay
 include_files:  
 include_dirs:  
 excludes:  $.
+- Target Folder: D:/Other/Github_Self/excelPlay/test/logs/TC_zip_1//Excel Worksheet2_excelPlay; Already Existed -
 ---- D:\Other\Github_Self\excelPlay\test\logs\TC_zip_1\Excel Worksheet2.xlsx ----
 out_put_path: D:/Other/Github_Self/excelPlay/test/logs/TC_zip_1//Excel Worksheet2_excelPlay
 Sales.csv Done.
 Employee.csv Done.
+- Target Folder: D:/Other/Github_Self/excelPlay/test/logs/TC_zip_1//Excel Worksheet2_excelPlay\..; Already Existed -
 - Exporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_zip_1//Excel Worksheet2_excelPlay\..\Excel Worksheet2_excelPlay.zip -
 traverseMode:  Regex
 top:  D:/Other/Github_Self/excelPlay/test/logs/TC_zip_1//Excel Worksheet2_excelPlay
 include_files:  
 include_dirs:  
 excludes:  $.
+- Target Folder: D:/Other/Github_Self/excelPlay/test/logs/TC_zip_1//SampleData 3.0.6.56_excelPlay; Already Existed -
 --- D:\Other\Github_Self\excelPlay\test\logs\TC_zip_1\SampleData 3.0.6.56.xlsx ---
 out_put_path: D:/Other/Github_Self/excelPlay/test/logs/TC_zip_1//SampleData 3.0.6.56_excelPlay
 Sheet1.csv Done.
@@ -494,12 +508,14 @@ Sheet2.csv Done.
 Sheet3.csv Done.
 Sheet4.csv Done.
 Sheet5.csv Done.
+- Target Folder: D:/Other/Github_Self/excelPlay/test/logs/TC_zip_1//SampleData 3.0.6.56_excelPlay\..; Already Existed -
 - Exporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_zip_1//SampleData 3.0.6.56_excelPlay\..\SampleData 3.0.6.56_excelPlay.zip -
 traverseMode:  Regex
 top:  D:/Other/Github_Self/excelPlay/test/logs/TC_zip_1//SampleData 3.0.6.56_excelPlay
 include_files:  
 include_dirs:  
 excludes:  $.
+- Target Folder: D:/Other/Github_Self/excelPlay/test/logs/TC_zip_1//SampleData_excelPlay; Already Existed -
 ------- D:\Other\Github_Self\excelPlay\test\logs\TC_zip_1\SampleData.xlsx -------
 out_put_path: D:/Other/Github_Self/excelPlay/test/logs/TC_zip_1//SampleData_excelPlay
 Sheet1.csv Done.
@@ -507,6 +523,7 @@ Sheet2.csv Done.
 Sheet3.csv Done.
 Sheet4.csv Done.
 Sheet5.csv Done.
+- Target Folder: D:/Other/Github_Self/excelPlay/test/logs/TC_zip_1//SampleData_excelPlay\..; Already Existed -
 - Exporting Zip File: D:/Other/Github_Self/excelPlay/test/logs/TC_zip_1//SampleData_excelPlay\..\SampleData_excelPlay.zip -
 traverseMode:  Regex
 top:  D:/Other/Github_Self/excelPlay/test/logs/TC_zip_1//SampleData_excelPlay
@@ -527,26 +544,26 @@ D:/Other/Github_Self/excelPlay/test/logs/TC_zip_1//SampleData_excelPlay\..\Sampl
 ------------------------------------------------ input_items_list_multi ------------------------------------------------
 --------------------------------------------------------------------------------
 Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
---------------------------------------------------------------------------------
 Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
 --------------------------------------------------------------------------------
 User Name is Pratik Jaiswal
---------------------------------------------------------------------------------
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Wednesday, Aug 21 2024, 22:33:12:120826, IST (GMT+0530)
+Time Stamp is Sunday, Oct 20 2024, 22:33:05:577614, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is 54cc275;  (HEAD -> main, tag: v2.4.1, origin/main, origin/HEAD); 2024-08-21 09:46:17 +0530; imPratik <impratikjaiswal@gmail.com>; lib updated
+Git Summary is e1f2382;  (HEAD -> main, origin/main, origin/HEAD); 2024-09-08 15:26:12 +0530; GitHub <noreply@github.com>; Update README.md
 --------------------------------------------------------------------------------
-pythonHelpers version is v4.2.1
+pythonHelpers version is v4.4.2
 --------------------------------------------------------------------------------
-excelPlay version is v2.4.3
+excelPlay version is v2.4.4
 --------------------------------------------------------------------------------
+- Target Folder: ../sample_data//Excel Worksheet1_excelPlay; Already Existed -
 ---------------------- ..\sample_data\Excel Worksheet1.xlsx ----------------------
 out_put_path: ../sample_data//Excel Worksheet1_excelPlay
 OrderData.csv Done.
 Finance.csv Done.
 House.csv Done.
+- Target Folder: ../sample_data//Excel Worksheet1_excelPlay\..; Already Existed -
 - Exporting Zip File: ../sample_data//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip -
 traverseMode:  Regex
 top:  ../sample_data//Excel Worksheet1_excelPlay
@@ -558,27 +575,32 @@ top:  ..\sample_data
 include_files:  (?s:.*\.xlsx)\Z
 include_dirs:  
 excludes:  $.
+- Target Folder: ../sample_data//Excel Worksheet1_excelPlay; Already Existed -
 ---------------------- ..\sample_data\Excel Worksheet1.xlsx ----------------------
 out_put_path: ../sample_data//Excel Worksheet1_excelPlay
 OrderData.csv Done.
 Finance.csv Done.
 House.csv Done.
+- Target Folder: ../sample_data//Excel Worksheet1_excelPlay\..; Already Existed -
 - Exporting Zip File: ../sample_data//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip -
 traverseMode:  Regex
 top:  ../sample_data//Excel Worksheet1_excelPlay
 include_files:  
 include_dirs:  
 excludes:  $.
+- Target Folder: ../sample_data//Excel Worksheet2_excelPlay; Already Existed -
 ---------------------- ..\sample_data\Excel Worksheet2.xlsx ----------------------
 out_put_path: ../sample_data//Excel Worksheet2_excelPlay
 Sales.csv Done.
 Employee.csv Done.
+- Target Folder: ../sample_data//Excel Worksheet2_excelPlay\..; Already Existed -
 - Exporting Zip File: ../sample_data//Excel Worksheet2_excelPlay\..\Excel Worksheet2_excelPlay.zip -
 traverseMode:  Regex
 top:  ../sample_data//Excel Worksheet2_excelPlay
 include_files:  
 include_dirs:  
 excludes:  $.
+- Target Folder: ../sample_data//SampleData_excelPlay; Already Existed -
 ------------------------- ..\sample_data\SampleData.xlsx -------------------------
 out_put_path: ../sample_data//SampleData_excelPlay
 Sheet1.csv Done.
@@ -586,17 +608,20 @@ Sheet2.csv Done.
 Sheet3.csv Done.
 Sheet4.csv Done.
 Sheet5.csv Done.
+- Target Folder: ../sample_data//SampleData_excelPlay\..; Already Existed -
 - Exporting Zip File: ../sample_data//SampleData_excelPlay\..\SampleData_excelPlay.zip -
 traverseMode:  Regex
 top:  ../sample_data//SampleData_excelPlay
 include_files:  
 include_dirs:  
 excludes:  $.
+- Target Folder: D:/Other/Github_Self/excelPlay/sample_data//Excel Worksheet1_excelPlay; Already Existed -
 -------- D:\Other\Github_Self\excelPlay\sample_data\Excel Worksheet1.xlsx --------
 out_put_path: D:/Other/Github_Self/excelPlay/sample_data//Excel Worksheet1_excelPlay
 OrderData.csv Done.
 Finance.csv Done.
 House.csv Done.
+- Target Folder: D:/Other/Github_Self/excelPlay/sample_data//Excel Worksheet1_excelPlay\..; Already Existed -
 - Exporting Zip File: D:/Other/Github_Self/excelPlay/sample_data//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip -
 traverseMode:  Regex
 top:  D:/Other/Github_Self/excelPlay/sample_data//Excel Worksheet1_excelPlay
@@ -608,27 +633,32 @@ top:  D:\Other\Github_Self\excelPlay\sample_data
 include_files:  (?s:.*\.xlsx)\Z
 include_dirs:  
 excludes:  $.
+- Target Folder: D:/Other/Github_Self/excelPlay/sample_data//Excel Worksheet1_excelPlay; Already Existed -
 -------- D:\Other\Github_Self\excelPlay\sample_data\Excel Worksheet1.xlsx --------
 out_put_path: D:/Other/Github_Self/excelPlay/sample_data//Excel Worksheet1_excelPlay
 OrderData.csv Done.
 Finance.csv Done.
 House.csv Done.
+- Target Folder: D:/Other/Github_Self/excelPlay/sample_data//Excel Worksheet1_excelPlay\..; Already Existed -
 - Exporting Zip File: D:/Other/Github_Self/excelPlay/sample_data//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip -
 traverseMode:  Regex
 top:  D:/Other/Github_Self/excelPlay/sample_data//Excel Worksheet1_excelPlay
 include_files:  
 include_dirs:  
 excludes:  $.
+- Target Folder: D:/Other/Github_Self/excelPlay/sample_data//Excel Worksheet2_excelPlay; Already Existed -
 -------- D:\Other\Github_Self\excelPlay\sample_data\Excel Worksheet2.xlsx --------
 out_put_path: D:/Other/Github_Self/excelPlay/sample_data//Excel Worksheet2_excelPlay
 Sales.csv Done.
 Employee.csv Done.
+- Target Folder: D:/Other/Github_Self/excelPlay/sample_data//Excel Worksheet2_excelPlay\..; Already Existed -
 - Exporting Zip File: D:/Other/Github_Self/excelPlay/sample_data//Excel Worksheet2_excelPlay\..\Excel Worksheet2_excelPlay.zip -
 traverseMode:  Regex
 top:  D:/Other/Github_Self/excelPlay/sample_data//Excel Worksheet2_excelPlay
 include_files:  
 include_dirs:  
 excludes:  $.
+- Target Folder: D:/Other/Github_Self/excelPlay/sample_data//SampleData_excelPlay; Already Existed -
 ----------- D:\Other\Github_Self\excelPlay\sample_data\SampleData.xlsx -----------
 out_put_path: D:/Other/Github_Self/excelPlay/sample_data//SampleData_excelPlay
 Sheet1.csv Done.
@@ -636,28 +666,33 @@ Sheet2.csv Done.
 Sheet3.csv Done.
 Sheet4.csv Done.
 Sheet5.csv Done.
+- Target Folder: D:/Other/Github_Self/excelPlay/sample_data//SampleData_excelPlay\..; Already Existed -
 - Exporting Zip File: D:/Other/Github_Self/excelPlay/sample_data//SampleData_excelPlay\..\SampleData_excelPlay.zip -
 traverseMode:  Regex
 top:  D:/Other/Github_Self/excelPlay/sample_data//SampleData_excelPlay
 include_files:  
 include_dirs:  
 excludes:  $.
+- Target Folder: D:/Other/Github_Self/excelPlay/sample_data//Excel Worksheet1_excelPlay; Already Existed -
 ----- D:\\Other\\Github_Self\\excelPlay\\sample_data\\Excel Worksheet1.xlsx -----
 out_put_path: D:/Other/Github_Self/excelPlay/sample_data//Excel Worksheet1_excelPlay
 OrderData.csv Done.
 Finance.csv Done.
 House.csv Done.
+- Target Folder: D:/Other/Github_Self/excelPlay/sample_data//Excel Worksheet1_excelPlay\..; Already Existed -
 - Exporting Zip File: D:/Other/Github_Self/excelPlay/sample_data//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip -
 traverseMode:  Regex
 top:  D:/Other/Github_Self/excelPlay/sample_data//Excel Worksheet1_excelPlay
 include_files:  
 include_dirs:  
 excludes:  $.
+- Target Folder: D:/Other/Github_Self/excelPlay/sample_data//Excel Worksheet1_excelPlay; Already Existed -
 -------- D:/Other/Github_Self/excelPlay/sample_data/Excel Worksheet1.xlsx --------
 out_put_path: D:/Other/Github_Self/excelPlay/sample_data//Excel Worksheet1_excelPlay
 OrderData.csv Done.
 Finance.csv Done.
 House.csv Done.
+- Target Folder: D:/Other/Github_Self/excelPlay/sample_data//Excel Worksheet1_excelPlay\..; Already Existed -
 - Exporting Zip File: D:/Other/Github_Self/excelPlay/sample_data//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip -
 traverseMode:  Regex
 top:  D:/Other/Github_Self/excelPlay/sample_data//Excel Worksheet1_excelPlay
