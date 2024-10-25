@@ -6,13 +6,13 @@ Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Sunday, Oct 20 2024, 22:32:54:179538, IST (GMT+0530)
+Time Stamp is Friday, Oct 25 2024, 20:58:33:027647, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is e1f2382;  (HEAD -> main, origin/main, origin/HEAD); 2024-09-08 15:26:12 +0530; GitHub <noreply@github.com>; Update README.md
+Git Summary is 5c1bf00;  (HEAD -> main, tag: v2.4.4, origin/main, origin/HEAD); 2024-10-20 22:35:18 +0530; imPratik <impratikjaiswal@gmail.com>; v2.4.4
 --------------------------------------------------------------------------------
-pythonHelpers version is v4.4.2
+pythonHelpers version is v4.4.3.dev12
 --------------------------------------------------------------------------------
-excelPlay version is v2.4.4
+excelPlay version is v2.4.5
 --------------------------------------------------------------------------------
 - Target Folder: D:\Other\Github_Self\excelPlay\test\logs\TC_0\Excel Worksheet1; Already Existed -
 ---------------------- ..\sample_data\Excel Worksheet1.xlsx ----------------------
@@ -35,13 +35,13 @@ Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Sunday, Oct 20 2024, 22:32:54:715104, IST (GMT+0530)
+Time Stamp is Friday, Oct 25 2024, 20:58:33:567646, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is e1f2382;  (HEAD -> main, origin/main, origin/HEAD); 2024-09-08 15:26:12 +0530; GitHub <noreply@github.com>; Update README.md
+Git Summary is 5c1bf00;  (HEAD -> main, tag: v2.4.4, origin/main, origin/HEAD); 2024-10-20 22:35:18 +0530; imPratik <impratikjaiswal@gmail.com>; v2.4.4
 --------------------------------------------------------------------------------
-pythonHelpers version is v4.4.2
+pythonHelpers version is v4.4.3.dev12
 --------------------------------------------------------------------------------
-excelPlay version is v2.4.4
+excelPlay version is v2.4.5
 --------------------------------------------------------------------------------
 traverseMode:  Regex
 top:  ..\sample_data
@@ -89,13 +89,13 @@ Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Sunday, Oct 20 2024, 22:32:55:926453, IST (GMT+0530)
+Time Stamp is Friday, Oct 25 2024, 20:58:34:817245, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is e1f2382;  (HEAD -> main, origin/main, origin/HEAD); 2024-09-08 15:26:12 +0530; GitHub <noreply@github.com>; Update README.md
+Git Summary is 5c1bf00;  (HEAD -> main, tag: v2.4.4, origin/main, origin/HEAD); 2024-10-20 22:35:18 +0530; imPratik <impratikjaiswal@gmail.com>; v2.4.4
 --------------------------------------------------------------------------------
-pythonHelpers version is v4.4.2
+pythonHelpers version is v4.4.3.dev12
 --------------------------------------------------------------------------------
-excelPlay version is v2.4.4
+excelPlay version is v2.4.5
 --------------------------------------------------------------------------------
 - Target Folder: D:\Other\Github_Self\excelPlay\test\logs\TC_2\Excel Worksheet1; Already Existed -
 -------- D:\Other\Github_Self\excelPlay\sample_data\Excel Worksheet1.xlsx --------
@@ -118,13 +118,13 @@ Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Sunday, Oct 20 2024, 22:32:56:054409, IST (GMT+0530)
+Time Stamp is Friday, Oct 25 2024, 20:58:34:946199, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is e1f2382;  (HEAD -> main, origin/main, origin/HEAD); 2024-09-08 15:26:12 +0530; GitHub <noreply@github.com>; Update README.md
+Git Summary is 5c1bf00;  (HEAD -> main, tag: v2.4.4, origin/main, origin/HEAD); 2024-10-20 22:35:18 +0530; imPratik <impratikjaiswal@gmail.com>; v2.4.4
 --------------------------------------------------------------------------------
-pythonHelpers version is v4.4.2
+pythonHelpers version is v4.4.3.dev12
 --------------------------------------------------------------------------------
-excelPlay version is v2.4.4
+excelPlay version is v2.4.5
 --------------------------------------------------------------------------------
 traverseMode:  Regex
 top:  D:\Other\Github_Self\excelPlay\sample_data
@@ -172,13 +172,13 @@ Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Sunday, Oct 20 2024, 22:32:57:490014, IST (GMT+0530)
+Time Stamp is Friday, Oct 25 2024, 20:58:36:220365, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is e1f2382;  (HEAD -> main, origin/main, origin/HEAD); 2024-09-08 15:26:12 +0530; GitHub <noreply@github.com>; Update README.md
+Git Summary is 5c1bf00;  (HEAD -> main, tag: v2.4.4, origin/main, origin/HEAD); 2024-10-20 22:35:18 +0530; imPratik <impratikjaiswal@gmail.com>; v2.4.4
 --------------------------------------------------------------------------------
-pythonHelpers version is v4.4.2
+pythonHelpers version is v4.4.3.dev12
 --------------------------------------------------------------------------------
-excelPlay version is v2.4.4
+excelPlay version is v2.4.5
 --------------------------------------------------------------------------------
 - Target Folder: D:\Other\Github_Self\excelPlay\test\logs\TC_4\Excel Worksheet1; Already Existed -
 ----- D:\\Other\\Github_Self\\excelPlay\\sample_data\\Excel Worksheet1.xlsx -----
@@ -201,13 +201,13 @@ Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Sunday, Oct 20 2024, 22:32:57:682556, IST (GMT+0530)
+Time Stamp is Friday, Oct 25 2024, 20:58:36:347321, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is e1f2382;  (HEAD -> main, origin/main, origin/HEAD); 2024-09-08 15:26:12 +0530; GitHub <noreply@github.com>; Update README.md
+Git Summary is 5c1bf00;  (HEAD -> main, tag: v2.4.4, origin/main, origin/HEAD); 2024-10-20 22:35:18 +0530; imPratik <impratikjaiswal@gmail.com>; v2.4.4
 --------------------------------------------------------------------------------
-pythonHelpers version is v4.4.2
+pythonHelpers version is v4.4.3.dev12
 --------------------------------------------------------------------------------
-excelPlay version is v2.4.4
+excelPlay version is v2.4.5
 --------------------------------------------------------------------------------
 - Target Folder: D:\Other\Github_Self\excelPlay\test\logs\TC_5\Excel Worksheet1; Already Existed -
 -------- D:/Other/Github_Self/excelPlay/sample_data/Excel Worksheet1.xlsx --------
@@ -231,13 +231,13 @@ Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Sunday, Oct 20 2024, 22:32:57:860556, IST (GMT+0530)
+Time Stamp is Friday, Oct 25 2024, 20:58:36:476319, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is e1f2382;  (HEAD -> main, origin/main, origin/HEAD); 2024-09-08 15:26:12 +0530; GitHub <noreply@github.com>; Update README.md
+Git Summary is 5c1bf00;  (HEAD -> main, tag: v2.4.4, origin/main, origin/HEAD); 2024-10-20 22:35:18 +0530; imPratik <impratikjaiswal@gmail.com>; v2.4.4
 --------------------------------------------------------------------------------
-pythonHelpers version is v4.4.2
+pythonHelpers version is v4.4.3.dev12
 --------------------------------------------------------------------------------
-excelPlay version is v2.4.4
+excelPlay version is v2.4.5
 --------------------------------------------------------------------------------
 traverseMode:  Regex
 top:  D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_0
@@ -285,13 +285,13 @@ Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Sunday, Oct 20 2024, 22:32:59:241676, IST (GMT+0530)
+Time Stamp is Friday, Oct 25 2024, 20:58:37:758926, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is e1f2382;  (HEAD -> main, origin/main, origin/HEAD); 2024-09-08 15:26:12 +0530; GitHub <noreply@github.com>; Update README.md
+Git Summary is 5c1bf00;  (HEAD -> main, tag: v2.4.4, origin/main, origin/HEAD); 2024-10-20 22:35:18 +0530; imPratik <impratikjaiswal@gmail.com>; v2.4.4
 --------------------------------------------------------------------------------
-pythonHelpers version is v4.4.2
+pythonHelpers version is v4.4.3.dev12
 --------------------------------------------------------------------------------
-excelPlay version is v2.4.4
+excelPlay version is v2.4.5
 --------------------------------------------------------------------------------
 traverseMode:  Regex
 top:  D:\Other\Github_Self\excelPlay\test\logs\TC_wo_out_folder_1
@@ -369,13 +369,13 @@ Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Sunday, Oct 20 2024, 22:33:01:840514, IST (GMT+0530)
+Time Stamp is Friday, Oct 25 2024, 20:58:40:455861, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is e1f2382;  (HEAD -> main, origin/main, origin/HEAD); 2024-09-08 15:26:12 +0530; GitHub <noreply@github.com>; Update README.md
+Git Summary is 5c1bf00;  (HEAD -> main, tag: v2.4.4, origin/main, origin/HEAD); 2024-10-20 22:35:18 +0530; imPratik <impratikjaiswal@gmail.com>; v2.4.4
 --------------------------------------------------------------------------------
-pythonHelpers version is v4.4.2
+pythonHelpers version is v4.4.3.dev12
 --------------------------------------------------------------------------------
-excelPlay version is v2.4.4
+excelPlay version is v2.4.5
 --------------------------------------------------------------------------------
 traverseMode:  Regex
 top:  D:\Other\Github_Self\excelPlay\test\logs\TC_zip_0
@@ -437,13 +437,13 @@ Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Sunday, Oct 20 2024, 22:33:03:099678, IST (GMT+0530)
+Time Stamp is Friday, Oct 25 2024, 20:58:41:828122, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is e1f2382;  (HEAD -> main, origin/main, origin/HEAD); 2024-09-08 15:26:12 +0530; GitHub <noreply@github.com>; Update README.md
+Git Summary is 5c1bf00;  (HEAD -> main, tag: v2.4.4, origin/main, origin/HEAD); 2024-10-20 22:35:18 +0530; imPratik <impratikjaiswal@gmail.com>; v2.4.4
 --------------------------------------------------------------------------------
-pythonHelpers version is v4.4.2
+pythonHelpers version is v4.4.3.dev12
 --------------------------------------------------------------------------------
-excelPlay version is v2.4.4
+excelPlay version is v2.4.5
 --------------------------------------------------------------------------------
 traverseMode:  Regex
 top:  D:\Other\Github_Self\excelPlay\test\logs\TC_zip_1
@@ -549,13 +549,13 @@ Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Sunday, Oct 20 2024, 22:33:05:577614, IST (GMT+0530)
+Time Stamp is Friday, Oct 25 2024, 20:58:44:585900, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is e1f2382;  (HEAD -> main, origin/main, origin/HEAD); 2024-09-08 15:26:12 +0530; GitHub <noreply@github.com>; Update README.md
+Git Summary is 5c1bf00;  (HEAD -> main, tag: v2.4.4, origin/main, origin/HEAD); 2024-10-20 22:35:18 +0530; imPratik <impratikjaiswal@gmail.com>; v2.4.4
 --------------------------------------------------------------------------------
-pythonHelpers version is v4.4.2
+pythonHelpers version is v4.4.3.dev12
 --------------------------------------------------------------------------------
-excelPlay version is v2.4.4
+excelPlay version is v2.4.5
 --------------------------------------------------------------------------------
 - Target Folder: ../sample_data//Excel Worksheet1_excelPlay; Already Existed -
 ---------------------- ..\sample_data\Excel Worksheet1.xlsx ----------------------
@@ -714,3 +714,403 @@ D:/Other/Github_Self/excelPlay/sample_data//SampleData_excelPlay\..\SampleData_e
 D:/Other/Github_Self/excelPlay/sample_data//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip
 D:/Other/Github_Self/excelPlay/sample_data//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip
 
+----------------------------------------------- input_items_list_encoding ----------------------------------------------
+--------------------------------------------------------------------------------
+Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
+Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
+--------------------------------------------------------------------------------
+User Name is Pratik Jaiswal
+User Account is impra
+--------------------------------------------------------------------------------
+Time Stamp is Friday, Oct 25 2024, 20:58:55:386011, IST (GMT+0530)
+--------------------------------------------------------------------------------
+Git Summary is 5c1bf00;  (HEAD -> main, tag: v2.4.4, origin/main, origin/HEAD); 2024-10-20 22:35:18 +0530; imPratik <impratikjaiswal@gmail.com>; v2.4.4
+--------------------------------------------------------------------------------
+pythonHelpers version is v4.4.3.dev12
+--------------------------------------------------------------------------------
+excelPlay version is v2.4.5
+--------------------------------------------------------------------------------
+traverseMode:  Regex
+top:  D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0
+include_files:  (?s:.*\.xlsx)\Z
+include_dirs:  
+excludes:  $.
+- Target Folder: D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\strict\Const; Already Existed -
+---- D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\Const.xlsx ----
+out_put_path: D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\strict\Const
+Questions.csv Done.
+Tasks.csv Done.
+Test Server Simulator Address.csv Done.
+SGP.33 A.1 Generic Constants.csv Failed.
+Generic Constant (SGP33v1).csv Done.
+SGP.33 A.2 Test Certs & Keys.csv Failed.
+SGP.33 D Commands And Responses.csv Failed.
+SGP.33 F IUT Settings.csv Failed.
+SGP.33 Extra Constants.csv Done.
+Override Constants.csv Failed.
+Optional Features.csv Done.
+Applicability Table v1.csv Done.
+Conditional Items.csv Done.
+--------------------------------------------------------------------------------
+              All Done.              
+--------------------------------------------------------------------------------
+output_files_list:
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\strict\Const\Questions.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\strict\Const\Tasks.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\strict\Const\Test Server Simulator Address.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\strict\Const\SGP.33 A.1 Generic Constants.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\strict\Const\Generic Constant (SGP33v1).csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\strict\Const\SGP.33 A.2 Test Certs & Keys.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\strict\Const\SGP.33 D Commands And Responses.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\strict\Const\SGP.33 F IUT Settings.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\strict\Const\SGP.33 Extra Constants.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\strict\Const\Override Constants.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\strict\Const\Optional Features.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\strict\Const\Applicability Table v1.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\strict\Const\Conditional Items.csv
+
+--------------------------------------------------------------------------------
+Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
+Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
+--------------------------------------------------------------------------------
+User Name is Pratik Jaiswal
+User Account is impra
+--------------------------------------------------------------------------------
+Time Stamp is Friday, Oct 25 2024, 20:58:57:832528, IST (GMT+0530)
+--------------------------------------------------------------------------------
+Git Summary is 5c1bf00;  (HEAD -> main, tag: v2.4.4, origin/main, origin/HEAD); 2024-10-20 22:35:18 +0530; imPratik <impratikjaiswal@gmail.com>; v2.4.4
+--------------------------------------------------------------------------------
+pythonHelpers version is v4.4.3.dev12
+--------------------------------------------------------------------------------
+excelPlay version is v2.4.5
+--------------------------------------------------------------------------------
+traverseMode:  Regex
+top:  D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0
+include_files:  (?s:.*\.xlsx)\Z
+include_dirs:  
+excludes:  $.
+- Target Folder: D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\ignore\Const; Already Existed -
+---- D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\Const.xlsx ----
+out_put_path: D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\ignore\Const
+Questions.csv Done.
+Tasks.csv Done.
+Test Server Simulator Address.csv Done.
+SGP.33 A.1 Generic Constants.csv Done.
+Generic Constant (SGP33v1).csv Done.
+SGP.33 A.2 Test Certs & Keys.csv Done.
+SGP.33 D Commands And Responses.csv Done.
+SGP.33 F IUT Settings.csv Done.
+SGP.33 Extra Constants.csv Done.
+Override Constants.csv Done.
+Optional Features.csv Done.
+Applicability Table v1.csv Done.
+Conditional Items.csv Done.
+--------------------------------------------------------------------------------
+              All Done.              
+--------------------------------------------------------------------------------
+output_files_list:
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\ignore\Const\Questions.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\ignore\Const\Tasks.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\ignore\Const\Test Server Simulator Address.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\ignore\Const\SGP.33 A.1 Generic Constants.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\ignore\Const\Generic Constant (SGP33v1).csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\ignore\Const\SGP.33 A.2 Test Certs & Keys.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\ignore\Const\SGP.33 D Commands And Responses.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\ignore\Const\SGP.33 F IUT Settings.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\ignore\Const\SGP.33 Extra Constants.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\ignore\Const\Override Constants.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\ignore\Const\Optional Features.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\ignore\Const\Applicability Table v1.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\ignore\Const\Conditional Items.csv
+
+--------------------------------------------------------------------------------
+Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
+Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
+--------------------------------------------------------------------------------
+User Name is Pratik Jaiswal
+User Account is impra
+--------------------------------------------------------------------------------
+Time Stamp is Friday, Oct 25 2024, 20:58:59:080526, IST (GMT+0530)
+--------------------------------------------------------------------------------
+Git Summary is 5c1bf00;  (HEAD -> main, tag: v2.4.4, origin/main, origin/HEAD); 2024-10-20 22:35:18 +0530; imPratik <impratikjaiswal@gmail.com>; v2.4.4
+--------------------------------------------------------------------------------
+pythonHelpers version is v4.4.3.dev12
+--------------------------------------------------------------------------------
+excelPlay version is v2.4.5
+--------------------------------------------------------------------------------
+traverseMode:  Regex
+top:  D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0
+include_files:  (?s:.*\.xlsx)\Z
+include_dirs:  
+excludes:  $.
+- Target Folder: D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\replace\Const; Already Existed -
+---- D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\Const.xlsx ----
+out_put_path: D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\replace\Const
+Questions.csv Done.
+Tasks.csv Done.
+Test Server Simulator Address.csv Done.
+SGP.33 A.1 Generic Constants.csv Done.
+Generic Constant (SGP33v1).csv Done.
+SGP.33 A.2 Test Certs & Keys.csv Done.
+SGP.33 D Commands And Responses.csv Done.
+SGP.33 F IUT Settings.csv Done.
+SGP.33 Extra Constants.csv Done.
+Override Constants.csv Done.
+Optional Features.csv Done.
+Applicability Table v1.csv Done.
+Conditional Items.csv Done.
+--------------------------------------------------------------------------------
+              All Done.              
+--------------------------------------------------------------------------------
+output_files_list:
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\replace\Const\Questions.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\replace\Const\Tasks.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\replace\Const\Test Server Simulator Address.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\replace\Const\SGP.33 A.1 Generic Constants.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\replace\Const\Generic Constant (SGP33v1).csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\replace\Const\SGP.33 A.2 Test Certs & Keys.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\replace\Const\SGP.33 D Commands And Responses.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\replace\Const\SGP.33 F IUT Settings.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\replace\Const\SGP.33 Extra Constants.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\replace\Const\Override Constants.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\replace\Const\Optional Features.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\replace\Const\Applicability Table v1.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\replace\Const\Conditional Items.csv
+
+--------------------------------------------------------------------------------
+Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
+Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
+--------------------------------------------------------------------------------
+User Name is Pratik Jaiswal
+User Account is impra
+--------------------------------------------------------------------------------
+Time Stamp is Friday, Oct 25 2024, 20:59:00:268080, IST (GMT+0530)
+--------------------------------------------------------------------------------
+Git Summary is 5c1bf00;  (HEAD -> main, tag: v2.4.4, origin/main, origin/HEAD); 2024-10-20 22:35:18 +0530; imPratik <impratikjaiswal@gmail.com>; v2.4.4
+--------------------------------------------------------------------------------
+pythonHelpers version is v4.4.3.dev12
+--------------------------------------------------------------------------------
+excelPlay version is v2.4.5
+--------------------------------------------------------------------------------
+traverseMode:  Regex
+top:  D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0
+include_files:  (?s:.*\.xlsx)\Z
+include_dirs:  
+excludes:  $.
+- Target Folder: D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\surrogateescape\Const; Already Existed -
+---- D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\Const.xlsx ----
+out_put_path: D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\surrogateescape\Const
+Questions.csv Done.
+Tasks.csv Done.
+Test Server Simulator Address.csv Done.
+SGP.33 A.1 Generic Constants.csv Failed.
+Generic Constant (SGP33v1).csv Done.
+SGP.33 A.2 Test Certs & Keys.csv Failed.
+SGP.33 D Commands And Responses.csv Failed.
+SGP.33 F IUT Settings.csv Failed.
+SGP.33 Extra Constants.csv Done.
+Override Constants.csv Failed.
+Optional Features.csv Done.
+Applicability Table v1.csv Done.
+Conditional Items.csv Done.
+--------------------------------------------------------------------------------
+              All Done.              
+--------------------------------------------------------------------------------
+output_files_list:
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\surrogateescape\Const\Questions.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\surrogateescape\Const\Tasks.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\surrogateescape\Const\Test Server Simulator Address.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\surrogateescape\Const\SGP.33 A.1 Generic Constants.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\surrogateescape\Const\Generic Constant (SGP33v1).csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\surrogateescape\Const\SGP.33 A.2 Test Certs & Keys.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\surrogateescape\Const\SGP.33 D Commands And Responses.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\surrogateescape\Const\SGP.33 F IUT Settings.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\surrogateescape\Const\SGP.33 Extra Constants.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\surrogateescape\Const\Override Constants.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\surrogateescape\Const\Optional Features.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\surrogateescape\Const\Applicability Table v1.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\surrogateescape\Const\Conditional Items.csv
+
+--------------------------------------------------------------------------------
+Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
+Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
+--------------------------------------------------------------------------------
+User Name is Pratik Jaiswal
+User Account is impra
+--------------------------------------------------------------------------------
+Time Stamp is Friday, Oct 25 2024, 20:59:01:436255, IST (GMT+0530)
+--------------------------------------------------------------------------------
+Git Summary is 5c1bf00;  (HEAD -> main, tag: v2.4.4, origin/main, origin/HEAD); 2024-10-20 22:35:18 +0530; imPratik <impratikjaiswal@gmail.com>; v2.4.4
+--------------------------------------------------------------------------------
+pythonHelpers version is v4.4.3.dev12
+--------------------------------------------------------------------------------
+excelPlay version is v2.4.5
+--------------------------------------------------------------------------------
+traverseMode:  Regex
+top:  D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0
+include_files:  (?s:.*\.xlsx)\Z
+include_dirs:  
+excludes:  $.
+- Target Folder: D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\xmlcharrefreplace\Const; Already Existed -
+---- D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\Const.xlsx ----
+out_put_path: D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\xmlcharrefreplace\Const
+Questions.csv Done.
+Tasks.csv Done.
+Test Server Simulator Address.csv Done.
+SGP.33 A.1 Generic Constants.csv Done.
+Generic Constant (SGP33v1).csv Done.
+SGP.33 A.2 Test Certs & Keys.csv Done.
+SGP.33 D Commands And Responses.csv Done.
+SGP.33 F IUT Settings.csv Done.
+SGP.33 Extra Constants.csv Done.
+Override Constants.csv Done.
+Optional Features.csv Done.
+Applicability Table v1.csv Done.
+Conditional Items.csv Done.
+--------------------------------------------------------------------------------
+              All Done.              
+--------------------------------------------------------------------------------
+output_files_list:
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\xmlcharrefreplace\Const\Questions.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\xmlcharrefreplace\Const\Tasks.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\xmlcharrefreplace\Const\Test Server Simulator Address.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\xmlcharrefreplace\Const\SGP.33 A.1 Generic Constants.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\xmlcharrefreplace\Const\Generic Constant (SGP33v1).csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\xmlcharrefreplace\Const\SGP.33 A.2 Test Certs & Keys.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\xmlcharrefreplace\Const\SGP.33 D Commands And Responses.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\xmlcharrefreplace\Const\SGP.33 F IUT Settings.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\xmlcharrefreplace\Const\SGP.33 Extra Constants.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\xmlcharrefreplace\Const\Override Constants.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\xmlcharrefreplace\Const\Optional Features.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\xmlcharrefreplace\Const\Applicability Table v1.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\xmlcharrefreplace\Const\Conditional Items.csv
+
+--------------------------------------------------------------------------------
+Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
+Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
+--------------------------------------------------------------------------------
+User Name is Pratik Jaiswal
+User Account is impra
+--------------------------------------------------------------------------------
+Time Stamp is Friday, Oct 25 2024, 20:59:02:653903, IST (GMT+0530)
+--------------------------------------------------------------------------------
+Git Summary is 5c1bf00;  (HEAD -> main, tag: v2.4.4, origin/main, origin/HEAD); 2024-10-20 22:35:18 +0530; imPratik <impratikjaiswal@gmail.com>; v2.4.4
+--------------------------------------------------------------------------------
+pythonHelpers version is v4.4.3.dev12
+--------------------------------------------------------------------------------
+excelPlay version is v2.4.5
+--------------------------------------------------------------------------------
+traverseMode:  Regex
+top:  D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0
+include_files:  (?s:.*\.xlsx)\Z
+include_dirs:  
+excludes:  $.
+- Target Folder: D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\backslashreplace\Const; Already Existed -
+---- D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\Const.xlsx ----
+out_put_path: D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\backslashreplace\Const
+Questions.csv Done.
+Tasks.csv Done.
+Test Server Simulator Address.csv Done.
+SGP.33 A.1 Generic Constants.csv Done.
+Generic Constant (SGP33v1).csv Done.
+SGP.33 A.2 Test Certs & Keys.csv Done.
+SGP.33 D Commands And Responses.csv Done.
+SGP.33 F IUT Settings.csv Done.
+SGP.33 Extra Constants.csv Done.
+Override Constants.csv Done.
+Optional Features.csv Done.
+Applicability Table v1.csv Done.
+Conditional Items.csv Done.
+--------------------------------------------------------------------------------
+              All Done.              
+--------------------------------------------------------------------------------
+output_files_list:
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\backslashreplace\Const\Questions.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\backslashreplace\Const\Tasks.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\backslashreplace\Const\Test Server Simulator Address.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\backslashreplace\Const\SGP.33 A.1 Generic Constants.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\backslashreplace\Const\Generic Constant (SGP33v1).csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\backslashreplace\Const\SGP.33 A.2 Test Certs & Keys.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\backslashreplace\Const\SGP.33 D Commands And Responses.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\backslashreplace\Const\SGP.33 F IUT Settings.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\backslashreplace\Const\SGP.33 Extra Constants.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\backslashreplace\Const\Override Constants.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\backslashreplace\Const\Optional Features.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\backslashreplace\Const\Applicability Table v1.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\backslashreplace\Const\Conditional Items.csv
+
+--------------------------------------------------------------------------------
+Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
+Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
+--------------------------------------------------------------------------------
+User Name is Pratik Jaiswal
+User Account is impra
+--------------------------------------------------------------------------------
+Time Stamp is Friday, Oct 25 2024, 20:59:04:059955, IST (GMT+0530)
+--------------------------------------------------------------------------------
+Git Summary is 5c1bf00;  (HEAD -> main, tag: v2.4.4, origin/main, origin/HEAD); 2024-10-20 22:35:18 +0530; imPratik <impratikjaiswal@gmail.com>; v2.4.4
+--------------------------------------------------------------------------------
+pythonHelpers version is v4.4.3.dev12
+--------------------------------------------------------------------------------
+excelPlay version is v2.4.5
+--------------------------------------------------------------------------------
+traverseMode:  Regex
+top:  D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0
+include_files:  (?s:.*\.xlsx)\Z
+include_dirs:  
+excludes:  $.
+- Target Folder: D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\namereplace\Const; Already Existed -
+---- D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\Const.xlsx ----
+out_put_path: D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\namereplace\Const
+Questions.csv Done.
+Tasks.csv Done.
+Test Server Simulator Address.csv Done.
+SGP.33 A.1 Generic Constants.csv Done.
+Generic Constant (SGP33v1).csv Done.
+SGP.33 A.2 Test Certs & Keys.csv Done.
+SGP.33 D Commands And Responses.csv Done.
+SGP.33 F IUT Settings.csv Done.
+SGP.33 Extra Constants.csv Done.
+Override Constants.csv Done.
+Optional Features.csv Done.
+Applicability Table v1.csv Done.
+Conditional Items.csv Done.
+--------------------------------------------------------------------------------
+              All Done.              
+--------------------------------------------------------------------------------
+output_files_list:
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\namereplace\Const\Questions.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\namereplace\Const\Tasks.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\namereplace\Const\Test Server Simulator Address.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\namereplace\Const\SGP.33 A.1 Generic Constants.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\namereplace\Const\Generic Constant (SGP33v1).csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\namereplace\Const\SGP.33 A.2 Test Certs & Keys.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\namereplace\Const\SGP.33 D Commands And Responses.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\namereplace\Const\SGP.33 F IUT Settings.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\namereplace\Const\SGP.33 Extra Constants.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\namereplace\Const\Override Constants.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\namereplace\Const\Optional Features.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\namereplace\Const\Applicability Table v1.csv
+D:\Other\Github_Self\excelPlay\test\logs\TC_encoding_ascii_0\namereplace\Const\Conditional Items.csv
+
+------------------------------------------------ with out any parameters -----------------------------------------------
+Usage: test_excelPlay.py [OPTIONS] [INPUT_FILE_OR_FOLDER]...
+
+  :param input_file_or_folder: :param target_file_format: :param
+  output_parent_folder: :param output_archive_format: :param output_encoding:
+  :param output_encoding_error_handling: :return:
+
+Options:
+  -f, --target_file_format [csv|xlsx]
+                                  csv is Default
+  -o, --output_parent_folder TEXT
+                                  Output Parent Folder path
+  -a, --output_archive_format [zip]
+                                  Archive Format (if Archive/Single File is
+                                  needed); zip is Default
+  -e, --output_encoding [ascii|utf-8|ISO-8859-1|cp1252]
+                                  Output Data Encoding; utf-8 is Default
+  -ee, --output_encoding_error_handling [strict|ignore|replace|surrogateescape|xmlcharrefreplace|backslashreplace|namereplace]
+                                  Output Data Encoding Error Handling; ignore
+                                  is Default
+  -h, --help                      Show this message and exit.

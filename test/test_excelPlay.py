@@ -1,8 +1,9 @@
 import os
 
+from python_helpers.ph_constants import PhConstants
 from python_helpers.ph_util import PhUtil
 
-from excel_play.main.excelPlay import process_input
+from excel_play.main.excelPlay import process_input, cli
 from excel_play.main.helper.formats import Formats
 
 input_items_list_w_output_folder = [
@@ -22,6 +23,10 @@ input_items_list_wo_output_folder = [
 input_items_list_zip = [
     f"{os.sep.join([PhUtil.path_default_log_folder, 'TC_zip_0'])}",
     f"{os.sep.join([PhUtil.path_default_log_folder, 'TC_zip_1'])}",
+]
+
+input_items_list_encoding_ascii = [
+    f"{os.sep.join([PhUtil.path_default_log_folder, 'TC_encoding_ascii_0'])}",
 ]
 
 
@@ -47,8 +52,23 @@ def main():
         PhUtil.print_iter(output_files_list, header='output_files_list')
 
     PhUtil.print_heading(str_heading='input_items_list_multi')
-    output_files_list = process_input(input_file_or_folder=input_items_list_w_output_folder, output_archive_format=Formats.ZIP)
+    output_files_list = process_input(input_file_or_folder=input_items_list_w_output_folder,
+                                      output_archive_format=Formats.ZIP)
     PhUtil.print_iter(output_files_list, header='output_files_list')
+
+    PhUtil.print_heading(str_heading='input_items_list_encoding')
+    for index, input_item in enumerate(input_items_list_encoding_ascii):
+        for encoding_error_handling in PhConstants.STR_ENCODING_ERROR_HANDLING_POOL:
+            output_folder = os.sep.join([input_item, encoding_error_handling])
+            output_files_list = process_input(input_file_or_folder=input_item, output_parent_folder=output_folder,
+                                              output_encoding=PhConstants.STR_ENCODING_FORMAT_ASCII,
+                                              output_encoding_error_handling=encoding_error_handling)
+            PhUtil.print_iter(output_files_list, header='output_files_list')
+
+    # Must be in last
+    PhUtil.print_heading(str_heading='with out any parameters')
+    cli()
+
 
 if __name__ == '__main__':
     main()
