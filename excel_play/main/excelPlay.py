@@ -3,6 +3,7 @@ import os
 import click
 import pandas as pd
 from python_helpers.ph_constants import PhConstants
+from python_helpers.ph_keys import PhKeys
 from python_helpers.ph_util import PhUtil
 
 from excel_play.main.helper.constants_config import ConfigConst
@@ -120,13 +121,13 @@ def process_input(input_file_or_folder, target_file_format=Defaults.DEFAULT_FORM
 @click.option('-a', '--output_archive_format', type=click.Choice(Formats.SUPPORTED_ARCHIVE_FORMATS),
               default=Defaults.DEFAULT_ARCHIVE_FORMAT,
               help=f'Archive Format (if Archive/Single File is needed); {Defaults.DEFAULT_ARCHIVE_FORMAT} is Default')
-@click.option('-e', '--output_encoding', type=click.Choice(PhConstants.STR_ENCODING_FORMAT_POOL),
+@click.option('-e', f'--{PhKeys.OUTPUT_ENCODING}', type=click.Choice(PhConstants.STR_ENCODING_FORMAT_POOL),
               default=Defaults.DEFAULT_ENCODING_FORMAT,
               help=f'Output Data Encoding; {Defaults.DEFAULT_ENCODING_FORMAT} is Default')
-@click.option('-ee', '--output_encoding_error_handling',
+@click.option('-ee', f'--{PhKeys.OUTPUT_ENCODING_ERRORS}',
               type=click.Choice(PhConstants.STR_ENCODING_ERROR_HANDLING_POOL),
               default=Defaults.DEFAULT_ENCODING_ERROR_HANDLING,
-              help=f'Output Data Encoding Error Handling; {Defaults.DEFAULT_ENCODING_ERROR_HANDLING} is Default')
+              help=f'Output Data Encoding Errors Handling; {Defaults.DEFAULT_ENCODING_ERROR_HANDLING} is Default')
 def cli(input_file_or_folder, target_file_format, output_parent_folder, output_archive_format, output_encoding,
         output_encoding_error_handling):
     """
