@@ -1,149 +1,205 @@
-import os
-
 import click
-import pandas as pd
+import sys
 from python_helpers.ph_constants import PhConstants
+from python_helpers.ph_file_extensions import PhFileExtensionsGroups
 from python_helpers.ph_keys import PhKeys
+from python_helpers.ph_modes_error_handling import PhErrorHandlingModes
+from python_helpers.ph_modes_execution import PhExecutionModes
+from python_helpers.ph_time import PhTime
 from python_helpers.ph_util import PhUtil
 
+from excel_play.main.convert.converter import read_web_request
+from excel_play.main.data_type.data_type_master import DataTypeMaster
+from excel_play.main.data_type.dev import Dev
+from excel_play.main.data_type.sample import Sample
+from excel_play.main.data_type.unit_testing import UnitTesting
+from excel_play.main.data_type.user_data import UserData
 from excel_play.main.helper.constants_config import ConfigConst
 from excel_play.main.helper.defaults import Defaults
-from excel_play.main.helper.formats import Formats
+from excel_play.main.helper.formats_group import FormatsGroup
+from excel_play.test.test import Test
 
 CONTEXT_SETTINGS = dict(help_option_names=['-h', '--help'])
 
-
-def process_files(files_list, target_file_format, output_parent_folder, output_archive_format, output_encoding,
-                  output_encoding_error_handling):
-    output_files_list = []
-    for file_path in files_list:
-        folder_path = PhUtil.get_file_name_and_extn(file_path=file_path, path_with_out_extn=True)
-        folder_path = PhUtil.append_in_file_name(str_file_path=folder_path, str_append=ConfigConst.TOOL_NAME,
-                                                 file_path_is_dir=True, treat_folder_as_file=True)
-        file_name = PhUtil.get_file_name_and_extn(file_path=file_path, name_with_out_extn=True)
-        if output_parent_folder:
-            folder_path = os.sep.join([output_parent_folder, file_name])
-        PhUtil.makedirs(folder_path)
-        df1 = pd.ExcelFile(file_path)
-        PhUtil.print_separator(main_text=file_path)
-        print(f'out_put_path: {folder_path}')
-        output_files_list_single_file = []
-        for x in df1.sheet_names:
-            df2 = pd.read_excel(file_path, sheet_name=x, dtype='str', na_filter=False)
-            filename = os.path.join(folder_path, x + '.' + target_file_format)
-            status = 'Done.'
-            try:
-                if target_file_format == Formats.CSV:
-                    df2.to_csv(filename, index=False, encoding=output_encoding, errors=output_encoding_error_handling)
-                else:
-                    df2.to_excel(filename, index=False)
-            except Exception as e:
-                status = 'Failed.'
-            output_files_list_single_file.append(filename)
-            print(f'{x}.{target_file_format} {status}')
-        if output_archive_format:
-            if output_archive_format == Formats.ZIP:
-                zip_file_path = PhUtil.zip_and_clean_dir(source_files_dir=folder_path,
-                                                         delete_dir_after_zip=False,
-                                                         export_hash=False)
-            output_files_list_single_file = [zip_file_path]
-            output_files_list += output_files_list_single_file
-        else:
-            output_files_list += output_files_list_single_file
-    return output_files_list
+"""
+Global Variables
+"""
+data_cli = None
+execution_mode = None
+error_handling_mode = None
 
 
-def get_sheets(input_files_or_folders, target_file_format, output_parent_folder=None, output_archive_format=None,
-               output_encoding=None, output_encoding_error_handling=None):
+def process_data():
     """
 
-    :param input_files_or_folders:
-    :param target_file_format:
-    :param output_parent_folder:
-    :param output_archive_format:
-    :param output_encoding:
-    :param output_encoding_error_handling:
     :return:
     """
-    output_files_or_folders = []
-    multiple_files = True if (
-        # CUI Multi
-            isinstance(input_files_or_folders, tuple)
-            or
-            # Web App Multi
-            isinstance(input_files_or_folders, list)
-    ) else False
-    if not multiple_files:
-        input_files_or_folders = [input_files_or_folders]
-    output_encoding = PhUtil.set_if_empty(output_encoding, Defaults.DEFAULT_ENCODING_FORMAT)
-    output_encoding_error_handling = PhUtil.set_if_empty(output_encoding_error_handling,
-                                                         Defaults.DEFAULT_ENCODING_ERROR_HANDLING)
-    for input_file_or_folder in input_files_or_folders:
-        if not os.path.exists(input_file_or_folder):
-            raise FileNotFoundError(f'Invalid Path: {input_file_or_folder}')
-        is_dir = True if os.path.isdir(input_file_or_folder) else False
-        include_files = [item for item in Formats.SUPPORTED_FORMATS if item not in [target_file_format]]
-        include_files = [f'*.{item}' for item in include_files]
-        if is_dir:
-            files_list = PhUtil.traverse_it(top=input_file_or_folder, include_files=include_files)
-        else:
-            files_list = [input_file_or_folder]
-        output_parent_folder = PhUtil.set_if_none(output_parent_folder)
-        output_file_or_folder = process_files(
-            files_list=files_list,
-            target_file_format=target_file_format,
-            output_parent_folder=output_parent_folder,
-            output_archive_format=output_archive_format,
-            output_encoding=output_encoding,
-            output_encoding_error_handling=output_encoding_error_handling
-        )
-        output_files_or_folders = output_files_or_folders + output_file_or_folder
-    PhUtil.print_done()
-    return output_files_or_folders
+    global execution_mode, error_handling_mode, data_cli
+    data_type_user = [
+        #####
+        # Empty class for user usage
+        ####
+        UserData(),
+    ]
+    data_type_dev = [
+        #####
+        # class for dev
+        #####
+        Dev(),
+    ]
+    data_types_sample_generic = [
+        #####
+        # Sample With Plenty vivid Examples
+        #####
+    ]
+    data_types_samples = [
+        #####
+        # Sample With Plenty vivid Examples; Single as well as Bulk
+        #####
+        Sample(),
+    ]
+    data_types_sample_specific = [
+    ]
+    data_type_unit_testing = [
+        #####
+        # Unit Testing
+        #####
+        UnitTesting(),
+    ]
+    data_type_unit_testing_external = [
+        #####
+        # Unit Testing External
+        #####
+        Test(),
+    ]
+
+    data_types_pool = {
+        PhExecutionModes.USER: data_type_user,
+        PhExecutionModes.SAMPLES_LIST: data_types_samples,
+        PhExecutionModes.SAMPLE_GENERIC: data_types_sample_generic,
+        PhExecutionModes.SAMPLE_SPECIFIC: data_types_sample_specific,
+        PhExecutionModes.UNIT_TESTING: data_type_unit_testing,
+        PhExecutionModes.UNIT_TESTING_EXTERNAL: data_type_unit_testing_external,
+        PhExecutionModes.DEV: data_type_dev,
+        PhExecutionModes.ALL: data_type_user +
+                              data_types_samples +
+                              data_types_sample_generic +
+                              data_types_sample_specific +
+                              data_type_unit_testing +
+                              data_type_unit_testing_external +
+                              data_type_dev,
+    }
+    data_types = data_types_pool.get(execution_mode, Defaults.EXECUTION_MODE)
+    if data_cli:
+        data_typ = DataTypeMaster()
+        data_typ.set_data_pool(data_pool=[data_cli])
+        data_types = [data_typ]
+    for data_type in data_types:
+        PhUtil.print_heading(str_heading=str(data_type.__class__.__name__))
+        # if isinstance(data_type, UnitTesting):
+        #     error_handling_mode = PhErrorHandlingModes.CONTINUE_ON_ERROR
+        # if isinstance(data_type, Dev):
+        #     error_handling_mode = PhErrorHandlingModes.STOP_ON_ERROR
+        if isinstance(data_type, Test):
+            Test.test_all()
+            continue
+        if isinstance(data_type, Sample):
+            # Validate & Print Sample Data For Web
+            PhUtil.print_iter(Sample().get_sample_data_pool_for_web(), header='Sample Data')
+        if not data_cli:
+            data_type.set_print_input()
+            data_type.set_print_output()
+            data_type.set_print_info()
+            data_type.set_quiet_mode()
+            data_type.set_remarks()
+            data_type.set_encoding()
+            data_type.set_encoding_errors()
+            data_type.set_archive_output()
+            data_type.set_archive_output_format()
+            #
+            data_type.set_output_format()
+            data_type.set_output_path()
+            #
+            data_type.set_data_pool()
+        DataTypeMaster.process_safe(data_type, error_handling_mode)
 
 
-def process_input(input_file_or_folder, target_file_format=Defaults.DEFAULT_FORMAT, output_parent_folder=None,
-                  output_archive_format=None, print_version=True, output_encoding=None,
-                  output_encoding_error_handling=None):
-    if print_version is True:
-        # Print Versions
-        PhUtil.print_version(ConfigConst.TOOL_NAME, ConfigConst.TOOL_VERSION)
-    return get_sheets(input_files_or_folders=input_file_or_folder, target_file_format=target_file_format,
-                      output_parent_folder=output_parent_folder, output_archive_format=output_archive_format,
-                      output_encoding=output_encoding, output_encoding_error_handling=output_encoding_error_handling)
-
-
-@click.command(context_settings=CONTEXT_SETTINGS, no_args_is_help=True)
-@click.argument('input_file_or_folder', nargs=-1)
-@click.option('-f', '--target_file_format', type=click.Choice(Formats.SUPPORTED_FORMATS),
-              default=Defaults.DEFAULT_FORMAT, help=f'{Defaults.DEFAULT_FORMAT} is Default')
-@click.option('-o', '--output_parent_folder', help='Output Parent Folder path')
-@click.option('-a', '--output_archive_format', type=click.Choice(Formats.SUPPORTED_ARCHIVE_FORMATS),
-              default=Defaults.DEFAULT_ARCHIVE_FORMAT,
-              help=f'Archive Format (if Archive/Single File is needed); {Defaults.DEFAULT_ARCHIVE_FORMAT} is Default')
-@click.option('-e', f'--{PhKeys.OUTPUT_ENCODING}', type=click.Choice(PhConstants.STR_ENCODING_FORMAT_POOL),
-              default=Defaults.DEFAULT_ENCODING_FORMAT,
-              help=f'Output Data Encoding; {Defaults.DEFAULT_ENCODING_FORMAT} is Default')
-@click.option('-ee', f'--{PhKeys.OUTPUT_ENCODING_ERRORS}',
-              type=click.Choice(PhConstants.STR_ENCODING_ERROR_HANDLING_POOL),
-              default=Defaults.DEFAULT_ENCODING_ERROR_HANDLING,
-              help=f'Output Data Encoding Errors Handling; {Defaults.DEFAULT_ENCODING_ERROR_HANDLING} is Default')
-def cli(input_file_or_folder, target_file_format, output_parent_folder, output_archive_format, output_encoding,
-        output_encoding_error_handling):
+def set_configurations():
     """
 
-    :param input_file_or_folder:
-    :param target_file_format:
-    :param output_parent_folder:
-    :param output_archive_format:
-    :param output_encoding:
-    :param output_encoding_error_handling:
     :return:
     """
-    process_input(input_file_or_folder=input_file_or_folder, target_file_format=target_file_format,
-                  output_parent_folder=output_parent_folder, print_version=False,
-                  output_archive_format=output_archive_format, output_encoding=output_encoding,
-                  output_encoding_error_handling=output_encoding_error_handling)
+    global execution_mode, error_handling_mode
+    """
+    Set Execution Mode, First time users can try #PhExecutionModes.SAMPLE_GENERIC
+    """
+    execution_mode = PhExecutionModes.USER
+    error_handling_mode = PhErrorHandlingModes.CONTINUE_ON_ERROR
+
+
+def print_configurations():
+    # Print Versions
+    PhUtil.print_version(ConfigConst.TOOL_NAME, ConfigConst.TOOL_VERSION)
+
+
+@click.command(
+    # context_settings=CONTEXT_SETTINGS, no_args_is_help=True
+)
+@click.argument(
+    PhKeys.INPUT_DATA,
+    nargs=-1
+    # help=PhUtil.get_help_for_param(f'File Path(s), Dir Paths(s)')
+)
+@click.option(
+    '-o',
+    f'--{PhKeys.OUTPUT_PATH}',
+    help=PhUtil.get_help_for_param('Output Path')
+)
+@click.option(
+    '-a',
+    f'--{PhKeys.ARCHIVE_OUTPUT}',
+    is_flag=True,
+    show_default=True,
+    default=Defaults.ARCHIVE_OUTPUT,
+    help=PhUtil.get_help_for_param('Archive/Single File is needed?', default_value=Defaults.ARCHIVE_OUTPUT)
+)
+@click.option(
+    '-f',
+    f'--{PhKeys.OUTPUT_FORMAT}',
+    type=click.Choice(FormatsGroup.FILE_FORMATS_SUPPORTED),
+    default=Defaults.OUTPUT_FORMAT,
+    help=PhUtil.get_help_for_param(default_value=Defaults.OUTPUT_FORMAT)
+)
+@click.option(
+    '-ff',
+    f'--{PhKeys.ARCHIVE_OUTPUT_FORMAT}',
+    type=click.Choice(PhFileExtensionsGroups.ARCHIVE_OUTPUT_FORMATS_SUPPORTED),
+    default=Defaults.ARCHIVE_OUTPUT_FORMAT,
+    help=PhUtil.get_help_for_param(f'Output Archive Format (if Archive/Single File is needed?)',
+                                   default_value=Defaults.ARCHIVE_OUTPUT_FORMAT),
+)
+@click.option(
+    '-e',
+    f'--{PhKeys.ENCODING}',
+    type=click.Choice(PhConstants.CHAR_ENCODING_POOL),
+    default=Defaults.ENCODING,
+    help=PhUtil.get_help_for_param(f'Output Data Encoding', default_value=Defaults.ENCODING)
+)
+@click.option(
+    '-ee',
+    f'--{PhKeys.ENCODING_ERRORS}',
+    type=click.Choice(PhConstants.CHAR_ENCODING_ERRORS_POOL),
+    default=Defaults.ENCODING_ERRORS,
+    help=PhUtil.get_help_for_param('Output Data Encoding Errors', default_value=Defaults.ENCODING_ERRORS)
+)
+def handle_args(**kwargs):
+    """
+
+    :param kwargs:
+    :return:
+    """
+    global data_cli
+    data_cli = read_web_request(kwargs)
 
 
 def main():
@@ -151,10 +207,38 @@ def main():
 
     :return:
     """
-    # Print Versions
-    PhUtil.print_version(ConfigConst.TOOL_NAME, ConfigConst.TOOL_VERSION)
-    # Process Data
-    cli()
+    """
+    Time Object
+    """
+    ph_time_obj = PhTime()
+    ph_time_obj.start()
+    """
+    Handle Args
+    """
+    if len(sys.argv) > 1:
+        standalone_mode = False
+        # callback is not received for '--help', so handle differently
+        if sys.argv[1] == '--help':
+            # Print Configurations
+            print_configurations()
+            standalone_mode = True
+        handle_args(standalone_mode=standalone_mode)
+    """
+    Configurations
+    """
+    # Do Configurations, as per your Need
+    set_configurations()
+    # Print Configurations
+    print_configurations()
+    """
+    Process
+    """
+    process_data()
+    """
+    Wrap up, All Done
+    """
+    ph_time_obj.stop()
+    ph_time_obj.print()
     PhUtil.print_done()
 
 

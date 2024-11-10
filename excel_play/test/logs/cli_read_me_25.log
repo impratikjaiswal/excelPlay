@@ -1,0 +1,34 @@
+--------------------------------------------------------------------------------
+Python version is v3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]
+Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
+--------------------------------------------------------------------------------
+User Name is Pratik Jaiswal
+User Account is impra
+--------------------------------------------------------------------------------
+Time Stamp is Monday, Nov 11 2024, 00:17:29:802308, IST (GMT+0530)
+--------------------------------------------------------------------------------
+Git Summary is 566c244;  (HEAD -> main, tag: v2.4.6, origin/main, origin/HEAD); 2024-10-31 20:59:48 +0530; imPratik <impratikjaiswal@gmail.com>; variable names corrections
+--------------------------------------------------------------------------------
+pythonHelpers version is v5.0.0
+--------------------------------------------------------------------------------
+excelPlay version is v2.5.0
+--------------------------------------------------------------------------------
+Usage: python -m excel_play.main.excelplay [OPTIONS] [INPUT_DATA]...
+
+  :param kwargs: :return:
+
+Options:
+  -o, --output_path TEXT          Output Path
+  -a, --archive_output            Archive/Single File is needed?; True is
+                                  Default  [default: True]
+  -f, --output_format [.csv|.xlsx]
+                                  .csv is Default
+  -ff, --archive_output_format [.zip]
+                                  Output Archive Format (if Archive/Single
+                                  File is needed?); .zip is Default
+  -e, --encoding [ascii|utf-8|ISO-8859-1|cp1252]
+                                  Output Data Encoding; utf-8 is Default
+  -ee, --encoding_errors [strict|ignore|replace|surrogateescape|xmlcharrefreplace|backslashreplace|namereplace]
+                                  Output Data Encoding Errors; replace is
+                                  Default
+  --help                          Show this message and exit.
