@@ -1,7 +1,7 @@
-from python_helpers.ph_file_extensions import PhFileExtensions
+from python_helpers.ph_formats import PhFormats
 
 
 class Formats:
-    CSV = PhFileExtensions.CSV
-    XLSX = PhFileExtensions.XLSX
-    ZIP = PhFileExtensions.ZIP
+    CSV = PhFormats.CSV
+    XLSX = PhFormats.XLSX
+    ZIP = PhFormats.ZIP

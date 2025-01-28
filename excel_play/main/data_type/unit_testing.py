@@ -10,6 +10,9 @@ from excel_play.main.helper.formats import Formats
 
 class UnitTesting(DataTypeMaster):
 
+    def __init__(self):
+        super().__init__()
+
     def set_print_input(self):
         print_input = None
         super().set_print_input(print_input)
@@ -38,6 +41,14 @@ class UnitTesting(DataTypeMaster):
         encoding_errors = None
         super().set_encoding_errors(encoding_errors)
 
+    def set_output_path(self):
+        output_path = None
+        super().set_output_path(output_path)
+
+    def set_output_file_name_keyword(self):
+        output_file_name_keyword = None
+        super().set_output_file_name_keyword(output_file_name_keyword)
+
     def set_archive_output(self):
         archive_output = None
         super().set_archive_output(archive_output)
@@ -50,18 +61,14 @@ class UnitTesting(DataTypeMaster):
         output_format = None
         super().set_output_format(output_format)
 
-    def set_output_path(self):
-        output_path = None
-        super().set_output_path(output_path)
-
     def set_data_pool(self):
         input_items_list_w_output_folder = [
             Folders.in_sample('Excel Worksheet1.xlsx'),
             Folders.in_sample(),
-            r'D:\Other\Github_Self\excelPlay\data\SampleData\Excel Worksheet1.xlsx',
-            r'D:\Other\Github_Self\excelPlay\data\SampleData',
-            r'D:\\Other\\Github_Self\\excelPlay\\data\\SampleData\\Excel Worksheet1.xlsx',
-            r'D:/Other/Github_Self/excelPlay/data/SampleData/Excel Worksheet1.xlsx',
+            r'D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx',
+            r'D:\Other\Github_Self\excelPlay\data\sample_data',
+            r'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx',
+            r'D:/Other/Github_Self/excelPlay/data/sample_data/Excel Worksheet1.xlsx',
         ]
 
         input_items_list_wo_output_folder = [
@@ -145,8 +152,11 @@ class UnitTesting(DataTypeMaster):
             Data(input_data='xyz', remarks='invalid path')
             #
         ]
+        #
         super().set_data_pool(
-            data_pool_input_items_list_w_output_folder
+            data_pool_positive
+
+            + data_pool_input_items_list_w_output_folder
             + data_pool_input_items_list_wo_output_folder
             + data_pool_input_items_list_zip
             + data_pool_input_items_list_multi
@@ -154,6 +164,5 @@ class UnitTesting(DataTypeMaster):
             + data_pool_input_items_list_multi_w_output_folder
             + data_pool_input_items_tuple_multi_w_output_folder
             + data_pool_input_items_list_encoding
-            + data_pool_positive
             + data_pool_negative
         )

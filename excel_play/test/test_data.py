@@ -23,6 +23,10 @@ class TestData:
             {
                 PhKeys.VAR_EXECUTION_MODE: 'DEV',
             },
+        PhExecutionModes.KNOWN_ISSUES:
+            {
+                PhKeys.VAR_EXECUTION_MODE: 'KNOWN_ISSUES',
+            },
         PhExecutionModes.UNIT_TESTING_EXTERNAL:
             {
                 PhKeys.VAR_EXECUTION_MODE: 'UNIT_TESTING_EXTERNAL',
@@ -51,23 +55,23 @@ class TestData:
             },
         'input_file_1':
             {
-                PhKeys.BATCH_PARAMS: 'D:\Other\Github_Self\excelPlay\data\sampleData\Excel Worksheet2.xlsx',
+                PhKeys.BATCH_PARAMS: 'D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx',
             },
         'input_file_2':
             {
-                PhKeys.BATCH_PARAMS: r'"D:\Other\Github_Self\excelPlay\data\sampleData\Excel Worksheet2.xlsx"',
+                PhKeys.BATCH_PARAMS: r'"D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx"',
             },
     }
 
     read_me_cli_pool = [
         "file_path",
-        "data\sampleData\Excel Worksheet1.xlsx",
-        "data\sampleData\Excel Worksheet1.xlsx" "data\sampleData\Excel Worksheet2.xlsx",
-        "data\sampleData",
-        "D:\Other\Github_Self\excelPlay\data\sampleData\Excel Worksheet1.xlsx",
-        "D:\Other\Github_Self\excelPlay\data\sampleData",
-        "D:\\Other\\Github_Self\\excelPlay\\data\sampleData\\Excel Worksheet1.xlsx",
-        "D:/Other/Github_Self/excelPlay/data/sampleData/Excel Worksheet1.xlsx",
+        "data\sample_data\Excel Worksheet1.xlsx",
+        "data\sample_data\Excel Worksheet1.xlsx" "data\sample_data\Excel Worksheet2.xlsx",
+        "data\sample_data",
+        "D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx",
+        "D:\Other\Github_Self\excelPlay\data\sample_data",
+        "D:\\Other\\Github_Self\\excelPlay\\data\sample_data\\Excel Worksheet1.xlsx",
+        "D:/Other/Github_Self/excelPlay/data/sample_data/Excel Worksheet1.xlsx",
         "file_path",
         "dir_path",
         "file_path -f .csv",
@@ -91,7 +95,7 @@ class TestData:
     @classmethod
     def get_test_data(cls, key):
         dynamic_data = cls.dynamic_data.get(key, PhConstants.DICT_EMPTY)
-        key_name = PhExecutionModes.get_key_name(key) if key in PhExecutionModes.KEYS_NAME else key
+        key_name = PhExecutionModes.get_key_name(key)
         for temp_key in cls.default_data:
             if temp_key not in dynamic_data:
                 dynamic_data[temp_key] = cls.default_data[temp_key]

@@ -3,6 +3,7 @@ import os
 from python_helpers.ph_constants import PhConstants
 from python_helpers.ph_dos import PhDos
 from python_helpers.ph_keys import PhKeys
+from python_helpers.ph_modes_execution import PhExecutionModes
 from python_helpers.ph_process import PhProcess
 from python_helpers.ph_util import PhUtil
 
@@ -12,6 +13,8 @@ from excel_play.test.test_data import TestData
 
 
 class TestAutoBatch:
+    white_listed_tcs = None
+
     PROJECT_PATH = r'D:\Other\Github_Self\excelPlay'
 
     get_file_path_mapping_relative = {
@@ -62,7 +65,7 @@ class TestAutoBatch:
             PhKeys.VAR_EXECUTION_MODE,
             PhKeys.VAR_ERROR_HANDLING_MODE,
             PhKeys.VAR_TOP_FOLDER_PATH,
-            PhKeys.IMAGE_FORMAT,
+            PhKeys.OUTPUT_FORMAT,
         ]
         for target_key in target_keys:
             if target_key not in test_case_data:
@@ -98,6 +101,7 @@ class TestAutoBatch:
             PhDos.get_seperator(test_case_data.get(PhKeys.TEST_CASE_ID)),
             PhDos.change_directory_parent(),
             PhDos.change_directory_parent(),
+            PhDos.create_directory(file_path=log_file_path),
             PhDos.call_script_for_env_handling(True),
             PhConstants.SEPERATOR_TWO_WORDS.join(filter(None, [
                 PhDos.run_python(module_name=MODULE_NAME),
@@ -113,6 +117,15 @@ class TestAutoBatch:
             content = PhUtil.normalise_list(executable_script)
             my_file.write('\n'.join(content))
         PhProcess.run_batch_file(batch_file_path)
+
+    @classmethod
+    def tc_is_not_whitelisted(cls, key):
+        if TestAutoBatch.white_listed_tcs is None or len(TestAutoBatch.white_listed_tcs) == 0:
+            return False
+        key_name = PhExecutionModes.get_key_name(key)
+        if key_name in TestAutoBatch.white_listed_tcs:
+            return False
+        return True
 
     @classmethod
     def test(cls, test_case_data, default_batch_data=None):
@@ -152,6 +165,8 @@ class TestAutoBatch:
         Non CLI Tests
         """
         for index, key in enumerate(TestData.dynamic_data.keys()):
+            if cls.tc_is_not_whitelisted(key):
+                continue
             test_case_data = TestData.get_test_data(key=key)
             common_data = PhUtil.to_list(PhDos.echo(f'Iteration {index + 1}', wrap_up=True))
             common_data.extend(PhDos.common_info())
@@ -161,6 +176,8 @@ class TestAutoBatch:
         """
         TestData.generate_dynamic_cli_from_read_me()
         for index, key in enumerate(TestData.dynamic_data_cli.keys()):
+            if cls.tc_is_not_whitelisted(key):
+                continue
             test_case_data = TestData.get_test_data_cli(key=key)
             common_data = PhUtil.to_list(PhDos.echo(f'Iteration {index + 1}', wrap_up=True))
             common_data.extend(PhDos.common_info())
@@ -168,6 +185,14 @@ class TestAutoBatch:
 
 
 def main():
+    """
+
+    :return:
+    """
+    TestAutoBatch.white_listed_tcs = [
+        # PhExecutionModes.ALL,
+        # unit_testing',
+    ]
     TestAutoBatch.test_all()
 
 

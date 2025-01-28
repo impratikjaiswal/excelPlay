@@ -1,29 +1,7 @@
-from collections import OrderedDict
-
-from python_helpers.ph_util import PhUtil
-
 from excel_play.main.data_type.data_type_master import DataTypeMaster
-from excel_play.main.helper.data import Data
 
 
-# Data has to be declared in global, so that it can be used by other classes
-
-class Sample(DataTypeMaster):
-
-    def get_sample_data_pool_for_web(self):
-        if not self.data_pool:
-            self.set_data_pool()
-        sample_data_dic = OrderedDict()
-        for data in self.data_pool:
-            remarks = data.remarks
-            remarks = PhUtil.to_list(remarks, all_str=True, trim_data=True)
-            if len(remarks) < 1:
-                raise ValueError("Remarks should not be empty")
-            key, data.data_group = PhUtil.generate_key_and_data_group(remarks)
-            if key in sample_data_dic:
-                raise ValueError(f'Duplicate Sample Remarks: {key}')
-            sample_data_dic.update({key: super().to_dic(data)})
-        return sample_data_dic
+class KnownIssues(DataTypeMaster):
 
     def __init__(self):
         super().__init__()
@@ -77,12 +55,14 @@ class Sample(DataTypeMaster):
         super().set_output_format(output_format)
 
     def set_data_pool(self):
-        data_pool = [
-            #
-            Data(
-                remarks='Sample Excel Worksheet1.xlsx',
-                input_data=Folders.in_sample('SampleData.xlsx'),
-            ),
+        data_pool_high_priority = [
             #
         ]
-        super().set_data_pool(data_pool)
+
+        data_pool_low_priority = [
+            #
+        ]
+        super().set_data_pool(
+            data_pool_high_priority
+            + data_pool_low_priority
+        )

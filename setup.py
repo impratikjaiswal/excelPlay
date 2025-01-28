@@ -17,11 +17,11 @@ if not packages:
 print(f'Packages are {packages}')
 # potential dependencies
 install_reqs = [
-    'fsspec',
-    'openpyxl',	
     'incremental',
     'click',
     'twisted',
+    'fsspec',
+    'openpyxl',
 ]
 
 setup_reqs = [
@@ -38,17 +38,17 @@ setup(
     name=ConfigConst.TOOL_NAME,
     author="Pratik Jaiswal",
     author_email="impratikjaiswal@gmail.com",
-    description="Excel, CSV Export.",
+    description=ConfigConst.TOOL_DESCRIPTION,
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/impratikjaiswal/excelPlay",
+    url=ConfigConst.TOOL_URL,
     project_urls={
-        "Bug Tracker": "https://github.com/impratikjaiswal/excelPlay/issues",
+        "Bug Tracker": ConfigConst.TOOL_URL_BUG_TRACKER,
     },
-    keywords="Excel CSV Export",
-    license="MIT",
+    keywords=ConfigConst.TOOL_META_KEYWORDS,
+    license="GNU GENERAL PUBLIC LICENSE v3.0",
     python_requires=">=3.9",
     packages=packages,
-    install_requires=install_reqs
+    install_requires=install_reqs,
     # test_suite="test.sample_package",
 )

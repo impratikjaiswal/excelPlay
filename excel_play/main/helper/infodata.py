@@ -8,7 +8,6 @@ class InfoData:
             self.info.extend(info)
         else:
             self.info.append(info)
-        # self.info = PhUtil.to_list(info, trim_data=True, all_str=True)
 
     def get_info_list(self):
         return self.info

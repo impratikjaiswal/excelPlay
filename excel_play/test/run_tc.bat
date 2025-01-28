@@ -17,6 +17,7 @@ echo "cli_read_me_25"
 
 cd ..
 cd ..
+if not exist "excel_play/test/logs/" MD "excel_play/test/logs/"
 cd scripts
 call activate_vir_env.bat
 cd ..
