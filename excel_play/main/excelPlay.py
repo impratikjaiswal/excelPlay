@@ -159,7 +159,7 @@ def process_data():
 @click.option(
     '-f',
     f'--{PhKeys.OUTPUT_FORMAT}',
-    type=click.Choice(FormatsGroup.FILE_FORMATS_SUPPORTED),
+    type=click.Choice(FormatsGroup.OUTPUT_FORMATS_SUPPORTED),
     default=Defaults.OUTPUT_FORMAT,
     help=PhUtil.get_help_for_param(default_value=Defaults.OUTPUT_FORMAT)
 )

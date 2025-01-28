@@ -68,7 +68,6 @@ def process_all_data_types(data, meta_data=None, info_data=None):
     Dir Handling (Bulk Mode)
     """
     if data.input_data and isinstance(data.input_data, str) and os.path.isdir(os.path.abspath(data.input_data)):
-        # XXX: path should be string, bytes or os.PathLike; throwing error during full testing
         # directory is provided
         meta_data.input_mode_key = PhKeys.INPUT_DIR
         data.append_input_modes_hierarchy(meta_data.input_mode_key)

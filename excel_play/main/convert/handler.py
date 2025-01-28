@@ -37,7 +37,6 @@ def handle_data(data, meta_data, info_data, flip_output=False):
         meta_data.re_parsed_data = res
     else:
         meta_data.parsed_data = res
-    # PhUtil.print_iter(res, header='output_files_list')
 
 
 def __handle_data(data, meta_data, info_data):

@@ -155,7 +155,6 @@ class UnitTesting(DataTypeMaster):
         #
         super().set_data_pool(
             data_pool_positive
-
             + data_pool_input_items_list_w_output_folder
             + data_pool_input_items_list_wo_output_folder
             + data_pool_input_items_list_zip
