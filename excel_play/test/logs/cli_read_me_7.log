@@ -5,46 +5,44 @@ Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Monday, Nov 11 2024, 00:17:00:559107, IST (GMT+0530)
+Time Stamp is Tuesday, Jan 28 2025, 09:22:01:675312, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is 566c244;  (HEAD -> main, tag: v2.4.6, origin/main, origin/HEAD); 2024-10-31 20:59:48 +0530; imPratik <impratikjaiswal@gmail.com>; variable names corrections
+Git Summary is 6bc45a7;  (HEAD -> main); 2025-01-28 08:42:06 +0530; imPratik <impratikjaiswal@gmail.com>; logs rearranged, sync with new libs
 --------------------------------------------------------------------------------
-pythonHelpers version is v5.0.0
+pythonHelpers version is v5.2.4
 --------------------------------------------------------------------------------
-excelPlay version is v2.5.0
+excelPlay version is v2.6.0
 --------------------------------------------------------------------------------
----------------------------------------------------- DataTypeMaster ----------------------------------------------------
-++++++++++++++++ ('D:/Other/Github_Self/excelPlay/data/sampleData/Excel Worksheet1.xlsx',); (1 Elements) +++++++++++++++
-Remarks Generated: ('D:/Other/Github_Self/excelPlay/data/sampleData/Excel Worksheet1.xlsx',)
-Info => Transaction Id: cme0t7w6srbw; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: ('D:/Other/Github_Self/excelPlay/data/sampleData/Excel Worksheet1.xlsx',)
-Output Data:
-
+---------------------------------------------- Data Class: DataTypeMaster ----------------------------------------------
++++++++++++++++ ('D:/Other/Github_Self/excelPlay/data/sample_data/Excel Worksheet1.xlsx',); (1 Elements) +++++++++++++++
+Remarks Generated: ('D:/Other/Github_Self/excelPlay/data/sample_data/Excel Worksheet1.xlsx',)
+Info => Transaction Id: 5od73npwfet9; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: ('D:/Other/Github_Self/excelPlay/data/sample_data/Excel Worksheet1.xlsx',)
 --------------------------------------------------------------------------------
-********************* D:/Other/Github_Self/excelPlay/data/sampleData/Excel Worksheet1.xlsx; Item 1 *********************
-- Target Folder: D:/Other/Github_Self/excelPlay/data/sampleData//Excel Worksheet1_excelPlay; Already Existed -
------- D:/Other/Github_Self/excelPlay/data/sampleData/Excel Worksheet1.xlsx ------
-out_put_path: D:/Other/Github_Self/excelPlay/data/sampleData//Excel Worksheet1_excelPlay
-- Exporting Zip File: D:/Other/Github_Self/excelPlay/data/sampleData//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip -
+************************* D:/Other/Github_Self/excelPlay/data/sample_data/Excel Worksheet1.xlsx ************************
+- Target Folder: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay; Already Existed -
+----- D:/Other/Github_Self/excelPlay/data/sample_data/Excel Worksheet1.xlsx -----
+out_put_path: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay
+- Exporting Zip File: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip -
 traverse_mode: Regex
-top: D:/Other/Github_Self/excelPlay/data/sampleData//Excel Worksheet1_excelPlay
+top: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay
 include_files: []
 include_dirs: []
 excludes: []
-Remarks Generated: D:/Other/Github_Self/excelPlay/data/sampleData/Excel Worksheet1.xlsx; Item 1
+Remarks Generated: D:/Other/Github_Self/excelPlay/data/sample_data/Excel Worksheet1.xlsx
 Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: wiw5sc03n5mt; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:/Other/Github_Self/excelPlay/data/sampleData/Excel Worksheet1.xlsx
+Info => Transaction Id: 1msy3udmq3ue; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:/Other/Github_Self/excelPlay/data/sample_data/Excel Worksheet1.xlsx
 Output Data:
-D:/Other/Github_Self/excelPlay/data/sampleData//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip
+D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip
 --------------------------------------------------------------------------------
 ---------------------------------- Time Details ----------------------------------
-Current Time Stamp: 2024-11-11 00:17:01.595103+05:30
-Execution Time: 00:00:01; Milliseconds: 1037.0004177093506
-Execution Time CPU: 00:00:00; Milliseconds: 843.75
+Current Time Stamp: 2025-01-28 09:22:02.322313+05:30
+Execution Time: 00:00:00; Milliseconds: 650.998592376709
+Execution Time CPU: 00:00:00; Milliseconds: 578.125
 Timer State: TIMER_OFF
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------

@@ -5,26 +5,26 @@ Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Monday, Nov 11 2024, 00:13:59:306151, IST (GMT+0530)
+Time Stamp is Tuesday, Jan 28 2025, 09:20:38:272357, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is 566c244;  (HEAD -> main, tag: v2.4.6, origin/main, origin/HEAD); 2024-10-31 20:59:48 +0530; imPratik <impratikjaiswal@gmail.com>; variable names corrections
+Git Summary is 6bc45a7;  (HEAD -> main); 2025-01-28 08:42:06 +0530; imPratik <impratikjaiswal@gmail.com>; logs rearranged, sync with new libs
 --------------------------------------------------------------------------------
-pythonHelpers version is v5.0.0
+pythonHelpers version is v5.2.4
 --------------------------------------------------------------------------------
-excelPlay version is v2.5.0
+excelPlay version is v2.6.0
 --------------------------------------------------------------------------------
------------------------------------------------------- UnitTesting -----------------------------------------------------
+------------------------------------------------ Data Class: UnitTesting -----------------------------------------------
 ******************************************* input_items_list_w_output_folder *******************************************
 - Target Folder: excel_play\test\logs\TC_0\Excel Worksheet1; Already Existed -
---------------------- Data\SampleData\Excel Worksheet1.xlsx ---------------------
+--------------------- data\sample_data\Excel Worksheet1.xlsx ---------------------
 out_put_path: excel_play\test\logs\TC_0\Excel Worksheet1
 Remarks: input_items_list_w_output_folder
 Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: gm3q0izs9jmz; Output Format: .csv; Output Path: excel_play\test\logs\TC_0; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
-Input Data: Data\SampleData\Excel Worksheet1.xlsx
+Info => Transaction Id: 04zb5gi2bwxm; Output Format: csv; Output Path: excel_play\test\logs\TC_0; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Input Data: data\sample_data\Excel Worksheet1.xlsx
 Output Data:
 excel_play\test\logs\TC_0\Excel Worksheet1\OrderData.csv
 excel_play\test\logs\TC_0\Excel Worksheet1\Finance.csv
@@ -32,34 +32,30 @@ excel_play\test\logs\TC_0\Excel Worksheet1\House.csv
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++++++++++++ input_items_list_w_output_folder +++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_w_output_folder
-Info => Transaction Id: mbwl5mps4jsx; Output Format: .csv; Output Path: excel_play\test\logs\TC_1; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
-Input Data: Data\SampleData
-Output Data:
-
+Info => Transaction Id: twv2melkvdn6; Output Format: csv; Output Path: excel_play\test\logs\TC_1; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Input Data: data\sample_data
 --------------------------------------------------------------------------------
 traverse_mode: Regex
-top: D:\Other\Github_Self\excelPlay\Data\SampleData
+top: D:\Other\Github_Self\excelPlay\data\sample_data
 include_files: ['*.xlsx']
 include_dirs: []
 excludes: ['*_output.*']
 ++++++++++++++++++++++++++++++++++++ input_items_list_w_output_folder; (3 Elements) ++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_w_output_folder
-Info => Transaction Id: ah35ds4oqok1; Output Format: .csv; Output Path: excel_play\test\logs\TC_1; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
-Input Data: ['D:\\Other\\Github_Self\\excelPlay\\Data\\SampleData\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\Data\\SampleData\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\Data\\SampleData\\SampleData.xlsx']
-Output Data:
-
+Info => Transaction Id: 5dz7rsrgwivf; Output Format: csv; Output Path: excel_play\test\logs\TC_1; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Input Data: ['D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\SampleData.xlsx']
 --------------------------------------------------------------------------------
 *************************************** input_items_list_w_output_folder; Item 1 ***************************************
 - Target Folder: excel_play\test\logs\TC_1\Excel Worksheet1; Already Existed -
------- D:\Other\Github_Self\excelPlay\Data\SampleData\Excel Worksheet1.xlsx ------
+----- D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx -----
 out_put_path: excel_play\test\logs\TC_1\Excel Worksheet1
 Remarks: input_items_list_w_output_folder
 Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: pn1h0ddq5c6w; Output Format: .csv; Output Path: excel_play\test\logs\TC_1; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\Data\SampleData\Excel Worksheet1.xlsx
+Info => Transaction Id: pc8pr65fc7qm; Output Format: csv; Output Path: excel_play\test\logs\TC_1; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx
 Output Data:
 excel_play\test\logs\TC_1\Excel Worksheet1\OrderData.csv
 excel_play\test\logs\TC_1\Excel Worksheet1\Finance.csv
@@ -67,21 +63,21 @@ excel_play\test\logs\TC_1\Excel Worksheet1\House.csv
 --------------------------------------------------------------------------------
 *************************************** input_items_list_w_output_folder; Item 2 ***************************************
 - Target Folder: excel_play\test\logs\TC_1\Excel Worksheet2; Already Existed -
------- D:\Other\Github_Self\excelPlay\Data\SampleData\Excel Worksheet2.xlsx ------
+----- D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx -----
 out_put_path: excel_play\test\logs\TC_1\Excel Worksheet2
 Remarks: input_items_list_w_output_folder
 Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
-Info => Transaction Id: dtuokyi0u3om; Output Format: .csv; Output Path: excel_play\test\logs\TC_1; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\Data\SampleData\Excel Worksheet2.xlsx
+Info => Transaction Id: fq7w8vxsdvnv; Output Format: csv; Output Path: excel_play\test\logs\TC_1; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx
 Output Data:
 excel_play\test\logs\TC_1\Excel Worksheet2\Sales.csv
 excel_play\test\logs\TC_1\Excel Worksheet2\Employee.csv
 --------------------------------------------------------------------------------
 *************************************** input_items_list_w_output_folder; Item 3 ***************************************
 - Target Folder: excel_play\test\logs\TC_1\SampleData; Already Existed -
---------- D:\Other\Github_Self\excelPlay\Data\SampleData\SampleData.xlsx ---------
+-------- D:\Other\Github_Self\excelPlay\data\sample_data\SampleData.xlsx --------
 out_put_path: excel_play\test\logs\TC_1\SampleData
 Remarks: input_items_list_w_output_folder
 Info Data:
@@ -90,8 +86,8 @@ Info Data:
 	Sheet3.csv Done.
 	Sheet4.csv Done.
 	Sheet5.csv Done.
-Info => Transaction Id: xbm1zu3966dl; Output Format: .csv; Output Path: excel_play\test\logs\TC_1; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\Data\SampleData\SampleData.xlsx
+Info => Transaction Id: q69tnhx8xlbq; Output Format: csv; Output Path: excel_play\test\logs\TC_1; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\SampleData.xlsx
 Output Data:
 excel_play\test\logs\TC_1\SampleData\Sheet1.csv
 excel_play\test\logs\TC_1\SampleData\Sheet2.csv
@@ -101,15 +97,15 @@ excel_play\test\logs\TC_1\SampleData\Sheet5.csv
 --------------------------------------------------------------------------------
 ******************************************* input_items_list_w_output_folder *******************************************
 - Target Folder: excel_play\test\logs\TC_2\Excel Worksheet1; Already Existed -
------- D:\Other\Github_Self\excelPlay\data\SampleData\Excel Worksheet1.xlsx ------
+----- D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx -----
 out_put_path: excel_play\test\logs\TC_2\Excel Worksheet1
 Remarks: input_items_list_w_output_folder
 Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: ny5h8qik2lo2; Output Format: .csv; Output Path: excel_play\test\logs\TC_2; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\data\SampleData\Excel Worksheet1.xlsx
+Info => Transaction Id: fznsxvclw8qu; Output Format: csv; Output Path: excel_play\test\logs\TC_2; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx
 Output Data:
 excel_play\test\logs\TC_2\Excel Worksheet1\OrderData.csv
 excel_play\test\logs\TC_2\Excel Worksheet1\Finance.csv
@@ -117,34 +113,30 @@ excel_play\test\logs\TC_2\Excel Worksheet1\House.csv
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++++++++++++ input_items_list_w_output_folder +++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_w_output_folder
-Info => Transaction Id: 0jzxuqmdw64l; Output Format: .csv; Output Path: excel_play\test\logs\TC_3; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\data\SampleData
-Output Data:
-
+Info => Transaction Id: f22lb12m3cdp; Output Format: csv; Output Path: excel_play\test\logs\TC_3; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data
 --------------------------------------------------------------------------------
 traverse_mode: Regex
-top: D:\Other\Github_Self\excelPlay\data\SampleData
+top: D:\Other\Github_Self\excelPlay\data\sample_data
 include_files: ['*.xlsx']
 include_dirs: []
 excludes: ['*_output.*']
 ++++++++++++++++++++++++++++++++++++ input_items_list_w_output_folder; (3 Elements) ++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_w_output_folder
-Info => Transaction Id: lj4n3s39g0vx; Output Format: .csv; Output Path: excel_play\test\logs\TC_3; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
-Input Data: ['D:\\Other\\Github_Self\\excelPlay\\data\\SampleData\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\SampleData\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\SampleData\\SampleData.xlsx']
-Output Data:
-
+Info => Transaction Id: k7kvdtuztkso; Output Format: csv; Output Path: excel_play\test\logs\TC_3; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Input Data: ['D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\SampleData.xlsx']
 --------------------------------------------------------------------------------
 *************************************** input_items_list_w_output_folder; Item 1 ***************************************
 - Target Folder: excel_play\test\logs\TC_3\Excel Worksheet1; Already Existed -
------- D:\Other\Github_Self\excelPlay\data\SampleData\Excel Worksheet1.xlsx ------
+----- D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx -----
 out_put_path: excel_play\test\logs\TC_3\Excel Worksheet1
 Remarks: input_items_list_w_output_folder
 Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: zs89hxfad5j9; Output Format: .csv; Output Path: excel_play\test\logs\TC_3; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\data\SampleData\Excel Worksheet1.xlsx
+Info => Transaction Id: 11zkz2yxragr; Output Format: csv; Output Path: excel_play\test\logs\TC_3; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx
 Output Data:
 excel_play\test\logs\TC_3\Excel Worksheet1\OrderData.csv
 excel_play\test\logs\TC_3\Excel Worksheet1\Finance.csv
@@ -152,21 +144,21 @@ excel_play\test\logs\TC_3\Excel Worksheet1\House.csv
 --------------------------------------------------------------------------------
 *************************************** input_items_list_w_output_folder; Item 2 ***************************************
 - Target Folder: excel_play\test\logs\TC_3\Excel Worksheet2; Already Existed -
------- D:\Other\Github_Self\excelPlay\data\SampleData\Excel Worksheet2.xlsx ------
+----- D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx -----
 out_put_path: excel_play\test\logs\TC_3\Excel Worksheet2
 Remarks: input_items_list_w_output_folder
 Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
-Info => Transaction Id: jljrdu6kp5lm; Output Format: .csv; Output Path: excel_play\test\logs\TC_3; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\data\SampleData\Excel Worksheet2.xlsx
+Info => Transaction Id: lq70a4szrbvt; Output Format: csv; Output Path: excel_play\test\logs\TC_3; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx
 Output Data:
 excel_play\test\logs\TC_3\Excel Worksheet2\Sales.csv
 excel_play\test\logs\TC_3\Excel Worksheet2\Employee.csv
 --------------------------------------------------------------------------------
 *************************************** input_items_list_w_output_folder; Item 3 ***************************************
 - Target Folder: excel_play\test\logs\TC_3\SampleData; Already Existed -
---------- D:\Other\Github_Self\excelPlay\data\SampleData\SampleData.xlsx ---------
+-------- D:\Other\Github_Self\excelPlay\data\sample_data\SampleData.xlsx --------
 out_put_path: excel_play\test\logs\TC_3\SampleData
 Remarks: input_items_list_w_output_folder
 Info Data:
@@ -175,8 +167,8 @@ Info Data:
 	Sheet3.csv Done.
 	Sheet4.csv Done.
 	Sheet5.csv Done.
-Info => Transaction Id: vz5g3rtgvbkf; Output Format: .csv; Output Path: excel_play\test\logs\TC_3; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\data\SampleData\SampleData.xlsx
+Info => Transaction Id: w4oswkg5al1r; Output Format: csv; Output Path: excel_play\test\logs\TC_3; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\SampleData.xlsx
 Output Data:
 excel_play\test\logs\TC_3\SampleData\Sheet1.csv
 excel_play\test\logs\TC_3\SampleData\Sheet2.csv
@@ -186,15 +178,15 @@ excel_play\test\logs\TC_3\SampleData\Sheet5.csv
 --------------------------------------------------------------------------------
 ******************************************* input_items_list_w_output_folder *******************************************
 - Target Folder: excel_play\test\logs\TC_4\Excel Worksheet1; Already Existed -
---- D:\\Other\\Github_Self\\excelPlay\\data\\SampleData\\Excel Worksheet1.xlsx ---
+-- D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx --
 out_put_path: excel_play\test\logs\TC_4\Excel Worksheet1
 Remarks: input_items_list_w_output_folder
 Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: 4xj0wz3d4vhi; Output Format: .csv; Output Path: excel_play\test\logs\TC_4; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
-Input Data: D:\\Other\\Github_Self\\excelPlay\\data\\SampleData\\Excel Worksheet1.xlsx
+Info => Transaction Id: w3opg6x7msak; Output Format: csv; Output Path: excel_play\test\logs\TC_4; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Input Data: D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx
 Output Data:
 excel_play\test\logs\TC_4\Excel Worksheet1\OrderData.csv
 excel_play\test\logs\TC_4\Excel Worksheet1\Finance.csv
@@ -202,15 +194,15 @@ excel_play\test\logs\TC_4\Excel Worksheet1\House.csv
 --------------------------------------------------------------------------------
 ******************************************* input_items_list_w_output_folder *******************************************
 - Target Folder: excel_play\test\logs\TC_5\Excel Worksheet1; Already Existed -
------- D:/Other/Github_Self/excelPlay/data/SampleData/Excel Worksheet1.xlsx ------
+----- D:/Other/Github_Self/excelPlay/data/sample_data/Excel Worksheet1.xlsx -----
 out_put_path: excel_play\test\logs\TC_5\Excel Worksheet1
 Remarks: input_items_list_w_output_folder
 Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: wk6v6dv14xw2; Output Format: .csv; Output Path: excel_play\test\logs\TC_5; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
-Input Data: D:/Other/Github_Self/excelPlay/data/SampleData/Excel Worksheet1.xlsx
+Info => Transaction Id: s54n3uie9uev; Output Format: csv; Output Path: excel_play\test\logs\TC_5; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Input Data: D:/Other/Github_Self/excelPlay/data/sample_data/Excel Worksheet1.xlsx
 Output Data:
 excel_play\test\logs\TC_5\Excel Worksheet1\OrderData.csv
 excel_play\test\logs\TC_5\Excel Worksheet1\Finance.csv
@@ -218,10 +210,8 @@ excel_play\test\logs\TC_5\Excel Worksheet1\House.csv
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++++++++++++ input_items_list_wo_output_folder ++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_wo_output_folder
-Info => Transaction Id: fxojx4f55565; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: 1vcn68z2vptp; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: excel_play\test\logs\TC_wo_out_folder_0
-Output Data:
-
 --------------------------------------------------------------------------------
 traverse_mode: Regex
 top: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_wo_out_folder_0
@@ -230,10 +220,8 @@ include_dirs: []
 excludes: ['*_output.*']
 ++++++++++++++++++++++++++++++++++++ input_items_list_wo_output_folder; (3 Elements) +++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_wo_output_folder
-Info => Transaction Id: 8524gljsnpag; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: 9druysvdm9re; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: ['D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_wo_out_folder_0\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_wo_out_folder_0\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_wo_out_folder_0\\SampleData.xlsx']
-Output Data:
-
 --------------------------------------------------------------------------------
 *************************************** input_items_list_wo_output_folder; Item 1 **************************************
 - Target Folder: D:/Other/Github_Self/excelPlay/excel_play/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay; Already Existed -
@@ -244,7 +232,7 @@ Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: mmhw4yo91def; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: zqvq2v0cdpca; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_wo_out_folder_0\Excel Worksheet1.xlsx
 Output Data:
 D:/Other/Github_Self/excelPlay/excel_play/test/logs/TC_wo_out_folder_0//Excel Worksheet1_excelPlay\OrderData.csv
@@ -259,7 +247,7 @@ Remarks: input_items_list_wo_output_folder
 Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
-Info => Transaction Id: p81ofj160k2y; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: miuh5mr277iv; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_wo_out_folder_0\Excel Worksheet2.xlsx
 Output Data:
 D:/Other/Github_Self/excelPlay/excel_play/test/logs/TC_wo_out_folder_0//Excel Worksheet2_excelPlay\Sales.csv
@@ -276,7 +264,7 @@ Info Data:
 	Sheet3.csv Done.
 	Sheet4.csv Done.
 	Sheet5.csv Done.
-Info => Transaction Id: arwutpfu6flx; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: x5stiym7ouer; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_wo_out_folder_0\SampleData.xlsx
 Output Data:
 D:/Other/Github_Self/excelPlay/excel_play/test/logs/TC_wo_out_folder_0//SampleData_excelPlay\Sheet1.csv
@@ -287,10 +275,8 @@ D:/Other/Github_Self/excelPlay/excel_play/test/logs/TC_wo_out_folder_0//SampleDa
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++++++++++++ input_items_list_wo_output_folder ++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_wo_output_folder
-Info => Transaction Id: ebkwz618j48o; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: u4hdtif55acg; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: excel_play\test\logs\TC_wo_out_folder_1
-Output Data:
-
 --------------------------------------------------------------------------------
 traverse_mode: Regex
 top: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_wo_out_folder_1
@@ -299,10 +285,8 @@ include_dirs: []
 excludes: ['*_output.*']
 ++++++++++++++++++++++++++++++++++++ input_items_list_wo_output_folder; (6 Elements) +++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_wo_output_folder
-Info => Transaction Id: jn0nwm1gnvbc; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: vjk6s40u87sk; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: ['D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_wo_out_folder_1\\Excel Worksheet1 v1.0.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_wo_out_folder_1\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_wo_out_folder_1\\Excel Worksheet2 v2..xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_wo_out_folder_1\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_wo_out_folder_1\\SampleData 3.0.6.56.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_wo_out_folder_1\\SampleData.xlsx']
-Output Data:
-
 --------------------------------------------------------------------------------
 *************************************** input_items_list_wo_output_folder; Item 1 **************************************
 - Target Folder: D:/Other/Github_Self/excelPlay/excel_play/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay; Already Existed -
@@ -313,7 +297,7 @@ Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: o2wx6kahm1sr; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: 6e7d4tiltdl7; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_wo_out_folder_1\Excel Worksheet1 v1.0.xlsx
 Output Data:
 D:/Other/Github_Self/excelPlay/excel_play/test/logs/TC_wo_out_folder_1//Excel Worksheet1 v1.0_excelPlay\OrderData.csv
@@ -329,7 +313,7 @@ Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: 4yovmfmnccw2; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: toxs83nnxwj1; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_wo_out_folder_1\Excel Worksheet1.xlsx
 Output Data:
 D:/Other/Github_Self/excelPlay/excel_play/test/logs/TC_wo_out_folder_1//Excel Worksheet1_excelPlay\OrderData.csv
@@ -344,7 +328,7 @@ Remarks: input_items_list_wo_output_folder
 Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
-Info => Transaction Id: kj0qv7v02pgz; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: cbrip1n21tvn; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_wo_out_folder_1\Excel Worksheet2 v2..xlsx
 Output Data:
 D:/Other/Github_Self/excelPlay/excel_play/test/logs/TC_wo_out_folder_1//Excel Worksheet2 v2._excelPlay\Sales.csv
@@ -358,7 +342,7 @@ Remarks: input_items_list_wo_output_folder
 Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
-Info => Transaction Id: 2a5z6cz2s0mf; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: vbx6xpnkkpgp; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_wo_out_folder_1\Excel Worksheet2.xlsx
 Output Data:
 D:/Other/Github_Self/excelPlay/excel_play/test/logs/TC_wo_out_folder_1//Excel Worksheet2_excelPlay\Sales.csv
@@ -375,7 +359,7 @@ Info Data:
 	Sheet3.csv Done.
 	Sheet4.csv Done.
 	Sheet5.csv Done.
-Info => Transaction Id: skohnc5l8bxz; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: v4pz85rmd6bo; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_wo_out_folder_1\SampleData 3.0.6.56.xlsx
 Output Data:
 D:/Other/Github_Self/excelPlay/excel_play/test/logs/TC_wo_out_folder_1//SampleData 3.0.6.56_excelPlay\Sheet1.csv
@@ -395,7 +379,7 @@ Info Data:
 	Sheet3.csv Done.
 	Sheet4.csv Done.
 	Sheet5.csv Done.
-Info => Transaction Id: 4f9k6wu7eeuy; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: b0ry5lowz7km; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_wo_out_folder_1\SampleData.xlsx
 Output Data:
 D:/Other/Github_Self/excelPlay/excel_play/test/logs/TC_wo_out_folder_1//SampleData_excelPlay\Sheet1.csv
@@ -412,7 +396,7 @@ Remarks: input_items_list_wo_output_folder
 Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
-Info => Transaction Id: u2ycfiqw5jb6; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: 2wc45cbzdcju; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: excel_play\test\logs\TC_wo_out_folder_2\Excel Worksheet2.xlsx
 Output Data:
 excel_play/test/logs/TC_wo_out_folder_2//Excel Worksheet2_excelPlay\Sales.csv
@@ -420,10 +404,8 @@ excel_play/test/logs/TC_wo_out_folder_2//Excel Worksheet2_excelPlay\Employee.csv
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++++++++++++++++++ input_items_list_zip +++++++++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_zip
-Info => Transaction Id: b2kjbxzmyl9n; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: opy5up4uuj2g; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: excel_play\test\logs\TC_zip_0
-Output Data:
-
 --------------------------------------------------------------------------------
 traverse_mode: Regex
 top: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_zip_0
@@ -432,10 +414,8 @@ include_dirs: []
 excludes: ['*_output.*']
 ++++++++++++++++++++++++++++++++++++++++++ input_items_list_zip; (3 Elements) ++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_zip
-Info => Transaction Id: 2kdxzkcbh63y; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: rb1coh0xdkxj; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: ['D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_zip_0\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_zip_0\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_zip_0\\SampleData.xlsx']
-Output Data:
-
 --------------------------------------------------------------------------------
 ********************************************* input_items_list_zip; Item 1 *********************************************
 - Target Folder: D:/Other/Github_Self/excelPlay/excel_play/test/logs/TC_zip_0//Excel Worksheet1_excelPlay; Already Existed -
@@ -452,7 +432,7 @@ Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: cg1l9j9s5x07; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 55dwzlcn599y; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_zip_0\Excel Worksheet1.xlsx
 Output Data:
 D:/Other/Github_Self/excelPlay/excel_play/test/logs/TC_zip_0//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip
@@ -471,7 +451,7 @@ Remarks: input_items_list_zip
 Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
-Info => Transaction Id: 790zrg8gm4ds; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 7d3qojdl0ikn; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_zip_0\Excel Worksheet2.xlsx
 Output Data:
 D:/Other/Github_Self/excelPlay/excel_play/test/logs/TC_zip_0//Excel Worksheet2_excelPlay\..\Excel Worksheet2_excelPlay.zip
@@ -493,17 +473,15 @@ Info Data:
 	Sheet3.csv Done.
 	Sheet4.csv Done.
 	Sheet5.csv Done.
-Info => Transaction Id: dw7pfpgyi1p0; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 2kbqm7e1vwii; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_zip_0\SampleData.xlsx
 Output Data:
 D:/Other/Github_Self/excelPlay/excel_play/test/logs/TC_zip_0//SampleData_excelPlay\..\SampleData_excelPlay.zip
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++++++++++++++++++ input_items_list_zip +++++++++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_zip
-Info => Transaction Id: ykzxq6tjfw8p; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: jz4uoslo1uy6; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: excel_play\test\logs\TC_zip_1
-Output Data:
-
 --------------------------------------------------------------------------------
 traverse_mode: Regex
 top: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_zip_1
@@ -512,10 +490,8 @@ include_dirs: []
 excludes: ['*_output.*']
 ++++++++++++++++++++++++++++++++++++++++++ input_items_list_zip; (6 Elements) ++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_zip
-Info => Transaction Id: ayhfwhuwhh9c; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: nc9aa9i5m8tp; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: ['D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_zip_1\\Excel Worksheet1 v1.0.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_zip_1\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_zip_1\\Excel Worksheet2 v2..xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_zip_1\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_zip_1\\SampleData 3.0.6.56.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_zip_1\\SampleData.xlsx']
-Output Data:
-
 --------------------------------------------------------------------------------
 ********************************************* input_items_list_zip; Item 1 *********************************************
 - Target Folder: D:/Other/Github_Self/excelPlay/excel_play/test/logs/TC_zip_1//Excel Worksheet1 v1.0_excelPlay; Already Existed -
@@ -532,7 +508,7 @@ Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: uffjp9twpr0k; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: yd770xgd8aag; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_zip_1\Excel Worksheet1 v1.0.xlsx
 Output Data:
 D:/Other/Github_Self/excelPlay/excel_play/test/logs/TC_zip_1//Excel Worksheet1 v1.0_excelPlay\..\Excel Worksheet1 v1.0_excelPlay.zip
@@ -552,7 +528,7 @@ Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: ekjdk4o2ugxy; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 2rqqh9i74uew; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_zip_1\Excel Worksheet1.xlsx
 Output Data:
 D:/Other/Github_Self/excelPlay/excel_play/test/logs/TC_zip_1//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip
@@ -571,7 +547,7 @@ Remarks: input_items_list_zip
 Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
-Info => Transaction Id: mfkp8vko2sdk; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: ql3avukygtd6; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_zip_1\Excel Worksheet2 v2..xlsx
 Output Data:
 D:/Other/Github_Self/excelPlay/excel_play/test/logs/TC_zip_1//Excel Worksheet2 v2._excelPlay\..\Excel Worksheet2 v2._excelPlay.zip
@@ -590,7 +566,7 @@ Remarks: input_items_list_zip
 Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
-Info => Transaction Id: v6pptgrs60ei; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: znvci15e6btq; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_zip_1\Excel Worksheet2.xlsx
 Output Data:
 D:/Other/Github_Self/excelPlay/excel_play/test/logs/TC_zip_1//Excel Worksheet2_excelPlay\..\Excel Worksheet2_excelPlay.zip
@@ -612,7 +588,7 @@ Info Data:
 	Sheet3.csv Done.
 	Sheet4.csv Done.
 	Sheet5.csv Done.
-Info => Transaction Id: s0iv8vohlhal; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: ezh2so5ji3vh; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_zip_1\SampleData 3.0.6.56.xlsx
 Output Data:
 D:/Other/Github_Self/excelPlay/excel_play/test/logs/TC_zip_1//SampleData 3.0.6.56_excelPlay\..\SampleData 3.0.6.56_excelPlay.zip
@@ -634,7 +610,7 @@ Info Data:
 	Sheet3.csv Done.
 	Sheet4.csv Done.
 	Sheet5.csv Done.
-Info => Transaction Id: il3h0ugsmx0g; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: oc4lya5phdoh; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_zip_1\SampleData.xlsx
 Output Data:
 D:/Other/Github_Self/excelPlay/excel_play/test/logs/TC_zip_1//SampleData_excelPlay\..\SampleData_excelPlay.zip
@@ -656,25 +632,23 @@ Info Data:
 	Sheet3.csv Done.
 	Sheet4.csv Done.
 	Sheet5.csv Done.
-Info => Transaction Id: 639kl33byr7i; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 3y3zzzhlv2na; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: excel_play\test\logs\TC_zip_2\SampleData 3.0.6.56.xlsx
 Output Data:
 excel_play/test/logs/TC_zip_2//SampleData 3.0.6.56_excelPlay\..\SampleData 3.0.6.56_excelPlay.zip
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++++++++++ input_items_list_multi; (6 Elements) +++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_multi
-Info => Transaction Id: 17kov9d13rq8; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: ['Data\\SampleData\\Excel Worksheet1.xlsx', 'Data\\SampleData', 'D:\\Other\\Github_Self\\excelPlay\\data\\SampleData\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\SampleData', 'D:\\\\Other\\\\Github_Self\\\\excelPlay\\\\data\\\\SampleData\\\\Excel Worksheet1.xlsx', 'D:/Other/Github_Self/excelPlay/data/SampleData/Excel Worksheet1.xlsx']
-Output Data:
-
+Info => Transaction Id: p8ii03nckxn1; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: ['data\\sample_data\\Excel Worksheet1.xlsx', 'data\\sample_data', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data', 'D:\\\\Other\\\\Github_Self\\\\excelPlay\\\\data\\\\sample_data\\\\Excel Worksheet1.xlsx', 'D:/Other/Github_Self/excelPlay/data/sample_data/Excel Worksheet1.xlsx']
 --------------------------------------------------------------------------------
 ******************************************** input_items_list_multi; Item 1 ********************************************
-- Target Folder: Data/SampleData//Excel Worksheet1_excelPlay; Already Existed -
---------------------- Data\SampleData\Excel Worksheet1.xlsx ---------------------
-out_put_path: Data/SampleData//Excel Worksheet1_excelPlay
-- Exporting Zip File: Data/SampleData//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip -
+- Target Folder: data/sample_data//Excel Worksheet1_excelPlay; Already Existed -
+--------------------- data\sample_data\Excel Worksheet1.xlsx ---------------------
+out_put_path: data/sample_data//Excel Worksheet1_excelPlay
+- Exporting Zip File: data/sample_data//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip -
 traverse_mode: Regex
-top: Data/SampleData//Excel Worksheet1_excelPlay
+top: data/sample_data//Excel Worksheet1_excelPlay
 include_files: []
 include_dirs: []
 excludes: []
@@ -683,37 +657,33 @@ Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: yts0veuremm4; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: Data\SampleData\Excel Worksheet1.xlsx
+Info => Transaction Id: 31iu7cx0gvyo; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: data\sample_data\Excel Worksheet1.xlsx
 Output Data:
-Data/SampleData//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip
+data/sample_data//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip
 --------------------------------------------------------------------------------
 ++++++++++++++++++++++++++++++++++++++++++++ input_items_list_multi; Item 2 ++++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_multi
-Info => Transaction Id: kips7m4ghvvm; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: Data\SampleData
-Output Data:
-
+Info => Transaction Id: aeln80ygk5ag; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: data\sample_data
 --------------------------------------------------------------------------------
 traverse_mode: Regex
-top: D:\Other\Github_Self\excelPlay\Data\SampleData
+top: D:\Other\Github_Self\excelPlay\data\sample_data
 include_files: ['*.xlsx']
 include_dirs: []
 excludes: ['*_output.*']
 +++++++++++++++++++++++++++++++++++++ input_items_list_multi; Item 2; (3 Elements) +++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_multi
-Info => Transaction Id: ttwhjty1wrcx; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: ['D:\\Other\\Github_Self\\excelPlay\\Data\\SampleData\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\Data\\SampleData\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\Data\\SampleData\\SampleData.xlsx']
-Output Data:
-
+Info => Transaction Id: gpi4zqtcnfy3; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: ['D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\SampleData.xlsx']
 --------------------------------------------------------------------------------
 ******************************************** input_items_list_multi; Item 1 ********************************************
-- Target Folder: D:/Other/Github_Self/excelPlay/Data/SampleData//Excel Worksheet1_excelPlay; Already Existed -
------- D:\Other\Github_Self\excelPlay\Data\SampleData\Excel Worksheet1.xlsx ------
-out_put_path: D:/Other/Github_Self/excelPlay/Data/SampleData//Excel Worksheet1_excelPlay
-- Exporting Zip File: D:/Other/Github_Self/excelPlay/Data/SampleData//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip -
+- Target Folder: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay; Already Existed -
+----- D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx -----
+out_put_path: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay
+- Exporting Zip File: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip -
 traverse_mode: Regex
-top: D:/Other/Github_Self/excelPlay/Data/SampleData//Excel Worksheet1_excelPlay
+top: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay
 include_files: []
 include_dirs: []
 excludes: []
@@ -722,18 +692,18 @@ Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: c0x07gnepopn; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\Data\SampleData\Excel Worksheet1.xlsx
+Info => Transaction Id: o9hj398u5lm3; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx
 Output Data:
-D:/Other/Github_Self/excelPlay/Data/SampleData//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip
+D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip
 --------------------------------------------------------------------------------
 ******************************************** input_items_list_multi; Item 2 ********************************************
-- Target Folder: D:/Other/Github_Self/excelPlay/Data/SampleData//Excel Worksheet2_excelPlay; Already Existed -
------- D:\Other\Github_Self\excelPlay\Data\SampleData\Excel Worksheet2.xlsx ------
-out_put_path: D:/Other/Github_Self/excelPlay/Data/SampleData//Excel Worksheet2_excelPlay
-- Exporting Zip File: D:/Other/Github_Self/excelPlay/Data/SampleData//Excel Worksheet2_excelPlay\..\Excel Worksheet2_excelPlay.zip -
+- Target Folder: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet2_excelPlay; Already Existed -
+----- D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx -----
+out_put_path: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet2_excelPlay
+- Exporting Zip File: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet2_excelPlay\..\Excel Worksheet2_excelPlay.zip -
 traverse_mode: Regex
-top: D:/Other/Github_Self/excelPlay/Data/SampleData//Excel Worksheet2_excelPlay
+top: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet2_excelPlay
 include_files: []
 include_dirs: []
 excludes: []
@@ -741,18 +711,18 @@ Remarks: input_items_list_multi
 Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
-Info => Transaction Id: 6cbgfao0aoni; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\Data\SampleData\Excel Worksheet2.xlsx
+Info => Transaction Id: hganz3q3wrfs; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx
 Output Data:
-D:/Other/Github_Self/excelPlay/Data/SampleData//Excel Worksheet2_excelPlay\..\Excel Worksheet2_excelPlay.zip
+D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet2_excelPlay\..\Excel Worksheet2_excelPlay.zip
 --------------------------------------------------------------------------------
 ******************************************** input_items_list_multi; Item 3 ********************************************
-- Target Folder: D:/Other/Github_Self/excelPlay/Data/SampleData//SampleData_excelPlay; Already Existed -
---------- D:\Other\Github_Self\excelPlay\Data\SampleData\SampleData.xlsx ---------
-out_put_path: D:/Other/Github_Self/excelPlay/Data/SampleData//SampleData_excelPlay
-- Exporting Zip File: D:/Other/Github_Self/excelPlay/Data/SampleData//SampleData_excelPlay\..\SampleData_excelPlay.zip -
+- Target Folder: D:/Other/Github_Self/excelPlay/data/sample_data//SampleData_excelPlay; Already Existed -
+-------- D:\Other\Github_Self\excelPlay\data\sample_data\SampleData.xlsx --------
+out_put_path: D:/Other/Github_Self/excelPlay/data/sample_data//SampleData_excelPlay
+- Exporting Zip File: D:/Other/Github_Self/excelPlay/data/sample_data//SampleData_excelPlay\..\SampleData_excelPlay.zip -
 traverse_mode: Regex
-top: D:/Other/Github_Self/excelPlay/Data/SampleData//SampleData_excelPlay
+top: D:/Other/Github_Self/excelPlay/data/sample_data//SampleData_excelPlay
 include_files: []
 include_dirs: []
 excludes: []
@@ -763,18 +733,18 @@ Info Data:
 	Sheet3.csv Done.
 	Sheet4.csv Done.
 	Sheet5.csv Done.
-Info => Transaction Id: kl5i17rmsav2; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\Data\SampleData\SampleData.xlsx
+Info => Transaction Id: hebqz97a9lo4; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\SampleData.xlsx
 Output Data:
-D:/Other/Github_Self/excelPlay/Data/SampleData//SampleData_excelPlay\..\SampleData_excelPlay.zip
+D:/Other/Github_Self/excelPlay/data/sample_data//SampleData_excelPlay\..\SampleData_excelPlay.zip
 --------------------------------------------------------------------------------
 ******************************************** input_items_list_multi; Item 3 ********************************************
-- Target Folder: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay; Already Existed -
------- D:\Other\Github_Self\excelPlay\data\SampleData\Excel Worksheet1.xlsx ------
-out_put_path: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay
-- Exporting Zip File: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip -
+- Target Folder: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay; Already Existed -
+----- D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx -----
+out_put_path: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay
+- Exporting Zip File: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip -
 traverse_mode: Regex
-top: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay
+top: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay
 include_files: []
 include_dirs: []
 excludes: []
@@ -783,37 +753,33 @@ Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: 478rmbz4pafw; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\data\SampleData\Excel Worksheet1.xlsx
+Info => Transaction Id: wo9jsfnjorm9; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx
 Output Data:
-D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip
+D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip
 --------------------------------------------------------------------------------
 ++++++++++++++++++++++++++++++++++++++++++++ input_items_list_multi; Item 4 ++++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_multi
-Info => Transaction Id: nx1268ursuy0; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\data\SampleData
-Output Data:
-
+Info => Transaction Id: n0sbskejbjbz; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data
 --------------------------------------------------------------------------------
 traverse_mode: Regex
-top: D:\Other\Github_Self\excelPlay\data\SampleData
+top: D:\Other\Github_Self\excelPlay\data\sample_data
 include_files: ['*.xlsx']
 include_dirs: []
 excludes: ['*_output.*']
 +++++++++++++++++++++++++++++++++++++ input_items_list_multi; Item 4; (3 Elements) +++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_multi
-Info => Transaction Id: puiqb9jmx852; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: ['D:\\Other\\Github_Self\\excelPlay\\data\\SampleData\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\SampleData\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\SampleData\\SampleData.xlsx']
-Output Data:
-
+Info => Transaction Id: sx2kr7so36ey; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: ['D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\SampleData.xlsx']
 --------------------------------------------------------------------------------
 ******************************************** input_items_list_multi; Item 1 ********************************************
-- Target Folder: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay; Already Existed -
------- D:\Other\Github_Self\excelPlay\data\SampleData\Excel Worksheet1.xlsx ------
-out_put_path: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay
-- Exporting Zip File: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip -
+- Target Folder: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay; Already Existed -
+----- D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx -----
+out_put_path: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay
+- Exporting Zip File: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip -
 traverse_mode: Regex
-top: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay
+top: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay
 include_files: []
 include_dirs: []
 excludes: []
@@ -822,18 +788,18 @@ Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: xwyza3xr5e9i; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\data\SampleData\Excel Worksheet1.xlsx
+Info => Transaction Id: zvbe8kofdsfs; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx
 Output Data:
-D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip
+D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip
 --------------------------------------------------------------------------------
 ******************************************** input_items_list_multi; Item 2 ********************************************
-- Target Folder: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet2_excelPlay; Already Existed -
------- D:\Other\Github_Self\excelPlay\data\SampleData\Excel Worksheet2.xlsx ------
-out_put_path: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet2_excelPlay
-- Exporting Zip File: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet2_excelPlay\..\Excel Worksheet2_excelPlay.zip -
+- Target Folder: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet2_excelPlay; Already Existed -
+----- D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx -----
+out_put_path: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet2_excelPlay
+- Exporting Zip File: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet2_excelPlay\..\Excel Worksheet2_excelPlay.zip -
 traverse_mode: Regex
-top: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet2_excelPlay
+top: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet2_excelPlay
 include_files: []
 include_dirs: []
 excludes: []
@@ -841,18 +807,18 @@ Remarks: input_items_list_multi
 Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
-Info => Transaction Id: oszp3ysasbo0; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\data\SampleData\Excel Worksheet2.xlsx
+Info => Transaction Id: 2p58s4ciec0k; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx
 Output Data:
-D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet2_excelPlay\..\Excel Worksheet2_excelPlay.zip
+D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet2_excelPlay\..\Excel Worksheet2_excelPlay.zip
 --------------------------------------------------------------------------------
 ******************************************** input_items_list_multi; Item 3 ********************************************
-- Target Folder: D:/Other/Github_Self/excelPlay/data/SampleData//SampleData_excelPlay; Already Existed -
---------- D:\Other\Github_Self\excelPlay\data\SampleData\SampleData.xlsx ---------
-out_put_path: D:/Other/Github_Self/excelPlay/data/SampleData//SampleData_excelPlay
-- Exporting Zip File: D:/Other/Github_Self/excelPlay/data/SampleData//SampleData_excelPlay\..\SampleData_excelPlay.zip -
+- Target Folder: D:/Other/Github_Self/excelPlay/data/sample_data//SampleData_excelPlay; Already Existed -
+-------- D:\Other\Github_Self\excelPlay\data\sample_data\SampleData.xlsx --------
+out_put_path: D:/Other/Github_Self/excelPlay/data/sample_data//SampleData_excelPlay
+- Exporting Zip File: D:/Other/Github_Self/excelPlay/data/sample_data//SampleData_excelPlay\..\SampleData_excelPlay.zip -
 traverse_mode: Regex
-top: D:/Other/Github_Self/excelPlay/data/SampleData//SampleData_excelPlay
+top: D:/Other/Github_Self/excelPlay/data/sample_data//SampleData_excelPlay
 include_files: []
 include_dirs: []
 excludes: []
@@ -863,18 +829,18 @@ Info Data:
 	Sheet3.csv Done.
 	Sheet4.csv Done.
 	Sheet5.csv Done.
-Info => Transaction Id: zq1kwgtcqmxo; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\data\SampleData\SampleData.xlsx
+Info => Transaction Id: bf1qybst8zxt; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\SampleData.xlsx
 Output Data:
-D:/Other/Github_Self/excelPlay/data/SampleData//SampleData_excelPlay\..\SampleData_excelPlay.zip
+D:/Other/Github_Self/excelPlay/data/sample_data//SampleData_excelPlay\..\SampleData_excelPlay.zip
 --------------------------------------------------------------------------------
 ******************************************** input_items_list_multi; Item 5 ********************************************
-- Target Folder: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay; Already Existed -
---- D:\\Other\\Github_Self\\excelPlay\\data\\SampleData\\Excel Worksheet1.xlsx ---
-out_put_path: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay
-- Exporting Zip File: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip -
+- Target Folder: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay; Already Existed -
+-- D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx --
+out_put_path: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay
+- Exporting Zip File: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip -
 traverse_mode: Regex
-top: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay
+top: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay
 include_files: []
 include_dirs: []
 excludes: []
@@ -883,18 +849,18 @@ Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: w8f7ydo5bnjl; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:\\Other\\Github_Self\\excelPlay\\data\\SampleData\\Excel Worksheet1.xlsx
+Info => Transaction Id: d3ltxln6a4me; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx
 Output Data:
-D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip
+D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip
 --------------------------------------------------------------------------------
 ******************************************** input_items_list_multi; Item 6 ********************************************
-- Target Folder: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay; Already Existed -
------- D:/Other/Github_Self/excelPlay/data/SampleData/Excel Worksheet1.xlsx ------
-out_put_path: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay
-- Exporting Zip File: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip -
+- Target Folder: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay; Already Existed -
+----- D:/Other/Github_Self/excelPlay/data/sample_data/Excel Worksheet1.xlsx -----
+out_put_path: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay
+- Exporting Zip File: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip -
 traverse_mode: Regex
-top: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay
+top: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay
 include_files: []
 include_dirs: []
 excludes: []
@@ -903,25 +869,23 @@ Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: 4gvao4xs6agm; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:/Other/Github_Self/excelPlay/data/SampleData/Excel Worksheet1.xlsx
+Info => Transaction Id: pbrik72c154l; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:/Other/Github_Self/excelPlay/data/sample_data/Excel Worksheet1.xlsx
 Output Data:
-D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip
+D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++++++++++ input_items_tuple_multi; (6 Elements) ++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_tuple_multi
-Info => Transaction Id: y20ac906w6ja; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: ('Data\\SampleData\\Excel Worksheet1.xlsx', 'Data\\SampleData', 'D:\\Other\\Github_Self\\excelPlay\\data\\SampleData\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\SampleData', 'D:\\\\Other\\\\Github_Self\\\\excelPlay\\\\data\\\\SampleData\\\\Excel Worksheet1.xlsx', 'D:/Other/Github_Self/excelPlay/data/SampleData/Excel Worksheet1.xlsx')
-Output Data:
-
+Info => Transaction Id: semkj3j5ng5l; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: ('data\\sample_data\\Excel Worksheet1.xlsx', 'data\\sample_data', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data', 'D:\\\\Other\\\\Github_Self\\\\excelPlay\\\\data\\\\sample_data\\\\Excel Worksheet1.xlsx', 'D:/Other/Github_Self/excelPlay/data/sample_data/Excel Worksheet1.xlsx')
 --------------------------------------------------------------------------------
 ******************************************** input_items_tuple_multi; Item 1 *******************************************
-- Target Folder: Data/SampleData//Excel Worksheet1_excelPlay; Already Existed -
---------------------- Data\SampleData\Excel Worksheet1.xlsx ---------------------
-out_put_path: Data/SampleData//Excel Worksheet1_excelPlay
-- Exporting Zip File: Data/SampleData//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip -
+- Target Folder: data/sample_data//Excel Worksheet1_excelPlay; Already Existed -
+--------------------- data\sample_data\Excel Worksheet1.xlsx ---------------------
+out_put_path: data/sample_data//Excel Worksheet1_excelPlay
+- Exporting Zip File: data/sample_data//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip -
 traverse_mode: Regex
-top: Data/SampleData//Excel Worksheet1_excelPlay
+top: data/sample_data//Excel Worksheet1_excelPlay
 include_files: []
 include_dirs: []
 excludes: []
@@ -930,37 +894,33 @@ Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: weevs9tnkf4g; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: Data\SampleData\Excel Worksheet1.xlsx
+Info => Transaction Id: v807r15k3l07; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: data\sample_data\Excel Worksheet1.xlsx
 Output Data:
-Data/SampleData//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip
+data/sample_data//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip
 --------------------------------------------------------------------------------
 ++++++++++++++++++++++++++++++++++++++++++++ input_items_tuple_multi; Item 2 +++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_tuple_multi
-Info => Transaction Id: qp0gupkbau1m; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: Data\SampleData
-Output Data:
-
+Info => Transaction Id: iio5z5koa5bw; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: data\sample_data
 --------------------------------------------------------------------------------
 traverse_mode: Regex
-top: D:\Other\Github_Self\excelPlay\Data\SampleData
+top: D:\Other\Github_Self\excelPlay\data\sample_data
 include_files: ['*.xlsx']
 include_dirs: []
 excludes: ['*_output.*']
 +++++++++++++++++++++++++++++++++++++ input_items_tuple_multi; Item 2; (3 Elements) ++++++++++++++++++++++++++++++++++++
 Remarks: input_items_tuple_multi
-Info => Transaction Id: e8r05lu68iej; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: ['D:\\Other\\Github_Self\\excelPlay\\Data\\SampleData\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\Data\\SampleData\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\Data\\SampleData\\SampleData.xlsx']
-Output Data:
-
+Info => Transaction Id: qqxd410vgfrn; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: ['D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\SampleData.xlsx']
 --------------------------------------------------------------------------------
 ******************************************** input_items_tuple_multi; Item 1 *******************************************
-- Target Folder: D:/Other/Github_Self/excelPlay/Data/SampleData//Excel Worksheet1_excelPlay; Already Existed -
------- D:\Other\Github_Self\excelPlay\Data\SampleData\Excel Worksheet1.xlsx ------
-out_put_path: D:/Other/Github_Self/excelPlay/Data/SampleData//Excel Worksheet1_excelPlay
-- Exporting Zip File: D:/Other/Github_Self/excelPlay/Data/SampleData//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip -
+- Target Folder: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay; Already Existed -
+----- D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx -----
+out_put_path: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay
+- Exporting Zip File: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip -
 traverse_mode: Regex
-top: D:/Other/Github_Self/excelPlay/Data/SampleData//Excel Worksheet1_excelPlay
+top: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay
 include_files: []
 include_dirs: []
 excludes: []
@@ -969,18 +929,18 @@ Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: 8wph5tfk6gqr; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\Data\SampleData\Excel Worksheet1.xlsx
+Info => Transaction Id: u8ajya9sb92w; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx
 Output Data:
-D:/Other/Github_Self/excelPlay/Data/SampleData//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip
+D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip
 --------------------------------------------------------------------------------
 ******************************************** input_items_tuple_multi; Item 2 *******************************************
-- Target Folder: D:/Other/Github_Self/excelPlay/Data/SampleData//Excel Worksheet2_excelPlay; Already Existed -
------- D:\Other\Github_Self\excelPlay\Data\SampleData\Excel Worksheet2.xlsx ------
-out_put_path: D:/Other/Github_Self/excelPlay/Data/SampleData//Excel Worksheet2_excelPlay
-- Exporting Zip File: D:/Other/Github_Self/excelPlay/Data/SampleData//Excel Worksheet2_excelPlay\..\Excel Worksheet2_excelPlay.zip -
+- Target Folder: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet2_excelPlay; Already Existed -
+----- D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx -----
+out_put_path: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet2_excelPlay
+- Exporting Zip File: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet2_excelPlay\..\Excel Worksheet2_excelPlay.zip -
 traverse_mode: Regex
-top: D:/Other/Github_Self/excelPlay/Data/SampleData//Excel Worksheet2_excelPlay
+top: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet2_excelPlay
 include_files: []
 include_dirs: []
 excludes: []
@@ -988,18 +948,18 @@ Remarks: input_items_tuple_multi
 Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
-Info => Transaction Id: 7lgkczrcc8we; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\Data\SampleData\Excel Worksheet2.xlsx
+Info => Transaction Id: 5ppog98jc03x; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx
 Output Data:
-D:/Other/Github_Self/excelPlay/Data/SampleData//Excel Worksheet2_excelPlay\..\Excel Worksheet2_excelPlay.zip
+D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet2_excelPlay\..\Excel Worksheet2_excelPlay.zip
 --------------------------------------------------------------------------------
 ******************************************** input_items_tuple_multi; Item 3 *******************************************
-- Target Folder: D:/Other/Github_Self/excelPlay/Data/SampleData//SampleData_excelPlay; Already Existed -
---------- D:\Other\Github_Self\excelPlay\Data\SampleData\SampleData.xlsx ---------
-out_put_path: D:/Other/Github_Self/excelPlay/Data/SampleData//SampleData_excelPlay
-- Exporting Zip File: D:/Other/Github_Self/excelPlay/Data/SampleData//SampleData_excelPlay\..\SampleData_excelPlay.zip -
+- Target Folder: D:/Other/Github_Self/excelPlay/data/sample_data//SampleData_excelPlay; Already Existed -
+-------- D:\Other\Github_Self\excelPlay\data\sample_data\SampleData.xlsx --------
+out_put_path: D:/Other/Github_Self/excelPlay/data/sample_data//SampleData_excelPlay
+- Exporting Zip File: D:/Other/Github_Self/excelPlay/data/sample_data//SampleData_excelPlay\..\SampleData_excelPlay.zip -
 traverse_mode: Regex
-top: D:/Other/Github_Self/excelPlay/Data/SampleData//SampleData_excelPlay
+top: D:/Other/Github_Self/excelPlay/data/sample_data//SampleData_excelPlay
 include_files: []
 include_dirs: []
 excludes: []
@@ -1010,18 +970,18 @@ Info Data:
 	Sheet3.csv Done.
 	Sheet4.csv Done.
 	Sheet5.csv Done.
-Info => Transaction Id: lw43h8q75w62; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\Data\SampleData\SampleData.xlsx
+Info => Transaction Id: k34b69ewh94v; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\SampleData.xlsx
 Output Data:
-D:/Other/Github_Self/excelPlay/Data/SampleData//SampleData_excelPlay\..\SampleData_excelPlay.zip
+D:/Other/Github_Self/excelPlay/data/sample_data//SampleData_excelPlay\..\SampleData_excelPlay.zip
 --------------------------------------------------------------------------------
 ******************************************** input_items_tuple_multi; Item 3 *******************************************
-- Target Folder: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay; Already Existed -
------- D:\Other\Github_Self\excelPlay\data\SampleData\Excel Worksheet1.xlsx ------
-out_put_path: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay
-- Exporting Zip File: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip -
+- Target Folder: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay; Already Existed -
+----- D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx -----
+out_put_path: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay
+- Exporting Zip File: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip -
 traverse_mode: Regex
-top: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay
+top: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay
 include_files: []
 include_dirs: []
 excludes: []
@@ -1030,37 +990,33 @@ Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: 68i2q7ome8b6; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\data\SampleData\Excel Worksheet1.xlsx
+Info => Transaction Id: n0osczllsl30; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx
 Output Data:
-D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip
+D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip
 --------------------------------------------------------------------------------
 ++++++++++++++++++++++++++++++++++++++++++++ input_items_tuple_multi; Item 4 +++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_tuple_multi
-Info => Transaction Id: g8uacydydph2; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\data\SampleData
-Output Data:
-
+Info => Transaction Id: r4rilhzifksa; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data
 --------------------------------------------------------------------------------
 traverse_mode: Regex
-top: D:\Other\Github_Self\excelPlay\data\SampleData
+top: D:\Other\Github_Self\excelPlay\data\sample_data
 include_files: ['*.xlsx']
 include_dirs: []
 excludes: ['*_output.*']
 +++++++++++++++++++++++++++++++++++++ input_items_tuple_multi; Item 4; (3 Elements) ++++++++++++++++++++++++++++++++++++
 Remarks: input_items_tuple_multi
-Info => Transaction Id: jx65xu3viyqa; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: ['D:\\Other\\Github_Self\\excelPlay\\data\\SampleData\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\SampleData\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\SampleData\\SampleData.xlsx']
-Output Data:
-
+Info => Transaction Id: lgpqyjex0e1d; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: ['D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\SampleData.xlsx']
 --------------------------------------------------------------------------------
 ******************************************** input_items_tuple_multi; Item 1 *******************************************
-- Target Folder: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay; Already Existed -
------- D:\Other\Github_Self\excelPlay\data\SampleData\Excel Worksheet1.xlsx ------
-out_put_path: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay
-- Exporting Zip File: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip -
+- Target Folder: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay; Already Existed -
+----- D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx -----
+out_put_path: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay
+- Exporting Zip File: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip -
 traverse_mode: Regex
-top: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay
+top: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay
 include_files: []
 include_dirs: []
 excludes: []
@@ -1069,18 +1025,18 @@ Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: njyx066qddh1; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\data\SampleData\Excel Worksheet1.xlsx
+Info => Transaction Id: kd6gifj7bvgo; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx
 Output Data:
-D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip
+D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip
 --------------------------------------------------------------------------------
 ******************************************** input_items_tuple_multi; Item 2 *******************************************
-- Target Folder: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet2_excelPlay; Already Existed -
------- D:\Other\Github_Self\excelPlay\data\SampleData\Excel Worksheet2.xlsx ------
-out_put_path: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet2_excelPlay
-- Exporting Zip File: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet2_excelPlay\..\Excel Worksheet2_excelPlay.zip -
+- Target Folder: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet2_excelPlay; Already Existed -
+----- D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx -----
+out_put_path: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet2_excelPlay
+- Exporting Zip File: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet2_excelPlay\..\Excel Worksheet2_excelPlay.zip -
 traverse_mode: Regex
-top: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet2_excelPlay
+top: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet2_excelPlay
 include_files: []
 include_dirs: []
 excludes: []
@@ -1088,18 +1044,18 @@ Remarks: input_items_tuple_multi
 Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
-Info => Transaction Id: zejf7wcj14wf; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\data\SampleData\Excel Worksheet2.xlsx
+Info => Transaction Id: si0ojawq1suf; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx
 Output Data:
-D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet2_excelPlay\..\Excel Worksheet2_excelPlay.zip
+D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet2_excelPlay\..\Excel Worksheet2_excelPlay.zip
 --------------------------------------------------------------------------------
 ******************************************** input_items_tuple_multi; Item 3 *******************************************
-- Target Folder: D:/Other/Github_Self/excelPlay/data/SampleData//SampleData_excelPlay; Already Existed -
---------- D:\Other\Github_Self\excelPlay\data\SampleData\SampleData.xlsx ---------
-out_put_path: D:/Other/Github_Self/excelPlay/data/SampleData//SampleData_excelPlay
-- Exporting Zip File: D:/Other/Github_Self/excelPlay/data/SampleData//SampleData_excelPlay\..\SampleData_excelPlay.zip -
+- Target Folder: D:/Other/Github_Self/excelPlay/data/sample_data//SampleData_excelPlay; Already Existed -
+-------- D:\Other\Github_Self\excelPlay\data\sample_data\SampleData.xlsx --------
+out_put_path: D:/Other/Github_Self/excelPlay/data/sample_data//SampleData_excelPlay
+- Exporting Zip File: D:/Other/Github_Self/excelPlay/data/sample_data//SampleData_excelPlay\..\SampleData_excelPlay.zip -
 traverse_mode: Regex
-top: D:/Other/Github_Self/excelPlay/data/SampleData//SampleData_excelPlay
+top: D:/Other/Github_Self/excelPlay/data/sample_data//SampleData_excelPlay
 include_files: []
 include_dirs: []
 excludes: []
@@ -1110,18 +1066,18 @@ Info Data:
 	Sheet3.csv Done.
 	Sheet4.csv Done.
 	Sheet5.csv Done.
-Info => Transaction Id: gliyuoayxs90; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\data\SampleData\SampleData.xlsx
+Info => Transaction Id: 76e9e7mjz6cf; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\SampleData.xlsx
 Output Data:
-D:/Other/Github_Self/excelPlay/data/SampleData//SampleData_excelPlay\..\SampleData_excelPlay.zip
+D:/Other/Github_Self/excelPlay/data/sample_data//SampleData_excelPlay\..\SampleData_excelPlay.zip
 --------------------------------------------------------------------------------
 ******************************************** input_items_tuple_multi; Item 5 *******************************************
-- Target Folder: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay; Already Existed -
---- D:\\Other\\Github_Self\\excelPlay\\data\\SampleData\\Excel Worksheet1.xlsx ---
-out_put_path: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay
-- Exporting Zip File: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip -
+- Target Folder: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay; Already Existed -
+-- D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx --
+out_put_path: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay
+- Exporting Zip File: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip -
 traverse_mode: Regex
-top: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay
+top: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay
 include_files: []
 include_dirs: []
 excludes: []
@@ -1130,18 +1086,18 @@ Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: sepybcccw9y8; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:\\Other\\Github_Self\\excelPlay\\data\\SampleData\\Excel Worksheet1.xlsx
+Info => Transaction Id: n81zxdrvnnpv; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx
 Output Data:
-D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip
+D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip
 --------------------------------------------------------------------------------
 ******************************************** input_items_tuple_multi; Item 6 *******************************************
-- Target Folder: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay; Already Existed -
------- D:/Other/Github_Self/excelPlay/data/SampleData/Excel Worksheet1.xlsx ------
-out_put_path: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay
-- Exporting Zip File: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip -
+- Target Folder: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay; Already Existed -
+----- D:/Other/Github_Self/excelPlay/data/sample_data/Excel Worksheet1.xlsx -----
+out_put_path: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay
+- Exporting Zip File: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip -
 traverse_mode: Regex
-top: D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay
+top: D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay
 include_files: []
 include_dirs: []
 excludes: []
@@ -1150,21 +1106,19 @@ Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: rehnwbq3gcmk; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:/Other/Github_Self/excelPlay/data/SampleData/Excel Worksheet1.xlsx
+Info => Transaction Id: nfrsz1tlkl6v; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:/Other/Github_Self/excelPlay/data/sample_data/Excel Worksheet1.xlsx
 Output Data:
-D:/Other/Github_Self/excelPlay/data/SampleData//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip
+D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet1_excelPlay\..\Excel Worksheet1_excelPlay.zip
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++ input_items_list_multi_w_output_folder; (6 Elements) +++++++++++++++++++++++++++++++++
 Remarks: input_items_list_multi_w_output_folder
-Info => Transaction Id: tujg0rn0e5pf; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: ['Data\\SampleData\\Excel Worksheet1.xlsx', 'Data\\SampleData', 'D:\\Other\\Github_Self\\excelPlay\\data\\SampleData\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\SampleData', 'D:\\\\Other\\\\Github_Self\\\\excelPlay\\\\data\\\\SampleData\\\\Excel Worksheet1.xlsx', 'D:/Other/Github_Self/excelPlay/data/SampleData/Excel Worksheet1.xlsx']
-Output Data:
-
+Info => Transaction Id: q16t2rhbyl4r; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: ['data\\sample_data\\Excel Worksheet1.xlsx', 'data\\sample_data', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data', 'D:\\\\Other\\\\Github_Self\\\\excelPlay\\\\data\\\\sample_data\\\\Excel Worksheet1.xlsx', 'D:/Other/Github_Self/excelPlay/data/sample_data/Excel Worksheet1.xlsx']
 --------------------------------------------------------------------------------
 ************************************ input_items_list_multi_w_output_folder; Item 1 ************************************
 - Target Folder: excel_play\test\logs\TC_input_items_list_multi_w_output_folder\Excel Worksheet1; Already Existed -
---------------------- Data\SampleData\Excel Worksheet1.xlsx ---------------------
+--------------------- data\sample_data\Excel Worksheet1.xlsx ---------------------
 out_put_path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder\Excel Worksheet1
 - Exporting Zip File: excel_play\test\logs\TC_input_items_list_multi_w_output_folder\Excel Worksheet1\..\Excel Worksheet1.zip -
 traverse_mode: Regex
@@ -1177,33 +1131,29 @@ Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: 91hvdvdh4vvm; Output Format: .csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: Data\SampleData\Excel Worksheet1.xlsx
+Info => Transaction Id: nj6rv4icif00; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: data\sample_data\Excel Worksheet1.xlsx
 Output Data:
 excel_play\test\logs\TC_input_items_list_multi_w_output_folder\Excel Worksheet1\..\Excel Worksheet1.zip
 --------------------------------------------------------------------------------
 ++++++++++++++++++++++++++++++++++++ input_items_list_multi_w_output_folder; Item 2 ++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_multi_w_output_folder
-Info => Transaction Id: 8x7wywof83q6; Output Format: .csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: Data\SampleData
-Output Data:
-
+Info => Transaction Id: c8iftv1guxmr; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: data\sample_data
 --------------------------------------------------------------------------------
 traverse_mode: Regex
-top: D:\Other\Github_Self\excelPlay\Data\SampleData
+top: D:\Other\Github_Self\excelPlay\data\sample_data
 include_files: ['*.xlsx']
 include_dirs: []
 excludes: ['*_output.*']
 +++++++++++++++++++++++++++++ input_items_list_multi_w_output_folder; Item 2; (3 Elements) +++++++++++++++++++++++++++++
 Remarks: input_items_list_multi_w_output_folder
-Info => Transaction Id: ls9f00eq1k4t; Output Format: .csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: ['D:\\Other\\Github_Self\\excelPlay\\Data\\SampleData\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\Data\\SampleData\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\Data\\SampleData\\SampleData.xlsx']
-Output Data:
-
+Info => Transaction Id: g71bypl9lvbj; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: ['D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\SampleData.xlsx']
 --------------------------------------------------------------------------------
 ************************************ input_items_list_multi_w_output_folder; Item 1 ************************************
 - Target Folder: excel_play\test\logs\TC_input_items_list_multi_w_output_folder\Excel Worksheet1; Already Existed -
------- D:\Other\Github_Self\excelPlay\Data\SampleData\Excel Worksheet1.xlsx ------
+----- D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx -----
 out_put_path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder\Excel Worksheet1
 - Exporting Zip File: excel_play\test\logs\TC_input_items_list_multi_w_output_folder\Excel Worksheet1\..\Excel Worksheet1.zip -
 traverse_mode: Regex
@@ -1216,14 +1166,14 @@ Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: wypx78y3tzci; Output Format: .csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\Data\SampleData\Excel Worksheet1.xlsx
+Info => Transaction Id: 01nzoaasz2qx; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx
 Output Data:
 excel_play\test\logs\TC_input_items_list_multi_w_output_folder\Excel Worksheet1\..\Excel Worksheet1.zip
 --------------------------------------------------------------------------------
 ************************************ input_items_list_multi_w_output_folder; Item 2 ************************************
 - Target Folder: excel_play\test\logs\TC_input_items_list_multi_w_output_folder\Excel Worksheet2; Already Existed -
------- D:\Other\Github_Self\excelPlay\Data\SampleData\Excel Worksheet2.xlsx ------
+----- D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx -----
 out_put_path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder\Excel Worksheet2
 - Exporting Zip File: excel_play\test\logs\TC_input_items_list_multi_w_output_folder\Excel Worksheet2\..\Excel Worksheet2.zip -
 traverse_mode: Regex
@@ -1235,14 +1185,14 @@ Remarks: input_items_list_multi_w_output_folder
 Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
-Info => Transaction Id: dpr5943h1oq4; Output Format: .csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\Data\SampleData\Excel Worksheet2.xlsx
+Info => Transaction Id: 84i1kdftz2mx; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx
 Output Data:
 excel_play\test\logs\TC_input_items_list_multi_w_output_folder\Excel Worksheet2\..\Excel Worksheet2.zip
 --------------------------------------------------------------------------------
 ************************************ input_items_list_multi_w_output_folder; Item 3 ************************************
 - Target Folder: excel_play\test\logs\TC_input_items_list_multi_w_output_folder\SampleData; Already Existed -
---------- D:\Other\Github_Self\excelPlay\Data\SampleData\SampleData.xlsx ---------
+-------- D:\Other\Github_Self\excelPlay\data\sample_data\SampleData.xlsx --------
 out_put_path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder\SampleData
 - Exporting Zip File: excel_play\test\logs\TC_input_items_list_multi_w_output_folder\SampleData\..\SampleData.zip -
 traverse_mode: Regex
@@ -1257,14 +1207,14 @@ Info Data:
 	Sheet3.csv Done.
 	Sheet4.csv Done.
 	Sheet5.csv Done.
-Info => Transaction Id: 20zo2w5efvc3; Output Format: .csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\Data\SampleData\SampleData.xlsx
+Info => Transaction Id: x91yyg5v0w6k; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\SampleData.xlsx
 Output Data:
 excel_play\test\logs\TC_input_items_list_multi_w_output_folder\SampleData\..\SampleData.zip
 --------------------------------------------------------------------------------
 ************************************ input_items_list_multi_w_output_folder; Item 3 ************************************
 - Target Folder: excel_play\test\logs\TC_input_items_list_multi_w_output_folder\Excel Worksheet1; Already Existed -
------- D:\Other\Github_Self\excelPlay\data\SampleData\Excel Worksheet1.xlsx ------
+----- D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx -----
 out_put_path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder\Excel Worksheet1
 - Exporting Zip File: excel_play\test\logs\TC_input_items_list_multi_w_output_folder\Excel Worksheet1\..\Excel Worksheet1.zip -
 traverse_mode: Regex
@@ -1277,33 +1227,29 @@ Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: iwlqvs0mq2j3; Output Format: .csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\data\SampleData\Excel Worksheet1.xlsx
+Info => Transaction Id: 5dg5fb3rcq59; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx
 Output Data:
 excel_play\test\logs\TC_input_items_list_multi_w_output_folder\Excel Worksheet1\..\Excel Worksheet1.zip
 --------------------------------------------------------------------------------
 ++++++++++++++++++++++++++++++++++++ input_items_list_multi_w_output_folder; Item 4 ++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_multi_w_output_folder
-Info => Transaction Id: bwnb5dyb95ii; Output Format: .csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\data\SampleData
-Output Data:
-
+Info => Transaction Id: hvk8lzsua0gz; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data
 --------------------------------------------------------------------------------
 traverse_mode: Regex
-top: D:\Other\Github_Self\excelPlay\data\SampleData
+top: D:\Other\Github_Self\excelPlay\data\sample_data
 include_files: ['*.xlsx']
 include_dirs: []
 excludes: ['*_output.*']
 +++++++++++++++++++++++++++++ input_items_list_multi_w_output_folder; Item 4; (3 Elements) +++++++++++++++++++++++++++++
 Remarks: input_items_list_multi_w_output_folder
-Info => Transaction Id: hgpdikjielq2; Output Format: .csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: ['D:\\Other\\Github_Self\\excelPlay\\data\\SampleData\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\SampleData\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\SampleData\\SampleData.xlsx']
-Output Data:
-
+Info => Transaction Id: 3pwlzwvp0rft; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: ['D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\SampleData.xlsx']
 --------------------------------------------------------------------------------
 ************************************ input_items_list_multi_w_output_folder; Item 1 ************************************
 - Target Folder: excel_play\test\logs\TC_input_items_list_multi_w_output_folder\Excel Worksheet1; Already Existed -
------- D:\Other\Github_Self\excelPlay\data\SampleData\Excel Worksheet1.xlsx ------
+----- D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx -----
 out_put_path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder\Excel Worksheet1
 - Exporting Zip File: excel_play\test\logs\TC_input_items_list_multi_w_output_folder\Excel Worksheet1\..\Excel Worksheet1.zip -
 traverse_mode: Regex
@@ -1316,14 +1262,14 @@ Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: r4srw76vfx9p; Output Format: .csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\data\SampleData\Excel Worksheet1.xlsx
+Info => Transaction Id: 5uim1ecm7ndv; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx
 Output Data:
 excel_play\test\logs\TC_input_items_list_multi_w_output_folder\Excel Worksheet1\..\Excel Worksheet1.zip
 --------------------------------------------------------------------------------
 ************************************ input_items_list_multi_w_output_folder; Item 2 ************************************
 - Target Folder: excel_play\test\logs\TC_input_items_list_multi_w_output_folder\Excel Worksheet2; Already Existed -
------- D:\Other\Github_Self\excelPlay\data\SampleData\Excel Worksheet2.xlsx ------
+----- D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx -----
 out_put_path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder\Excel Worksheet2
 - Exporting Zip File: excel_play\test\logs\TC_input_items_list_multi_w_output_folder\Excel Worksheet2\..\Excel Worksheet2.zip -
 traverse_mode: Regex
@@ -1335,14 +1281,14 @@ Remarks: input_items_list_multi_w_output_folder
 Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
-Info => Transaction Id: b7hp94jaog37; Output Format: .csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\data\SampleData\Excel Worksheet2.xlsx
+Info => Transaction Id: 4svyjeg5mhq6; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx
 Output Data:
 excel_play\test\logs\TC_input_items_list_multi_w_output_folder\Excel Worksheet2\..\Excel Worksheet2.zip
 --------------------------------------------------------------------------------
 ************************************ input_items_list_multi_w_output_folder; Item 3 ************************************
 - Target Folder: excel_play\test\logs\TC_input_items_list_multi_w_output_folder\SampleData; Already Existed -
---------- D:\Other\Github_Self\excelPlay\data\SampleData\SampleData.xlsx ---------
+-------- D:\Other\Github_Self\excelPlay\data\sample_data\SampleData.xlsx --------
 out_put_path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder\SampleData
 - Exporting Zip File: excel_play\test\logs\TC_input_items_list_multi_w_output_folder\SampleData\..\SampleData.zip -
 traverse_mode: Regex
@@ -1357,14 +1303,14 @@ Info Data:
 	Sheet3.csv Done.
 	Sheet4.csv Done.
 	Sheet5.csv Done.
-Info => Transaction Id: b1a414yv4dnq; Output Format: .csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\data\SampleData\SampleData.xlsx
+Info => Transaction Id: aaiinll953dk; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\SampleData.xlsx
 Output Data:
 excel_play\test\logs\TC_input_items_list_multi_w_output_folder\SampleData\..\SampleData.zip
 --------------------------------------------------------------------------------
 ************************************ input_items_list_multi_w_output_folder; Item 5 ************************************
 - Target Folder: excel_play\test\logs\TC_input_items_list_multi_w_output_folder\Excel Worksheet1; Already Existed -
---- D:\\Other\\Github_Self\\excelPlay\\data\\SampleData\\Excel Worksheet1.xlsx ---
+-- D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx --
 out_put_path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder\Excel Worksheet1
 - Exporting Zip File: excel_play\test\logs\TC_input_items_list_multi_w_output_folder\Excel Worksheet1\..\Excel Worksheet1.zip -
 traverse_mode: Regex
@@ -1377,14 +1323,14 @@ Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: vwwdkv6mwug3; Output Format: .csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:\\Other\\Github_Self\\excelPlay\\data\\SampleData\\Excel Worksheet1.xlsx
+Info => Transaction Id: qml6u9b6752q; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx
 Output Data:
 excel_play\test\logs\TC_input_items_list_multi_w_output_folder\Excel Worksheet1\..\Excel Worksheet1.zip
 --------------------------------------------------------------------------------
 ************************************ input_items_list_multi_w_output_folder; Item 6 ************************************
 - Target Folder: excel_play\test\logs\TC_input_items_list_multi_w_output_folder\Excel Worksheet1; Already Existed -
------- D:/Other/Github_Self/excelPlay/data/SampleData/Excel Worksheet1.xlsx ------
+----- D:/Other/Github_Self/excelPlay/data/sample_data/Excel Worksheet1.xlsx -----
 out_put_path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder\Excel Worksheet1
 - Exporting Zip File: excel_play\test\logs\TC_input_items_list_multi_w_output_folder\Excel Worksheet1\..\Excel Worksheet1.zip -
 traverse_mode: Regex
@@ -1397,21 +1343,19 @@ Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: ogo9khc2mfxv; Output Format: .csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:/Other/Github_Self/excelPlay/data/SampleData/Excel Worksheet1.xlsx
+Info => Transaction Id: j336lxj9ywga; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:/Other/Github_Self/excelPlay/data/sample_data/Excel Worksheet1.xlsx
 Output Data:
 excel_play\test\logs\TC_input_items_list_multi_w_output_folder\Excel Worksheet1\..\Excel Worksheet1.zip
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++ input_items_tuple_multi_w_output_folder; (6 Elements) ++++++++++++++++++++++++++++++++
 Remarks: input_items_tuple_multi_w_output_folder
-Info => Transaction Id: edo14brmrevv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: ('Data\\SampleData\\Excel Worksheet1.xlsx', 'Data\\SampleData', 'D:\\Other\\Github_Self\\excelPlay\\data\\SampleData\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\SampleData', 'D:\\\\Other\\\\Github_Self\\\\excelPlay\\\\data\\\\SampleData\\\\Excel Worksheet1.xlsx', 'D:/Other/Github_Self/excelPlay/data/SampleData/Excel Worksheet1.xlsx')
-Output Data:
-
+Info => Transaction Id: jocl23odv86d; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: ('data\\sample_data\\Excel Worksheet1.xlsx', 'data\\sample_data', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data', 'D:\\\\Other\\\\Github_Self\\\\excelPlay\\\\data\\\\sample_data\\\\Excel Worksheet1.xlsx', 'D:/Other/Github_Self/excelPlay/data/sample_data/Excel Worksheet1.xlsx')
 --------------------------------------------------------------------------------
 ************************************ input_items_tuple_multi_w_output_folder; Item 1 ***********************************
 - Target Folder: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\Excel Worksheet1; Already Existed -
---------------------- Data\SampleData\Excel Worksheet1.xlsx ---------------------
+--------------------- data\sample_data\Excel Worksheet1.xlsx ---------------------
 out_put_path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\Excel Worksheet1
 - Exporting Zip File: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\Excel Worksheet1\..\Excel Worksheet1.zip -
 traverse_mode: Regex
@@ -1424,33 +1368,29 @@ Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: ufcczesw0vle; Output Format: .csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: Data\SampleData\Excel Worksheet1.xlsx
+Info => Transaction Id: 5185qqqj65eb; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: data\sample_data\Excel Worksheet1.xlsx
 Output Data:
 excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\Excel Worksheet1\..\Excel Worksheet1.zip
 --------------------------------------------------------------------------------
 ++++++++++++++++++++++++++++++++++++ input_items_tuple_multi_w_output_folder; Item 2 +++++++++++++++++++++++++++++++++++
 Remarks: input_items_tuple_multi_w_output_folder
-Info => Transaction Id: kvjof8ldf3pn; Output Format: .csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: Data\SampleData
-Output Data:
-
+Info => Transaction Id: 5hqsjocteb04; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: data\sample_data
 --------------------------------------------------------------------------------
 traverse_mode: Regex
-top: D:\Other\Github_Self\excelPlay\Data\SampleData
+top: D:\Other\Github_Self\excelPlay\data\sample_data
 include_files: ['*.xlsx']
 include_dirs: []
 excludes: ['*_output.*']
 +++++++++++++++++++++++++++++ input_items_tuple_multi_w_output_folder; Item 2; (3 Elements) ++++++++++++++++++++++++++++
 Remarks: input_items_tuple_multi_w_output_folder
-Info => Transaction Id: 4kjn6x0doyx1; Output Format: .csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: ['D:\\Other\\Github_Self\\excelPlay\\Data\\SampleData\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\Data\\SampleData\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\Data\\SampleData\\SampleData.xlsx']
-Output Data:
-
+Info => Transaction Id: wow7ge7he0rn; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: ['D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\SampleData.xlsx']
 --------------------------------------------------------------------------------
 ************************************ input_items_tuple_multi_w_output_folder; Item 1 ***********************************
 - Target Folder: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\Excel Worksheet1; Already Existed -
------- D:\Other\Github_Self\excelPlay\Data\SampleData\Excel Worksheet1.xlsx ------
+----- D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx -----
 out_put_path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\Excel Worksheet1
 - Exporting Zip File: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\Excel Worksheet1\..\Excel Worksheet1.zip -
 traverse_mode: Regex
@@ -1463,14 +1403,14 @@ Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: sar988cm8soe; Output Format: .csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\Data\SampleData\Excel Worksheet1.xlsx
+Info => Transaction Id: czpedi9yc7ev; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx
 Output Data:
 excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\Excel Worksheet1\..\Excel Worksheet1.zip
 --------------------------------------------------------------------------------
 ************************************ input_items_tuple_multi_w_output_folder; Item 2 ***********************************
 - Target Folder: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\Excel Worksheet2; Already Existed -
------- D:\Other\Github_Self\excelPlay\Data\SampleData\Excel Worksheet2.xlsx ------
+----- D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx -----
 out_put_path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\Excel Worksheet2
 - Exporting Zip File: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\Excel Worksheet2\..\Excel Worksheet2.zip -
 traverse_mode: Regex
@@ -1482,14 +1422,14 @@ Remarks: input_items_tuple_multi_w_output_folder
 Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
-Info => Transaction Id: t5n9zdg5v708; Output Format: .csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\Data\SampleData\Excel Worksheet2.xlsx
+Info => Transaction Id: 95vxq1ik1xh2; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx
 Output Data:
 excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\Excel Worksheet2\..\Excel Worksheet2.zip
 --------------------------------------------------------------------------------
 ************************************ input_items_tuple_multi_w_output_folder; Item 3 ***********************************
 - Target Folder: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\SampleData; Already Existed -
---------- D:\Other\Github_Self\excelPlay\Data\SampleData\SampleData.xlsx ---------
+-------- D:\Other\Github_Self\excelPlay\data\sample_data\SampleData.xlsx --------
 out_put_path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\SampleData
 - Exporting Zip File: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\SampleData\..\SampleData.zip -
 traverse_mode: Regex
@@ -1504,14 +1444,14 @@ Info Data:
 	Sheet3.csv Done.
 	Sheet4.csv Done.
 	Sheet5.csv Done.
-Info => Transaction Id: smcyrx8be0ex; Output Format: .csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\Data\SampleData\SampleData.xlsx
+Info => Transaction Id: fvjdewr9ntt2; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\SampleData.xlsx
 Output Data:
 excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\SampleData\..\SampleData.zip
 --------------------------------------------------------------------------------
 ************************************ input_items_tuple_multi_w_output_folder; Item 3 ***********************************
 - Target Folder: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\Excel Worksheet1; Already Existed -
------- D:\Other\Github_Self\excelPlay\data\SampleData\Excel Worksheet1.xlsx ------
+----- D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx -----
 out_put_path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\Excel Worksheet1
 - Exporting Zip File: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\Excel Worksheet1\..\Excel Worksheet1.zip -
 traverse_mode: Regex
@@ -1524,33 +1464,29 @@ Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: 8lfzfmtsez98; Output Format: .csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\data\SampleData\Excel Worksheet1.xlsx
+Info => Transaction Id: 34vj7o9r4ccl; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx
 Output Data:
 excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\Excel Worksheet1\..\Excel Worksheet1.zip
 --------------------------------------------------------------------------------
 ++++++++++++++++++++++++++++++++++++ input_items_tuple_multi_w_output_folder; Item 4 +++++++++++++++++++++++++++++++++++
 Remarks: input_items_tuple_multi_w_output_folder
-Info => Transaction Id: 24mpcrcvlkf2; Output Format: .csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\data\SampleData
-Output Data:
-
+Info => Transaction Id: 88uc6iowiwcp; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data
 --------------------------------------------------------------------------------
 traverse_mode: Regex
-top: D:\Other\Github_Self\excelPlay\data\SampleData
+top: D:\Other\Github_Self\excelPlay\data\sample_data
 include_files: ['*.xlsx']
 include_dirs: []
 excludes: ['*_output.*']
 +++++++++++++++++++++++++++++ input_items_tuple_multi_w_output_folder; Item 4; (3 Elements) ++++++++++++++++++++++++++++
 Remarks: input_items_tuple_multi_w_output_folder
-Info => Transaction Id: zfmlr6d1gqe1; Output Format: .csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: ['D:\\Other\\Github_Self\\excelPlay\\data\\SampleData\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\SampleData\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\SampleData\\SampleData.xlsx']
-Output Data:
-
+Info => Transaction Id: mgosaknsc7l4; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: ['D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\SampleData.xlsx']
 --------------------------------------------------------------------------------
 ************************************ input_items_tuple_multi_w_output_folder; Item 1 ***********************************
 - Target Folder: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\Excel Worksheet1; Already Existed -
------- D:\Other\Github_Self\excelPlay\data\SampleData\Excel Worksheet1.xlsx ------
+----- D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx -----
 out_put_path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\Excel Worksheet1
 - Exporting Zip File: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\Excel Worksheet1\..\Excel Worksheet1.zip -
 traverse_mode: Regex
@@ -1563,14 +1499,14 @@ Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: 5syazaz8a9db; Output Format: .csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\data\SampleData\Excel Worksheet1.xlsx
+Info => Transaction Id: v7gfbxjlalf1; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx
 Output Data:
 excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\Excel Worksheet1\..\Excel Worksheet1.zip
 --------------------------------------------------------------------------------
 ************************************ input_items_tuple_multi_w_output_folder; Item 2 ***********************************
 - Target Folder: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\Excel Worksheet2; Already Existed -
------- D:\Other\Github_Self\excelPlay\data\SampleData\Excel Worksheet2.xlsx ------
+----- D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx -----
 out_put_path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\Excel Worksheet2
 - Exporting Zip File: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\Excel Worksheet2\..\Excel Worksheet2.zip -
 traverse_mode: Regex
@@ -1582,14 +1518,14 @@ Remarks: input_items_tuple_multi_w_output_folder
 Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
-Info => Transaction Id: wjw9wk1jt27k; Output Format: .csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\data\SampleData\Excel Worksheet2.xlsx
+Info => Transaction Id: kpjt3upo75mx; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx
 Output Data:
 excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\Excel Worksheet2\..\Excel Worksheet2.zip
 --------------------------------------------------------------------------------
 ************************************ input_items_tuple_multi_w_output_folder; Item 3 ***********************************
 - Target Folder: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\SampleData; Already Existed -
---------- D:\Other\Github_Self\excelPlay\data\SampleData\SampleData.xlsx ---------
+-------- D:\Other\Github_Self\excelPlay\data\sample_data\SampleData.xlsx --------
 out_put_path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\SampleData
 - Exporting Zip File: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\SampleData\..\SampleData.zip -
 traverse_mode: Regex
@@ -1604,14 +1540,14 @@ Info Data:
 	Sheet3.csv Done.
 	Sheet4.csv Done.
 	Sheet5.csv Done.
-Info => Transaction Id: 8usl38xv8pc3; Output Format: .csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:\Other\Github_Self\excelPlay\data\SampleData\SampleData.xlsx
+Info => Transaction Id: grpmhg3go2e3; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\SampleData.xlsx
 Output Data:
 excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\SampleData\..\SampleData.zip
 --------------------------------------------------------------------------------
 ************************************ input_items_tuple_multi_w_output_folder; Item 5 ***********************************
 - Target Folder: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\Excel Worksheet1; Already Existed -
---- D:\\Other\\Github_Self\\excelPlay\\data\\SampleData\\Excel Worksheet1.xlsx ---
+-- D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx --
 out_put_path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\Excel Worksheet1
 - Exporting Zip File: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\Excel Worksheet1\..\Excel Worksheet1.zip -
 traverse_mode: Regex
@@ -1624,14 +1560,14 @@ Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: kctubjjfuu89; Output Format: .csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:\\Other\\Github_Self\\excelPlay\\data\\SampleData\\Excel Worksheet1.xlsx
+Info => Transaction Id: myibpp44vgor; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx
 Output Data:
 excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\Excel Worksheet1\..\Excel Worksheet1.zip
 --------------------------------------------------------------------------------
 ************************************ input_items_tuple_multi_w_output_folder; Item 6 ***********************************
 - Target Folder: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\Excel Worksheet1; Already Existed -
------- D:/Other/Github_Self/excelPlay/data/SampleData/Excel Worksheet1.xlsx ------
+----- D:/Other/Github_Self/excelPlay/data/sample_data/Excel Worksheet1.xlsx -----
 out_put_path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\Excel Worksheet1
 - Exporting Zip File: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\Excel Worksheet1\..\Excel Worksheet1.zip -
 traverse_mode: Regex
@@ -1644,17 +1580,15 @@ Info Data:
 	OrderData.csv Done.
 	Finance.csv Done.
 	House.csv Done.
-Info => Transaction Id: okaf7drj4ok8; Output Format: .csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
-Input Data: D:/Other/Github_Self/excelPlay/data/SampleData/Excel Worksheet1.xlsx
+Info => Transaction Id: cgr82jyrn6kn; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: D:/Other/Github_Self/excelPlay/data/sample_data/Excel Worksheet1.xlsx
 Output Data:
 excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder\Excel Worksheet1\..\Excel Worksheet1.zip
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++++++++++++++++ input_items_list_encoding ++++++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_encoding
-Info => Transaction Id: tsulbkzo5q71; Output Format: .csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\strict; Encoding: ascii; Encoding Errors: strict; Archive Output Format: .zip
+Info => Transaction Id: juvxq97k9clk; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\strict; Encoding: ascii; Encoding Errors: strict; Archive Output Format: .zip
 Input Data: excel_play\test\logs\TC_encoding_ascii_0
-Output Data:
-
 --------------------------------------------------------------------------------
 traverse_mode: Regex
 top: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0
@@ -1663,12 +1597,10 @@ include_dirs: []
 excludes: ['*_output.*']
 ++++++++++++++++++++++++++++++++++++++++ input_items_list_encoding; (1 Elements) +++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_encoding
-Info => Transaction Id: lrfkm2lax7ii; Output Format: .csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\strict; Encoding: ascii; Encoding Errors: strict; Archive Output Format: .zip
+Info => Transaction Id: 5vqwif1sydy9; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\strict; Encoding: ascii; Encoding Errors: strict; Archive Output Format: .zip
 Input Data: ['D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_encoding_ascii_0\\Const.xlsx']
-Output Data:
-
 --------------------------------------------------------------------------------
-******************************************* input_items_list_encoding; Item 1 ******************************************
+*********************************************** input_items_list_encoding **********************************************
 - Target Folder: excel_play\test\logs\TC_encoding_ascii_0\strict\Const; Already Existed -
 - D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0\Const.xlsx -
 out_put_path: excel_play\test\logs\TC_encoding_ascii_0\strict\Const
@@ -1687,7 +1619,7 @@ Info Data:
 	Optional Features.csv Done.
 	Applicability Table v1.csv Done.
 	Conditional Items.csv Done.
-Info => Transaction Id: 1cbvijf9u391; Output Format: .csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\strict; Encoding: ascii; Encoding Errors: strict; Archive Output Format: .zip
+Info => Transaction Id: qsnd5nf5bu9k; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\strict; Encoding: ascii; Encoding Errors: strict; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0\Const.xlsx
 Output Data:
 excel_play\test\logs\TC_encoding_ascii_0\strict\Const\Questions.csv
@@ -1706,10 +1638,8 @@ excel_play\test\logs\TC_encoding_ascii_0\strict\Const\Conditional Items.csv
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++++++++++++++++ input_items_list_encoding ++++++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_encoding
-Info => Transaction Id: xy5kmg7gskiq; Output Format: .csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\ignore; Encoding: ascii; Encoding Errors: ignore; Archive Output Format: .zip
+Info => Transaction Id: u7v0oz23ulxe; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\ignore; Encoding: ascii; Encoding Errors: ignore; Archive Output Format: .zip
 Input Data: excel_play\test\logs\TC_encoding_ascii_0
-Output Data:
-
 --------------------------------------------------------------------------------
 traverse_mode: Regex
 top: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0
@@ -1718,12 +1648,10 @@ include_dirs: []
 excludes: ['*_output.*']
 ++++++++++++++++++++++++++++++++++++++++ input_items_list_encoding; (1 Elements) +++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_encoding
-Info => Transaction Id: tnz90pp2hawc; Output Format: .csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\ignore; Encoding: ascii; Encoding Errors: ignore; Archive Output Format: .zip
+Info => Transaction Id: 1vllruzdriis; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\ignore; Encoding: ascii; Encoding Errors: ignore; Archive Output Format: .zip
 Input Data: ['D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_encoding_ascii_0\\Const.xlsx']
-Output Data:
-
 --------------------------------------------------------------------------------
-******************************************* input_items_list_encoding; Item 1 ******************************************
+*********************************************** input_items_list_encoding **********************************************
 - Target Folder: excel_play\test\logs\TC_encoding_ascii_0\ignore\Const; Already Existed -
 - D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0\Const.xlsx -
 out_put_path: excel_play\test\logs\TC_encoding_ascii_0\ignore\Const
@@ -1742,7 +1670,7 @@ Info Data:
 	Optional Features.csv Done.
 	Applicability Table v1.csv Done.
 	Conditional Items.csv Done.
-Info => Transaction Id: v26pfvxltmph; Output Format: .csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\ignore; Encoding: ascii; Encoding Errors: ignore; Archive Output Format: .zip
+Info => Transaction Id: 648n7oole0wl; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\ignore; Encoding: ascii; Encoding Errors: ignore; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0\Const.xlsx
 Output Data:
 excel_play\test\logs\TC_encoding_ascii_0\ignore\Const\Questions.csv
@@ -1761,10 +1689,8 @@ excel_play\test\logs\TC_encoding_ascii_0\ignore\Const\Conditional Items.csv
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++++++++++++++++ input_items_list_encoding ++++++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_encoding
-Info => Transaction Id: 8waj4rq8cxsp; Output Format: .csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\replace; Encoding: ascii; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: wpkmqzfhtfzq; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\replace; Encoding: ascii; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: excel_play\test\logs\TC_encoding_ascii_0
-Output Data:
-
 --------------------------------------------------------------------------------
 traverse_mode: Regex
 top: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0
@@ -1773,12 +1699,10 @@ include_dirs: []
 excludes: ['*_output.*']
 ++++++++++++++++++++++++++++++++++++++++ input_items_list_encoding; (1 Elements) +++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_encoding
-Info => Transaction Id: 41qz38eujl9o; Output Format: .csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\replace; Encoding: ascii; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: yvnae015ag7p; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\replace; Encoding: ascii; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: ['D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_encoding_ascii_0\\Const.xlsx']
-Output Data:
-
 --------------------------------------------------------------------------------
-******************************************* input_items_list_encoding; Item 1 ******************************************
+*********************************************** input_items_list_encoding **********************************************
 - Target Folder: excel_play\test\logs\TC_encoding_ascii_0\replace\Const; Already Existed -
 - D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0\Const.xlsx -
 out_put_path: excel_play\test\logs\TC_encoding_ascii_0\replace\Const
@@ -1797,7 +1721,7 @@ Info Data:
 	Optional Features.csv Done.
 	Applicability Table v1.csv Done.
 	Conditional Items.csv Done.
-Info => Transaction Id: fmwnksofiv6d; Output Format: .csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\replace; Encoding: ascii; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: frwlexb42jdn; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\replace; Encoding: ascii; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0\Const.xlsx
 Output Data:
 excel_play\test\logs\TC_encoding_ascii_0\replace\Const\Questions.csv
@@ -1816,10 +1740,8 @@ excel_play\test\logs\TC_encoding_ascii_0\replace\Const\Conditional Items.csv
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++++++++++++++++ input_items_list_encoding ++++++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_encoding
-Info => Transaction Id: d1zml6hzx6q0; Output Format: .csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\surrogateescape; Encoding: ascii; Encoding Errors: surrogateescape; Archive Output Format: .zip
+Info => Transaction Id: hkz5csyayztc; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\surrogateescape; Encoding: ascii; Encoding Errors: surrogateescape; Archive Output Format: .zip
 Input Data: excel_play\test\logs\TC_encoding_ascii_0
-Output Data:
-
 --------------------------------------------------------------------------------
 traverse_mode: Regex
 top: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0
@@ -1828,12 +1750,10 @@ include_dirs: []
 excludes: ['*_output.*']
 ++++++++++++++++++++++++++++++++++++++++ input_items_list_encoding; (1 Elements) +++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_encoding
-Info => Transaction Id: lhrvu5z0670j; Output Format: .csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\surrogateescape; Encoding: ascii; Encoding Errors: surrogateescape; Archive Output Format: .zip
+Info => Transaction Id: egs5atuw2r1j; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\surrogateescape; Encoding: ascii; Encoding Errors: surrogateescape; Archive Output Format: .zip
 Input Data: ['D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_encoding_ascii_0\\Const.xlsx']
-Output Data:
-
 --------------------------------------------------------------------------------
-******************************************* input_items_list_encoding; Item 1 ******************************************
+*********************************************** input_items_list_encoding **********************************************
 - Target Folder: excel_play\test\logs\TC_encoding_ascii_0\surrogateescape\Const; Already Existed -
 - D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0\Const.xlsx -
 out_put_path: excel_play\test\logs\TC_encoding_ascii_0\surrogateescape\Const
@@ -1852,7 +1772,7 @@ Info Data:
 	Optional Features.csv Done.
 	Applicability Table v1.csv Done.
 	Conditional Items.csv Done.
-Info => Transaction Id: fyvsdkx7sqro; Output Format: .csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\surrogateescape; Encoding: ascii; Encoding Errors: surrogateescape; Archive Output Format: .zip
+Info => Transaction Id: pl1rkr4ammgn; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\surrogateescape; Encoding: ascii; Encoding Errors: surrogateescape; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0\Const.xlsx
 Output Data:
 excel_play\test\logs\TC_encoding_ascii_0\surrogateescape\Const\Questions.csv
@@ -1871,10 +1791,8 @@ excel_play\test\logs\TC_encoding_ascii_0\surrogateescape\Const\Conditional Items
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++++++++++++++++ input_items_list_encoding ++++++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_encoding
-Info => Transaction Id: 31ag1vy8idbp; Output Format: .csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\xmlcharrefreplace; Encoding: ascii; Encoding Errors: xmlcharrefreplace; Archive Output Format: .zip
+Info => Transaction Id: vf1777yja16x; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\xmlcharrefreplace; Encoding: ascii; Encoding Errors: xmlcharrefreplace; Archive Output Format: .zip
 Input Data: excel_play\test\logs\TC_encoding_ascii_0
-Output Data:
-
 --------------------------------------------------------------------------------
 traverse_mode: Regex
 top: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0
@@ -1883,12 +1801,10 @@ include_dirs: []
 excludes: ['*_output.*']
 ++++++++++++++++++++++++++++++++++++++++ input_items_list_encoding; (1 Elements) +++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_encoding
-Info => Transaction Id: 4gve6s76gv2w; Output Format: .csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\xmlcharrefreplace; Encoding: ascii; Encoding Errors: xmlcharrefreplace; Archive Output Format: .zip
+Info => Transaction Id: qeavn7o5y6bj; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\xmlcharrefreplace; Encoding: ascii; Encoding Errors: xmlcharrefreplace; Archive Output Format: .zip
 Input Data: ['D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_encoding_ascii_0\\Const.xlsx']
-Output Data:
-
 --------------------------------------------------------------------------------
-******************************************* input_items_list_encoding; Item 1 ******************************************
+*********************************************** input_items_list_encoding **********************************************
 - Target Folder: excel_play\test\logs\TC_encoding_ascii_0\xmlcharrefreplace\Const; Already Existed -
 - D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0\Const.xlsx -
 out_put_path: excel_play\test\logs\TC_encoding_ascii_0\xmlcharrefreplace\Const
@@ -1907,7 +1823,7 @@ Info Data:
 	Optional Features.csv Done.
 	Applicability Table v1.csv Done.
 	Conditional Items.csv Done.
-Info => Transaction Id: 10psyyfwlkg1; Output Format: .csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\xmlcharrefreplace; Encoding: ascii; Encoding Errors: xmlcharrefreplace; Archive Output Format: .zip
+Info => Transaction Id: 5rzmhy5jddb0; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\xmlcharrefreplace; Encoding: ascii; Encoding Errors: xmlcharrefreplace; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0\Const.xlsx
 Output Data:
 excel_play\test\logs\TC_encoding_ascii_0\xmlcharrefreplace\Const\Questions.csv
@@ -1926,10 +1842,8 @@ excel_play\test\logs\TC_encoding_ascii_0\xmlcharrefreplace\Const\Conditional Ite
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++++++++++++++++ input_items_list_encoding ++++++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_encoding
-Info => Transaction Id: oqpb9yzz50tk; Output Format: .csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\backslashreplace; Encoding: ascii; Encoding Errors: backslashreplace; Archive Output Format: .zip
+Info => Transaction Id: ptjs9gxdjil3; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\backslashreplace; Encoding: ascii; Encoding Errors: backslashreplace; Archive Output Format: .zip
 Input Data: excel_play\test\logs\TC_encoding_ascii_0
-Output Data:
-
 --------------------------------------------------------------------------------
 traverse_mode: Regex
 top: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0
@@ -1938,12 +1852,10 @@ include_dirs: []
 excludes: ['*_output.*']
 ++++++++++++++++++++++++++++++++++++++++ input_items_list_encoding; (1 Elements) +++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_encoding
-Info => Transaction Id: jpmxnlrryg5o; Output Format: .csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\backslashreplace; Encoding: ascii; Encoding Errors: backslashreplace; Archive Output Format: .zip
+Info => Transaction Id: ddv593syh36i; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\backslashreplace; Encoding: ascii; Encoding Errors: backslashreplace; Archive Output Format: .zip
 Input Data: ['D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_encoding_ascii_0\\Const.xlsx']
-Output Data:
-
 --------------------------------------------------------------------------------
-******************************************* input_items_list_encoding; Item 1 ******************************************
+*********************************************** input_items_list_encoding **********************************************
 - Target Folder: excel_play\test\logs\TC_encoding_ascii_0\backslashreplace\Const; Already Existed -
 - D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0\Const.xlsx -
 out_put_path: excel_play\test\logs\TC_encoding_ascii_0\backslashreplace\Const
@@ -1962,7 +1874,7 @@ Info Data:
 	Optional Features.csv Done.
 	Applicability Table v1.csv Done.
 	Conditional Items.csv Done.
-Info => Transaction Id: ko546c6sv6kd; Output Format: .csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\backslashreplace; Encoding: ascii; Encoding Errors: backslashreplace; Archive Output Format: .zip
+Info => Transaction Id: 2xxf15ig2tat; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\backslashreplace; Encoding: ascii; Encoding Errors: backslashreplace; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0\Const.xlsx
 Output Data:
 excel_play\test\logs\TC_encoding_ascii_0\backslashreplace\Const\Questions.csv
@@ -1981,10 +1893,8 @@ excel_play\test\logs\TC_encoding_ascii_0\backslashreplace\Const\Conditional Item
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++++++++++++++++ input_items_list_encoding ++++++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_encoding
-Info => Transaction Id: w8dmgqkh1a5a; Output Format: .csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\namereplace; Encoding: ascii; Encoding Errors: namereplace; Archive Output Format: .zip
+Info => Transaction Id: kqg0uzy6fwfr; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\namereplace; Encoding: ascii; Encoding Errors: namereplace; Archive Output Format: .zip
 Input Data: excel_play\test\logs\TC_encoding_ascii_0
-Output Data:
-
 --------------------------------------------------------------------------------
 traverse_mode: Regex
 top: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0
@@ -1993,12 +1903,10 @@ include_dirs: []
 excludes: ['*_output.*']
 ++++++++++++++++++++++++++++++++++++++++ input_items_list_encoding; (1 Elements) +++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_encoding
-Info => Transaction Id: m5c61izb7fk4; Output Format: .csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\namereplace; Encoding: ascii; Encoding Errors: namereplace; Archive Output Format: .zip
+Info => Transaction Id: f1jun9gd3yzt; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\namereplace; Encoding: ascii; Encoding Errors: namereplace; Archive Output Format: .zip
 Input Data: ['D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_encoding_ascii_0\\Const.xlsx']
-Output Data:
-
 --------------------------------------------------------------------------------
-******************************************* input_items_list_encoding; Item 1 ******************************************
+*********************************************** input_items_list_encoding **********************************************
 - Target Folder: excel_play\test\logs\TC_encoding_ascii_0\namereplace\Const; Already Existed -
 - D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0\Const.xlsx -
 out_put_path: excel_play\test\logs\TC_encoding_ascii_0\namereplace\Const
@@ -2017,7 +1925,7 @@ Info Data:
 	Optional Features.csv Done.
 	Applicability Table v1.csv Done.
 	Conditional Items.csv Done.
-Info => Transaction Id: y6b1vsm26unt; Output Format: .csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\namereplace; Encoding: ascii; Encoding Errors: namereplace; Archive Output Format: .zip
+Info => Transaction Id: h5kqv8e3qet7; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\namereplace; Encoding: ascii; Encoding Errors: namereplace; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0\Const.xlsx
 Output Data:
 excel_play\test\logs\TC_encoding_ascii_0\namereplace\Const\Questions.csv
@@ -2035,24 +1943,20 @@ excel_play\test\logs\TC_encoding_ascii_0\namereplace\Const\Applicability Table v
 excel_play\test\logs\TC_encoding_ascii_0\namereplace\Const\Conditional Items.csv
 --------------------------------------------------------------------------------
 ***********************************************************  ***********************************************************
-Info => Transaction Id: 28wd8frpoi3y; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: hyzb4jcjq74q; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: 
-Output Data:
-
 --------------------------------------------------------------------------------
 Known Exception Occurred; Details: Missing Input Data
 ***************************************************** invalid path *****************************************************
 Remarks: invalid path
-Info => Transaction Id: 0zswnvvpz4vt; Output Format: .csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: m7rj4qe5arva; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: xyz
-Output Data:
-
 --------------------------------------------------------------------------------
 UnKnown Exception Occurred; Details: Invalid Path: xyz
 ---------------------------------- Time Details ----------------------------------
-Current Time Stamp: 2024-11-11 00:15:09.158730+05:30
-Execution Time: 00:01:09; Milliseconds: 69842.57912635803
-Execution Time CPU: 00:00:59; Milliseconds: 59546.875
+Current Time Stamp: 2025-01-28 09:21:23.104085+05:30
+Execution Time: 00:00:44; Milliseconds: 44829.73051071167
+Execution Time CPU: 00:00:42; Milliseconds: 42609.375
 Timer State: TIMER_OFF
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
