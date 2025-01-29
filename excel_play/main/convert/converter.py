@@ -54,9 +54,9 @@ def print_data(data=None, meta_data=None, info_data=None, master_data=None):
             if info_present:
                 sep = PhConstants.SEPERATOR_MULTI_LINE_TABBED if info_count > 1 else PhConstants.SEPERATOR_ONE_LINE
                 meta_data.output_dic.update(PhUtil.get_dic_data_and_print(PhKeys.INFO_DATA, sep, info_msg))
-                if data.print_info:
-                    meta_data.output_dic.update(
-                        PhUtil.get_dic_data_and_print(PhKeys.INFO_DATA, len_sep, info_msg, length_needed=True))
+                # if data.print_info:
+                #     meta_data.output_dic.update(
+                #         PhUtil.get_dic_data_and_print(PhKeys.INFO_DATA, len_sep, info_msg, length_needed=True))
         info_contents_pool = {
             PhKeys.TRANSACTION_ID: meta_data.transaction_id,
             PhKeys.OUTPUT_FORMAT: data.output_format,
@@ -73,20 +73,18 @@ def print_data(data=None, meta_data=None, info_data=None, master_data=None):
     in_data = meta_data.input_data_org
     if data.print_input:
         meta_data.output_dic.update(PhUtil.get_dic_data_and_print(PhKeys.INPUT_DATA, input_sep, in_data))
-    if data.print_info:
-        meta_data.output_dic.update(
-            PhUtil.get_dic_data_and_print(PhKeys.INPUT_DATA, len_sep, in_data, length_needed=True))
+    # if data.print_info:
+    #     meta_data.output_dic.update(
+    #         PhUtil.get_dic_data_and_print(PhKeys.INPUT_DATA, len_sep, in_data, length_needed=True))
     output_present = meta_data.parsed_data
+    meta_data.parsed_data = '\n'.join(PhUtil.to_list(meta_data.parsed_data))
     if output_present:
         if data.print_output:
             meta_data.output_dic.update(
                 PhUtil.get_dic_data_and_print(PhKeys.OUTPUT_DATA, output_sep, meta_data.parsed_data))
-
-            # res = '\n'.join(PhUtil.to_list(meta_data.parsed_data))
-            # meta_data.output_dic.update(PhUtil.get_dic_data_and_print(PhKeys.OUTPUT_DATA, output_sep, res))
-        if data.print_info:
-            meta_data.output_dic.update(
-                PhUtil.get_dic_data_and_print(PhKeys.OUTPUT_DATA, len_sep, meta_data.parsed_data, length_needed=True))
+        # if data.print_info:
+        #     meta_data.output_dic.update(
+        #         PhUtil.get_dic_data_and_print(PhKeys.OUTPUT_DATA, len_sep, meta_data.parsed_data, length_needed=True))
     PhUtil.print_separator()
 
 
@@ -97,7 +95,7 @@ def set_includes_excludes_files(data, meta_data):
     :param meta_data:
     """
     # TODO: Revisit this
-    include_files = [item for item in FormatsGroup.FILE_FORMATS_SUPPORTED if item not in [data.output_format]]
+    include_files = [item for item in FormatsGroup.OUTPUT_FORMATS_SUPPORTED if item not in [data.output_format]]
     include_files = [f'*.{item}' for item in include_files]
     meta_data.include_files = include_files
     # Always exclude output files

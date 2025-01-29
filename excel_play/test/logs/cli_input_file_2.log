@@ -5,9 +5,9 @@ Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Tuesday, Jan 28 2025, 09:21:46:119253, IST (GMT+0530)
+Time Stamp is Tuesday, Jan 28 2025, 09:57:19:667236, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is 6bc45a7;  (HEAD -> main); 2025-01-28 08:42:06 +0530; imPratik <impratikjaiswal@gmail.com>; logs rearranged, sync with new libs
+Git Summary is 0215ea2;  (HEAD -> main); 2025-01-28 09:52:15 +0530; imPratik <impratikjaiswal@gmail.com>; logs updated
 --------------------------------------------------------------------------------
 pythonHelpers version is v5.2.4
 --------------------------------------------------------------------------------
@@ -16,7 +16,7 @@ excelPlay version is v2.6.0
 ---------------------------------------------- Data Class: DataTypeMaster ----------------------------------------------
 ++++++++++++ ('D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet2.xlsx',); (1 Elements) ++++++++++++
 Remarks Generated: ('D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet2.xlsx',)
-Info => Transaction Id: yy8v7z8zqr2t; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: j4sg1qtvk8fr; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: ('D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet2.xlsx',)
 --------------------------------------------------------------------------------
 ************************* D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx ************************
@@ -33,14 +33,14 @@ Remarks Generated: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Workshe
 Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
-Info => Transaction Id: tgd9jnbmrthq; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: kp2aqzvas7dl; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx
 Output Data:
 D:/Other/Github_Self/excelPlay/data/sample_data//Excel Worksheet2_excelPlay\..\Excel Worksheet2_excelPlay.zip
 --------------------------------------------------------------------------------
 ---------------------------------- Time Details ----------------------------------
-Current Time Stamp: 2025-01-28 09:21:46.841257+05:30
-Execution Time: 00:00:00; Milliseconds: 723.0029106140137
+Current Time Stamp: 2025-01-28 09:57:20.317800+05:30
+Execution Time: 00:00:00; Milliseconds: 654.5605659484863
 Execution Time CPU: 00:00:00; Milliseconds: 656.25
 Timer State: TIMER_OFF
 --------------------------------------------------------------------------------

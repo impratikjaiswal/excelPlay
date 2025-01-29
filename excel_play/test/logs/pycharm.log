@@ -5,13 +5,13 @@ Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Monday, Nov 11 2024, 00:13:58:040063, IST (GMT+0530)
+Time Stamp is Tuesday, Jan 28 2025, 09:55:54:246693, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is 566c244;  (HEAD -> main, tag: v2.4.6, origin/main, origin/HEAD); 2024-10-31 20:59:48 +0530; imPratik <impratikjaiswal@gmail.com>; variable names corrections
+Git Summary is 0215ea2;  (HEAD -> main); 2025-01-28 09:52:15 +0530; imPratik <impratikjaiswal@gmail.com>; logs updated
 --------------------------------------------------------------------------------
-pythonHelpers version is v5.0.0
+pythonHelpers version is v5.2.4
 --------------------------------------------------------------------------------
-excelPlay version is v2.5.0
+excelPlay version is v2.6.0
 --------------------------------------------------------------------------------
 ----------------------------------------------------- unit_testing -----------------------------------------------------
 test_case_data:
@@ -27,11 +27,11 @@ execution_mode: value_original was USER; target_value is UNIT_TESTING
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 1
-Time Stamp is: 11-11-2024  0:13:58.09
+Time Stamp is: 28-01-2025  9:55:54.29
 impra
-LAPTOP-AO84OQO2
+PJ-LEGION
 
-Microsoft Windows [Version 10.0.19045.5011]
+Microsoft Windows [Version 10.0.19045.5371]
 
 
 
@@ -39,13 +39,13 @@ Microsoft Windows [Version 10.0.19045.5011]
 "unit_testing"
 Attempting to activate existing Virtual Environment
 Traceback (most recent call last):
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 104, in process_safe
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 108, in process_safe
     self.__process_safe_individual(data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 176, in __process_safe_individual
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 99, in process_all_data_types
-    process_data(data=data, meta_data=meta_data, info_data=info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 78, in process_data
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+    handle_data(data=data, meta_data=meta_data, info_data=info_data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
 FileNotFoundError: Invalid Path: xyz
 Attempting to deactivate existing (and activated) Virtual Environment
@@ -70,11 +70,11 @@ top_folder_path: []
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 2
-Time Stamp is: 11-11-2024  0:15:09.33
+Time Stamp is: 28-01-2025  9:56:30.41
 impra
-LAPTOP-AO84OQO2
+PJ-LEGION
 
-Microsoft Windows [Version 10.0.19045.5011]
+Microsoft Windows [Version 10.0.19045.5371]
 
 
 
@@ -103,11 +103,11 @@ execution_mode: value_original was USER; target_value is SAMPLES_LIST
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 3
-Time Stamp is: 11-11-2024  0:15:13.31
+Time Stamp is: 28-01-2025  9:56:32.83
 impra
-LAPTOP-AO84OQO2
+PJ-LEGION
 
-Microsoft Windows [Version 10.0.19045.5011]
+Microsoft Windows [Version 10.0.19045.5371]
 
 
 
@@ -137,11 +137,11 @@ execution_mode: value_original was USER; target_value is DEV
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 4
-Time Stamp is: 11-11-2024  0:15:17.87
+Time Stamp is: 28-01-2025  9:56:35.22
 impra
-LAPTOP-AO84OQO2
+PJ-LEGION
 
-Microsoft Windows [Version 10.0.19045.5011]
+Microsoft Windows [Version 10.0.19045.5371]
 
 
 
@@ -157,6 +157,40 @@ Attempting to deactivate existing (and activated) Virtual Environment
 ******************************************************* clean_up *******************************************************
 execution_mode: value_original was DEV; target_value is USER
 top_folder_path: value_original was []; target_value is [os.pardir, os.pardir]
+----------------------------------------------------- known_issues -----------------------------------------------------
+test_case_data:
+test_case_id: known_issues
+test_case_name: known_issues
+test_case_file_name: known_issues.log
+execution_mode: KNOWN_ISSUES
+error_handling_mode: CONTINUE_ON_ERROR
+top_folder_path: []
+
+*********************************************** update_variables_in_file ***********************************************
+execution_mode: value_original was USER; target_value is KNOWN_ISSUES
+top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
+Executing "run_tc.bat"
+Iteration 5
+Time Stamp is: 28-01-2025  9:56:36.26
+impra
+PJ-LEGION
+
+Microsoft Windows [Version 10.0.19045.5371]
+
+
+
+
+"known_issues"
+Attempting to activate existing Virtual Environment
+Attempting to deactivate existing (and activated) Virtual Environment
+
+
+
+
+"Batch Execution Done"
+******************************************************* clean_up *******************************************************
+execution_mode: value_original was KNOWN_ISSUES; target_value is USER
+top_folder_path: value_original was []; target_value is [os.pardir, os.pardir]
 ------------------------------------------------- unit_testing_external ------------------------------------------------
 test_case_data:
 test_case_id: unit_testing_external
@@ -170,12 +204,12 @@ top_folder_path: []
 execution_mode: value_original was USER; target_value is UNIT_TESTING_EXTERNAL
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
-Iteration 5
-Time Stamp is: 11-11-2024  0:15:19.72
+Iteration 6
+Time Stamp is: 28-01-2025  9:56:37.35
 impra
-LAPTOP-AO84OQO2
+PJ-LEGION
 
-Microsoft Windows [Version 10.0.19045.5011]
+Microsoft Windows [Version 10.0.19045.5371]
 
 
 
@@ -204,12 +238,12 @@ top_folder_path: []
 execution_mode: value_original was USER; target_value is ALL
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
-Iteration 6
-Time Stamp is: 11-11-2024  0:15:21.39
+Iteration 7
+Time Stamp is: 28-01-2025  9:56:38.40
 impra
-LAPTOP-AO84OQO2
+PJ-LEGION
 
-Microsoft Windows [Version 10.0.19045.5011]
+Microsoft Windows [Version 10.0.19045.5371]
 
 
 
@@ -217,13 +251,13 @@ Microsoft Windows [Version 10.0.19045.5011]
 "all"
 Attempting to activate existing Virtual Environment
 Traceback (most recent call last):
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 104, in process_safe
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 108, in process_safe
     self.__process_safe_individual(data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 176, in __process_safe_individual
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 99, in process_all_data_types
-    process_data(data=data, meta_data=meta_data, info_data=info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 78, in process_data
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+    handle_data(data=data, meta_data=meta_data, info_data=info_data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
 FileNotFoundError: Invalid Path: xyz
 Attempting to deactivate existing (and activated) Virtual Environment
@@ -244,11 +278,11 @@ batch_params:
 
 Executing "run_tc.bat"
 Iteration 1
-Time Stamp is: 11-11-2024  0:16:25.59
+Time Stamp is: 28-01-2025  9:57:15.66
 impra
-LAPTOP-AO84OQO2
+PJ-LEGION
 
-Microsoft Windows [Version 10.0.19045.5011]
+Microsoft Windows [Version 10.0.19045.5371]
 
 
 
@@ -270,11 +304,11 @@ batch_params: --help
 
 Executing "run_tc.bat"
 Iteration 2
-Time Stamp is: 11-11-2024  0:16:29.52
+Time Stamp is: 28-01-2025  9:57:16.71
 impra
-LAPTOP-AO84OQO2
+PJ-LEGION
 
-Microsoft Windows [Version 10.0.19045.5011]
+Microsoft Windows [Version 10.0.19045.5371]
 
 
 
@@ -292,15 +326,15 @@ test_case_data:
 test_case_id: cli_input_file_1
 test_case_name: cli_input_file_1
 test_case_file_name: cli_input_file_1.log
-batch_params: D:\Other\Github_Self\excelPlay\data\sampleData\Excel Worksheet2.xlsx
+batch_params: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx
 
 Executing "run_tc.bat"
 Iteration 3
-Time Stamp is: 11-11-2024  0:16:31.29
+Time Stamp is: 28-01-2025  9:57:17.72
 impra
-LAPTOP-AO84OQO2
+PJ-LEGION
 
-Microsoft Windows [Version 10.0.19045.5011]
+Microsoft Windows [Version 10.0.19045.5371]
 
 
 
@@ -308,17 +342,17 @@ Microsoft Windows [Version 10.0.19045.5011]
 "cli_input_file_1"
 Attempting to activate existing Virtual Environment
 Traceback (most recent call last):
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 104, in process_safe
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 108, in process_safe
     self.__process_safe_individual(data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 176, in __process_safe_individual
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 57, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
     parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 99, in process_all_data_types
-    process_data(data=data, meta_data=meta_data, info_data=info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 78, in process_data
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+    handle_data(data=data, meta_data=meta_data, info_data=info_data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
-FileNotFoundError: Invalid Path: D:\Other\Github_Self\excelPlay\data\sampleData\Excel
+FileNotFoundError: Invalid Path: D:\Other\Github_Self\excelPlay\data\sample_data\Excel
 Attempting to deactivate existing (and activated) Virtual Environment
 
 
@@ -330,15 +364,15 @@ test_case_data:
 test_case_id: cli_input_file_2
 test_case_name: cli_input_file_2
 test_case_file_name: cli_input_file_2.log
-batch_params: "D:\Other\Github_Self\excelPlay\data\sampleData\Excel Worksheet2.xlsx"
+batch_params: "D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx"
 
 Executing "run_tc.bat"
 Iteration 4
-Time Stamp is: 11-11-2024  0:16:33.05
+Time Stamp is: 28-01-2025  9:57:18.74
 impra
-LAPTOP-AO84OQO2
+PJ-LEGION
 
-Microsoft Windows [Version 10.0.19045.5011]
+Microsoft Windows [Version 10.0.19045.5371]
 
 
 
@@ -360,11 +394,11 @@ batch_params: "file_path"
 
 Executing "run_tc.bat"
 Iteration 5
-Time Stamp is: 11-11-2024  0:16:36.37
+Time Stamp is: 28-01-2025  9:57:20.42
 impra
-LAPTOP-AO84OQO2
+PJ-LEGION
 
-Microsoft Windows [Version 10.0.19045.5011]
+Microsoft Windows [Version 10.0.19045.5371]
 
 
 
@@ -372,15 +406,15 @@ Microsoft Windows [Version 10.0.19045.5011]
 "cli_read_me_0"
 Attempting to activate existing Virtual Environment
 Traceback (most recent call last):
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 104, in process_safe
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 108, in process_safe
     self.__process_safe_individual(data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 176, in __process_safe_individual
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 57, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
     parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 99, in process_all_data_types
-    process_data(data=data, meta_data=meta_data, info_data=info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 78, in process_data
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+    handle_data(data=data, meta_data=meta_data, info_data=info_data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
 FileNotFoundError: Invalid Path: file_path
 Attempting to deactivate existing (and activated) Virtual Environment
@@ -394,15 +428,15 @@ test_case_data:
 test_case_id: cli_read_me_1
 test_case_name: cli_read_me_1
 test_case_file_name: cli_read_me_1.log
-batch_params: "data\sampleData\Excel Worksheet1.xlsx"
+batch_params: "data\sample_data\Excel Worksheet1.xlsx"
 
 Executing "run_tc.bat"
 Iteration 6
-Time Stamp is: 11-11-2024  0:16:38.80
+Time Stamp is: 28-01-2025  9:57:21.47
 impra
-LAPTOP-AO84OQO2
+PJ-LEGION
 
-Microsoft Windows [Version 10.0.19045.5011]
+Microsoft Windows [Version 10.0.19045.5371]
 
 
 
@@ -420,15 +454,15 @@ test_case_data:
 test_case_id: cli_read_me_2
 test_case_name: cli_read_me_2
 test_case_file_name: cli_read_me_2.log
-batch_params: "data\sampleData\Excel Worksheet1.xlsxdata\sampleData\Excel Worksheet2.xlsx"
+batch_params: "data\sample_data\Excel Worksheet1.xlsxdata\sample_data\Excel Worksheet2.xlsx"
 
 Executing "run_tc.bat"
 Iteration 7
-Time Stamp is: 11-11-2024  0:16:41.54
+Time Stamp is: 28-01-2025  9:57:23.08
 impra
-LAPTOP-AO84OQO2
+PJ-LEGION
 
-Microsoft Windows [Version 10.0.19045.5011]
+Microsoft Windows [Version 10.0.19045.5371]
 
 
 
@@ -436,17 +470,17 @@ Microsoft Windows [Version 10.0.19045.5011]
 "cli_read_me_2"
 Attempting to activate existing Virtual Environment
 Traceback (most recent call last):
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 104, in process_safe
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 108, in process_safe
     self.__process_safe_individual(data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 176, in __process_safe_individual
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 57, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
     parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 99, in process_all_data_types
-    process_data(data=data, meta_data=meta_data, info_data=info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 78, in process_data
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+    handle_data(data=data, meta_data=meta_data, info_data=info_data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
-FileNotFoundError: Invalid Path: data\sampleData\Excel Worksheet1.xlsxdata\sampleData\Excel Worksheet2.xlsx
+FileNotFoundError: Invalid Path: data\sample_data\Excel Worksheet1.xlsxdata\sample_data\Excel Worksheet2.xlsx
 Attempting to deactivate existing (and activated) Virtual Environment
 
 
@@ -458,15 +492,15 @@ test_case_data:
 test_case_id: cli_read_me_3
 test_case_name: cli_read_me_3
 test_case_file_name: cli_read_me_3.log
-batch_params: "data\sampleData"
+batch_params: "data\sample_data"
 
 Executing "run_tc.bat"
 Iteration 8
-Time Stamp is: 11-11-2024  0:16:43.42
+Time Stamp is: 28-01-2025  9:57:24.13
 impra
-LAPTOP-AO84OQO2
+PJ-LEGION
 
-Microsoft Windows [Version 10.0.19045.5011]
+Microsoft Windows [Version 10.0.19045.5371]
 
 
 
@@ -484,15 +518,15 @@ test_case_data:
 test_case_id: cli_read_me_4
 test_case_name: cli_read_me_4
 test_case_file_name: cli_read_me_4.log
-batch_params: "D:\Other\Github_Self\excelPlay\data\sampleData\Excel Worksheet1.xlsx"
+batch_params: "D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx"
 
 Executing "run_tc.bat"
 Iteration 9
-Time Stamp is: 11-11-2024  0:16:47.05
+Time Stamp is: 28-01-2025  9:57:26.92
 impra
-LAPTOP-AO84OQO2
+PJ-LEGION
 
-Microsoft Windows [Version 10.0.19045.5011]
+Microsoft Windows [Version 10.0.19045.5371]
 
 
 
@@ -510,15 +544,15 @@ test_case_data:
 test_case_id: cli_read_me_5
 test_case_name: cli_read_me_5
 test_case_file_name: cli_read_me_5.log
-batch_params: "D:\Other\Github_Self\excelPlay\data\sampleData"
+batch_params: "D:\Other\Github_Self\excelPlay\data\sample_data"
 
 Executing "run_tc.bat"
 Iteration 10
-Time Stamp is: 11-11-2024  0:16:49.54
+Time Stamp is: 28-01-2025  9:57:28.56
 impra
-LAPTOP-AO84OQO2
+PJ-LEGION
 
-Microsoft Windows [Version 10.0.19045.5011]
+Microsoft Windows [Version 10.0.19045.5371]
 
 
 
@@ -536,15 +570,15 @@ test_case_data:
 test_case_id: cli_read_me_6
 test_case_name: cli_read_me_6
 test_case_file_name: cli_read_me_6.log
-batch_params: "D:\Other\Github_Self\excelPlay\data\sampleData\Excel Worksheet1.xlsx"
+batch_params: "D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx"
 
 Executing "run_tc.bat"
 Iteration 11
-Time Stamp is: 11-11-2024  0:16:55.63
+Time Stamp is: 28-01-2025  9:57:31.71
 impra
-LAPTOP-AO84OQO2
+PJ-LEGION
 
-Microsoft Windows [Version 10.0.19045.5011]
+Microsoft Windows [Version 10.0.19045.5371]
 
 
 
@@ -562,15 +596,15 @@ test_case_data:
 test_case_id: cli_read_me_7
 test_case_name: cli_read_me_7
 test_case_file_name: cli_read_me_7.log
-batch_params: "D:/Other/Github_Self/excelPlay/data/sampleData/Excel Worksheet1.xlsx"
+batch_params: "D:/Other/Github_Self/excelPlay/data/sample_data/Excel Worksheet1.xlsx"
 
 Executing "run_tc.bat"
 Iteration 12
-Time Stamp is: 11-11-2024  0:16:58.93
+Time Stamp is: 28-01-2025  9:57:33.33
 impra
-LAPTOP-AO84OQO2
+PJ-LEGION
 
-Microsoft Windows [Version 10.0.19045.5011]
+Microsoft Windows [Version 10.0.19045.5371]
 
 
 
@@ -592,11 +626,11 @@ batch_params: "file_path"
 
 Executing "run_tc.bat"
 Iteration 13
-Time Stamp is: 11-11-2024  0:17:01.76
+Time Stamp is: 28-01-2025  9:57:34.96
 impra
-LAPTOP-AO84OQO2
+PJ-LEGION
 
-Microsoft Windows [Version 10.0.19045.5011]
+Microsoft Windows [Version 10.0.19045.5371]
 
 
 
@@ -604,15 +638,15 @@ Microsoft Windows [Version 10.0.19045.5011]
 "cli_read_me_8"
 Attempting to activate existing Virtual Environment
 Traceback (most recent call last):
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 104, in process_safe
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 108, in process_safe
     self.__process_safe_individual(data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 176, in __process_safe_individual
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 57, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
     parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 99, in process_all_data_types
-    process_data(data=data, meta_data=meta_data, info_data=info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 78, in process_data
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+    handle_data(data=data, meta_data=meta_data, info_data=info_data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
 FileNotFoundError: Invalid Path: file_path
 Attempting to deactivate existing (and activated) Virtual Environment
@@ -630,11 +664,11 @@ batch_params: "dir_path"
 
 Executing "run_tc.bat"
 Iteration 14
-Time Stamp is: 11-11-2024  0:17:04.42
+Time Stamp is: 28-01-2025  9:57:35.98
 impra
-LAPTOP-AO84OQO2
+PJ-LEGION
 
-Microsoft Windows [Version 10.0.19045.5011]
+Microsoft Windows [Version 10.0.19045.5371]
 
 
 
@@ -642,15 +676,15 @@ Microsoft Windows [Version 10.0.19045.5011]
 "cli_read_me_9"
 Attempting to activate existing Virtual Environment
 Traceback (most recent call last):
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 104, in process_safe
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 108, in process_safe
     self.__process_safe_individual(data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 176, in __process_safe_individual
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 57, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
     parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 99, in process_all_data_types
-    process_data(data=data, meta_data=meta_data, info_data=info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 78, in process_data
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+    handle_data(data=data, meta_data=meta_data, info_data=info_data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
 FileNotFoundError: Invalid Path: dir_path
 Attempting to deactivate existing (and activated) Virtual Environment
@@ -668,11 +702,11 @@ batch_params: "file_path -f .csv"
 
 Executing "run_tc.bat"
 Iteration 15
-Time Stamp is: 11-11-2024  0:17:06.34
+Time Stamp is: 28-01-2025  9:57:36.98
 impra
-LAPTOP-AO84OQO2
+PJ-LEGION
 
-Microsoft Windows [Version 10.0.19045.5011]
+Microsoft Windows [Version 10.0.19045.5371]
 
 
 
@@ -680,15 +714,15 @@ Microsoft Windows [Version 10.0.19045.5011]
 "cli_read_me_10"
 Attempting to activate existing Virtual Environment
 Traceback (most recent call last):
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 104, in process_safe
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 108, in process_safe
     self.__process_safe_individual(data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 176, in __process_safe_individual
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 57, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
     parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 99, in process_all_data_types
-    process_data(data=data, meta_data=meta_data, info_data=info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 78, in process_data
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+    handle_data(data=data, meta_data=meta_data, info_data=info_data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
 FileNotFoundError: Invalid Path: file_path -f .csv
 Attempting to deactivate existing (and activated) Virtual Environment
@@ -706,11 +740,11 @@ batch_params: "file_path --output_format .csv"
 
 Executing "run_tc.bat"
 Iteration 16
-Time Stamp is: 11-11-2024  0:17:07.78
+Time Stamp is: 28-01-2025  9:57:38.01
 impra
-LAPTOP-AO84OQO2
+PJ-LEGION
 
-Microsoft Windows [Version 10.0.19045.5011]
+Microsoft Windows [Version 10.0.19045.5371]
 
 
 
@@ -718,15 +752,15 @@ Microsoft Windows [Version 10.0.19045.5011]
 "cli_read_me_11"
 Attempting to activate existing Virtual Environment
 Traceback (most recent call last):
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 104, in process_safe
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 108, in process_safe
     self.__process_safe_individual(data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 176, in __process_safe_individual
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 57, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
     parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 99, in process_all_data_types
-    process_data(data=data, meta_data=meta_data, info_data=info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 78, in process_data
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+    handle_data(data=data, meta_data=meta_data, info_data=info_data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
 FileNotFoundError: Invalid Path: file_path --output_format .csv
 Attempting to deactivate existing (and activated) Virtual Environment
@@ -744,11 +778,11 @@ batch_params: "file_path -f .xlsx"
 
 Executing "run_tc.bat"
 Iteration 17
-Time Stamp is: 11-11-2024  0:17:09.06
+Time Stamp is: 28-01-2025  9:57:39.02
 impra
-LAPTOP-AO84OQO2
+PJ-LEGION
 
-Microsoft Windows [Version 10.0.19045.5011]
+Microsoft Windows [Version 10.0.19045.5371]
 
 
 
@@ -756,15 +790,15 @@ Microsoft Windows [Version 10.0.19045.5011]
 "cli_read_me_12"
 Attempting to activate existing Virtual Environment
 Traceback (most recent call last):
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 104, in process_safe
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 108, in process_safe
     self.__process_safe_individual(data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 176, in __process_safe_individual
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 57, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
     parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 99, in process_all_data_types
-    process_data(data=data, meta_data=meta_data, info_data=info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 78, in process_data
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+    handle_data(data=data, meta_data=meta_data, info_data=info_data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
 FileNotFoundError: Invalid Path: file_path -f .xlsx
 Attempting to deactivate existing (and activated) Virtual Environment
@@ -782,11 +816,11 @@ batch_params: "file_path -ff .zip"
 
 Executing "run_tc.bat"
 Iteration 18
-Time Stamp is: 11-11-2024  0:17:10.69
+Time Stamp is: 28-01-2025  9:57:40.04
 impra
-LAPTOP-AO84OQO2
+PJ-LEGION
 
-Microsoft Windows [Version 10.0.19045.5011]
+Microsoft Windows [Version 10.0.19045.5371]
 
 
 
@@ -794,15 +828,15 @@ Microsoft Windows [Version 10.0.19045.5011]
 "cli_read_me_13"
 Attempting to activate existing Virtual Environment
 Traceback (most recent call last):
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 104, in process_safe
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 108, in process_safe
     self.__process_safe_individual(data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 176, in __process_safe_individual
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 57, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
     parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 99, in process_all_data_types
-    process_data(data=data, meta_data=meta_data, info_data=info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 78, in process_data
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+    handle_data(data=data, meta_data=meta_data, info_data=info_data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
 FileNotFoundError: Invalid Path: file_path -ff .zip
 Attempting to deactivate existing (and activated) Virtual Environment
@@ -820,11 +854,11 @@ batch_params: "file_path --archive_output_format .zip"
 
 Executing "run_tc.bat"
 Iteration 19
-Time Stamp is: 11-11-2024  0:17:12.19
+Time Stamp is: 28-01-2025  9:57:41.05
 impra
-LAPTOP-AO84OQO2
+PJ-LEGION
 
-Microsoft Windows [Version 10.0.19045.5011]
+Microsoft Windows [Version 10.0.19045.5371]
 
 
 
@@ -832,15 +866,15 @@ Microsoft Windows [Version 10.0.19045.5011]
 "cli_read_me_14"
 Attempting to activate existing Virtual Environment
 Traceback (most recent call last):
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 104, in process_safe
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 108, in process_safe
     self.__process_safe_individual(data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 176, in __process_safe_individual
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 57, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
     parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 99, in process_all_data_types
-    process_data(data=data, meta_data=meta_data, info_data=info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 78, in process_data
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+    handle_data(data=data, meta_data=meta_data, info_data=info_data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
 FileNotFoundError: Invalid Path: file_path --archive_output_format .zip
 Attempting to deactivate existing (and activated) Virtual Environment
@@ -858,11 +892,11 @@ batch_params: "file_path -a False"
 
 Executing "run_tc.bat"
 Iteration 20
-Time Stamp is: 11-11-2024  0:17:13.47
+Time Stamp is: 28-01-2025  9:57:42.06
 impra
-LAPTOP-AO84OQO2
+PJ-LEGION
 
-Microsoft Windows [Version 10.0.19045.5011]
+Microsoft Windows [Version 10.0.19045.5371]
 
 
 
@@ -870,15 +904,15 @@ Microsoft Windows [Version 10.0.19045.5011]
 "cli_read_me_15"
 Attempting to activate existing Virtual Environment
 Traceback (most recent call last):
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 104, in process_safe
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 108, in process_safe
     self.__process_safe_individual(data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 176, in __process_safe_individual
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 57, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
     parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 99, in process_all_data_types
-    process_data(data=data, meta_data=meta_data, info_data=info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 78, in process_data
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+    handle_data(data=data, meta_data=meta_data, info_data=info_data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
 FileNotFoundError: Invalid Path: file_path -a False
 Attempting to deactivate existing (and activated) Virtual Environment
@@ -896,11 +930,11 @@ batch_params: "file_path --archive_output True"
 
 Executing "run_tc.bat"
 Iteration 21
-Time Stamp is: 11-11-2024  0:17:14.95
+Time Stamp is: 28-01-2025  9:57:43.08
 impra
-LAPTOP-AO84OQO2
+PJ-LEGION
 
-Microsoft Windows [Version 10.0.19045.5011]
+Microsoft Windows [Version 10.0.19045.5371]
 
 
 
@@ -908,15 +942,15 @@ Microsoft Windows [Version 10.0.19045.5011]
 "cli_read_me_16"
 Attempting to activate existing Virtual Environment
 Traceback (most recent call last):
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 104, in process_safe
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 108, in process_safe
     self.__process_safe_individual(data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 176, in __process_safe_individual
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 57, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
     parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 99, in process_all_data_types
-    process_data(data=data, meta_data=meta_data, info_data=info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 78, in process_data
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+    handle_data(data=data, meta_data=meta_data, info_data=info_data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
 FileNotFoundError: Invalid Path: file_path --archive_output True
 Attempting to deactivate existing (and activated) Virtual Environment
@@ -934,11 +968,11 @@ batch_params: "file_path --archive_output true"
 
 Executing "run_tc.bat"
 Iteration 22
-Time Stamp is: 11-11-2024  0:17:16.30
+Time Stamp is: 28-01-2025  9:57:44.11
 impra
-LAPTOP-AO84OQO2
+PJ-LEGION
 
-Microsoft Windows [Version 10.0.19045.5011]
+Microsoft Windows [Version 10.0.19045.5371]
 
 
 
@@ -946,15 +980,15 @@ Microsoft Windows [Version 10.0.19045.5011]
 "cli_read_me_17"
 Attempting to activate existing Virtual Environment
 Traceback (most recent call last):
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 104, in process_safe
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 108, in process_safe
     self.__process_safe_individual(data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 176, in __process_safe_individual
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 57, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
     parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 99, in process_all_data_types
-    process_data(data=data, meta_data=meta_data, info_data=info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 78, in process_data
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+    handle_data(data=data, meta_data=meta_data, info_data=info_data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
 FileNotFoundError: Invalid Path: file_path --archive_output true
 Attempting to deactivate existing (and activated) Virtual Environment
@@ -972,11 +1006,11 @@ batch_params: "file_path --archive_output yes"
 
 Executing "run_tc.bat"
 Iteration 23
-Time Stamp is: 11-11-2024  0:17:17.56
+Time Stamp is: 28-01-2025  9:57:45.12
 impra
-LAPTOP-AO84OQO2
+PJ-LEGION
 
-Microsoft Windows [Version 10.0.19045.5011]
+Microsoft Windows [Version 10.0.19045.5371]
 
 
 
@@ -984,15 +1018,15 @@ Microsoft Windows [Version 10.0.19045.5011]
 "cli_read_me_18"
 Attempting to activate existing Virtual Environment
 Traceback (most recent call last):
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 104, in process_safe
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 108, in process_safe
     self.__process_safe_individual(data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 176, in __process_safe_individual
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 57, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
     parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 99, in process_all_data_types
-    process_data(data=data, meta_data=meta_data, info_data=info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 78, in process_data
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+    handle_data(data=data, meta_data=meta_data, info_data=info_data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
 FileNotFoundError: Invalid Path: file_path --archive_output yes
 Attempting to deactivate existing (and activated) Virtual Environment
@@ -1010,11 +1044,11 @@ batch_params: "file_path -o Test"
 
 Executing "run_tc.bat"
 Iteration 24
-Time Stamp is: 11-11-2024  0:17:18.83
+Time Stamp is: 28-01-2025  9:57:46.15
 impra
-LAPTOP-AO84OQO2
+PJ-LEGION
 
-Microsoft Windows [Version 10.0.19045.5011]
+Microsoft Windows [Version 10.0.19045.5371]
 
 
 
@@ -1022,15 +1056,15 @@ Microsoft Windows [Version 10.0.19045.5011]
 "cli_read_me_19"
 Attempting to activate existing Virtual Environment
 Traceback (most recent call last):
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 104, in process_safe
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 108, in process_safe
     self.__process_safe_individual(data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 176, in __process_safe_individual
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 57, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
     parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 99, in process_all_data_types
-    process_data(data=data, meta_data=meta_data, info_data=info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 78, in process_data
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+    handle_data(data=data, meta_data=meta_data, info_data=info_data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
 FileNotFoundError: Invalid Path: file_path -o Test
 Attempting to deactivate existing (and activated) Virtual Environment
@@ -1048,11 +1082,11 @@ batch_params: "file_path --output_path Test"
 
 Executing "run_tc.bat"
 Iteration 25
-Time Stamp is: 11-11-2024  0:17:20.17
+Time Stamp is: 28-01-2025  9:57:47.18
 impra
-LAPTOP-AO84OQO2
+PJ-LEGION
 
-Microsoft Windows [Version 10.0.19045.5011]
+Microsoft Windows [Version 10.0.19045.5371]
 
 
 
@@ -1060,15 +1094,15 @@ Microsoft Windows [Version 10.0.19045.5011]
 "cli_read_me_20"
 Attempting to activate existing Virtual Environment
 Traceback (most recent call last):
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 104, in process_safe
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 108, in process_safe
     self.__process_safe_individual(data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 176, in __process_safe_individual
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 57, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
     parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 99, in process_all_data_types
-    process_data(data=data, meta_data=meta_data, info_data=info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 78, in process_data
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+    handle_data(data=data, meta_data=meta_data, info_data=info_data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
 FileNotFoundError: Invalid Path: file_path --output_path Test
 Attempting to deactivate existing (and activated) Virtual Environment
@@ -1086,11 +1120,11 @@ batch_params: "file_path -e ascii"
 
 Executing "run_tc.bat"
 Iteration 26
-Time Stamp is: 11-11-2024  0:17:21.67
+Time Stamp is: 28-01-2025  9:57:48.21
 impra
-LAPTOP-AO84OQO2
+PJ-LEGION
 
-Microsoft Windows [Version 10.0.19045.5011]
+Microsoft Windows [Version 10.0.19045.5371]
 
 
 
@@ -1098,15 +1132,15 @@ Microsoft Windows [Version 10.0.19045.5011]
 "cli_read_me_21"
 Attempting to activate existing Virtual Environment
 Traceback (most recent call last):
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 104, in process_safe
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 108, in process_safe
     self.__process_safe_individual(data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 176, in __process_safe_individual
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 57, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
     parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 99, in process_all_data_types
-    process_data(data=data, meta_data=meta_data, info_data=info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 78, in process_data
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+    handle_data(data=data, meta_data=meta_data, info_data=info_data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
 FileNotFoundError: Invalid Path: file_path -e ascii
 Attempting to deactivate existing (and activated) Virtual Environment
@@ -1124,11 +1158,11 @@ batch_params: "file_path --encoding ascii"
 
 Executing "run_tc.bat"
 Iteration 27
-Time Stamp is: 11-11-2024  0:17:23.36
+Time Stamp is: 28-01-2025  9:57:49.22
 impra
-LAPTOP-AO84OQO2
+PJ-LEGION
 
-Microsoft Windows [Version 10.0.19045.5011]
+Microsoft Windows [Version 10.0.19045.5371]
 
 
 
@@ -1136,15 +1170,15 @@ Microsoft Windows [Version 10.0.19045.5011]
 "cli_read_me_22"
 Attempting to activate existing Virtual Environment
 Traceback (most recent call last):
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 104, in process_safe
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 108, in process_safe
     self.__process_safe_individual(data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 176, in __process_safe_individual
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 57, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
     parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 99, in process_all_data_types
-    process_data(data=data, meta_data=meta_data, info_data=info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 78, in process_data
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+    handle_data(data=data, meta_data=meta_data, info_data=info_data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
 FileNotFoundError: Invalid Path: file_path --encoding ascii
 Attempting to deactivate existing (and activated) Virtual Environment
@@ -1162,11 +1196,11 @@ batch_params: "file_path -ee replace"
 
 Executing "run_tc.bat"
 Iteration 28
-Time Stamp is: 11-11-2024  0:17:24.70
+Time Stamp is: 28-01-2025  9:57:50.23
 impra
-LAPTOP-AO84OQO2
+PJ-LEGION
 
-Microsoft Windows [Version 10.0.19045.5011]
+Microsoft Windows [Version 10.0.19045.5371]
 
 
 
@@ -1174,15 +1208,15 @@ Microsoft Windows [Version 10.0.19045.5011]
 "cli_read_me_23"
 Attempting to activate existing Virtual Environment
 Traceback (most recent call last):
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 104, in process_safe
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 108, in process_safe
     self.__process_safe_individual(data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 176, in __process_safe_individual
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 57, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
     parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 99, in process_all_data_types
-    process_data(data=data, meta_data=meta_data, info_data=info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 78, in process_data
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+    handle_data(data=data, meta_data=meta_data, info_data=info_data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
 FileNotFoundError: Invalid Path: file_path -ee replace
 Attempting to deactivate existing (and activated) Virtual Environment
@@ -1200,11 +1234,11 @@ batch_params: "file_path --encoding_errors replace"
 
 Executing "run_tc.bat"
 Iteration 29
-Time Stamp is: 11-11-2024  0:17:26.68
+Time Stamp is: 28-01-2025  9:57:51.27
 impra
-LAPTOP-AO84OQO2
+PJ-LEGION
 
-Microsoft Windows [Version 10.0.19045.5011]
+Microsoft Windows [Version 10.0.19045.5371]
 
 
 
@@ -1212,15 +1246,15 @@ Microsoft Windows [Version 10.0.19045.5011]
 "cli_read_me_24"
 Attempting to activate existing Virtual Environment
 Traceback (most recent call last):
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 104, in process_safe
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 108, in process_safe
     self.__process_safe_individual(data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 176, in __process_safe_individual
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 57, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
     parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 99, in process_all_data_types
-    process_data(data=data, meta_data=meta_data, info_data=info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 78, in process_data
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+    handle_data(data=data, meta_data=meta_data, info_data=info_data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
 FileNotFoundError: Invalid Path: file_path --encoding_errors replace
 Attempting to deactivate existing (and activated) Virtual Environment
@@ -1238,11 +1272,11 @@ batch_params: "--help"
 
 Executing "run_tc.bat"
 Iteration 30
-Time Stamp is: 11-11-2024  0:17:28.36
+Time Stamp is: 28-01-2025  9:57:52.31
 impra
-LAPTOP-AO84OQO2
+PJ-LEGION
 
-Microsoft Windows [Version 10.0.19045.5011]
+Microsoft Windows [Version 10.0.19045.5371]
 
 
 
