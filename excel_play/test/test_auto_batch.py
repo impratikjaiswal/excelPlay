@@ -128,7 +128,7 @@ class TestAutoBatch:
         return True
 
     @classmethod
-    def test(cls, test_case_data, default_batch_data=None):
+    def test(cls, test_case_data, default_batch_data=None, cli=False):
         """
 
         :param test_case_data:
@@ -138,21 +138,10 @@ class TestAutoBatch:
         PhUtil.print_iter(test_case_data, header='test_case_data')
         PhUtil.print_heading('update_variables_in_file', heading_level=2)
         original_data = cls._update_variables_in_file(test_case_data)
-        cls.prepare_batch_file(test_case_data, default_batch_data)
+        batch_params = test_case_data.get(PhKeys.BATCH_PARAMS) if cli else None
+        cls.prepare_batch_file(test_case_data, default_batch_data, batch_params)
         PhUtil.print_heading('clean_up', heading_level=2)
         cls.clean_up(original_data)
-
-    @classmethod
-    def test_cli(cls, test_case_data, default_batch_data=None):
-        """
-
-        :param test_case_data:
-        :return:
-        """
-        PhUtil.print_heading(test_case_data.get(PhKeys.TEST_CASE_ID))
-        PhUtil.print_iter(test_case_data, header='test_case_data')
-        batch_params = test_case_data.get(PhKeys.BATCH_PARAMS)
-        cls.prepare_batch_file(test_case_data, default_batch_data, batch_params)
 
     @classmethod
     def test_all(cls):
@@ -160,28 +149,40 @@ class TestAutoBatch:
 
         :return:
         """
+
+        def _get_test_data(key, dict_data, cli=False):
+            key_name = ('cli_' + key) if cli else PhExecutionModes.get_key_name(key)
+            dynamic_data = dict_data.get(key, PhConstants.DICT_EMPTY)
+            for temp_key in TestData.default_data:
+                if temp_key not in dynamic_data:
+                    dynamic_data[temp_key] = TestData.default_data[temp_key]
+            static_data = {
+                PhKeys.TEST_CASE_ID: key_name,
+                PhKeys.TEST_CASE_NAME: key_name,
+                PhKeys.TEST_CASE_FILE_NAME: f'{key_name}.log'
+            }
+            return PhUtil.dict_merge(static_data, dynamic_data)
+
+        def _test(dict_data, cli=False):
+            for index, key in enumerate(dict_data.keys()):
+                if cls.tc_is_not_whitelisted(key):
+                    continue
+                test_case_data = _get_test_data(key=key, dict_data=dict_data, cli=cli)
+                common_data = PhUtil.to_list(PhDos.echo(f'Iteration {index + 1}', wrap_up=True))
+                common_data.extend(PhDos.common_info())
+                cls.test(test_case_data=test_case_data, default_batch_data=common_data, cli=cli)
+            return
+
         print_configurations()
         """
         Non CLI Tests
         """
-        for index, key in enumerate(TestData.dynamic_data.keys()):
-            if cls.tc_is_not_whitelisted(key):
-                continue
-            test_case_data = TestData.get_test_data(key=key)
-            common_data = PhUtil.to_list(PhDos.echo(f'Iteration {index + 1}', wrap_up=True))
-            common_data.extend(PhDos.common_info())
-            cls.test(test_case_data=test_case_data, default_batch_data=common_data)
+        # _test(TestData.dynamic_data)
         """
         CLI Tests
         """
         TestData.generate_dynamic_cli_from_read_me()
-        for index, key in enumerate(TestData.dynamic_data_cli.keys()):
-            if cls.tc_is_not_whitelisted(key):
-                continue
-            test_case_data = TestData.get_test_data_cli(key=key)
-            common_data = PhUtil.to_list(PhDos.echo(f'Iteration {index + 1}', wrap_up=True))
-            common_data.extend(PhDos.common_info())
-            cls.test_cli(test_case_data=test_case_data, default_batch_data=common_data)
+        _test(TestData.dynamic_data_cli, cli=True)
 
 
 def main():
@@ -191,7 +192,7 @@ def main():
     """
     TestAutoBatch.white_listed_tcs = [
         # PhExecutionModes.ALL,
-        # unit_testing',
+        # unit_testing,
     ]
     TestAutoBatch.test_all()
 
