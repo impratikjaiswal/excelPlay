@@ -30,15 +30,20 @@ def process_all_data_types(data, meta_data=None, info_data=None):
     multiple_inputs = False
     if isinstance(data.input_data, list):
         # List is provided
-        multiple_inputs = True
-        meta_data.input_mode_key = PhKeys.INPUT_LIST
+        if len(data.input_data) == 1:
+            data.input_data = data.input_data[0]
+        else:
+            multiple_inputs = True
+            meta_data.input_mode_key = PhKeys.INPUT_LIST
     if isinstance(data.input_data, tuple):
-        # CUI (Click) Multi is a tuple
-        multiple_inputs = True
-        meta_data.input_mode_key = PhKeys.INPUT_TUPLE
+        # CUI (Click) Multi is a tuple (Even a Single Item)
+        if len(data.input_data) == 1:
+            data.input_data = data.input_data[0]
+        else:
+            multiple_inputs = True
+            meta_data.input_mode_key = PhKeys.INPUT_TUPLE
     if isinstance(data.input_data, dict):
         multiple_inputs = True
-        dict_format = True
         meta_data.input_mode_key = PhKeys.INPUT_DICT
     if multiple_inputs:
         elements_count = len(data.input_data)
@@ -71,6 +76,7 @@ def process_all_data_types(data, meta_data=None, info_data=None):
         # directory is provided
         meta_data.input_mode_key = PhKeys.INPUT_DIR
         data.append_input_modes_hierarchy(meta_data.input_mode_key)
+        data.set_auto_generated_remarks_if_needed()
         PhUtil.print_heading(data.get_remarks_as_str(), heading_level=3)
         converter.set_defaults(data, meta_data)
         converter.print_data(data, meta_data)

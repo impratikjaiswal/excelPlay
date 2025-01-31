@@ -5,9 +5,9 @@ Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Tuesday, Jan 28 2025, 09:56:37:230846, IST (GMT+0530)
+Time Stamp is Friday, Jan 31 2025, 09:05:08:135121, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is 0215ea2;  (HEAD -> main); 2025-01-28 09:52:15 +0530; imPratik <impratikjaiswal@gmail.com>; logs updated
+Git Summary is df20658;  (HEAD -> main, origin/main, origin/HEAD); 2025-01-30 09:55:20 +0530; imPratik <impratikjaiswal@gmail.com>; batch_no_param fixed
 --------------------------------------------------------------------------------
 pythonHelpers version is v5.2.4
 --------------------------------------------------------------------------------
@@ -15,8 +15,8 @@ excelPlay version is v2.6.0
 --------------------------------------------------------------------------------
 ------------------------------------------------ Data Class: KnownIssues -----------------------------------------------
 ---------------------------------- Time Details ----------------------------------
-Current Time Stamp: 2025-01-28 09:56:37.245843+05:30
-Execution Time: 00:00:00; Milliseconds: 4.001855850219727
+Current Time Stamp: 2025-01-31 09:05:08.148166+05:30
+Execution Time: 00:00:00; Milliseconds: 4.999637603759766
 Execution Time CPU: 00:00:00; Milliseconds: 0.0
 Timer State: TIMER_OFF
 --------------------------------------------------------------------------------

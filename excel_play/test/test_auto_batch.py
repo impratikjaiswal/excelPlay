@@ -177,7 +177,7 @@ class TestAutoBatch:
         """
         Non CLI Tests
         """
-        # _test(TestData.dynamic_data)
+        _test(TestData.dynamic_data)
         """
         CLI Tests
         """

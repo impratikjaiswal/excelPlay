@@ -5,9 +5,9 @@ Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Tuesday, Jan 28 2025, 09:55:54:246693, IST (GMT+0530)
+Time Stamp is Friday, Jan 31 2025, 09:04:21:508766, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is 0215ea2;  (HEAD -> main); 2025-01-28 09:52:15 +0530; imPratik <impratikjaiswal@gmail.com>; logs updated
+Git Summary is df20658;  (HEAD -> main, origin/main, origin/HEAD); 2025-01-30 09:55:20 +0530; imPratik <impratikjaiswal@gmail.com>; batch_no_param fixed
 --------------------------------------------------------------------------------
 pythonHelpers version is v5.2.4
 --------------------------------------------------------------------------------
@@ -27,7 +27,7 @@ execution_mode: value_original was USER; target_value is UNIT_TESTING
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 1
-Time Stamp is: 28-01-2025  9:55:54.29
+Time Stamp is: 31-01-2025  9:04:21.54
 impra
 PJ-LEGION
 
@@ -43,7 +43,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -70,7 +70,7 @@ top_folder_path: []
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 2
-Time Stamp is: 28-01-2025  9:56:30.41
+Time Stamp is: 31-01-2025  9:04:58.61
 impra
 PJ-LEGION
 
@@ -103,7 +103,7 @@ execution_mode: value_original was USER; target_value is SAMPLES_LIST
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 3
-Time Stamp is: 28-01-2025  9:56:32.83
+Time Stamp is: 31-01-2025  9:05:02.85
 impra
 PJ-LEGION
 
@@ -137,7 +137,7 @@ execution_mode: value_original was USER; target_value is DEV
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 4
-Time Stamp is: 28-01-2025  9:56:35.22
+Time Stamp is: 31-01-2025  9:05:05.81
 impra
 PJ-LEGION
 
@@ -171,7 +171,7 @@ execution_mode: value_original was USER; target_value is KNOWN_ISSUES
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 5
-Time Stamp is: 28-01-2025  9:56:36.26
+Time Stamp is: 31-01-2025  9:05:06.94
 impra
 PJ-LEGION
 
@@ -205,7 +205,7 @@ execution_mode: value_original was USER; target_value is UNIT_TESTING_EXTERNAL
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 6
-Time Stamp is: 28-01-2025  9:56:37.35
+Time Stamp is: 31-01-2025  9:05:08.27
 impra
 PJ-LEGION
 
@@ -239,7 +239,7 @@ execution_mode: value_original was USER; target_value is ALL
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 7
-Time Stamp is: 28-01-2025  9:56:38.40
+Time Stamp is: 31-01-2025  9:05:09.39
 impra
 PJ-LEGION
 
@@ -255,7 +255,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -275,10 +275,15 @@ test_case_id: cli_no_param
 test_case_name: cli_no_param
 test_case_file_name: cli_no_param.log
 batch_params: 
+execution_mode: USER
+error_handling_mode: CONTINUE_ON_ERROR
+top_folder_path: []
 
+*********************************************** update_variables_in_file ***********************************************
+top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 1
-Time Stamp is: 28-01-2025  9:57:15.66
+Time Stamp is: 31-01-2025  9:05:50.11
 impra
 PJ-LEGION
 
@@ -295,16 +300,23 @@ Attempting to deactivate existing (and activated) Virtual Environment
 
 
 "Batch Execution Done"
+******************************************************* clean_up *******************************************************
+top_folder_path: value_original was []; target_value is [os.pardir, os.pardir]
 ------------------------------------------------------ cli_--help ------------------------------------------------------
 test_case_data:
 test_case_id: cli_--help
 test_case_name: cli_--help
 test_case_file_name: cli_--help.log
 batch_params: --help
+execution_mode: USER
+error_handling_mode: CONTINUE_ON_ERROR
+top_folder_path: []
 
+*********************************************** update_variables_in_file ***********************************************
+top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 2
-Time Stamp is: 28-01-2025  9:57:16.71
+Time Stamp is: 31-01-2025  9:05:52.45
 impra
 PJ-LEGION
 
@@ -321,16 +333,23 @@ Attempting to deactivate existing (and activated) Virtual Environment
 
 
 "Batch Execution Done"
+******************************************************* clean_up *******************************************************
+top_folder_path: value_original was []; target_value is [os.pardir, os.pardir]
 --------------------------------------------------- cli_input_file_1 ---------------------------------------------------
 test_case_data:
 test_case_id: cli_input_file_1
 test_case_name: cli_input_file_1
 test_case_file_name: cli_input_file_1.log
 batch_params: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx
+execution_mode: USER
+error_handling_mode: CONTINUE_ON_ERROR
+top_folder_path: []
 
+*********************************************** update_variables_in_file ***********************************************
+top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 3
-Time Stamp is: 28-01-2025  9:57:17.72
+Time Stamp is: 31-01-2025  9:05:53.52
 impra
 PJ-LEGION
 
@@ -346,9 +365,9 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 69, in process_all_data_types
     parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -359,16 +378,23 @@ Attempting to deactivate existing (and activated) Virtual Environment
 
 
 "Batch Execution Done"
+******************************************************* clean_up *******************************************************
+top_folder_path: value_original was []; target_value is [os.pardir, os.pardir]
 --------------------------------------------------- cli_input_file_2 ---------------------------------------------------
 test_case_data:
 test_case_id: cli_input_file_2
 test_case_name: cli_input_file_2
 test_case_file_name: cli_input_file_2.log
 batch_params: "D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx"
+execution_mode: USER
+error_handling_mode: CONTINUE_ON_ERROR
+top_folder_path: []
 
+*********************************************** update_variables_in_file ***********************************************
+top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 4
-Time Stamp is: 28-01-2025  9:57:18.74
+Time Stamp is: 31-01-2025  9:05:54.62
 impra
 PJ-LEGION
 
@@ -385,16 +411,23 @@ Attempting to deactivate existing (and activated) Virtual Environment
 
 
 "Batch Execution Done"
+******************************************************* clean_up *******************************************************
+top_folder_path: value_original was []; target_value is [os.pardir, os.pardir]
 ----------------------------------------------------- cli_read_me_0 ----------------------------------------------------
 test_case_data:
 test_case_id: cli_read_me_0
 test_case_name: cli_read_me_0
 test_case_file_name: cli_read_me_0.log
 batch_params: "file_path"
+execution_mode: USER
+error_handling_mode: CONTINUE_ON_ERROR
+top_folder_path: []
 
+*********************************************** update_variables_in_file ***********************************************
+top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 5
-Time Stamp is: 28-01-2025  9:57:20.42
+Time Stamp is: 31-01-2025  9:05:56.37
 impra
 PJ-LEGION
 
@@ -410,9 +443,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
-    parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -423,16 +454,23 @@ Attempting to deactivate existing (and activated) Virtual Environment
 
 
 "Batch Execution Done"
+******************************************************* clean_up *******************************************************
+top_folder_path: value_original was []; target_value is [os.pardir, os.pardir]
 ----------------------------------------------------- cli_read_me_1 ----------------------------------------------------
 test_case_data:
 test_case_id: cli_read_me_1
 test_case_name: cli_read_me_1
 test_case_file_name: cli_read_me_1.log
 batch_params: "data\sample_data\Excel Worksheet1.xlsx"
+execution_mode: USER
+error_handling_mode: CONTINUE_ON_ERROR
+top_folder_path: []
 
+*********************************************** update_variables_in_file ***********************************************
+top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 6
-Time Stamp is: 28-01-2025  9:57:21.47
+Time Stamp is: 31-01-2025  9:05:57.41
 impra
 PJ-LEGION
 
@@ -449,16 +487,23 @@ Attempting to deactivate existing (and activated) Virtual Environment
 
 
 "Batch Execution Done"
+******************************************************* clean_up *******************************************************
+top_folder_path: value_original was []; target_value is [os.pardir, os.pardir]
 ----------------------------------------------------- cli_read_me_2 ----------------------------------------------------
 test_case_data:
 test_case_id: cli_read_me_2
 test_case_name: cli_read_me_2
 test_case_file_name: cli_read_me_2.log
 batch_params: "data\sample_data\Excel Worksheet1.xlsxdata\sample_data\Excel Worksheet2.xlsx"
+execution_mode: USER
+error_handling_mode: CONTINUE_ON_ERROR
+top_folder_path: []
 
+*********************************************** update_variables_in_file ***********************************************
+top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 7
-Time Stamp is: 28-01-2025  9:57:23.08
+Time Stamp is: 31-01-2025  9:05:59.04
 impra
 PJ-LEGION
 
@@ -474,9 +519,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
-    parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -487,16 +530,23 @@ Attempting to deactivate existing (and activated) Virtual Environment
 
 
 "Batch Execution Done"
+******************************************************* clean_up *******************************************************
+top_folder_path: value_original was []; target_value is [os.pardir, os.pardir]
 ----------------------------------------------------- cli_read_me_3 ----------------------------------------------------
 test_case_data:
 test_case_id: cli_read_me_3
 test_case_name: cli_read_me_3
 test_case_file_name: cli_read_me_3.log
 batch_params: "data\sample_data"
+execution_mode: USER
+error_handling_mode: CONTINUE_ON_ERROR
+top_folder_path: []
 
+*********************************************** update_variables_in_file ***********************************************
+top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 8
-Time Stamp is: 28-01-2025  9:57:24.13
+Time Stamp is: 31-01-2025  9:06:00.11
 impra
 PJ-LEGION
 
@@ -513,16 +563,23 @@ Attempting to deactivate existing (and activated) Virtual Environment
 
 
 "Batch Execution Done"
+******************************************************* clean_up *******************************************************
+top_folder_path: value_original was []; target_value is [os.pardir, os.pardir]
 ----------------------------------------------------- cli_read_me_4 ----------------------------------------------------
 test_case_data:
 test_case_id: cli_read_me_4
 test_case_name: cli_read_me_4
 test_case_file_name: cli_read_me_4.log
 batch_params: "D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx"
+execution_mode: USER
+error_handling_mode: CONTINUE_ON_ERROR
+top_folder_path: []
 
+*********************************************** update_variables_in_file ***********************************************
+top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 9
-Time Stamp is: 28-01-2025  9:57:26.92
+Time Stamp is: 31-01-2025  9:06:03.01
 impra
 PJ-LEGION
 
@@ -539,16 +596,23 @@ Attempting to deactivate existing (and activated) Virtual Environment
 
 
 "Batch Execution Done"
+******************************************************* clean_up *******************************************************
+top_folder_path: value_original was []; target_value is [os.pardir, os.pardir]
 ----------------------------------------------------- cli_read_me_5 ----------------------------------------------------
 test_case_data:
 test_case_id: cli_read_me_5
 test_case_name: cli_read_me_5
 test_case_file_name: cli_read_me_5.log
 batch_params: "D:\Other\Github_Self\excelPlay\data\sample_data"
+execution_mode: USER
+error_handling_mode: CONTINUE_ON_ERROR
+top_folder_path: []
 
+*********************************************** update_variables_in_file ***********************************************
+top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 10
-Time Stamp is: 28-01-2025  9:57:28.56
+Time Stamp is: 31-01-2025  9:06:04.74
 impra
 PJ-LEGION
 
@@ -565,16 +629,23 @@ Attempting to deactivate existing (and activated) Virtual Environment
 
 
 "Batch Execution Done"
+******************************************************* clean_up *******************************************************
+top_folder_path: value_original was []; target_value is [os.pardir, os.pardir]
 ----------------------------------------------------- cli_read_me_6 ----------------------------------------------------
 test_case_data:
 test_case_id: cli_read_me_6
 test_case_name: cli_read_me_6
 test_case_file_name: cli_read_me_6.log
 batch_params: "D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx"
+execution_mode: USER
+error_handling_mode: CONTINUE_ON_ERROR
+top_folder_path: []
 
+*********************************************** update_variables_in_file ***********************************************
+top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 11
-Time Stamp is: 28-01-2025  9:57:31.71
+Time Stamp is: 31-01-2025  9:06:07.79
 impra
 PJ-LEGION
 
@@ -591,16 +662,23 @@ Attempting to deactivate existing (and activated) Virtual Environment
 
 
 "Batch Execution Done"
+******************************************************* clean_up *******************************************************
+top_folder_path: value_original was []; target_value is [os.pardir, os.pardir]
 ----------------------------------------------------- cli_read_me_7 ----------------------------------------------------
 test_case_data:
 test_case_id: cli_read_me_7
 test_case_name: cli_read_me_7
 test_case_file_name: cli_read_me_7.log
 batch_params: "D:/Other/Github_Self/excelPlay/data/sample_data/Excel Worksheet1.xlsx"
+execution_mode: USER
+error_handling_mode: CONTINUE_ON_ERROR
+top_folder_path: []
 
+*********************************************** update_variables_in_file ***********************************************
+top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 12
-Time Stamp is: 28-01-2025  9:57:33.33
+Time Stamp is: 31-01-2025  9:06:09.54
 impra
 PJ-LEGION
 
@@ -617,16 +695,23 @@ Attempting to deactivate existing (and activated) Virtual Environment
 
 
 "Batch Execution Done"
+******************************************************* clean_up *******************************************************
+top_folder_path: value_original was []; target_value is [os.pardir, os.pardir]
 ----------------------------------------------------- cli_read_me_8 ----------------------------------------------------
 test_case_data:
 test_case_id: cli_read_me_8
 test_case_name: cli_read_me_8
 test_case_file_name: cli_read_me_8.log
 batch_params: "file_path"
+execution_mode: USER
+error_handling_mode: CONTINUE_ON_ERROR
+top_folder_path: []
 
+*********************************************** update_variables_in_file ***********************************************
+top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 13
-Time Stamp is: 28-01-2025  9:57:34.96
+Time Stamp is: 31-01-2025  9:06:11.29
 impra
 PJ-LEGION
 
@@ -642,9 +727,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
-    parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -655,16 +738,23 @@ Attempting to deactivate existing (and activated) Virtual Environment
 
 
 "Batch Execution Done"
+******************************************************* clean_up *******************************************************
+top_folder_path: value_original was []; target_value is [os.pardir, os.pardir]
 ----------------------------------------------------- cli_read_me_9 ----------------------------------------------------
 test_case_data:
 test_case_id: cli_read_me_9
 test_case_name: cli_read_me_9
 test_case_file_name: cli_read_me_9.log
 batch_params: "dir_path"
+execution_mode: USER
+error_handling_mode: CONTINUE_ON_ERROR
+top_folder_path: []
 
+*********************************************** update_variables_in_file ***********************************************
+top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 14
-Time Stamp is: 28-01-2025  9:57:35.98
+Time Stamp is: 31-01-2025  9:06:12.42
 impra
 PJ-LEGION
 
@@ -680,9 +770,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
-    parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -693,16 +781,23 @@ Attempting to deactivate existing (and activated) Virtual Environment
 
 
 "Batch Execution Done"
+******************************************************* clean_up *******************************************************
+top_folder_path: value_original was []; target_value is [os.pardir, os.pardir]
 ---------------------------------------------------- cli_read_me_10 ----------------------------------------------------
 test_case_data:
 test_case_id: cli_read_me_10
 test_case_name: cli_read_me_10
 test_case_file_name: cli_read_me_10.log
 batch_params: "file_path -f .csv"
+execution_mode: USER
+error_handling_mode: CONTINUE_ON_ERROR
+top_folder_path: []
 
+*********************************************** update_variables_in_file ***********************************************
+top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 15
-Time Stamp is: 28-01-2025  9:57:36.98
+Time Stamp is: 31-01-2025  9:06:13.55
 impra
 PJ-LEGION
 
@@ -718,9 +813,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
-    parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -731,16 +824,23 @@ Attempting to deactivate existing (and activated) Virtual Environment
 
 
 "Batch Execution Done"
+******************************************************* clean_up *******************************************************
+top_folder_path: value_original was []; target_value is [os.pardir, os.pardir]
 ---------------------------------------------------- cli_read_me_11 ----------------------------------------------------
 test_case_data:
 test_case_id: cli_read_me_11
 test_case_name: cli_read_me_11
 test_case_file_name: cli_read_me_11.log
 batch_params: "file_path --output_format .csv"
+execution_mode: USER
+error_handling_mode: CONTINUE_ON_ERROR
+top_folder_path: []
 
+*********************************************** update_variables_in_file ***********************************************
+top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 16
-Time Stamp is: 28-01-2025  9:57:38.01
+Time Stamp is: 31-01-2025  9:06:14.63
 impra
 PJ-LEGION
 
@@ -756,9 +856,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
-    parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -769,16 +867,23 @@ Attempting to deactivate existing (and activated) Virtual Environment
 
 
 "Batch Execution Done"
+******************************************************* clean_up *******************************************************
+top_folder_path: value_original was []; target_value is [os.pardir, os.pardir]
 ---------------------------------------------------- cli_read_me_12 ----------------------------------------------------
 test_case_data:
 test_case_id: cli_read_me_12
 test_case_name: cli_read_me_12
 test_case_file_name: cli_read_me_12.log
 batch_params: "file_path -f .xlsx"
+execution_mode: USER
+error_handling_mode: CONTINUE_ON_ERROR
+top_folder_path: []
 
+*********************************************** update_variables_in_file ***********************************************
+top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 17
-Time Stamp is: 28-01-2025  9:57:39.02
+Time Stamp is: 31-01-2025  9:06:15.73
 impra
 PJ-LEGION
 
@@ -794,9 +899,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
-    parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -807,16 +910,23 @@ Attempting to deactivate existing (and activated) Virtual Environment
 
 
 "Batch Execution Done"
+******************************************************* clean_up *******************************************************
+top_folder_path: value_original was []; target_value is [os.pardir, os.pardir]
 ---------------------------------------------------- cli_read_me_13 ----------------------------------------------------
 test_case_data:
 test_case_id: cli_read_me_13
 test_case_name: cli_read_me_13
 test_case_file_name: cli_read_me_13.log
 batch_params: "file_path -ff .zip"
+execution_mode: USER
+error_handling_mode: CONTINUE_ON_ERROR
+top_folder_path: []
 
+*********************************************** update_variables_in_file ***********************************************
+top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 18
-Time Stamp is: 28-01-2025  9:57:40.04
+Time Stamp is: 31-01-2025  9:06:16.92
 impra
 PJ-LEGION
 
@@ -832,9 +942,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
-    parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -845,16 +953,23 @@ Attempting to deactivate existing (and activated) Virtual Environment
 
 
 "Batch Execution Done"
+******************************************************* clean_up *******************************************************
+top_folder_path: value_original was []; target_value is [os.pardir, os.pardir]
 ---------------------------------------------------- cli_read_me_14 ----------------------------------------------------
 test_case_data:
 test_case_id: cli_read_me_14
 test_case_name: cli_read_me_14
 test_case_file_name: cli_read_me_14.log
 batch_params: "file_path --archive_output_format .zip"
+execution_mode: USER
+error_handling_mode: CONTINUE_ON_ERROR
+top_folder_path: []
 
+*********************************************** update_variables_in_file ***********************************************
+top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 19
-Time Stamp is: 28-01-2025  9:57:41.05
+Time Stamp is: 31-01-2025  9:06:18.11
 impra
 PJ-LEGION
 
@@ -870,9 +985,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
-    parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -883,16 +996,23 @@ Attempting to deactivate existing (and activated) Virtual Environment
 
 
 "Batch Execution Done"
+******************************************************* clean_up *******************************************************
+top_folder_path: value_original was []; target_value is [os.pardir, os.pardir]
 ---------------------------------------------------- cli_read_me_15 ----------------------------------------------------
 test_case_data:
 test_case_id: cli_read_me_15
 test_case_name: cli_read_me_15
 test_case_file_name: cli_read_me_15.log
 batch_params: "file_path -a False"
+execution_mode: USER
+error_handling_mode: CONTINUE_ON_ERROR
+top_folder_path: []
 
+*********************************************** update_variables_in_file ***********************************************
+top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 20
-Time Stamp is: 28-01-2025  9:57:42.06
+Time Stamp is: 31-01-2025  9:06:19.19
 impra
 PJ-LEGION
 
@@ -908,9 +1028,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
-    parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -921,16 +1039,23 @@ Attempting to deactivate existing (and activated) Virtual Environment
 
 
 "Batch Execution Done"
+******************************************************* clean_up *******************************************************
+top_folder_path: value_original was []; target_value is [os.pardir, os.pardir]
 ---------------------------------------------------- cli_read_me_16 ----------------------------------------------------
 test_case_data:
 test_case_id: cli_read_me_16
 test_case_name: cli_read_me_16
 test_case_file_name: cli_read_me_16.log
 batch_params: "file_path --archive_output True"
+execution_mode: USER
+error_handling_mode: CONTINUE_ON_ERROR
+top_folder_path: []
 
+*********************************************** update_variables_in_file ***********************************************
+top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 21
-Time Stamp is: 28-01-2025  9:57:43.08
+Time Stamp is: 31-01-2025  9:06:20.44
 impra
 PJ-LEGION
 
@@ -946,9 +1071,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
-    parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -959,16 +1082,23 @@ Attempting to deactivate existing (and activated) Virtual Environment
 
 
 "Batch Execution Done"
+******************************************************* clean_up *******************************************************
+top_folder_path: value_original was []; target_value is [os.pardir, os.pardir]
 ---------------------------------------------------- cli_read_me_17 ----------------------------------------------------
 test_case_data:
 test_case_id: cli_read_me_17
 test_case_name: cli_read_me_17
 test_case_file_name: cli_read_me_17.log
 batch_params: "file_path --archive_output true"
+execution_mode: USER
+error_handling_mode: CONTINUE_ON_ERROR
+top_folder_path: []
 
+*********************************************** update_variables_in_file ***********************************************
+top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 22
-Time Stamp is: 28-01-2025  9:57:44.11
+Time Stamp is: 31-01-2025  9:06:21.60
 impra
 PJ-LEGION
 
@@ -984,9 +1114,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
-    parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -997,16 +1125,23 @@ Attempting to deactivate existing (and activated) Virtual Environment
 
 
 "Batch Execution Done"
+******************************************************* clean_up *******************************************************
+top_folder_path: value_original was []; target_value is [os.pardir, os.pardir]
 ---------------------------------------------------- cli_read_me_18 ----------------------------------------------------
 test_case_data:
 test_case_id: cli_read_me_18
 test_case_name: cli_read_me_18
 test_case_file_name: cli_read_me_18.log
 batch_params: "file_path --archive_output yes"
+execution_mode: USER
+error_handling_mode: CONTINUE_ON_ERROR
+top_folder_path: []
 
+*********************************************** update_variables_in_file ***********************************************
+top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 23
-Time Stamp is: 28-01-2025  9:57:45.12
+Time Stamp is: 31-01-2025  9:06:22.65
 impra
 PJ-LEGION
 
@@ -1022,9 +1157,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
-    parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -1035,16 +1168,23 @@ Attempting to deactivate existing (and activated) Virtual Environment
 
 
 "Batch Execution Done"
+******************************************************* clean_up *******************************************************
+top_folder_path: value_original was []; target_value is [os.pardir, os.pardir]
 ---------------------------------------------------- cli_read_me_19 ----------------------------------------------------
 test_case_data:
 test_case_id: cli_read_me_19
 test_case_name: cli_read_me_19
 test_case_file_name: cli_read_me_19.log
 batch_params: "file_path -o Test"
+execution_mode: USER
+error_handling_mode: CONTINUE_ON_ERROR
+top_folder_path: []
 
+*********************************************** update_variables_in_file ***********************************************
+top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 24
-Time Stamp is: 28-01-2025  9:57:46.15
+Time Stamp is: 31-01-2025  9:06:23.71
 impra
 PJ-LEGION
 
@@ -1060,9 +1200,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
-    parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -1073,16 +1211,23 @@ Attempting to deactivate existing (and activated) Virtual Environment
 
 
 "Batch Execution Done"
+******************************************************* clean_up *******************************************************
+top_folder_path: value_original was []; target_value is [os.pardir, os.pardir]
 ---------------------------------------------------- cli_read_me_20 ----------------------------------------------------
 test_case_data:
 test_case_id: cli_read_me_20
 test_case_name: cli_read_me_20
 test_case_file_name: cli_read_me_20.log
 batch_params: "file_path --output_path Test"
+execution_mode: USER
+error_handling_mode: CONTINUE_ON_ERROR
+top_folder_path: []
 
+*********************************************** update_variables_in_file ***********************************************
+top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 25
-Time Stamp is: 28-01-2025  9:57:47.18
+Time Stamp is: 31-01-2025  9:06:24.79
 impra
 PJ-LEGION
 
@@ -1098,9 +1243,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
-    parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -1111,16 +1254,23 @@ Attempting to deactivate existing (and activated) Virtual Environment
 
 
 "Batch Execution Done"
+******************************************************* clean_up *******************************************************
+top_folder_path: value_original was []; target_value is [os.pardir, os.pardir]
 ---------------------------------------------------- cli_read_me_21 ----------------------------------------------------
 test_case_data:
 test_case_id: cli_read_me_21
 test_case_name: cli_read_me_21
 test_case_file_name: cli_read_me_21.log
 batch_params: "file_path -e ascii"
+execution_mode: USER
+error_handling_mode: CONTINUE_ON_ERROR
+top_folder_path: []
 
+*********************************************** update_variables_in_file ***********************************************
+top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 26
-Time Stamp is: 28-01-2025  9:57:48.21
+Time Stamp is: 31-01-2025  9:06:25.83
 impra
 PJ-LEGION
 
@@ -1136,9 +1286,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
-    parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -1149,16 +1297,23 @@ Attempting to deactivate existing (and activated) Virtual Environment
 
 
 "Batch Execution Done"
+******************************************************* clean_up *******************************************************
+top_folder_path: value_original was []; target_value is [os.pardir, os.pardir]
 ---------------------------------------------------- cli_read_me_22 ----------------------------------------------------
 test_case_data:
 test_case_id: cli_read_me_22
 test_case_name: cli_read_me_22
 test_case_file_name: cli_read_me_22.log
 batch_params: "file_path --encoding ascii"
+execution_mode: USER
+error_handling_mode: CONTINUE_ON_ERROR
+top_folder_path: []
 
+*********************************************** update_variables_in_file ***********************************************
+top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 27
-Time Stamp is: 28-01-2025  9:57:49.22
+Time Stamp is: 31-01-2025  9:06:27.03
 impra
 PJ-LEGION
 
@@ -1174,9 +1329,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
-    parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -1187,16 +1340,23 @@ Attempting to deactivate existing (and activated) Virtual Environment
 
 
 "Batch Execution Done"
+******************************************************* clean_up *******************************************************
+top_folder_path: value_original was []; target_value is [os.pardir, os.pardir]
 ---------------------------------------------------- cli_read_me_23 ----------------------------------------------------
 test_case_data:
 test_case_id: cli_read_me_23
 test_case_name: cli_read_me_23
 test_case_file_name: cli_read_me_23.log
 batch_params: "file_path -ee replace"
+execution_mode: USER
+error_handling_mode: CONTINUE_ON_ERROR
+top_folder_path: []
 
+*********************************************** update_variables_in_file ***********************************************
+top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 28
-Time Stamp is: 28-01-2025  9:57:50.23
+Time Stamp is: 31-01-2025  9:06:28.20
 impra
 PJ-LEGION
 
@@ -1212,9 +1372,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
-    parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -1225,16 +1383,23 @@ Attempting to deactivate existing (and activated) Virtual Environment
 
 
 "Batch Execution Done"
+******************************************************* clean_up *******************************************************
+top_folder_path: value_original was []; target_value is [os.pardir, os.pardir]
 ---------------------------------------------------- cli_read_me_24 ----------------------------------------------------
 test_case_data:
 test_case_id: cli_read_me_24
 test_case_name: cli_read_me_24
 test_case_file_name: cli_read_me_24.log
 batch_params: "file_path --encoding_errors replace"
+execution_mode: USER
+error_handling_mode: CONTINUE_ON_ERROR
+top_folder_path: []
 
+*********************************************** update_variables_in_file ***********************************************
+top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 29
-Time Stamp is: 28-01-2025  9:57:51.27
+Time Stamp is: 31-01-2025  9:06:29.29
 impra
 PJ-LEGION
 
@@ -1250,9 +1415,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 64, in process_all_data_types
-    parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 111, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -1263,16 +1426,23 @@ Attempting to deactivate existing (and activated) Virtual Environment
 
 
 "Batch Execution Done"
+******************************************************* clean_up *******************************************************
+top_folder_path: value_original was []; target_value is [os.pardir, os.pardir]
 ---------------------------------------------------- cli_read_me_25 ----------------------------------------------------
 test_case_data:
 test_case_id: cli_read_me_25
 test_case_name: cli_read_me_25
 test_case_file_name: cli_read_me_25.log
 batch_params: "--help"
+execution_mode: USER
+error_handling_mode: CONTINUE_ON_ERROR
+top_folder_path: []
 
+*********************************************** update_variables_in_file ***********************************************
+top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 30
-Time Stamp is: 28-01-2025  9:57:52.31
+Time Stamp is: 31-01-2025  9:06:30.44
 impra
 PJ-LEGION
 
@@ -1289,3 +1459,5 @@ Attempting to deactivate existing (and activated) Virtual Environment
 
 
 "Batch Execution Done"
+******************************************************* clean_up *******************************************************
+top_folder_path: value_original was []; target_value is [os.pardir, os.pardir]
