@@ -59,13 +59,23 @@ def process_all_data_types(data, meta_data=None, info_data=None):
         for index, input_data_item in enumerate(iterator, start=1):
             sub_data = copy.deepcopy(data)
             sub_data.input_data = input_data_item
+            parents_remarks = sub_data.get_auto_generated_remarks()
             sub_data.reset_auto_generated_remarks()
             sub_data.set_extended_remarks_available(False if index <= actual_remarks_length else True)
             sub_data.set_user_remarks(current_remarks[index - 1])
             if elements_count > 1:
+                item_level_count = PhUtil.count(parents_remarks, PhConstants.ITEM)
+                if item_level_count < 1:
+                    # parents_remarks is not useful (at-least 1 item level should be there)
+                    parents_remarks = None
                 sub_data.set_auto_generated_remarks_if_needed(
-                    PhUtil.get_key_value_pair(key='item', value=index, sep=PhConstants.SEPERATOR_TWO_WORDS,
-                                              dic_format=False))
+                    PhUtil.get_key_value_pair(
+                        key=PhConstants.SEPERATOR_MULTI_OBJ.join(
+                            [
+                                parents_remarks,
+                                ((PhConstants.SUB * item_level_count) + PhConstants.ITEM)
+                            ]) if parents_remarks else PhConstants.ITEM,
+                        value=index, sep=PhConstants.SEPERATOR_TWO_WORDS, dic_format=False))
             parsed_data_list.append(process_all_data_types(sub_data))
         meta_data.parsed_data = parsed_data_list
         return meta_data.parsed_data

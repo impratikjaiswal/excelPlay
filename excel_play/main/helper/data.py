@@ -110,6 +110,9 @@ class Data:
     def reset_auto_generated_remarks(self):
         self.__auto_generated_remarks = None
 
+    def get_auto_generated_remarks(self):
+        return self.__auto_generated_remarks
+
     def set_auto_generated_remarks_if_needed(self, internal_remarks=None):
         internal_remarks = PhUtil.set_if_none(internal_remarks)
         default_remarks = self.__get_default_remarks()
@@ -118,7 +121,7 @@ class Data:
             default_remarks = None
         # auto generated comments are set
         self.__auto_generated_remarks = PhUtil.append_remarks(internal_remarks,
-                                                              self.__auto_generated_remarks if self.__auto_generated_remarks else default_remarks,
+                                                              self.get_auto_generated_remarks() if self.__auto_generated_remarks else default_remarks,
                                                               append_mode_post=False)
 
     def get_remarks_as_str(self, user_original_remarks=False, force_mode=False):

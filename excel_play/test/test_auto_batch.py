@@ -174,6 +174,8 @@ class TestAutoBatch:
             return
 
         print_configurations()
+        if TestAutoBatch.white_listed_tcs is not None:
+            TestAutoBatch.white_listed_tcs = [PhExecutionModes.get_key_name(x) for x in TestAutoBatch.white_listed_tcs]
         """
         Non CLI Tests
         """

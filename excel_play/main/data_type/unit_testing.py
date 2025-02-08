@@ -3,6 +3,7 @@ import os
 from python_helpers.ph_constants import PhConstants
 
 from excel_play.main.data_type.data_type_master import DataTypeMaster
+from excel_play.main.data_type.sample import input_data_sample_1, input_data_sample_2, input_data_sample_3
 from excel_play.main.helper.data import Data
 from excel_play.main.helper.folders import Folders
 from excel_play.main.helper.formats import Formats
@@ -63,7 +64,7 @@ class UnitTesting(DataTypeMaster):
 
     def set_data_pool(self):
         input_items_list_w_output_folder = [
-            Folders.in_sample('Excel Worksheet1.xlsx'),
+            input_data_sample_1,
             Folders.in_sample(),
             r'D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx',
             r'D:\Other\Github_Self\excelPlay\data\sample_data',
@@ -81,6 +82,11 @@ class UnitTesting(DataTypeMaster):
             Folders.in_test_logs('TC_zip_0'),
             Folders.in_test_logs('TC_zip_1'),
             Folders.in_test_logs(['TC_zip_2', 'SampleData 3.0.6.56.xlsx']),
+        ]
+
+        input_items_list_nested_levels = [
+            Folders.in_test_logs('TC_nested_items_0'),
+            Folders.in_test_logs('TC_nested_items_1'),
         ]
 
         input_items_list_encoding_ascii = [
@@ -106,10 +112,59 @@ class UnitTesting(DataTypeMaster):
             data = Data(input_data=input_item, output_archive_format=Formats.ZIP, remarks=remarks)
             data_pool_input_items_list_zip.append(data)
         #
+        data_pool_input_items_dirs_nested_levels = []
+        remarks = 'input_items_dirs_nested_levels'
+        for index, input_item in enumerate(input_items_list_nested_levels):
+            data = Data(input_data=input_item, output_archive_format=Formats.ZIP, remarks=remarks)
+            data_pool_input_items_dirs_nested_levels.append(data)
+        #
         data_pool_input_items_list_multi = []
         remarks = 'input_items_list_multi'
         data = Data(input_data=input_items_list_w_output_folder, output_archive_format=Formats.ZIP, remarks=remarks)
         data_pool_input_items_list_multi.append(data)
+        #
+        remarks = 'input_items_list_multi_nested'
+        data_pool_input_items_list_multi_nested = [
+            [
+                Data(input_data=input_data_sample_1, output_archive_format=Formats.ZIP, remarks=remarks),
+                Data(input_data=input_data_sample_2, output_archive_format=Formats.ZIP, remarks=remarks),
+                [
+                    Data(input_data=input_data_sample_1, output_archive_format=Formats.ZIP, remarks=remarks),
+                    Data(input_data=input_data_sample_3, output_archive_format=Formats.ZIP, remarks=remarks),
+                    [
+                        Data(input_data=input_data_sample_1, output_archive_format=Formats.ZIP, remarks=remarks),
+                        Data(input_data=input_data_sample_2, output_archive_format=Formats.ZIP, remarks=remarks),
+                        Data(input_data=input_data_sample_3, output_archive_format=Formats.ZIP, remarks=remarks),
+                    ],
+                ],
+                Data(input_data=input_data_sample_3, output_archive_format=Formats.ZIP, remarks=remarks),
+            ],
+            Data(input_data=input_data_sample_1, output_archive_format=Formats.ZIP, remarks=remarks),
+        ]
+        #
+        remarks = 'input_items_list_multi_nested_in_1'
+        data_pool_input_items_list_multi_nested_in_1 = [
+            Data(
+                input_data=
+                [
+                    [
+                        input_data_sample_1,
+                        input_data_sample_2,
+                        [
+                            input_data_sample_1,
+                            input_data_sample_3,
+                            [
+                                input_data_sample_1,
+                                input_data_sample_2,
+                                input_data_sample_3,
+                            ],
+                        ],
+                        input_data_sample_3,
+                    ],
+                    input_data_sample_1,
+                ],
+                output_archive_format=Formats.ZIP, remarks=remarks),
+        ]
         #
         data_pool_input_items_tuple_multi = []
         remarks = 'input_items_tuple_multi'
@@ -159,9 +214,12 @@ class UnitTesting(DataTypeMaster):
             + data_pool_input_items_list_wo_output_folder
             + data_pool_input_items_list_zip
             + data_pool_input_items_list_multi
+            + data_pool_input_items_list_multi_nested
+            + data_pool_input_items_list_multi_nested_in_1
             + data_pool_input_items_tuple_multi
             + data_pool_input_items_list_multi_w_output_folder
             + data_pool_input_items_tuple_multi_w_output_folder
             + data_pool_input_items_list_encoding
+            + data_pool_input_items_dirs_nested_levels
             + data_pool_negative
         )

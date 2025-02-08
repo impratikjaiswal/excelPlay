@@ -51,13 +51,29 @@ class TestData:
             {
                 PhKeys.BATCH_PARAMS: '--help',
             },
+        'input_file_0':
+            {
+                PhKeys.BATCH_PARAMS: r'"D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx"',
+            },
         'input_file_1':
             {
-                PhKeys.BATCH_PARAMS: 'D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx',
+                PhKeys.BATCH_PARAMS: r'D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx',
             },
         'input_file_2':
             {
-                PhKeys.BATCH_PARAMS: r'"D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx"',
+                PhKeys.BATCH_PARAMS: r"D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx",
+            },
+        'input_file_3':
+            {
+                PhKeys.BATCH_PARAMS: "D:/Other/Github_Self/excelPlay/data/sample_data/Excel Worksheet2.xlsx",
+            },
+        'input_file_4':
+            {
+                PhKeys.BATCH_PARAMS: "D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet2.xlsx",
+            },
+        'input_file_5':
+            {
+                PhKeys.BATCH_PARAMS: 'D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx',
             },
     }
 
