@@ -5,11 +5,11 @@ Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Friday, Jan 31 2025, 09:04:21:508766, IST (GMT+0530)
+Time Stamp is Saturday, Feb 08 2025, 23:14:21:771220, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is df20658;  (HEAD -> main, origin/main, origin/HEAD); 2025-01-30 09:55:20 +0530; imPratik <impratikjaiswal@gmail.com>; batch_no_param fixed
+Git Summary is 709d05d;  (HEAD -> main, origin/main, origin/HEAD); 2025-01-31 09:20:40 +0530; imPratik <impratikjaiswal@gmail.com>; handling of single item in list / tuple
 --------------------------------------------------------------------------------
-pythonHelpers version is v5.2.4
+pythonHelpers version is v5.2.4.dev5
 --------------------------------------------------------------------------------
 excelPlay version is v2.6.0
 --------------------------------------------------------------------------------
@@ -27,7 +27,7 @@ execution_mode: value_original was USER; target_value is UNIT_TESTING
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 1
-Time Stamp is: 31-01-2025  9:04:21.54
+Time Stamp is: 08-02-2025 23:14:21.79
 impra
 PJ-LEGION
 
@@ -43,7 +43,33 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 79, in process_all_data_types
+    parsed_data_list.append(process_all_data_types(sub_data))
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 99, in process_all_data_types
+    return process_all_data_types(files_list_data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 79, in process_all_data_types
+    parsed_data_list.append(process_all_data_types(sub_data))
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 127, in process_all_data_types
+    handle_data(data=data, meta_data=meta_data, info_data=info_data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 35, in handle_data
+    res = __handle_data(data=data, meta_data=meta_data, info_data=info_data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 77, in __handle_data
+    PhUtil.archive_files(source_files_dir=folder_path, archive_format=data.archive_output_format,
+  File "D:\Other\Github_Self\excelPlay\venv\lib\site-packages\python_helpers\ph_util.py", line 2299, in archive_files
+    return PhUtil.zip_and_clean_dir(source_files_dir=source_files_dir,
+  File "D:\Other\Github_Self\excelPlay\venv\lib\site-packages\python_helpers\ph_util.py", line 2331, in zip_and_clean_dir
+    files_list = cls.create_zip(zip_file_path, source_files_dir, keep_source_dir_in_zip=keep_source_dir_in_zip,
+  File "D:\Other\Github_Self\excelPlay\venv\lib\site-packages\python_helpers\ph_util.py", line 2308, in create_zip
+    with zipfile.ZipFile(zip_file_name, 'w', zipfile.ZIP_DEFLATED) as zip_file:
+  File "D:\ProgramFiles\Python39\lib\zipfile.py", line 1248, in __init__
+    self.fp = io.open(file, filemode)
+OSError: [Errno 22] Invalid argument: 'excel_play\\test\\logs\\TC_input_items_tuple_multi_w_output_folder\\Excel Worksheet1\\..\\Excel Worksheet1.zip'
+Traceback (most recent call last):
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 108, in process_safe
+    self.__process_safe_individual(data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
+    process_all_data_types(data, meta_data, info_data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 127, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -70,7 +96,7 @@ top_folder_path: []
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 2
-Time Stamp is: 31-01-2025  9:04:58.61
+Time Stamp is: 08-02-2025 23:15:19.66
 impra
 PJ-LEGION
 
@@ -103,7 +129,7 @@ execution_mode: value_original was USER; target_value is SAMPLES_LIST
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 3
-Time Stamp is: 31-01-2025  9:05:02.85
+Time Stamp is: 08-02-2025 23:15:22.46
 impra
 PJ-LEGION
 
@@ -137,7 +163,7 @@ execution_mode: value_original was USER; target_value is DEV
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 4
-Time Stamp is: 31-01-2025  9:05:05.81
+Time Stamp is: 08-02-2025 23:15:25.96
 impra
 PJ-LEGION
 
@@ -171,7 +197,7 @@ execution_mode: value_original was USER; target_value is KNOWN_ISSUES
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 5
-Time Stamp is: 31-01-2025  9:05:06.94
+Time Stamp is: 08-02-2025 23:15:27.14
 impra
 PJ-LEGION
 
@@ -205,7 +231,7 @@ execution_mode: value_original was USER; target_value is UNIT_TESTING_EXTERNAL
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 6
-Time Stamp is: 31-01-2025  9:05:08.27
+Time Stamp is: 08-02-2025 23:15:28.51
 impra
 PJ-LEGION
 
@@ -239,7 +265,7 @@ execution_mode: value_original was USER; target_value is ALL
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 7
-Time Stamp is: 31-01-2025  9:05:09.39
+Time Stamp is: 08-02-2025 23:15:29.53
 impra
 PJ-LEGION
 
@@ -255,7 +281,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 127, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -283,7 +309,7 @@ top_folder_path: []
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 1
-Time Stamp is: 31-01-2025  9:05:50.11
+Time Stamp is: 08-02-2025 23:16:38.63
 impra
 PJ-LEGION
 
@@ -316,7 +342,7 @@ top_folder_path: []
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
 Iteration 2
-Time Stamp is: 31-01-2025  9:05:52.45
+Time Stamp is: 08-02-2025 23:16:41.02
 impra
 PJ-LEGION
 
@@ -326,6 +352,39 @@ Microsoft Windows [Version 10.0.19045.5371]
 
 
 "cli_--help"
+Attempting to activate existing Virtual Environment
+Attempting to deactivate existing (and activated) Virtual Environment
+
+
+
+
+"Batch Execution Done"
+******************************************************* clean_up *******************************************************
+top_folder_path: value_original was []; target_value is [os.pardir, os.pardir]
+--------------------------------------------------- cli_input_file_0 ---------------------------------------------------
+test_case_data:
+test_case_id: cli_input_file_0
+test_case_name: cli_input_file_0
+test_case_file_name: cli_input_file_0.log
+batch_params: "D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx"
+execution_mode: USER
+error_handling_mode: CONTINUE_ON_ERROR
+top_folder_path: []
+
+*********************************************** update_variables_in_file ***********************************************
+top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
+Executing "run_tc.bat"
+Iteration 3
+Time Stamp is: 08-02-2025 23:16:42.03
+impra
+PJ-LEGION
+
+Microsoft Windows [Version 10.0.19045.5371]
+
+
+
+
+"cli_input_file_0"
 Attempting to activate existing Virtual Environment
 Attempting to deactivate existing (and activated) Virtual Environment
 
@@ -348,8 +407,8 @@ top_folder_path: []
 *********************************************** update_variables_in_file ***********************************************
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
-Iteration 3
-Time Stamp is: 31-01-2025  9:05:53.52
+Iteration 4
+Time Stamp is: 08-02-2025 23:16:43.95
 impra
 PJ-LEGION
 
@@ -365,9 +424,9 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 69, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 79, in process_all_data_types
     parsed_data_list.append(process_all_data_types(sub_data))
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 127, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -385,7 +444,7 @@ test_case_data:
 test_case_id: cli_input_file_2
 test_case_name: cli_input_file_2
 test_case_file_name: cli_input_file_2.log
-batch_params: "D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx"
+batch_params: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx
 execution_mode: USER
 error_handling_mode: CONTINUE_ON_ERROR
 top_folder_path: []
@@ -393,8 +452,8 @@ top_folder_path: []
 *********************************************** update_variables_in_file ***********************************************
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
-Iteration 4
-Time Stamp is: 31-01-2025  9:05:54.62
+Iteration 5
+Time Stamp is: 08-02-2025 23:16:45.03
 impra
 PJ-LEGION
 
@@ -405,6 +464,153 @@ Microsoft Windows [Version 10.0.19045.5371]
 
 "cli_input_file_2"
 Attempting to activate existing Virtual Environment
+Traceback (most recent call last):
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 108, in process_safe
+    self.__process_safe_individual(data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
+    process_all_data_types(data, meta_data, info_data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 79, in process_all_data_types
+    parsed_data_list.append(process_all_data_types(sub_data))
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 127, in process_all_data_types
+    handle_data(data=data, meta_data=meta_data, info_data=info_data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
+    raise FileNotFoundError(f'Invalid Path: {data.input_data}')
+FileNotFoundError: Invalid Path: D:\Other\Github_Self\excelPlay\data\sample_data\Excel
+Attempting to deactivate existing (and activated) Virtual Environment
+
+
+
+
+"Batch Execution Done"
+******************************************************* clean_up *******************************************************
+top_folder_path: value_original was []; target_value is [os.pardir, os.pardir]
+--------------------------------------------------- cli_input_file_3 ---------------------------------------------------
+test_case_data:
+test_case_id: cli_input_file_3
+test_case_name: cli_input_file_3
+test_case_file_name: cli_input_file_3.log
+batch_params: D:/Other/Github_Self/excelPlay/data/sample_data/Excel Worksheet2.xlsx
+execution_mode: USER
+error_handling_mode: CONTINUE_ON_ERROR
+top_folder_path: []
+
+*********************************************** update_variables_in_file ***********************************************
+top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
+Executing "run_tc.bat"
+Iteration 6
+Time Stamp is: 08-02-2025 23:16:46.04
+impra
+PJ-LEGION
+
+Microsoft Windows [Version 10.0.19045.5371]
+
+
+
+
+"cli_input_file_3"
+Attempting to activate existing Virtual Environment
+Traceback (most recent call last):
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 108, in process_safe
+    self.__process_safe_individual(data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
+    process_all_data_types(data, meta_data, info_data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 79, in process_all_data_types
+    parsed_data_list.append(process_all_data_types(sub_data))
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 127, in process_all_data_types
+    handle_data(data=data, meta_data=meta_data, info_data=info_data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
+    raise FileNotFoundError(f'Invalid Path: {data.input_data}')
+FileNotFoundError: Invalid Path: D:/Other/Github_Self/excelPlay/data/sample_data/Excel
+Attempting to deactivate existing (and activated) Virtual Environment
+
+
+
+
+"Batch Execution Done"
+******************************************************* clean_up *******************************************************
+top_folder_path: value_original was []; target_value is [os.pardir, os.pardir]
+--------------------------------------------------- cli_input_file_4 ---------------------------------------------------
+test_case_data:
+test_case_id: cli_input_file_4
+test_case_name: cli_input_file_4
+test_case_file_name: cli_input_file_4.log
+batch_params: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx
+execution_mode: USER
+error_handling_mode: CONTINUE_ON_ERROR
+top_folder_path: []
+
+*********************************************** update_variables_in_file ***********************************************
+top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
+Executing "run_tc.bat"
+Iteration 7
+Time Stamp is: 08-02-2025 23:16:47.14
+impra
+PJ-LEGION
+
+Microsoft Windows [Version 10.0.19045.5371]
+
+
+
+
+"cli_input_file_4"
+Attempting to activate existing Virtual Environment
+Traceback (most recent call last):
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 108, in process_safe
+    self.__process_safe_individual(data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
+    process_all_data_types(data, meta_data, info_data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 79, in process_all_data_types
+    parsed_data_list.append(process_all_data_types(sub_data))
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 127, in process_all_data_types
+    handle_data(data=data, meta_data=meta_data, info_data=info_data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
+    raise FileNotFoundError(f'Invalid Path: {data.input_data}')
+FileNotFoundError: Invalid Path: D:\Other\Github_Self\excelPlay\data\sample_data\Excel
+Attempting to deactivate existing (and activated) Virtual Environment
+
+
+
+
+"Batch Execution Done"
+******************************************************* clean_up *******************************************************
+top_folder_path: value_original was []; target_value is [os.pardir, os.pardir]
+--------------------------------------------------- cli_input_file_5 ---------------------------------------------------
+test_case_data:
+test_case_id: cli_input_file_5
+test_case_name: cli_input_file_5
+test_case_file_name: cli_input_file_5.log
+batch_params: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx
+execution_mode: USER
+error_handling_mode: CONTINUE_ON_ERROR
+top_folder_path: []
+
+*********************************************** update_variables_in_file ***********************************************
+top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
+Executing "run_tc.bat"
+Iteration 8
+Time Stamp is: 08-02-2025 23:16:48.27
+impra
+PJ-LEGION
+
+Microsoft Windows [Version 10.0.19045.5371]
+
+
+
+
+"cli_input_file_5"
+Attempting to activate existing Virtual Environment
+Traceback (most recent call last):
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 108, in process_safe
+    self.__process_safe_individual(data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
+    process_all_data_types(data, meta_data, info_data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 79, in process_all_data_types
+    parsed_data_list.append(process_all_data_types(sub_data))
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 127, in process_all_data_types
+    handle_data(data=data, meta_data=meta_data, info_data=info_data)
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
+    raise FileNotFoundError(f'Invalid Path: {data.input_data}')
+FileNotFoundError: Invalid Path: D:\Other\Github_Self\excelPlay\data\sample_data\Excel
 Attempting to deactivate existing (and activated) Virtual Environment
 
 
@@ -426,8 +632,8 @@ top_folder_path: []
 *********************************************** update_variables_in_file ***********************************************
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
-Iteration 5
-Time Stamp is: 31-01-2025  9:05:56.37
+Iteration 9
+Time Stamp is: 08-02-2025 23:16:49.34
 impra
 PJ-LEGION
 
@@ -443,7 +649,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 127, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -469,8 +675,8 @@ top_folder_path: []
 *********************************************** update_variables_in_file ***********************************************
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
-Iteration 6
-Time Stamp is: 31-01-2025  9:05:57.41
+Iteration 10
+Time Stamp is: 08-02-2025 23:16:50.40
 impra
 PJ-LEGION
 
@@ -502,8 +708,8 @@ top_folder_path: []
 *********************************************** update_variables_in_file ***********************************************
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
-Iteration 7
-Time Stamp is: 31-01-2025  9:05:59.04
+Iteration 11
+Time Stamp is: 08-02-2025 23:16:54.04
 impra
 PJ-LEGION
 
@@ -519,7 +725,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 127, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -545,8 +751,8 @@ top_folder_path: []
 *********************************************** update_variables_in_file ***********************************************
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
-Iteration 8
-Time Stamp is: 31-01-2025  9:06:00.11
+Iteration 12
+Time Stamp is: 08-02-2025 23:16:55.22
 impra
 PJ-LEGION
 
@@ -578,8 +784,8 @@ top_folder_path: []
 *********************************************** update_variables_in_file ***********************************************
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
-Iteration 9
-Time Stamp is: 31-01-2025  9:06:03.01
+Iteration 13
+Time Stamp is: 08-02-2025 23:16:58.59
 impra
 PJ-LEGION
 
@@ -611,8 +817,8 @@ top_folder_path: []
 *********************************************** update_variables_in_file ***********************************************
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
-Iteration 10
-Time Stamp is: 31-01-2025  9:06:04.74
+Iteration 14
+Time Stamp is: 08-02-2025 23:17:00.36
 impra
 PJ-LEGION
 
@@ -644,8 +850,8 @@ top_folder_path: []
 *********************************************** update_variables_in_file ***********************************************
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
-Iteration 11
-Time Stamp is: 31-01-2025  9:06:07.79
+Iteration 15
+Time Stamp is: 08-02-2025 23:17:03.63
 impra
 PJ-LEGION
 
@@ -677,8 +883,8 @@ top_folder_path: []
 *********************************************** update_variables_in_file ***********************************************
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
-Iteration 12
-Time Stamp is: 31-01-2025  9:06:09.54
+Iteration 16
+Time Stamp is: 08-02-2025 23:17:05.44
 impra
 PJ-LEGION
 
@@ -710,8 +916,8 @@ top_folder_path: []
 *********************************************** update_variables_in_file ***********************************************
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
-Iteration 13
-Time Stamp is: 31-01-2025  9:06:11.29
+Iteration 17
+Time Stamp is: 08-02-2025 23:17:08.21
 impra
 PJ-LEGION
 
@@ -727,7 +933,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 127, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -753,8 +959,8 @@ top_folder_path: []
 *********************************************** update_variables_in_file ***********************************************
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
-Iteration 14
-Time Stamp is: 31-01-2025  9:06:12.42
+Iteration 18
+Time Stamp is: 08-02-2025 23:17:09.35
 impra
 PJ-LEGION
 
@@ -770,7 +976,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 127, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -796,8 +1002,8 @@ top_folder_path: []
 *********************************************** update_variables_in_file ***********************************************
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
-Iteration 15
-Time Stamp is: 31-01-2025  9:06:13.55
+Iteration 19
+Time Stamp is: 08-02-2025 23:17:11.06
 impra
 PJ-LEGION
 
@@ -813,7 +1019,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 127, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -839,8 +1045,8 @@ top_folder_path: []
 *********************************************** update_variables_in_file ***********************************************
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
-Iteration 16
-Time Stamp is: 31-01-2025  9:06:14.63
+Iteration 20
+Time Stamp is: 08-02-2025 23:17:12.29
 impra
 PJ-LEGION
 
@@ -856,7 +1062,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 127, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -882,8 +1088,8 @@ top_folder_path: []
 *********************************************** update_variables_in_file ***********************************************
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
-Iteration 17
-Time Stamp is: 31-01-2025  9:06:15.73
+Iteration 21
+Time Stamp is: 08-02-2025 23:17:13.53
 impra
 PJ-LEGION
 
@@ -899,7 +1105,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 127, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -925,8 +1131,8 @@ top_folder_path: []
 *********************************************** update_variables_in_file ***********************************************
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
-Iteration 18
-Time Stamp is: 31-01-2025  9:06:16.92
+Iteration 22
+Time Stamp is: 08-02-2025 23:17:14.68
 impra
 PJ-LEGION
 
@@ -942,7 +1148,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 127, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -968,8 +1174,8 @@ top_folder_path: []
 *********************************************** update_variables_in_file ***********************************************
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
-Iteration 19
-Time Stamp is: 31-01-2025  9:06:18.11
+Iteration 23
+Time Stamp is: 08-02-2025 23:17:15.77
 impra
 PJ-LEGION
 
@@ -985,7 +1191,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 127, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -1011,8 +1217,8 @@ top_folder_path: []
 *********************************************** update_variables_in_file ***********************************************
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
-Iteration 20
-Time Stamp is: 31-01-2025  9:06:19.19
+Iteration 24
+Time Stamp is: 08-02-2025 23:17:17.01
 impra
 PJ-LEGION
 
@@ -1028,7 +1234,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 127, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -1054,8 +1260,8 @@ top_folder_path: []
 *********************************************** update_variables_in_file ***********************************************
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
-Iteration 21
-Time Stamp is: 31-01-2025  9:06:20.44
+Iteration 25
+Time Stamp is: 08-02-2025 23:17:18.78
 impra
 PJ-LEGION
 
@@ -1071,7 +1277,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 127, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -1097,8 +1303,8 @@ top_folder_path: []
 *********************************************** update_variables_in_file ***********************************************
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
-Iteration 22
-Time Stamp is: 31-01-2025  9:06:21.60
+Iteration 26
+Time Stamp is: 08-02-2025 23:17:19.91
 impra
 PJ-LEGION
 
@@ -1114,7 +1320,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 127, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -1140,8 +1346,8 @@ top_folder_path: []
 *********************************************** update_variables_in_file ***********************************************
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
-Iteration 23
-Time Stamp is: 31-01-2025  9:06:22.65
+Iteration 27
+Time Stamp is: 08-02-2025 23:17:21.02
 impra
 PJ-LEGION
 
@@ -1157,7 +1363,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 127, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -1183,8 +1389,8 @@ top_folder_path: []
 *********************************************** update_variables_in_file ***********************************************
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
-Iteration 24
-Time Stamp is: 31-01-2025  9:06:23.71
+Iteration 28
+Time Stamp is: 08-02-2025 23:17:22.16
 impra
 PJ-LEGION
 
@@ -1200,7 +1406,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 127, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -1226,8 +1432,8 @@ top_folder_path: []
 *********************************************** update_variables_in_file ***********************************************
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
-Iteration 25
-Time Stamp is: 31-01-2025  9:06:24.79
+Iteration 29
+Time Stamp is: 08-02-2025 23:17:23.29
 impra
 PJ-LEGION
 
@@ -1243,7 +1449,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 127, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -1269,8 +1475,8 @@ top_folder_path: []
 *********************************************** update_variables_in_file ***********************************************
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
-Iteration 26
-Time Stamp is: 31-01-2025  9:06:25.83
+Iteration 30
+Time Stamp is: 08-02-2025 23:17:24.31
 impra
 PJ-LEGION
 
@@ -1286,7 +1492,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 127, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -1312,8 +1518,8 @@ top_folder_path: []
 *********************************************** update_variables_in_file ***********************************************
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
-Iteration 27
-Time Stamp is: 31-01-2025  9:06:27.03
+Iteration 31
+Time Stamp is: 08-02-2025 23:17:25.42
 impra
 PJ-LEGION
 
@@ -1329,7 +1535,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 127, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -1355,8 +1561,8 @@ top_folder_path: []
 *********************************************** update_variables_in_file ***********************************************
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
-Iteration 28
-Time Stamp is: 31-01-2025  9:06:28.20
+Iteration 32
+Time Stamp is: 08-02-2025 23:17:26.64
 impra
 PJ-LEGION
 
@@ -1372,7 +1578,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 127, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -1398,8 +1604,8 @@ top_folder_path: []
 *********************************************** update_variables_in_file ***********************************************
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
-Iteration 29
-Time Stamp is: 31-01-2025  9:06:29.29
+Iteration 33
+Time Stamp is: 08-02-2025 23:17:27.68
 impra
 PJ-LEGION
 
@@ -1415,7 +1621,7 @@ Traceback (most recent call last):
     self.__process_safe_individual(data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\data_type\data_type_master.py", line 182, in __process_safe_individual
     process_all_data_types(data, meta_data, info_data)
-  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 117, in process_all_data_types
+  File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\parser.py", line 127, in process_all_data_types
     handle_data(data=data, meta_data=meta_data, info_data=info_data)
   File "D:\Other\Github_Self\excelPlay\excel_play\main\convert\handler.py", line 34, in handle_data
     raise FileNotFoundError(f'Invalid Path: {data.input_data}')
@@ -1441,8 +1647,8 @@ top_folder_path: []
 *********************************************** update_variables_in_file ***********************************************
 top_folder_path: value_original was [os.pardir, os.pardir]; target_value is []
 Executing "run_tc.bat"
-Iteration 30
-Time Stamp is: 31-01-2025  9:06:30.44
+Iteration 34
+Time Stamp is: 08-02-2025 23:17:28.83
 impra
 PJ-LEGION
 
