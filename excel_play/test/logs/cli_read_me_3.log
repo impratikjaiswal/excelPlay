@@ -5,9 +5,9 @@ Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Saturday, Feb 08 2025, 23:16:56:360254, IST (GMT+0530)
+Time Stamp is Tuesday, Feb 11 2025, 08:43:54:666186, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is 709d05d;  (HEAD -> main, origin/main, origin/HEAD); 2025-01-31 09:20:40 +0530; imPratik <impratikjaiswal@gmail.com>; handling of single item in list / tuple
+Git Summary is 21de19b;  (HEAD -> main); 2025-02-08 23:23:58 +0530; imPratik <impratikjaiswal@gmail.com>; logs updated
 --------------------------------------------------------------------------------
 pythonHelpers version is v5.2.4.dev5
 --------------------------------------------------------------------------------
@@ -16,7 +16,7 @@ excelPlay version is v2.6.0
 ---------------------------------------------- Data Class: DataTypeMaster ----------------------------------------------
 +++++++++++++++++++++++++++++++++++++++++++++++++++ data\sample_data +++++++++++++++++++++++++++++++++++++++++++++++++++
 Remarks Generated: data\sample_data
-Info => Transaction Id: 96u3d81x2lca; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: m79mvw6n1hug; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: ('data\\sample_data',)
 Input Data Length: 22
 --------------------------------------------------------------------------------
@@ -27,7 +27,7 @@ include_dirs: []
 excludes: ['*_output.*']
 ++++++++++++++++++++++++++++++++++++++++++++ data\sample_data; (3 Elements) ++++++++++++++++++++++++++++++++++++++++++++
 Remarks Generated: data\sample_data
-Info => Transaction Id: 430l8u7zcm91; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: qarr9eh9q2sb; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: ['D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\SampleData.xlsx']
 Input Data Length: 231
 --------------------------------------------------------------------------------
@@ -47,7 +47,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: omq4q232e7y2; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: mvqo528sh3d8; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx
 Input Data Length: 69
 Output Data:
@@ -69,7 +69,7 @@ Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
 Info Data Length: 35
-Info => Transaction Id: q1zo0l7v8p9v; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 5harjni6dz4x; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx
 Input Data Length: 69
 Output Data:
@@ -94,7 +94,7 @@ Info Data:
 	Sheet4.csv Done.
 	Sheet5.csv Done.
 Info Data Length: 88
-Info => Transaction Id: 8mr4xi0a6dlq; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: wvewjgx8ohhd; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\SampleData.xlsx
 Input Data Length: 63
 Output Data:
@@ -102,9 +102,9 @@ D:/Other/Github_Self/excelPlay/data/sample_data//SampleData_excelPlay\..\SampleD
 Output Data Length: 97
 --------------------------------------------------------------------------------
 ---------------------------------- Time Details ----------------------------------
-Current Time Stamp: 2025-02-08 23:16:58.451419+05:30
-Execution Time: 00:00:02; Milliseconds: 2081.995725631714
-Execution Time CPU: 00:00:02; Milliseconds: 2046.875
+Current Time Stamp: 2025-02-11 08:43:56.304523+05:30
+Execution Time: 00:00:01; Milliseconds: 1637.6049518585205
+Execution Time CPU: 00:00:01; Milliseconds: 1609.375
 Timer State: TIMER_OFF
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
