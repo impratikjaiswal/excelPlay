@@ -5,13 +5,13 @@ Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Tuesday, Feb 11 2025, 08:42:47:105203, IST (GMT+0530)
+Time Stamp is Saturday, Mar 01 2025, 12:33:15:177822, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is 21de19b;  (HEAD -> main); 2025-02-08 23:23:58 +0530; imPratik <impratikjaiswal@gmail.com>; logs updated
+Git Summary is 4d65f2b;  (HEAD -> main); 2025-02-11 08:54:15 +0530; imPratik <impratikjaiswal@gmail.com>; fixed Tc
 --------------------------------------------------------------------------------
-pythonHelpers version is v5.2.4.dev5
+pythonHelpers version is v5.3.1
 --------------------------------------------------------------------------------
-excelPlay version is v2.6.0
+excelPlay version is v2.7.0
 --------------------------------------------------------------------------------
 ------------------------------------------------- Data Class: UserData -------------------------------------------------
 ********************************************* Sample Excel Worksheet1.xlsx *********************************************
@@ -32,7 +32,7 @@ Info Data:
 	Sheet4.csv Done.
 	Sheet5.csv Done.
 Info Data Length: 88
-Info => Transaction Id: 8idwcllugfzf; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: nn2if88m5mzk; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: data\sample_data\SampleData.xlsx
 Input Data Length: 32
 Output Data:
@@ -65,7 +65,7 @@ Info Data:
 	Sheet4.csv Done.
 	Sheet5.csv Done.
 Info Data Length: 88
-Info => Transaction Id: uh47g5ozdnba; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 8omtyaakozaf; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: data\sample_data\SampleData.xlsx
 Input Data Length: 32
 Output Data:
@@ -83,7 +83,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: 8n0jekgt2ber; Output Format: csv; Output Path: excel_play\test\logs\TC_0; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: qvu0bc48ecz7; Output Format: csv; Output Path: excel_play\test\logs\TC_0; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: data\sample_data\Excel Worksheet1.xlsx
 Input Data Length: 38
 Output Data:
@@ -94,18 +94,18 @@ Output Data Length: 164
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++++++++++++ input_items_list_w_output_folder +++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_w_output_folder
-Info => Transaction Id: sbqh91ae9u5r; Output Format: csv; Output Path: excel_play\test\logs\TC_1; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: lmsjmlp1z5qw; Output Format: csv; Output Path: excel_play\test\logs\TC_1; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: data\sample_data
 Input Data Length: 16
 --------------------------------------------------------------------------------
 traverse_mode: Regex
 top: D:\Other\Github_Self\excelPlay\data\sample_data
-include_files: ['*.xlsx']
+include_files: ['*.xlsx', '*.xls']
 include_dirs: []
 excludes: ['*_output.*']
 ++++++++++++++++++++++++++++++++++++ input_items_list_w_output_folder; (3 Elements) ++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_w_output_folder
-Info => Transaction Id: b3k53eyx3w51; Output Format: csv; Output Path: excel_play\test\logs\TC_1; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: mw7klp64xd87; Output Format: csv; Output Path: excel_play\test\logs\TC_1; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: ['D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\SampleData.xlsx']
 Input Data Length: 231
 --------------------------------------------------------------------------------
@@ -119,7 +119,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: 9220oyt0hssr; Output Format: csv; Output Path: excel_play\test\logs\TC_1; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: yag8ylz4pwep; Output Format: csv; Output Path: excel_play\test\logs\TC_1; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx
 Input Data Length: 69
 Output Data:
@@ -137,7 +137,7 @@ Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
 Info Data Length: 35
-Info => Transaction Id: or7fltq35gyb; Output Format: csv; Output Path: excel_play\test\logs\TC_1; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: zbmf7iieg36i; Output Format: csv; Output Path: excel_play\test\logs\TC_1; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx
 Input Data Length: 69
 Output Data:
@@ -157,7 +157,7 @@ Info Data:
 	Sheet4.csv Done.
 	Sheet5.csv Done.
 Info Data Length: 88
-Info => Transaction Id: r858v51fae67; Output Format: csv; Output Path: excel_play\test\logs\TC_1; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: hi5o3y49ts0a; Output Format: csv; Output Path: excel_play\test\logs\TC_1; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\SampleData.xlsx
 Input Data Length: 63
 Output Data:
@@ -178,7 +178,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: 5mgkmwo8o5yu; Output Format: csv; Output Path: excel_play\test\logs\TC_2; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: s4mcmzwuxfz8; Output Format: csv; Output Path: excel_play\test\logs\TC_2; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx
 Input Data Length: 69
 Output Data:
@@ -189,18 +189,18 @@ Output Data Length: 164
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++++++++++++ input_items_list_w_output_folder +++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_w_output_folder
-Info => Transaction Id: zg9lemy3b30i; Output Format: csv; Output Path: excel_play\test\logs\TC_3; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: og6j7rtak7pg; Output Format: csv; Output Path: excel_play\test\logs\TC_3; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data
 Input Data Length: 47
 --------------------------------------------------------------------------------
 traverse_mode: Regex
 top: D:\Other\Github_Self\excelPlay\data\sample_data
-include_files: ['*.xlsx']
+include_files: ['*.xlsx', '*.xls']
 include_dirs: []
 excludes: ['*_output.*']
 ++++++++++++++++++++++++++++++++++++ input_items_list_w_output_folder; (3 Elements) ++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_w_output_folder
-Info => Transaction Id: 6z5bu9f181dz; Output Format: csv; Output Path: excel_play\test\logs\TC_3; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: g5p7byx8ch61; Output Format: csv; Output Path: excel_play\test\logs\TC_3; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: ['D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\SampleData.xlsx']
 Input Data Length: 231
 --------------------------------------------------------------------------------
@@ -214,7 +214,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: mr14nn3z3i14; Output Format: csv; Output Path: excel_play\test\logs\TC_3; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: 2qc4v3ftahhw; Output Format: csv; Output Path: excel_play\test\logs\TC_3; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx
 Input Data Length: 69
 Output Data:
@@ -232,7 +232,7 @@ Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
 Info Data Length: 35
-Info => Transaction Id: hrtnm4chji03; Output Format: csv; Output Path: excel_play\test\logs\TC_3; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: bygglwr1nmrw; Output Format: csv; Output Path: excel_play\test\logs\TC_3; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx
 Input Data Length: 69
 Output Data:
@@ -252,7 +252,7 @@ Info Data:
 	Sheet4.csv Done.
 	Sheet5.csv Done.
 Info Data Length: 88
-Info => Transaction Id: y5sehuz4ldzt; Output Format: csv; Output Path: excel_play\test\logs\TC_3; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: gp1925gbj8qf; Output Format: csv; Output Path: excel_play\test\logs\TC_3; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\SampleData.xlsx
 Input Data Length: 63
 Output Data:
@@ -273,7 +273,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: jb409ibc6cf0; Output Format: csv; Output Path: excel_play\test\logs\TC_4; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: jti3pvm897uo; Output Format: csv; Output Path: excel_play\test\logs\TC_4; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx
 Input Data Length: 75
 Output Data:
@@ -292,7 +292,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: wy915dfzqt2x; Output Format: csv; Output Path: excel_play\test\logs\TC_5; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: f0fn1p0robmp; Output Format: csv; Output Path: excel_play\test\logs\TC_5; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: D:/Other/Github_Self/excelPlay/data/sample_data/Excel Worksheet1.xlsx
 Input Data Length: 69
 Output Data:
@@ -303,18 +303,18 @@ Output Data Length: 164
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++++++++++++ input_items_list_wo_output_folder ++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_wo_output_folder
-Info => Transaction Id: vme28yffxixs; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: am6upzn5vg8g; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: excel_play\test\logs\TC_wo_out_folder_0
 Input Data Length: 39
 --------------------------------------------------------------------------------
 traverse_mode: Regex
 top: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_wo_out_folder_0
-include_files: ['*.xlsx']
+include_files: ['*.xlsx', '*.xls']
 include_dirs: []
 excludes: ['*_output.*']
 ++++++++++++++++++++++++++++++++++++ input_items_list_wo_output_folder; (3 Elements) +++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_wo_output_folder
-Info => Transaction Id: tw63kcv8g2k4; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: pnb8s3rv3tvt; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: ['D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_wo_out_folder_0\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_wo_out_folder_0\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_wo_out_folder_0\\SampleData.xlsx']
 Input Data Length: 306
 --------------------------------------------------------------------------------
@@ -328,7 +328,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: 51bi1xv5ttri; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: gk082vt78izv; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_wo_out_folder_0\Excel Worksheet1.xlsx
 Input Data Length: 92
 Output Data:
@@ -346,7 +346,7 @@ Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
 Info Data Length: 35
-Info => Transaction Id: qoyd1emd3pzh; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: xjnc6pyl8jc3; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_wo_out_folder_0\Excel Worksheet2.xlsx
 Input Data Length: 92
 Output Data:
@@ -366,7 +366,7 @@ Info Data:
 	Sheet4.csv Done.
 	Sheet5.csv Done.
 Info Data Length: 88
-Info => Transaction Id: w9r4dhuwwhel; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: fl65iffw9a47; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_wo_out_folder_0\SampleData.xlsx
 Input Data Length: 86
 Output Data:
@@ -379,18 +379,18 @@ Output Data Length: 519
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++++++++++++ input_items_list_wo_output_folder ++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_wo_output_folder
-Info => Transaction Id: hi85jwofrx2e; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: b2y2vh53b2hx; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: excel_play\test\logs\TC_wo_out_folder_1
 Input Data Length: 39
 --------------------------------------------------------------------------------
 traverse_mode: Regex
 top: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_wo_out_folder_1
-include_files: ['*.xlsx']
+include_files: ['*.xlsx', '*.xls']
 include_dirs: []
 excludes: ['*_output.*']
 ++++++++++++++++++++++++++++++++++++ input_items_list_wo_output_folder; (6 Elements) +++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_wo_output_folder
-Info => Transaction Id: 2pnq7aztqf6r; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: 93u83ssjswwd; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: ['D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_wo_out_folder_1\\Excel Worksheet1 v1.0.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_wo_out_folder_1\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_wo_out_folder_1\\Excel Worksheet2 v2..xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_wo_out_folder_1\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_wo_out_folder_1\\SampleData 3.0.6.56.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_wo_out_folder_1\\SampleData.xlsx']
 Input Data Length: 630
 --------------------------------------------------------------------------------
@@ -404,7 +404,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: ysxlh3l1c5hr; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: afdedrbq216i; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_wo_out_folder_1\Excel Worksheet1 v1.0.xlsx
 Input Data Length: 97
 Output Data:
@@ -423,7 +423,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: z9xphzwgh7uq; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: z0qp1swypqpa; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_wo_out_folder_1\Excel Worksheet1.xlsx
 Input Data Length: 92
 Output Data:
@@ -441,7 +441,7 @@ Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
 Info Data Length: 35
-Info => Transaction Id: uqpvekaz9n38; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: p2xopdfq5xfu; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_wo_out_folder_1\Excel Worksheet2 v2..xlsx
 Input Data Length: 96
 Output Data:
@@ -458,7 +458,7 @@ Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
 Info Data Length: 35
-Info => Transaction Id: l1e094v24dgd; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: ex46psohoe7p; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_wo_out_folder_1\Excel Worksheet2.xlsx
 Input Data Length: 92
 Output Data:
@@ -478,7 +478,7 @@ Info Data:
 	Sheet4.csv Done.
 	Sheet5.csv Done.
 Info Data Length: 88
-Info => Transaction Id: 4swn07fcm7t8; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: i6n344pcjo7k; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_wo_out_folder_1\SampleData 3.0.6.56.xlsx
 Input Data Length: 95
 Output Data:
@@ -501,7 +501,7 @@ Info Data:
 	Sheet4.csv Done.
 	Sheet5.csv Done.
 Info Data Length: 88
-Info => Transaction Id: i8kara2l2tj6; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: r6hu95gllf6l; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_wo_out_folder_1\SampleData.xlsx
 Input Data Length: 86
 Output Data:
@@ -521,7 +521,7 @@ Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
 Info Data Length: 35
-Info => Transaction Id: 2myon35v2rmx; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
+Info => Transaction Id: kpzw2ylepcsm; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output Format: .zip
 Input Data: excel_play\test\logs\TC_wo_out_folder_2\Excel Worksheet2.xlsx
 Input Data Length: 61
 Output Data:
@@ -531,18 +531,18 @@ Output Data Length: 158
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++++++++++++++++++ input_items_list_zip +++++++++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_zip
-Info => Transaction Id: bokv1puwv2jg; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: bpl7x2tnfbyo; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: excel_play\test\logs\TC_zip_0
 Input Data Length: 29
 --------------------------------------------------------------------------------
 traverse_mode: Regex
 top: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_zip_0
-include_files: ['*.xlsx']
+include_files: ['*.xlsx', '*.xls']
 include_dirs: []
 excludes: ['*_output.*']
 ++++++++++++++++++++++++++++++++++++++++++ input_items_list_zip; (3 Elements) ++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_zip
-Info => Transaction Id: gg3ioeoyyzfn; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: z9voy24ltygw; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: ['D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_zip_0\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_zip_0\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_zip_0\\SampleData.xlsx']
 Input Data Length: 276
 --------------------------------------------------------------------------------
@@ -562,7 +562,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: l6bgw9g4hivp; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: kljua763j72j; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_zip_0\Excel Worksheet1.xlsx
 Input Data Length: 82
 Output Data:
@@ -584,7 +584,7 @@ Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
 Info Data Length: 35
-Info => Transaction Id: 78qbvibijdhp; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: iwf6ohyfz57h; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_zip_0\Excel Worksheet2.xlsx
 Input Data Length: 82
 Output Data:
@@ -609,7 +609,7 @@ Info Data:
 	Sheet4.csv Done.
 	Sheet5.csv Done.
 Info Data Length: 88
-Info => Transaction Id: vljcvs20uw39; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: r4o6resdq1y6; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_zip_0\SampleData.xlsx
 Input Data Length: 76
 Output Data:
@@ -618,18 +618,18 @@ Output Data Length: 110
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++++++++++++++++++ input_items_list_zip +++++++++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_zip
-Info => Transaction Id: ep13urm4g0pn; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: cc6auuw7356d; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: excel_play\test\logs\TC_zip_1
 Input Data Length: 29
 --------------------------------------------------------------------------------
 traverse_mode: Regex
 top: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_zip_1
-include_files: ['*.xlsx']
+include_files: ['*.xlsx', '*.xls']
 include_dirs: []
 excludes: ['*_output.*']
 ++++++++++++++++++++++++++++++++++++++++++ input_items_list_zip; (6 Elements) ++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_zip
-Info => Transaction Id: h8xy56ochbyq; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: yc7zbifh9g87; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: ['D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_zip_1\\Excel Worksheet1 v1.0.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_zip_1\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_zip_1\\Excel Worksheet2 v2..xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_zip_1\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_zip_1\\SampleData 3.0.6.56.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_zip_1\\SampleData.xlsx']
 Input Data Length: 570
 --------------------------------------------------------------------------------
@@ -649,7 +649,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: 2lvdv5uw5xlm; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: k0lx8jgpa89v; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_zip_1\Excel Worksheet1 v1.0.xlsx
 Input Data Length: 87
 Output Data:
@@ -672,7 +672,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: j7hah63vrzfo; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 06khk696k8f4; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_zip_1\Excel Worksheet1.xlsx
 Input Data Length: 82
 Output Data:
@@ -694,7 +694,7 @@ Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
 Info Data Length: 35
-Info => Transaction Id: ysx3ohjln7jq; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: i2ugnvm7xp5r; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_zip_1\Excel Worksheet2 v2..xlsx
 Input Data Length: 86
 Output Data:
@@ -716,7 +716,7 @@ Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
 Info Data Length: 35
-Info => Transaction Id: we2yty1gbm5y; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: drgctpbcfld2; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_zip_1\Excel Worksheet2.xlsx
 Input Data Length: 82
 Output Data:
@@ -741,7 +741,7 @@ Info Data:
 	Sheet4.csv Done.
 	Sheet5.csv Done.
 Info Data Length: 88
-Info => Transaction Id: vi28739fuzym; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: l6sw07z17lzs; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_zip_1\SampleData 3.0.6.56.xlsx
 Input Data Length: 85
 Output Data:
@@ -766,7 +766,7 @@ Info Data:
 	Sheet4.csv Done.
 	Sheet5.csv Done.
 Info Data Length: 88
-Info => Transaction Id: bqbhd4cnpcbp; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: unyivbvx5zpm; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_zip_1\SampleData.xlsx
 Input Data Length: 76
 Output Data:
@@ -791,16 +791,85 @@ Info Data:
 	Sheet4.csv Done.
 	Sheet5.csv Done.
 Info Data Length: 88
-Info => Transaction Id: x84t1xgwx2z7; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 1exgr59k8gfm; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: excel_play\test\logs\TC_zip_2\SampleData 3.0.6.56.xlsx
 Input Data Length: 54
 Output Data:
 excel_play/test/logs/TC_zip_2//SampleData 3.0.6.56_excelPlay\..\SampleData 3.0.6.56_excelPlay.zip
 Output Data Length: 97
 --------------------------------------------------------------------------------
++++++++++++++++++++++++++++++++++++++++++++++++++ input_items_list_xls +++++++++++++++++++++++++++++++++++++++++++++++++
+Remarks: input_items_list_xls
+Info => Transaction Id: lhkhva1x11tw; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: excel_play\test\logs\TC_xls_0
+Input Data Length: 29
+--------------------------------------------------------------------------------
+traverse_mode: Regex
+top: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_xls_0
+include_files: ['*.xlsx', '*.xls']
+include_dirs: []
+excludes: ['*_output.*']
+************************************************* input_items_list_xls *************************************************
+- Target Folder: D:/Other/Github_Self/excelPlay/excel_play/test/logs/TC_xls_0//RGESS_Eligible_Securities_excelPlay; Already Existed -
+- D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_xls_0\RGESS_Eligible_Securities.xls -
+out_put_path: D:/Other/Github_Self/excelPlay/excel_play/test/logs/TC_xls_0//RGESS_Eligible_Securities_excelPlay
+- Exporting Zip File: D:/Other/Github_Self/excelPlay/excel_play/test/logs/TC_xls_0//RGESS_Eligible_Securities_excelPlay\..\RGESS_Eligible_Securities_excelPlay.zip -
+traverse_mode: Regex
+top: D:/Other/Github_Self/excelPlay/excel_play/test/logs/TC_xls_0//RGESS_Eligible_Securities_excelPlay
+include_files: []
+include_dirs: []
+excludes: []
+Remarks: input_items_list_xls
+Info Data:
+	CNX 100.csv Done.
+	BSE 100.csv Done.
+	Maharatna & Navratna.csv Done.
+	ETF.csv Done.
+Info Data Length: 83
+Info => Transaction Id: 9dogspt93rqq; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: ['D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_xls_0\\RGESS_Eligible_Securities.xls']
+Input Data Length: 102
+Output Data:
+D:/Other/Github_Self/excelPlay/excel_play/test/logs/TC_xls_0//RGESS_Eligible_Securities_excelPlay\..\RGESS_Eligible_Securities_excelPlay.zip
+Output Data Length: 140
+--------------------------------------------------------------------------------
++++++++++++++++++++++++++++++++++++++++++++++++++ input_items_list_xls +++++++++++++++++++++++++++++++++++++++++++++++++
+Remarks: input_items_list_xls
+Info => Transaction Id: bpgfxyios1xr; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: excel_play\test\logs\TC_xls_1_profile_export_pj exclusive
+Input Data Length: 57
+--------------------------------------------------------------------------------
+traverse_mode: Regex
+top: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_xls_1_profile_export_pj exclusive
+include_files: ['*.xlsx', '*.xls']
+include_dirs: []
+excludes: ['*_output.*']
+************************************************* input_items_list_xls *************************************************
+- Target Folder: D:/Other/Github_Self/excelPlay/excel_play/test/logs/TC_xls_1_profile_export_pj exclusive//profileExport_excelPlay; Already Existed -
+- D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_xls_1_profile_export_pj exclusive\profileExport.xls -
+out_put_path: D:/Other/Github_Self/excelPlay/excel_play/test/logs/TC_xls_1_profile_export_pj exclusive//profileExport_excelPlay
+- Exporting Zip File: D:/Other/Github_Self/excelPlay/excel_play/test/logs/TC_xls_1_profile_export_pj exclusive//profileExport_excelPlay\..\profileExport_excelPlay.zip -
+traverse_mode: Regex
+top: D:/Other/Github_Self/excelPlay/excel_play/test/logs/TC_xls_1_profile_export_pj exclusive//profileExport_excelPlay
+include_files: []
+include_dirs: []
+excludes: []
+Remarks: input_items_list_xls
+Info Data:
+	Overview.csv Done.
+	File Lengths.csv Done.
+	File Details.csv Done.
+Info Data Length: 66
+Info => Transaction Id: 12zz0xwjagoy; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Input Data: ['D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_xls_1_profile_export_pj exclusive\\profileExport.xls']
+Input Data Length: 118
+Output Data:
+D:/Other/Github_Self/excelPlay/excel_play/test/logs/TC_xls_1_profile_export_pj exclusive//profileExport_excelPlay\..\profileExport_excelPlay.zip
+Output Data Length: 144
+--------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++++++++++ input_items_list_multi; (6 Elements) +++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_multi
-Info => Transaction Id: tgd74jk8s7y6; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 7kq2srnq2e6a; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: ['data\\sample_data\\Excel Worksheet1.xlsx', 'data\\sample_data', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data', 'D:\\\\Other\\\\Github_Self\\\\excelPlay\\\\data\\\\sample_data\\\\Excel Worksheet1.xlsx', 'D:/Other/Github_Self/excelPlay/data/sample_data/Excel Worksheet1.xlsx']
 Input Data Length: 364
 --------------------------------------------------------------------------------
@@ -820,7 +889,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: i2zj8m7rdn5n; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 327c1e33uo0m; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: data\sample_data\Excel Worksheet1.xlsx
 Input Data Length: 38
 Output Data:
@@ -829,18 +898,18 @@ Output Data Length: 78
 --------------------------------------------------------------------------------
 ++++++++++++++++++++++++++++++++++++++++++++ input_items_list_multi; Item 2 ++++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_multi
-Info => Transaction Id: vxbec85oj7hl; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: gq1bqrylm56s; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: data\sample_data
 Input Data Length: 16
 --------------------------------------------------------------------------------
 traverse_mode: Regex
 top: D:\Other\Github_Self\excelPlay\data\sample_data
-include_files: ['*.xlsx']
+include_files: ['*.xlsx', '*.xls']
 include_dirs: []
 excludes: ['*_output.*']
 +++++++++++++++++++++++++++++++++++++ input_items_list_multi; Item 2; (3 Elements) +++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_multi
-Info => Transaction Id: 5k5cjm2secbx; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: v0uscnb7wv8s; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: ['D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\SampleData.xlsx']
 Input Data Length: 231
 --------------------------------------------------------------------------------
@@ -860,7 +929,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: gsnknkjyw5xp; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: acri9chiobbl; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx
 Input Data Length: 69
 Output Data:
@@ -882,7 +951,7 @@ Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
 Info Data Length: 35
-Info => Transaction Id: 7cxv13iwfajy; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: v7s0j1zbd1os; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx
 Input Data Length: 69
 Output Data:
@@ -907,7 +976,7 @@ Info Data:
 	Sheet4.csv Done.
 	Sheet5.csv Done.
 Info Data Length: 88
-Info => Transaction Id: uae9whwsjxi5; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 16mqs9urmf25; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\SampleData.xlsx
 Input Data Length: 63
 Output Data:
@@ -930,7 +999,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: sqyjrukeqggg; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: be8x781h3kbs; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx
 Input Data Length: 69
 Output Data:
@@ -939,18 +1008,18 @@ Output Data Length: 109
 --------------------------------------------------------------------------------
 ++++++++++++++++++++++++++++++++++++++++++++ input_items_list_multi; Item 4 ++++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_multi
-Info => Transaction Id: 3v7w0dhu9en2; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: zx0l8eiz9vh1; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data
 Input Data Length: 47
 --------------------------------------------------------------------------------
 traverse_mode: Regex
 top: D:\Other\Github_Self\excelPlay\data\sample_data
-include_files: ['*.xlsx']
+include_files: ['*.xlsx', '*.xls']
 include_dirs: []
 excludes: ['*_output.*']
 +++++++++++++++++++++++++++++++++++++ input_items_list_multi; Item 4; (3 Elements) +++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_multi
-Info => Transaction Id: x0ghwy38anm0; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 4ykohjkn94dh; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: ['D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\SampleData.xlsx']
 Input Data Length: 231
 --------------------------------------------------------------------------------
@@ -970,7 +1039,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: k7fxg565i1oe; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 7xzt7rjeshtw; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx
 Input Data Length: 69
 Output Data:
@@ -992,7 +1061,7 @@ Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
 Info Data Length: 35
-Info => Transaction Id: 8j7cybwn96mp; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 9n9tco8avkqq; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx
 Input Data Length: 69
 Output Data:
@@ -1017,7 +1086,7 @@ Info Data:
 	Sheet4.csv Done.
 	Sheet5.csv Done.
 Info Data Length: 88
-Info => Transaction Id: 6fx5yl9035pn; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: ugaueudc4inl; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\SampleData.xlsx
 Input Data Length: 63
 Output Data:
@@ -1040,7 +1109,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: f84rltvli6xp; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: el25por35nos; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx
 Input Data Length: 75
 Output Data:
@@ -1063,7 +1132,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: a4p4yrfuif50; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 35x51us3m2m9; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:/Other/Github_Self/excelPlay/data/sample_data/Excel Worksheet1.xlsx
 Input Data Length: 69
 Output Data:
@@ -1086,7 +1155,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: iyedjp5o4vte; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: secnpslkrcvu; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: data\sample_data\Excel Worksheet1.xlsx
 Input Data Length: 38
 Output Data:
@@ -1108,7 +1177,7 @@ Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
 Info Data Length: 35
-Info => Transaction Id: 2w5ufnkoi321; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: nkuwn5htcgox; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: data\sample_data\Excel Worksheet2.xlsx
 Input Data Length: 38
 Output Data:
@@ -1131,7 +1200,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: ehm9pkftb5w5; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: bgxnjq4zjb5a; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: data\sample_data\Excel Worksheet1.xlsx
 Input Data Length: 38
 Output Data:
@@ -1156,7 +1225,7 @@ Info Data:
 	Sheet4.csv Done.
 	Sheet5.csv Done.
 Info Data Length: 88
-Info => Transaction Id: c9dzqrbdewjm; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 23qxpbn63vyw; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: data\sample_data\SampleData.xlsx
 Input Data Length: 32
 Output Data:
@@ -1179,7 +1248,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: h2ir8eqv5rvq; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: s299ur04ykk7; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: data\sample_data\Excel Worksheet1.xlsx
 Input Data Length: 38
 Output Data:
@@ -1201,7 +1270,7 @@ Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
 Info Data Length: 35
-Info => Transaction Id: 6d9ij7tvqsmo; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: achyyq2myrc4; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: data\sample_data\Excel Worksheet2.xlsx
 Input Data Length: 38
 Output Data:
@@ -1226,7 +1295,7 @@ Info Data:
 	Sheet4.csv Done.
 	Sheet5.csv Done.
 Info Data Length: 88
-Info => Transaction Id: 0ycbdjshbrr0; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: cy38e0426mup; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: data\sample_data\SampleData.xlsx
 Input Data Length: 32
 Output Data:
@@ -1251,7 +1320,7 @@ Info Data:
 	Sheet4.csv Done.
 	Sheet5.csv Done.
 Info Data Length: 88
-Info => Transaction Id: kaafqs4t7wvi; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: kkvpu26hwzfl; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: data\sample_data\SampleData.xlsx
 Input Data Length: 32
 Output Data:
@@ -1274,7 +1343,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: djd76jkdjpvy; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 1g9knghpj9sm; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: data\sample_data\Excel Worksheet1.xlsx
 Input Data Length: 38
 Output Data:
@@ -1283,13 +1352,13 @@ Output Data Length: 78
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++++ input_items_list_multi_nested_in_1; (2 Elements) +++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_multi_nested_in_1
-Info => Transaction Id: aaeqkr27egqs; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 7majxap0dxgg; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: [['data\\sample_data\\Excel Worksheet1.xlsx', 'data\\sample_data\\Excel Worksheet2.xlsx', ['data\\sample_data\\Excel Worksheet1.xlsx', 'data\\sample_data\\SampleData.xlsx', ['data\\sample_data\\Excel Worksheet1.xlsx', 'data\\sample_data\\Excel Worksheet2.xlsx', 'data\\sample_data\\SampleData.xlsx']], 'data\\sample_data\\SampleData.xlsx'], 'data\\sample_data\\Excel Worksheet1.xlsx']
 Input Data Length: 384
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++ input_items_list_multi_nested_in_1; Item 1; (4 Elements) +++++++++++++++++++++++++++++++
 Remarks: input_items_list_multi_nested_in_1
-Info => Transaction Id: hgzjfbrlgrp9; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 18hgqkgrrrgs; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: ['data\\sample_data\\Excel Worksheet1.xlsx', 'data\\sample_data\\Excel Worksheet2.xlsx', ['data\\sample_data\\Excel Worksheet1.xlsx', 'data\\sample_data\\SampleData.xlsx', ['data\\sample_data\\Excel Worksheet1.xlsx', 'data\\sample_data\\Excel Worksheet2.xlsx', 'data\\sample_data\\SampleData.xlsx']], 'data\\sample_data\\SampleData.xlsx']
 Input Data Length: 338
 --------------------------------------------------------------------------------
@@ -1309,7 +1378,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: 2i1cfdjn9ak7; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 15xulgwviw1h; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: data\sample_data\Excel Worksheet1.xlsx
 Input Data Length: 38
 Output Data:
@@ -1331,7 +1400,7 @@ Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
 Info Data Length: 35
-Info => Transaction Id: 0k1glz7xqr2d; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: qohc4n60dops; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: data\sample_data\Excel Worksheet2.xlsx
 Input Data Length: 38
 Output Data:
@@ -1340,7 +1409,7 @@ Output Data Length: 78
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++ input_items_list_multi_nested_in_1; Item 1; Sub Item 3; (3 Elements) +++++++++++++++++++++++++
 Remarks: input_items_list_multi_nested_in_1
-Info => Transaction Id: ta5xqioc9myr; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: qwx9a0283oaj; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: ['data\\sample_data\\Excel Worksheet1.xlsx', 'data\\sample_data\\SampleData.xlsx', ['data\\sample_data\\Excel Worksheet1.xlsx', 'data\\sample_data\\Excel Worksheet2.xlsx', 'data\\sample_data\\SampleData.xlsx']]
 Input Data Length: 210
 --------------------------------------------------------------------------------
@@ -1360,7 +1429,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: bkk1f9xfzop7; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: ooghxfvs7cto; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: data\sample_data\Excel Worksheet1.xlsx
 Input Data Length: 38
 Output Data:
@@ -1385,7 +1454,7 @@ Info Data:
 	Sheet4.csv Done.
 	Sheet5.csv Done.
 Info Data Length: 88
-Info => Transaction Id: kybklpe1uaj8; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: whb7b91b0sal; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: data\sample_data\SampleData.xlsx
 Input Data Length: 32
 Output Data:
@@ -1394,7 +1463,7 @@ Output Data Length: 66
 --------------------------------------------------------------------------------
 +++++++++++++++++ input_items_list_multi_nested_in_1; Item 1; Sub Item 3; Sub Sub Item 3; (3 Elements) +++++++++++++++++
 Remarks: input_items_list_multi_nested_in_1
-Info => Transaction Id: 5hv512mfh6jt; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: dfc9h29ep12c; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: ['data\\sample_data\\Excel Worksheet1.xlsx', 'data\\sample_data\\Excel Worksheet2.xlsx', 'data\\sample_data\\SampleData.xlsx']
 Input Data Length: 126
 --------------------------------------------------------------------------------
@@ -1414,7 +1483,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: ciyij0ha5oc7; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: zi63aghsz5bn; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: data\sample_data\Excel Worksheet1.xlsx
 Input Data Length: 38
 Output Data:
@@ -1436,7 +1505,7 @@ Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
 Info Data Length: 35
-Info => Transaction Id: i5yakiaelaoi; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: en2387rd98so; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: data\sample_data\Excel Worksheet2.xlsx
 Input Data Length: 38
 Output Data:
@@ -1461,7 +1530,7 @@ Info Data:
 	Sheet4.csv Done.
 	Sheet5.csv Done.
 Info Data Length: 88
-Info => Transaction Id: 04auqxviyebg; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: gdf1k42ptvwq; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: data\sample_data\SampleData.xlsx
 Input Data Length: 32
 Output Data:
@@ -1486,7 +1555,7 @@ Info Data:
 	Sheet4.csv Done.
 	Sheet5.csv Done.
 Info Data Length: 88
-Info => Transaction Id: z88qdf4wktic; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: s9p7m76j9d24; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: data\sample_data\SampleData.xlsx
 Input Data Length: 32
 Output Data:
@@ -1509,7 +1578,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: 4hwexy2cyplc; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 33mgieonnfot; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: data\sample_data\Excel Worksheet1.xlsx
 Input Data Length: 38
 Output Data:
@@ -1518,7 +1587,7 @@ Output Data Length: 78
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++++++++++ input_items_tuple_multi; (6 Elements) ++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_tuple_multi
-Info => Transaction Id: iy8q6xp02var; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: djoiq3c7ofop; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: ('data\\sample_data\\Excel Worksheet1.xlsx', 'data\\sample_data', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data', 'D:\\\\Other\\\\Github_Self\\\\excelPlay\\\\data\\\\sample_data\\\\Excel Worksheet1.xlsx', 'D:/Other/Github_Self/excelPlay/data/sample_data/Excel Worksheet1.xlsx')
 Input Data Length: 364
 --------------------------------------------------------------------------------
@@ -1538,7 +1607,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: tbdxth5rcz9a; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: k5dsymx82c75; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: data\sample_data\Excel Worksheet1.xlsx
 Input Data Length: 38
 Output Data:
@@ -1547,18 +1616,18 @@ Output Data Length: 78
 --------------------------------------------------------------------------------
 ++++++++++++++++++++++++++++++++++++++++++++ input_items_tuple_multi; Item 2 +++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_tuple_multi
-Info => Transaction Id: uer8ol55ctwg; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: g79xq7e7i3ea; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: data\sample_data
 Input Data Length: 16
 --------------------------------------------------------------------------------
 traverse_mode: Regex
 top: D:\Other\Github_Self\excelPlay\data\sample_data
-include_files: ['*.xlsx']
+include_files: ['*.xlsx', '*.xls']
 include_dirs: []
 excludes: ['*_output.*']
 +++++++++++++++++++++++++++++++++++++ input_items_tuple_multi; Item 2; (3 Elements) ++++++++++++++++++++++++++++++++++++
 Remarks: input_items_tuple_multi
-Info => Transaction Id: cgqiahop7dg5; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 2yq868935q11; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: ['D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\SampleData.xlsx']
 Input Data Length: 231
 --------------------------------------------------------------------------------
@@ -1578,7 +1647,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: 860dsstrp81k; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 03ao1ot41iph; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx
 Input Data Length: 69
 Output Data:
@@ -1600,7 +1669,7 @@ Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
 Info Data Length: 35
-Info => Transaction Id: 6ph4eqaezwco; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: enud0mtafs6s; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx
 Input Data Length: 69
 Output Data:
@@ -1625,7 +1694,7 @@ Info Data:
 	Sheet4.csv Done.
 	Sheet5.csv Done.
 Info Data Length: 88
-Info => Transaction Id: 88qqm2rknovm; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 1vtetr17ryau; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\SampleData.xlsx
 Input Data Length: 63
 Output Data:
@@ -1648,7 +1717,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: bp2z59xok574; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: d85gh5k0bzw6; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx
 Input Data Length: 69
 Output Data:
@@ -1657,18 +1726,18 @@ Output Data Length: 109
 --------------------------------------------------------------------------------
 ++++++++++++++++++++++++++++++++++++++++++++ input_items_tuple_multi; Item 4 +++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_tuple_multi
-Info => Transaction Id: rmx4za5m58u3; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 5sjcfuviwjmg; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data
 Input Data Length: 47
 --------------------------------------------------------------------------------
 traverse_mode: Regex
 top: D:\Other\Github_Self\excelPlay\data\sample_data
-include_files: ['*.xlsx']
+include_files: ['*.xlsx', '*.xls']
 include_dirs: []
 excludes: ['*_output.*']
 +++++++++++++++++++++++++++++++++++++ input_items_tuple_multi; Item 4; (3 Elements) ++++++++++++++++++++++++++++++++++++
 Remarks: input_items_tuple_multi
-Info => Transaction Id: kmyde29pv309; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: do8oukc99nb3; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: ['D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\SampleData.xlsx']
 Input Data Length: 231
 --------------------------------------------------------------------------------
@@ -1688,7 +1757,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: dj8nx7f1atsa; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: nm8xc91o7bcz; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx
 Input Data Length: 69
 Output Data:
@@ -1710,7 +1779,7 @@ Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
 Info Data Length: 35
-Info => Transaction Id: f0tmf4opcr27; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 40b67sirjs3d; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx
 Input Data Length: 69
 Output Data:
@@ -1735,7 +1804,7 @@ Info Data:
 	Sheet4.csv Done.
 	Sheet5.csv Done.
 Info Data Length: 88
-Info => Transaction Id: qvjzheoa3kl4; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: xszxiniu0um0; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\SampleData.xlsx
 Input Data Length: 63
 Output Data:
@@ -1758,7 +1827,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: f5tzp5o785a2; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 1qqdcsulnt0n; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx
 Input Data Length: 75
 Output Data:
@@ -1781,7 +1850,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: 6jou3kfaf0ht; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 4j6i8vahpxfc; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:/Other/Github_Self/excelPlay/data/sample_data/Excel Worksheet1.xlsx
 Input Data Length: 69
 Output Data:
@@ -1790,7 +1859,7 @@ Output Data Length: 109
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++ input_items_list_multi_w_output_folder; (6 Elements) +++++++++++++++++++++++++++++++++
 Remarks: input_items_list_multi_w_output_folder
-Info => Transaction Id: fbje97upcrer; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 52ktvjv8a69n; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: ['data\\sample_data\\Excel Worksheet1.xlsx', 'data\\sample_data', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data', 'D:\\\\Other\\\\Github_Self\\\\excelPlay\\\\data\\\\sample_data\\\\Excel Worksheet1.xlsx', 'D:/Other/Github_Self/excelPlay/data/sample_data/Excel Worksheet1.xlsx']
 Input Data Length: 364
 --------------------------------------------------------------------------------
@@ -1810,7 +1879,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: s8ft72tiz4ju; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: krmdkrmtmhp1; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: data\sample_data\Excel Worksheet1.xlsx
 Input Data Length: 38
 Output Data:
@@ -1819,18 +1888,18 @@ Output Data Length: 103
 --------------------------------------------------------------------------------
 ++++++++++++++++++++++++++++++++++++ input_items_list_multi_w_output_folder; Item 2 ++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_multi_w_output_folder
-Info => Transaction Id: 9gwqveimo2l7; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: bv4sndwevl4r; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: data\sample_data
 Input Data Length: 16
 --------------------------------------------------------------------------------
 traverse_mode: Regex
 top: D:\Other\Github_Self\excelPlay\data\sample_data
-include_files: ['*.xlsx']
+include_files: ['*.xlsx', '*.xls']
 include_dirs: []
 excludes: ['*_output.*']
 +++++++++++++++++++++++++++++ input_items_list_multi_w_output_folder; Item 2; (3 Elements) +++++++++++++++++++++++++++++
 Remarks: input_items_list_multi_w_output_folder
-Info => Transaction Id: 9ndnl2r1w70f; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: ffuz60uwaaow; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: ['D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\SampleData.xlsx']
 Input Data Length: 231
 --------------------------------------------------------------------------------
@@ -1850,7 +1919,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: os0nfwhwbfu6; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 4awrr0ptflvi; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx
 Input Data Length: 69
 Output Data:
@@ -1872,7 +1941,7 @@ Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
 Info Data Length: 35
-Info => Transaction Id: 3t3gr7ilc66l; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: dyztnzlm850d; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx
 Input Data Length: 69
 Output Data:
@@ -1897,7 +1966,7 @@ Info Data:
 	Sheet4.csv Done.
 	Sheet5.csv Done.
 Info Data Length: 88
-Info => Transaction Id: 6gqxl5frkfmc; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: hipbn6duaez1; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\SampleData.xlsx
 Input Data Length: 63
 Output Data:
@@ -1920,7 +1989,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: e5jvfsy33ytd; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: tjb8jaxp3g00; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx
 Input Data Length: 69
 Output Data:
@@ -1929,18 +1998,18 @@ Output Data Length: 103
 --------------------------------------------------------------------------------
 ++++++++++++++++++++++++++++++++++++ input_items_list_multi_w_output_folder; Item 4 ++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_multi_w_output_folder
-Info => Transaction Id: xghls0d1da2t; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: fueo2e7ynxay; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data
 Input Data Length: 47
 --------------------------------------------------------------------------------
 traverse_mode: Regex
 top: D:\Other\Github_Self\excelPlay\data\sample_data
-include_files: ['*.xlsx']
+include_files: ['*.xlsx', '*.xls']
 include_dirs: []
 excludes: ['*_output.*']
 +++++++++++++++++++++++++++++ input_items_list_multi_w_output_folder; Item 4; (3 Elements) +++++++++++++++++++++++++++++
 Remarks: input_items_list_multi_w_output_folder
-Info => Transaction Id: 94waordtv1cx; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: pg9zn8ezwet6; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: ['D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\SampleData.xlsx']
 Input Data Length: 231
 --------------------------------------------------------------------------------
@@ -1960,7 +2029,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: z2npaqnji0ua; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: ecrg2ahpulty; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx
 Input Data Length: 69
 Output Data:
@@ -1982,7 +2051,7 @@ Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
 Info Data Length: 35
-Info => Transaction Id: ihltdn48iz1s; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: es40uslv46dm; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx
 Input Data Length: 69
 Output Data:
@@ -2007,7 +2076,7 @@ Info Data:
 	Sheet4.csv Done.
 	Sheet5.csv Done.
 Info Data Length: 88
-Info => Transaction Id: wfkytz8wwo52; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: ftpmtlqqo3ou; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\SampleData.xlsx
 Input Data Length: 63
 Output Data:
@@ -2030,7 +2099,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: 5sijtsfy9e6w; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: gds49x21yjek; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx
 Input Data Length: 75
 Output Data:
@@ -2053,7 +2122,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: y31eera9jqt4; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 87hb710joriq; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_list_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:/Other/Github_Self/excelPlay/data/sample_data/Excel Worksheet1.xlsx
 Input Data Length: 69
 Output Data:
@@ -2062,7 +2131,7 @@ Output Data Length: 103
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++ input_items_tuple_multi_w_output_folder; (6 Elements) ++++++++++++++++++++++++++++++++
 Remarks: input_items_tuple_multi_w_output_folder
-Info => Transaction Id: bwazc0tzfq84; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: qm9pl47k5trg; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: ('data\\sample_data\\Excel Worksheet1.xlsx', 'data\\sample_data', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data', 'D:\\\\Other\\\\Github_Self\\\\excelPlay\\\\data\\\\sample_data\\\\Excel Worksheet1.xlsx', 'D:/Other/Github_Self/excelPlay/data/sample_data/Excel Worksheet1.xlsx')
 Input Data Length: 364
 --------------------------------------------------------------------------------
@@ -2082,7 +2151,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: ly7kcp6ai9mk; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: ez75fx4kaqft; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: data\sample_data\Excel Worksheet1.xlsx
 Input Data Length: 38
 Output Data:
@@ -2091,18 +2160,18 @@ Output Data Length: 104
 --------------------------------------------------------------------------------
 ++++++++++++++++++++++++++++++++++++ input_items_tuple_multi_w_output_folder; Item 2 +++++++++++++++++++++++++++++++++++
 Remarks: input_items_tuple_multi_w_output_folder
-Info => Transaction Id: dz0v0tc3ne0i; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: l23hatf4o7hx; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: data\sample_data
 Input Data Length: 16
 --------------------------------------------------------------------------------
 traverse_mode: Regex
 top: D:\Other\Github_Self\excelPlay\data\sample_data
-include_files: ['*.xlsx']
+include_files: ['*.xlsx', '*.xls']
 include_dirs: []
 excludes: ['*_output.*']
 +++++++++++++++++++++++++++++ input_items_tuple_multi_w_output_folder; Item 2; (3 Elements) ++++++++++++++++++++++++++++
 Remarks: input_items_tuple_multi_w_output_folder
-Info => Transaction Id: w1mih5aqtyfh; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: yftitbl6zqe9; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: ['D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\SampleData.xlsx']
 Input Data Length: 231
 --------------------------------------------------------------------------------
@@ -2122,7 +2191,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: u01gu5gssi9h; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 174nzy2kgs38; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx
 Input Data Length: 69
 Output Data:
@@ -2144,7 +2213,7 @@ Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
 Info Data Length: 35
-Info => Transaction Id: xj061db53zot; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: nqnwgthfcq00; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx
 Input Data Length: 69
 Output Data:
@@ -2169,7 +2238,7 @@ Info Data:
 	Sheet4.csv Done.
 	Sheet5.csv Done.
 Info Data Length: 88
-Info => Transaction Id: xnhvlzfnmx8r; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 8l9iozj2vfbg; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\SampleData.xlsx
 Input Data Length: 63
 Output Data:
@@ -2192,7 +2261,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: x895ntm3sv53; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: pgiw3mvpybmw; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx
 Input Data Length: 69
 Output Data:
@@ -2201,18 +2270,18 @@ Output Data Length: 104
 --------------------------------------------------------------------------------
 ++++++++++++++++++++++++++++++++++++ input_items_tuple_multi_w_output_folder; Item 4 +++++++++++++++++++++++++++++++++++
 Remarks: input_items_tuple_multi_w_output_folder
-Info => Transaction Id: 55okupxiyrxs; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: ahxr1e2cqphq; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data
 Input Data Length: 47
 --------------------------------------------------------------------------------
 traverse_mode: Regex
 top: D:\Other\Github_Self\excelPlay\data\sample_data
-include_files: ['*.xlsx']
+include_files: ['*.xlsx', '*.xls']
 include_dirs: []
 excludes: ['*_output.*']
 +++++++++++++++++++++++++++++ input_items_tuple_multi_w_output_folder; Item 4; (3 Elements) ++++++++++++++++++++++++++++
 Remarks: input_items_tuple_multi_w_output_folder
-Info => Transaction Id: 4gl724bf91cx; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: n3m20ddebczm; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: ['D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\SampleData.xlsx']
 Input Data Length: 231
 --------------------------------------------------------------------------------
@@ -2232,7 +2301,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: ljhoy1lm7v9h; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: m7l33otpy8jd; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet1.xlsx
 Input Data Length: 69
 Output Data:
@@ -2254,7 +2323,7 @@ Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
 Info Data Length: 35
-Info => Transaction Id: vffmst336uvh; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: nn5bqkszsxcq; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\Excel Worksheet2.xlsx
 Input Data Length: 69
 Output Data:
@@ -2279,7 +2348,7 @@ Info Data:
 	Sheet4.csv Done.
 	Sheet5.csv Done.
 Info Data Length: 88
-Info => Transaction Id: hvtlu317wv1t; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: y8p8pl1lcd2p; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\data\sample_data\SampleData.xlsx
 Input Data Length: 63
 Output Data:
@@ -2302,7 +2371,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: p59zwl60gf9k; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: qnumg4lhh3bb; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\\Other\\Github_Self\\excelPlay\\data\\sample_data\\Excel Worksheet1.xlsx
 Input Data Length: 75
 Output Data:
@@ -2325,7 +2394,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: ouhlo6hz35vr; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: jbt919pnbvar; Output Format: csv; Output Path: excel_play\test\logs\TC_input_items_tuple_multi_w_output_folder; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:/Other/Github_Self/excelPlay/data/sample_data/Excel Worksheet1.xlsx
 Input Data Length: 69
 Output Data:
@@ -2334,19 +2403,19 @@ Output Data Length: 104
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++++++++++++++++ input_items_list_encoding ++++++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_encoding
-Info => Transaction Id: l1pmzpjnzwaw; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\strict; Encoding: ascii; Encoding Errors: strict; Archive Output Format: .zip
-Input Data: excel_play\test\logs\TC_encoding_ascii_0
-Input Data Length: 40
+Info => Transaction Id: 6h52xcsulgb2; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\strict; Encoding: ascii; Encoding Errors: strict; Archive Output Format: .zip
+Input Data: excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive
+Input Data Length: 53
 --------------------------------------------------------------------------------
 traverse_mode: Regex
-top: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0
-include_files: ['*.xlsx']
+top: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive
+include_files: ['*.xlsx', '*.xls']
 include_dirs: []
 excludes: ['*_output.*']
 *********************************************** input_items_list_encoding **********************************************
-- Target Folder: excel_play\test\logs\TC_encoding_ascii_0\strict\Const; Already Existed -
-- D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0\Const.xlsx -
-out_put_path: excel_play\test\logs\TC_encoding_ascii_0\strict\Const
+- Target Folder: excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\strict\Const; Already Existed -
+- D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\Const.xlsx -
+out_put_path: excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\strict\Const
 Remarks: input_items_list_encoding
 Info Data:
 	Questions.csv Done.
@@ -2363,40 +2432,40 @@ Info Data:
 	Applicability Table v1.csv Done.
 	Conditional Items.csv Done.
 Info Data Length: 437
-Info => Transaction Id: 6efmx5ke9kh4; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\strict; Encoding: ascii; Encoding Errors: strict; Archive Output Format: .zip
-Input Data: ['D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_encoding_ascii_0\\Const.xlsx']
-Input Data Length: 94
+Info => Transaction Id: 1q10ng5krxue; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\strict; Encoding: ascii; Encoding Errors: strict; Archive Output Format: .zip
+Input Data: ['D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_encoding_ascii_0_pj_exclusive\\Const.xlsx']
+Input Data Length: 107
 Output Data:
-excel_play\test\logs\TC_encoding_ascii_0\strict\Const\Questions.csv
-excel_play\test\logs\TC_encoding_ascii_0\strict\Const\Tasks.csv
-excel_play\test\logs\TC_encoding_ascii_0\strict\Const\Test Server Simulator Address.csv
-excel_play\test\logs\TC_encoding_ascii_0\strict\Const\SGP.33 A.1 Generic Constants.csv
-excel_play\test\logs\TC_encoding_ascii_0\strict\Const\Generic Constant (SGP33v1).csv
-excel_play\test\logs\TC_encoding_ascii_0\strict\Const\SGP.33 A.2 Test Certs & Keys.csv
-excel_play\test\logs\TC_encoding_ascii_0\strict\Const\SGP.33 D Commands And Responses.csv
-excel_play\test\logs\TC_encoding_ascii_0\strict\Const\SGP.33 F IUT Settings.csv
-excel_play\test\logs\TC_encoding_ascii_0\strict\Const\SGP.33 Extra Constants.csv
-excel_play\test\logs\TC_encoding_ascii_0\strict\Const\Override Constants.csv
-excel_play\test\logs\TC_encoding_ascii_0\strict\Const\Optional Features.csv
-excel_play\test\logs\TC_encoding_ascii_0\strict\Const\Applicability Table v1.csv
-excel_play\test\logs\TC_encoding_ascii_0\strict\Const\Conditional Items.csv
-Output Data Length: 1039
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\strict\Const\Questions.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\strict\Const\Tasks.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\strict\Const\Test Server Simulator Address.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\strict\Const\SGP.33 A.1 Generic Constants.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\strict\Const\Generic Constant (SGP33v1).csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\strict\Const\SGP.33 A.2 Test Certs & Keys.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\strict\Const\SGP.33 D Commands And Responses.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\strict\Const\SGP.33 F IUT Settings.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\strict\Const\SGP.33 Extra Constants.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\strict\Const\Override Constants.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\strict\Const\Optional Features.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\strict\Const\Applicability Table v1.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\strict\Const\Conditional Items.csv
+Output Data Length: 1208
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++++++++++++++++ input_items_list_encoding ++++++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_encoding
-Info => Transaction Id: 98b3jznabj1g; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\ignore; Encoding: ascii; Encoding Errors: ignore; Archive Output Format: .zip
-Input Data: excel_play\test\logs\TC_encoding_ascii_0
-Input Data Length: 40
+Info => Transaction Id: tylotfdlqj01; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\ignore; Encoding: ascii; Encoding Errors: ignore; Archive Output Format: .zip
+Input Data: excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive
+Input Data Length: 53
 --------------------------------------------------------------------------------
 traverse_mode: Regex
-top: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0
-include_files: ['*.xlsx']
+top: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive
+include_files: ['*.xlsx', '*.xls']
 include_dirs: []
 excludes: ['*_output.*']
 *********************************************** input_items_list_encoding **********************************************
-- Target Folder: excel_play\test\logs\TC_encoding_ascii_0\ignore\Const; Already Existed -
-- D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0\Const.xlsx -
-out_put_path: excel_play\test\logs\TC_encoding_ascii_0\ignore\Const
+- Target Folder: excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\ignore\Const; Already Existed -
+- D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\Const.xlsx -
+out_put_path: excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\ignore\Const
 Remarks: input_items_list_encoding
 Info Data:
 	Questions.csv Done.
@@ -2413,40 +2482,40 @@ Info Data:
 	Applicability Table v1.csv Done.
 	Conditional Items.csv Done.
 Info Data Length: 427
-Info => Transaction Id: gmuyi07mp7by; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\ignore; Encoding: ascii; Encoding Errors: ignore; Archive Output Format: .zip
-Input Data: ['D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_encoding_ascii_0\\Const.xlsx']
-Input Data Length: 94
+Info => Transaction Id: u1bqpsgj40rq; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\ignore; Encoding: ascii; Encoding Errors: ignore; Archive Output Format: .zip
+Input Data: ['D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_encoding_ascii_0_pj_exclusive\\Const.xlsx']
+Input Data Length: 107
 Output Data:
-excel_play\test\logs\TC_encoding_ascii_0\ignore\Const\Questions.csv
-excel_play\test\logs\TC_encoding_ascii_0\ignore\Const\Tasks.csv
-excel_play\test\logs\TC_encoding_ascii_0\ignore\Const\Test Server Simulator Address.csv
-excel_play\test\logs\TC_encoding_ascii_0\ignore\Const\SGP.33 A.1 Generic Constants.csv
-excel_play\test\logs\TC_encoding_ascii_0\ignore\Const\Generic Constant (SGP33v1).csv
-excel_play\test\logs\TC_encoding_ascii_0\ignore\Const\SGP.33 A.2 Test Certs & Keys.csv
-excel_play\test\logs\TC_encoding_ascii_0\ignore\Const\SGP.33 D Commands And Responses.csv
-excel_play\test\logs\TC_encoding_ascii_0\ignore\Const\SGP.33 F IUT Settings.csv
-excel_play\test\logs\TC_encoding_ascii_0\ignore\Const\SGP.33 Extra Constants.csv
-excel_play\test\logs\TC_encoding_ascii_0\ignore\Const\Override Constants.csv
-excel_play\test\logs\TC_encoding_ascii_0\ignore\Const\Optional Features.csv
-excel_play\test\logs\TC_encoding_ascii_0\ignore\Const\Applicability Table v1.csv
-excel_play\test\logs\TC_encoding_ascii_0\ignore\Const\Conditional Items.csv
-Output Data Length: 1039
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\ignore\Const\Questions.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\ignore\Const\Tasks.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\ignore\Const\Test Server Simulator Address.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\ignore\Const\SGP.33 A.1 Generic Constants.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\ignore\Const\Generic Constant (SGP33v1).csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\ignore\Const\SGP.33 A.2 Test Certs & Keys.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\ignore\Const\SGP.33 D Commands And Responses.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\ignore\Const\SGP.33 F IUT Settings.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\ignore\Const\SGP.33 Extra Constants.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\ignore\Const\Override Constants.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\ignore\Const\Optional Features.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\ignore\Const\Applicability Table v1.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\ignore\Const\Conditional Items.csv
+Output Data Length: 1208
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++++++++++++++++ input_items_list_encoding ++++++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_encoding
-Info => Transaction Id: dwq0wxvdqca3; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\replace; Encoding: ascii; Encoding Errors: replace; Archive Output Format: .zip
-Input Data: excel_play\test\logs\TC_encoding_ascii_0
-Input Data Length: 40
+Info => Transaction Id: 4mnce4uwlnl6; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\replace; Encoding: ascii; Encoding Errors: replace; Archive Output Format: .zip
+Input Data: excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive
+Input Data Length: 53
 --------------------------------------------------------------------------------
 traverse_mode: Regex
-top: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0
-include_files: ['*.xlsx']
+top: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive
+include_files: ['*.xlsx', '*.xls']
 include_dirs: []
 excludes: ['*_output.*']
 *********************************************** input_items_list_encoding **********************************************
-- Target Folder: excel_play\test\logs\TC_encoding_ascii_0\replace\Const; Already Existed -
-- D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0\Const.xlsx -
-out_put_path: excel_play\test\logs\TC_encoding_ascii_0\replace\Const
+- Target Folder: excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\replace\Const; Already Existed -
+- D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\Const.xlsx -
+out_put_path: excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\replace\Const
 Remarks: input_items_list_encoding
 Info Data:
 	Questions.csv Done.
@@ -2463,40 +2532,40 @@ Info Data:
 	Applicability Table v1.csv Done.
 	Conditional Items.csv Done.
 Info Data Length: 427
-Info => Transaction Id: kqnba267x5nm; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\replace; Encoding: ascii; Encoding Errors: replace; Archive Output Format: .zip
-Input Data: ['D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_encoding_ascii_0\\Const.xlsx']
-Input Data Length: 94
+Info => Transaction Id: r573cm4wpyg8; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\replace; Encoding: ascii; Encoding Errors: replace; Archive Output Format: .zip
+Input Data: ['D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_encoding_ascii_0_pj_exclusive\\Const.xlsx']
+Input Data Length: 107
 Output Data:
-excel_play\test\logs\TC_encoding_ascii_0\replace\Const\Questions.csv
-excel_play\test\logs\TC_encoding_ascii_0\replace\Const\Tasks.csv
-excel_play\test\logs\TC_encoding_ascii_0\replace\Const\Test Server Simulator Address.csv
-excel_play\test\logs\TC_encoding_ascii_0\replace\Const\SGP.33 A.1 Generic Constants.csv
-excel_play\test\logs\TC_encoding_ascii_0\replace\Const\Generic Constant (SGP33v1).csv
-excel_play\test\logs\TC_encoding_ascii_0\replace\Const\SGP.33 A.2 Test Certs & Keys.csv
-excel_play\test\logs\TC_encoding_ascii_0\replace\Const\SGP.33 D Commands And Responses.csv
-excel_play\test\logs\TC_encoding_ascii_0\replace\Const\SGP.33 F IUT Settings.csv
-excel_play\test\logs\TC_encoding_ascii_0\replace\Const\SGP.33 Extra Constants.csv
-excel_play\test\logs\TC_encoding_ascii_0\replace\Const\Override Constants.csv
-excel_play\test\logs\TC_encoding_ascii_0\replace\Const\Optional Features.csv
-excel_play\test\logs\TC_encoding_ascii_0\replace\Const\Applicability Table v1.csv
-excel_play\test\logs\TC_encoding_ascii_0\replace\Const\Conditional Items.csv
-Output Data Length: 1052
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\replace\Const\Questions.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\replace\Const\Tasks.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\replace\Const\Test Server Simulator Address.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\replace\Const\SGP.33 A.1 Generic Constants.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\replace\Const\Generic Constant (SGP33v1).csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\replace\Const\SGP.33 A.2 Test Certs & Keys.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\replace\Const\SGP.33 D Commands And Responses.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\replace\Const\SGP.33 F IUT Settings.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\replace\Const\SGP.33 Extra Constants.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\replace\Const\Override Constants.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\replace\Const\Optional Features.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\replace\Const\Applicability Table v1.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\replace\Const\Conditional Items.csv
+Output Data Length: 1221
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++++++++++++++++ input_items_list_encoding ++++++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_encoding
-Info => Transaction Id: si3ftpr9s0j1; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\surrogateescape; Encoding: ascii; Encoding Errors: surrogateescape; Archive Output Format: .zip
-Input Data: excel_play\test\logs\TC_encoding_ascii_0
-Input Data Length: 40
+Info => Transaction Id: a1xq31c9w7rt; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\surrogateescape; Encoding: ascii; Encoding Errors: surrogateescape; Archive Output Format: .zip
+Input Data: excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive
+Input Data Length: 53
 --------------------------------------------------------------------------------
 traverse_mode: Regex
-top: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0
-include_files: ['*.xlsx']
+top: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive
+include_files: ['*.xlsx', '*.xls']
 include_dirs: []
 excludes: ['*_output.*']
 *********************************************** input_items_list_encoding **********************************************
-- Target Folder: excel_play\test\logs\TC_encoding_ascii_0\surrogateescape\Const; Already Existed -
-- D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0\Const.xlsx -
-out_put_path: excel_play\test\logs\TC_encoding_ascii_0\surrogateescape\Const
+- Target Folder: excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\surrogateescape\Const; Already Existed -
+- D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\Const.xlsx -
+out_put_path: excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\surrogateescape\Const
 Remarks: input_items_list_encoding
 Info Data:
 	Questions.csv Done.
@@ -2513,40 +2582,40 @@ Info Data:
 	Applicability Table v1.csv Done.
 	Conditional Items.csv Done.
 Info Data Length: 437
-Info => Transaction Id: wrn5qxsff8il; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\surrogateescape; Encoding: ascii; Encoding Errors: surrogateescape; Archive Output Format: .zip
-Input Data: ['D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_encoding_ascii_0\\Const.xlsx']
-Input Data Length: 94
+Info => Transaction Id: 2adi0hny1uw7; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\surrogateescape; Encoding: ascii; Encoding Errors: surrogateescape; Archive Output Format: .zip
+Input Data: ['D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_encoding_ascii_0_pj_exclusive\\Const.xlsx']
+Input Data Length: 107
 Output Data:
-excel_play\test\logs\TC_encoding_ascii_0\surrogateescape\Const\Questions.csv
-excel_play\test\logs\TC_encoding_ascii_0\surrogateescape\Const\Tasks.csv
-excel_play\test\logs\TC_encoding_ascii_0\surrogateescape\Const\Test Server Simulator Address.csv
-excel_play\test\logs\TC_encoding_ascii_0\surrogateescape\Const\SGP.33 A.1 Generic Constants.csv
-excel_play\test\logs\TC_encoding_ascii_0\surrogateescape\Const\Generic Constant (SGP33v1).csv
-excel_play\test\logs\TC_encoding_ascii_0\surrogateescape\Const\SGP.33 A.2 Test Certs & Keys.csv
-excel_play\test\logs\TC_encoding_ascii_0\surrogateescape\Const\SGP.33 D Commands And Responses.csv
-excel_play\test\logs\TC_encoding_ascii_0\surrogateescape\Const\SGP.33 F IUT Settings.csv
-excel_play\test\logs\TC_encoding_ascii_0\surrogateescape\Const\SGP.33 Extra Constants.csv
-excel_play\test\logs\TC_encoding_ascii_0\surrogateescape\Const\Override Constants.csv
-excel_play\test\logs\TC_encoding_ascii_0\surrogateescape\Const\Optional Features.csv
-excel_play\test\logs\TC_encoding_ascii_0\surrogateescape\Const\Applicability Table v1.csv
-excel_play\test\logs\TC_encoding_ascii_0\surrogateescape\Const\Conditional Items.csv
-Output Data Length: 1156
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\surrogateescape\Const\Questions.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\surrogateescape\Const\Tasks.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\surrogateescape\Const\Test Server Simulator Address.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\surrogateescape\Const\SGP.33 A.1 Generic Constants.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\surrogateescape\Const\Generic Constant (SGP33v1).csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\surrogateescape\Const\SGP.33 A.2 Test Certs & Keys.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\surrogateescape\Const\SGP.33 D Commands And Responses.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\surrogateescape\Const\SGP.33 F IUT Settings.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\surrogateescape\Const\SGP.33 Extra Constants.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\surrogateescape\Const\Override Constants.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\surrogateescape\Const\Optional Features.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\surrogateescape\Const\Applicability Table v1.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\surrogateescape\Const\Conditional Items.csv
+Output Data Length: 1325
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++++++++++++++++ input_items_list_encoding ++++++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_encoding
-Info => Transaction Id: wfj7iqqog93p; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\xmlcharrefreplace; Encoding: ascii; Encoding Errors: xmlcharrefreplace; Archive Output Format: .zip
-Input Data: excel_play\test\logs\TC_encoding_ascii_0
-Input Data Length: 40
+Info => Transaction Id: soab4os9pmca; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\xmlcharrefreplace; Encoding: ascii; Encoding Errors: xmlcharrefreplace; Archive Output Format: .zip
+Input Data: excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive
+Input Data Length: 53
 --------------------------------------------------------------------------------
 traverse_mode: Regex
-top: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0
-include_files: ['*.xlsx']
+top: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive
+include_files: ['*.xlsx', '*.xls']
 include_dirs: []
 excludes: ['*_output.*']
 *********************************************** input_items_list_encoding **********************************************
-- Target Folder: excel_play\test\logs\TC_encoding_ascii_0\xmlcharrefreplace\Const; Already Existed -
-- D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0\Const.xlsx -
-out_put_path: excel_play\test\logs\TC_encoding_ascii_0\xmlcharrefreplace\Const
+- Target Folder: excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\xmlcharrefreplace\Const; Already Existed -
+- D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\Const.xlsx -
+out_put_path: excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\xmlcharrefreplace\Const
 Remarks: input_items_list_encoding
 Info Data:
 	Questions.csv Done.
@@ -2563,40 +2632,40 @@ Info Data:
 	Applicability Table v1.csv Done.
 	Conditional Items.csv Done.
 Info Data Length: 427
-Info => Transaction Id: a450xl33hxg7; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\xmlcharrefreplace; Encoding: ascii; Encoding Errors: xmlcharrefreplace; Archive Output Format: .zip
-Input Data: ['D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_encoding_ascii_0\\Const.xlsx']
-Input Data Length: 94
+Info => Transaction Id: 8qvf4n9kndx1; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\xmlcharrefreplace; Encoding: ascii; Encoding Errors: xmlcharrefreplace; Archive Output Format: .zip
+Input Data: ['D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_encoding_ascii_0_pj_exclusive\\Const.xlsx']
+Input Data Length: 107
 Output Data:
-excel_play\test\logs\TC_encoding_ascii_0\xmlcharrefreplace\Const\Questions.csv
-excel_play\test\logs\TC_encoding_ascii_0\xmlcharrefreplace\Const\Tasks.csv
-excel_play\test\logs\TC_encoding_ascii_0\xmlcharrefreplace\Const\Test Server Simulator Address.csv
-excel_play\test\logs\TC_encoding_ascii_0\xmlcharrefreplace\Const\SGP.33 A.1 Generic Constants.csv
-excel_play\test\logs\TC_encoding_ascii_0\xmlcharrefreplace\Const\Generic Constant (SGP33v1).csv
-excel_play\test\logs\TC_encoding_ascii_0\xmlcharrefreplace\Const\SGP.33 A.2 Test Certs & Keys.csv
-excel_play\test\logs\TC_encoding_ascii_0\xmlcharrefreplace\Const\SGP.33 D Commands And Responses.csv
-excel_play\test\logs\TC_encoding_ascii_0\xmlcharrefreplace\Const\SGP.33 F IUT Settings.csv
-excel_play\test\logs\TC_encoding_ascii_0\xmlcharrefreplace\Const\SGP.33 Extra Constants.csv
-excel_play\test\logs\TC_encoding_ascii_0\xmlcharrefreplace\Const\Override Constants.csv
-excel_play\test\logs\TC_encoding_ascii_0\xmlcharrefreplace\Const\Optional Features.csv
-excel_play\test\logs\TC_encoding_ascii_0\xmlcharrefreplace\Const\Applicability Table v1.csv
-excel_play\test\logs\TC_encoding_ascii_0\xmlcharrefreplace\Const\Conditional Items.csv
-Output Data Length: 1182
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\xmlcharrefreplace\Const\Questions.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\xmlcharrefreplace\Const\Tasks.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\xmlcharrefreplace\Const\Test Server Simulator Address.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\xmlcharrefreplace\Const\SGP.33 A.1 Generic Constants.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\xmlcharrefreplace\Const\Generic Constant (SGP33v1).csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\xmlcharrefreplace\Const\SGP.33 A.2 Test Certs & Keys.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\xmlcharrefreplace\Const\SGP.33 D Commands And Responses.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\xmlcharrefreplace\Const\SGP.33 F IUT Settings.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\xmlcharrefreplace\Const\SGP.33 Extra Constants.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\xmlcharrefreplace\Const\Override Constants.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\xmlcharrefreplace\Const\Optional Features.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\xmlcharrefreplace\Const\Applicability Table v1.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\xmlcharrefreplace\Const\Conditional Items.csv
+Output Data Length: 1351
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++++++++++++++++ input_items_list_encoding ++++++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_encoding
-Info => Transaction Id: o99pdvt2pe86; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\backslashreplace; Encoding: ascii; Encoding Errors: backslashreplace; Archive Output Format: .zip
-Input Data: excel_play\test\logs\TC_encoding_ascii_0
-Input Data Length: 40
+Info => Transaction Id: 9erqwxybt0cz; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\backslashreplace; Encoding: ascii; Encoding Errors: backslashreplace; Archive Output Format: .zip
+Input Data: excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive
+Input Data Length: 53
 --------------------------------------------------------------------------------
 traverse_mode: Regex
-top: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0
-include_files: ['*.xlsx']
+top: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive
+include_files: ['*.xlsx', '*.xls']
 include_dirs: []
 excludes: ['*_output.*']
 *********************************************** input_items_list_encoding **********************************************
-- Target Folder: excel_play\test\logs\TC_encoding_ascii_0\backslashreplace\Const; Already Existed -
-- D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0\Const.xlsx -
-out_put_path: excel_play\test\logs\TC_encoding_ascii_0\backslashreplace\Const
+- Target Folder: excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\backslashreplace\Const; Already Existed -
+- D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\Const.xlsx -
+out_put_path: excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\backslashreplace\Const
 Remarks: input_items_list_encoding
 Info Data:
 	Questions.csv Done.
@@ -2613,40 +2682,40 @@ Info Data:
 	Applicability Table v1.csv Done.
 	Conditional Items.csv Done.
 Info Data Length: 427
-Info => Transaction Id: dq68rquyxykc; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\backslashreplace; Encoding: ascii; Encoding Errors: backslashreplace; Archive Output Format: .zip
-Input Data: ['D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_encoding_ascii_0\\Const.xlsx']
-Input Data Length: 94
+Info => Transaction Id: ve1xpwyjnce8; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\backslashreplace; Encoding: ascii; Encoding Errors: backslashreplace; Archive Output Format: .zip
+Input Data: ['D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_encoding_ascii_0_pj_exclusive\\Const.xlsx']
+Input Data Length: 107
 Output Data:
-excel_play\test\logs\TC_encoding_ascii_0\backslashreplace\Const\Questions.csv
-excel_play\test\logs\TC_encoding_ascii_0\backslashreplace\Const\Tasks.csv
-excel_play\test\logs\TC_encoding_ascii_0\backslashreplace\Const\Test Server Simulator Address.csv
-excel_play\test\logs\TC_encoding_ascii_0\backslashreplace\Const\SGP.33 A.1 Generic Constants.csv
-excel_play\test\logs\TC_encoding_ascii_0\backslashreplace\Const\Generic Constant (SGP33v1).csv
-excel_play\test\logs\TC_encoding_ascii_0\backslashreplace\Const\SGP.33 A.2 Test Certs & Keys.csv
-excel_play\test\logs\TC_encoding_ascii_0\backslashreplace\Const\SGP.33 D Commands And Responses.csv
-excel_play\test\logs\TC_encoding_ascii_0\backslashreplace\Const\SGP.33 F IUT Settings.csv
-excel_play\test\logs\TC_encoding_ascii_0\backslashreplace\Const\SGP.33 Extra Constants.csv
-excel_play\test\logs\TC_encoding_ascii_0\backslashreplace\Const\Override Constants.csv
-excel_play\test\logs\TC_encoding_ascii_0\backslashreplace\Const\Optional Features.csv
-excel_play\test\logs\TC_encoding_ascii_0\backslashreplace\Const\Applicability Table v1.csv
-excel_play\test\logs\TC_encoding_ascii_0\backslashreplace\Const\Conditional Items.csv
-Output Data Length: 1169
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\backslashreplace\Const\Questions.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\backslashreplace\Const\Tasks.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\backslashreplace\Const\Test Server Simulator Address.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\backslashreplace\Const\SGP.33 A.1 Generic Constants.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\backslashreplace\Const\Generic Constant (SGP33v1).csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\backslashreplace\Const\SGP.33 A.2 Test Certs & Keys.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\backslashreplace\Const\SGP.33 D Commands And Responses.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\backslashreplace\Const\SGP.33 F IUT Settings.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\backslashreplace\Const\SGP.33 Extra Constants.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\backslashreplace\Const\Override Constants.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\backslashreplace\Const\Optional Features.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\backslashreplace\Const\Applicability Table v1.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\backslashreplace\Const\Conditional Items.csv
+Output Data Length: 1338
 --------------------------------------------------------------------------------
 +++++++++++++++++++++++++++++++++++++++++++++++ input_items_list_encoding ++++++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_list_encoding
-Info => Transaction Id: ndzqw81vqjdy; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\namereplace; Encoding: ascii; Encoding Errors: namereplace; Archive Output Format: .zip
-Input Data: excel_play\test\logs\TC_encoding_ascii_0
-Input Data Length: 40
+Info => Transaction Id: kauvv6pfvoxz; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\namereplace; Encoding: ascii; Encoding Errors: namereplace; Archive Output Format: .zip
+Input Data: excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive
+Input Data Length: 53
 --------------------------------------------------------------------------------
 traverse_mode: Regex
-top: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0
-include_files: ['*.xlsx']
+top: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive
+include_files: ['*.xlsx', '*.xls']
 include_dirs: []
 excludes: ['*_output.*']
 *********************************************** input_items_list_encoding **********************************************
-- Target Folder: excel_play\test\logs\TC_encoding_ascii_0\namereplace\Const; Already Existed -
-- D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0\Const.xlsx -
-out_put_path: excel_play\test\logs\TC_encoding_ascii_0\namereplace\Const
+- Target Folder: excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\namereplace\Const; Already Existed -
+- D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\Const.xlsx -
+out_put_path: excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\namereplace\Const
 Remarks: input_items_list_encoding
 Info Data:
 	Questions.csv Done.
@@ -2663,39 +2732,39 @@ Info Data:
 	Applicability Table v1.csv Done.
 	Conditional Items.csv Done.
 Info Data Length: 427
-Info => Transaction Id: hbxic62e75fc; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0\namereplace; Encoding: ascii; Encoding Errors: namereplace; Archive Output Format: .zip
-Input Data: ['D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_encoding_ascii_0\\Const.xlsx']
-Input Data Length: 94
+Info => Transaction Id: 8c9yvo4ac1pg; Output Format: csv; Output Path: excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\namereplace; Encoding: ascii; Encoding Errors: namereplace; Archive Output Format: .zip
+Input Data: ['D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_encoding_ascii_0_pj_exclusive\\Const.xlsx']
+Input Data Length: 107
 Output Data:
-excel_play\test\logs\TC_encoding_ascii_0\namereplace\Const\Questions.csv
-excel_play\test\logs\TC_encoding_ascii_0\namereplace\Const\Tasks.csv
-excel_play\test\logs\TC_encoding_ascii_0\namereplace\Const\Test Server Simulator Address.csv
-excel_play\test\logs\TC_encoding_ascii_0\namereplace\Const\SGP.33 A.1 Generic Constants.csv
-excel_play\test\logs\TC_encoding_ascii_0\namereplace\Const\Generic Constant (SGP33v1).csv
-excel_play\test\logs\TC_encoding_ascii_0\namereplace\Const\SGP.33 A.2 Test Certs & Keys.csv
-excel_play\test\logs\TC_encoding_ascii_0\namereplace\Const\SGP.33 D Commands And Responses.csv
-excel_play\test\logs\TC_encoding_ascii_0\namereplace\Const\SGP.33 F IUT Settings.csv
-excel_play\test\logs\TC_encoding_ascii_0\namereplace\Const\SGP.33 Extra Constants.csv
-excel_play\test\logs\TC_encoding_ascii_0\namereplace\Const\Override Constants.csv
-excel_play\test\logs\TC_encoding_ascii_0\namereplace\Const\Optional Features.csv
-excel_play\test\logs\TC_encoding_ascii_0\namereplace\Const\Applicability Table v1.csv
-excel_play\test\logs\TC_encoding_ascii_0\namereplace\Const\Conditional Items.csv
-Output Data Length: 1104
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\namereplace\Const\Questions.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\namereplace\Const\Tasks.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\namereplace\Const\Test Server Simulator Address.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\namereplace\Const\SGP.33 A.1 Generic Constants.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\namereplace\Const\Generic Constant (SGP33v1).csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\namereplace\Const\SGP.33 A.2 Test Certs & Keys.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\namereplace\Const\SGP.33 D Commands And Responses.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\namereplace\Const\SGP.33 F IUT Settings.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\namereplace\Const\SGP.33 Extra Constants.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\namereplace\Const\Override Constants.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\namereplace\Const\Optional Features.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\namereplace\Const\Applicability Table v1.csv
+excel_play\test\logs\TC_encoding_ascii_0_pj_exclusive\namereplace\Const\Conditional Items.csv
+Output Data Length: 1273
 --------------------------------------------------------------------------------
 ++++++++++++++++++++++++++++++++++++++++++++ input_items_dirs_nested_levels ++++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_dirs_nested_levels
-Info => Transaction Id: 0wfdbhe3tkg8; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: my5zvw5npncd; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: excel_play\test\logs\TC_nested_items_0
 Input Data Length: 38
 --------------------------------------------------------------------------------
 traverse_mode: Regex
 top: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_nested_items_0
-include_files: ['*.xlsx']
+include_files: ['*.xlsx', '*.xls']
 include_dirs: []
 excludes: ['*_output.*']
 +++++++++++++++++++++++++++++++++++++ input_items_dirs_nested_levels; (4 Elements) +++++++++++++++++++++++++++++++++++++
 Remarks: input_items_dirs_nested_levels
-Info => Transaction Id: mzy9zntc4jg9; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: fgp8bm32yj56; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: ['D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_nested_items_0\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_nested_items_0\\SampleData.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_nested_items_0\\nested_level_1\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_nested_items_0\\nested_level_1\\SampleData.xlsx']
 Input Data Length: 432
 --------------------------------------------------------------------------------
@@ -2715,7 +2784,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: bz1gm9ynkztr; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 3ui1dx30lsez; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_nested_items_0\Excel Worksheet1.xlsx
 Input Data Length: 91
 Output Data:
@@ -2740,7 +2809,7 @@ Info Data:
 	Sheet4.csv Done.
 	Sheet5.csv Done.
 Info Data Length: 88
-Info => Transaction Id: r7al03ebdazx; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: mgmnjjf3gr7o; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_nested_items_0\SampleData.xlsx
 Input Data Length: 85
 Output Data:
@@ -2762,7 +2831,7 @@ Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
 Info Data Length: 35
-Info => Transaction Id: 7poig3jdf3yv; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: lxkkjuhrlzm5; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_nested_items_0\nested_level_1\Excel Worksheet2.xlsx
 Input Data Length: 106
 Output Data:
@@ -2787,7 +2856,7 @@ Info Data:
 	Sheet4.csv Done.
 	Sheet5.csv Done.
 Info Data Length: 88
-Info => Transaction Id: lbmtjgrsrpri; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: yyatzemzotsi; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_nested_items_0\nested_level_1\SampleData.xlsx
 Input Data Length: 100
 Output Data:
@@ -2796,18 +2865,18 @@ Output Data Length: 134
 --------------------------------------------------------------------------------
 ++++++++++++++++++++++++++++++++++++++++++++ input_items_dirs_nested_levels ++++++++++++++++++++++++++++++++++++++++++++
 Remarks: input_items_dirs_nested_levels
-Info => Transaction Id: xf4gfe5137p4; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: iuh0lznccag1; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: excel_play\test\logs\TC_nested_items_1
 Input Data Length: 38
 --------------------------------------------------------------------------------
 traverse_mode: Regex
 top: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_nested_items_1
-include_files: ['*.xlsx']
+include_files: ['*.xlsx', '*.xls']
 include_dirs: []
 excludes: ['*_output.*']
 +++++++++++++++++++++++++++++++++++++ input_items_dirs_nested_levels; (11 Elements) ++++++++++++++++++++++++++++++++++++
 Remarks: input_items_dirs_nested_levels
-Info => Transaction Id: h04jt88lyhdr; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: xt7ux51v0sjs; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: ['D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_nested_items_1\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_nested_items_1\\SampleData.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_nested_items_1\\nested_level_1\\SampleData.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_nested_items_1\\nested_level_1_2\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_nested_items_1\\nested_level_1_2\\nested_level_2\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_nested_items_1\\nested_level_1_2\\nested_level_2\\SampleData.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_nested_items_1\\nested_level_1_2_3\\Excel Worksheet1.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_nested_items_1\\nested_level_1_2_3\\nested_level_2\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_nested_items_1\\nested_level_1_2_3\\nested_level_2\\SampleData.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_nested_items_1\\nested_level_1_2_3\\nested_level_2\\nested_level_3\\Excel Worksheet2.xlsx', 'D:\\Other\\Github_Self\\excelPlay\\excel_play\\test\\logs\\TC_nested_items_1\\nested_level_1_2_3\\nested_level_2\\nested_level_3\\SampleData.xlsx']
 Input Data Length: 1401
 --------------------------------------------------------------------------------
@@ -2827,7 +2896,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: gaukux3kgfaq; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: rlg7wz68xufv; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_nested_items_1\Excel Worksheet1.xlsx
 Input Data Length: 91
 Output Data:
@@ -2852,7 +2921,7 @@ Info Data:
 	Sheet4.csv Done.
 	Sheet5.csv Done.
 Info Data Length: 88
-Info => Transaction Id: nw3rj3gqmk8l; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: pyiajzlszfz8; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_nested_items_1\SampleData.xlsx
 Input Data Length: 85
 Output Data:
@@ -2877,7 +2946,7 @@ Info Data:
 	Sheet4.csv Done.
 	Sheet5.csv Done.
 Info Data Length: 88
-Info => Transaction Id: f7n12xj1knii; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: vanzy659vckm; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_nested_items_1\nested_level_1\SampleData.xlsx
 Input Data Length: 100
 Output Data:
@@ -2900,7 +2969,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: u7x4aj3unqsh; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: p31ow9m5s6sq; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_nested_items_1\nested_level_1_2\Excel Worksheet1.xlsx
 Input Data Length: 108
 Output Data:
@@ -2922,7 +2991,7 @@ Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
 Info Data Length: 35
-Info => Transaction Id: zn5zz6psmmi2; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: ntxkgfmmx6tr; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_nested_items_1\nested_level_1_2\nested_level_2\Excel Worksheet2.xlsx
 Input Data Length: 123
 Output Data:
@@ -2947,7 +3016,7 @@ Info Data:
 	Sheet4.csv Done.
 	Sheet5.csv Done.
 Info Data Length: 88
-Info => Transaction Id: 58eibw2ve7d5; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: zvhfasm6hwo6; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_nested_items_1\nested_level_1_2\nested_level_2\SampleData.xlsx
 Input Data Length: 117
 Output Data:
@@ -2970,7 +3039,7 @@ Info Data:
 	Finance.csv Done.
 	House.csv Done.
 Info Data Length: 55
-Info => Transaction Id: l7ylaho6sduo; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 5fxxyrdjkugg; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_nested_items_1\nested_level_1_2_3\Excel Worksheet1.xlsx
 Input Data Length: 110
 Output Data:
@@ -2992,7 +3061,7 @@ Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
 Info Data Length: 35
-Info => Transaction Id: d2l44mzymugr; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: gnc5c2fohch7; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_nested_items_1\nested_level_1_2_3\nested_level_2\Excel Worksheet2.xlsx
 Input Data Length: 125
 Output Data:
@@ -3017,7 +3086,7 @@ Info Data:
 	Sheet4.csv Done.
 	Sheet5.csv Done.
 Info Data Length: 88
-Info => Transaction Id: yfdqfe0sq5aw; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: qt17zwe0r7jg; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_nested_items_1\nested_level_1_2_3\nested_level_2\SampleData.xlsx
 Input Data Length: 119
 Output Data:
@@ -3039,7 +3108,7 @@ Info Data:
 	Sales.csv Done.
 	Employee.csv Done.
 Info Data Length: 35
-Info => Transaction Id: q69nqxihj0es; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: qgwif5cddt1a; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_nested_items_1\nested_level_1_2_3\nested_level_2\nested_level_3\Excel Worksheet2.xlsx
 Input Data Length: 140
 Output Data:
@@ -3064,7 +3133,7 @@ Info Data:
 	Sheet4.csv Done.
 	Sheet5.csv Done.
 Info Data Length: 88
-Info => Transaction Id: 8ppjrn7a1ts5; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: 71sk7vyjes40; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: D:\Other\Github_Self\excelPlay\excel_play\test\logs\TC_nested_items_1\nested_level_1_2_3\nested_level_2\nested_level_3\SampleData.xlsx
 Input Data Length: 134
 Output Data:
@@ -3072,14 +3141,14 @@ D:/Other/Github_Self/excelPlay/excel_play/test/logs/TC_nested_items_1/nested_lev
 Output Data Length: 168
 --------------------------------------------------------------------------------
 ***********************************************************  ***********************************************************
-Info => Transaction Id: fb1c94a32xye; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: kljndxaj82sq; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: 
 Input Data Length: 0
 --------------------------------------------------------------------------------
 Known Exception Occurred; Details: Missing Input Data
 ***************************************************** invalid path *****************************************************
 Remarks: invalid path
-Info => Transaction Id: ztolae2lyftf; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
+Info => Transaction Id: qdyt9v7i4wky; Output Format: csv; Encoding: utf-8; Encoding Errors: replace; Archive Output: True; Archive Output Format: .zip
 Input Data: xyz
 Input Data Length: 3
 --------------------------------------------------------------------------------
@@ -3088,9 +3157,9 @@ UnKnown Exception Occurred; Details: Invalid Path: xyz
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 ---------------------------------- Time Details ----------------------------------
-Current Time Stamp: 2025-02-11 08:43:37.587776+05:30
-Execution Time: 00:00:50; Milliseconds: 50472.264528274536
-Execution Time CPU: 00:00:48; Milliseconds: 48500.0
+Current Time Stamp: 2025-03-01 12:34:12.790467+05:30
+Execution Time: 00:00:57; Milliseconds: 57604.63857650757
+Execution Time CPU: 00:00:56; Milliseconds: 56468.75
 Timer State: TIMER_OFF
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------

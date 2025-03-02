@@ -1,4 +1,6 @@
 from excel_play.main.data_type.data_type_master import DataTypeMaster
+from excel_play.main.helper.data import Data
+from excel_play.main.helper.folders import Folders
 
 
 class KnownIssues(DataTypeMaster):
@@ -61,6 +63,14 @@ class KnownIssues(DataTypeMaster):
 
         data_pool_low_priority = [
             #
+            Data(input_data=Folders.in_test_logs('TC_issue_web_413 Request Entity Too Large pj exclusive'),
+                 remarks='TC_issue_web_413'),
+            #
+            #####
+            # Excel file format cannot be determined, you must specify an engine manually.
+            #####
+            Data(input_data=Folders.in_test_logs('TC_issue_hindi_pj_exclusive'),
+                 remarks='TC_issue_hindi'),
         ]
         super().set_data_pool(
             data_pool_high_priority

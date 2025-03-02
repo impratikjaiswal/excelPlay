@@ -5,4 +5,5 @@ class FormatsGroup:
     OUTPUT_FORMATS_SUPPORTED = [
         Formats.CSV,
         Formats.XLSX,
+        Formats.XLS,
     ]

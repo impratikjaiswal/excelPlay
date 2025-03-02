@@ -194,7 +194,7 @@ def main():
     """
     TestAutoBatch.white_listed_tcs = [
         # PhExecutionModes.ALL,
-        # unit_testing,
+        # PhExecutionModes.UNIT_TESTING,
     ]
     TestAutoBatch.test_all()
 

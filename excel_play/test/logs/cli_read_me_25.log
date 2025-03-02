@@ -5,13 +5,13 @@ Python executable Path is D:\Other\Github_Self\excelPlay\venv\Scripts
 User Name is Pratik Jaiswal
 User Account is impra
 --------------------------------------------------------------------------------
-Time Stamp is Saturday, Feb 08 2025, 23:17:29:732174, IST (GMT+0530)
+Time Stamp is Saturday, Mar 01 2025, 12:34:54:090545, IST (GMT+0530)
 --------------------------------------------------------------------------------
-Git Summary is 709d05d;  (HEAD -> main, origin/main, origin/HEAD); 2025-01-31 09:20:40 +0530; imPratik <impratikjaiswal@gmail.com>; handling of single item in list / tuple
+Git Summary is 4d65f2b;  (HEAD -> main); 2025-02-11 08:54:15 +0530; imPratik <impratikjaiswal@gmail.com>; fixed Tc
 --------------------------------------------------------------------------------
-pythonHelpers version is v5.2.4.dev5
+pythonHelpers version is v5.3.1
 --------------------------------------------------------------------------------
-excelPlay version is v2.6.0
+excelPlay version is v2.7.0
 --------------------------------------------------------------------------------
 Usage: python -m excel_play.main.excelplay [OPTIONS] [INPUT_DATA]...
 
@@ -21,7 +21,8 @@ Options:
   -o, --output_path TEXT          Output Path
   -a, --archive_output            Archive/Single File is needed?; True is
                                   Default  [default: True]
-  -f, --output_format [csv|xlsx]  csv is Default
+  -f, --output_format [csv|xlsx|xls]
+                                  csv is Default
   -ff, --archive_output_format [.zip]
                                   Output Archive Format (if Archive/Single
                                   File is needed?); .zip is Default

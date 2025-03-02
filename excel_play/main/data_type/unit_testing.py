@@ -84,13 +84,18 @@ class UnitTesting(DataTypeMaster):
             Folders.in_test_logs(['TC_zip_2', 'SampleData 3.0.6.56.xlsx']),
         ]
 
+        input_items_list_xls = [
+            Folders.in_test_logs('TC_xls_0'),
+            Folders.in_test_logs('TC_xls_1_profile_export_pj exclusive'),
+        ]
+
         input_items_list_nested_levels = [
             Folders.in_test_logs('TC_nested_items_0'),
             Folders.in_test_logs('TC_nested_items_1'),
         ]
 
         input_items_list_encoding_ascii = [
-            Folders.in_test_logs('TC_encoding_ascii_0'),
+            Folders.in_test_logs('TC_encoding_ascii_0_pj_exclusive'),
         ]
 
         data_pool_input_items_list_w_output_folder = []
@@ -111,6 +116,12 @@ class UnitTesting(DataTypeMaster):
         for index, input_item in enumerate(input_items_list_zip):
             data = Data(input_data=input_item, output_archive_format=Formats.ZIP, remarks=remarks)
             data_pool_input_items_list_zip.append(data)
+        #
+        data_pool_input_items_list_xls = []
+        remarks = 'input_items_list_xls'
+        for index, input_item in enumerate(input_items_list_xls):
+            data = Data(input_data=input_item, remarks=remarks)
+            data_pool_input_items_list_xls.append(data)
         #
         data_pool_input_items_dirs_nested_levels = []
         remarks = 'input_items_dirs_nested_levels'
@@ -213,6 +224,7 @@ class UnitTesting(DataTypeMaster):
             + data_pool_input_items_list_w_output_folder
             + data_pool_input_items_list_wo_output_folder
             + data_pool_input_items_list_zip
+            + data_pool_input_items_list_xls
             + data_pool_input_items_list_multi
             + data_pool_input_items_list_multi_nested
             + data_pool_input_items_list_multi_nested_in_1
